@@ -14,7 +14,7 @@ The information in this book is distributed “as is”, without warranty.  The 
 
 
 ## Contributing
-We highly encourage contribution to this book and our open source software.  The source code for this book can be found in our [GitHub repository](https://github.com/ColdBox/coldbox-docs) where you can submit pull requests.
+We highly encourage contribution to this book and our open source software.  The source code for this book can be found in our [GitHub repository](https://github.com/ortus-solutions/contentbox-docs) where you can submit pull requests.
 
 
 ## Charitable Proceeds
