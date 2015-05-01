@@ -31,6 +31,14 @@ wget http://www.ortussolutions.com/parent/download/contentbox?type=express
 wget http://www.ortussolutions.com/parent/download/contentbox?type=express&version=be
 ```
 
+Once downloaded expand the archive
+
+```
+unzip contentbox-express-{version}.zip
+```
+
+This will expand into the folder of your liking.
+
 ## Step 2: Deploy WAR
 Drop the war into the web application folder of your favorite servelt container or use any of their deployment tools to do so.  Then startup the engine and let the war be expanded.
 
