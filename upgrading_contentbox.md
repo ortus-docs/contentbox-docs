@@ -41,8 +41,8 @@ You can then use the upload patch functionality in our Updates panel to upload t
 
 We do not recommend running the `Update.cfc` or patch files manually.  Let the installer do its job.
 
-Manual Downloading Patches
+## Manual Downloading Patches
 You can also use the Updates panel to point to a download URL so ContentBox can be patched via a patch URL.  This functionality is mostly used by our support customers so we can deliver on-demand patches to their ContentBox instances.  You can also use this approach to deliver patches to a local intranet of ContentBox instances.  Just type in the download URL and hit update!
 
-Professional Updating
+## Professional Updating
 The ContentBox team can also do the heavy lifting for you as we are a professional open source project.  So just contact us and we will update or install any ContentBox instances in a secure and fast way!
