@@ -48,7 +48,4 @@ That's it! We are now ready to run the ContentBox installer wizard.  ContentBox 
 
  
 
-We recommend that after you install ContentBox that you remove the installer and datsource wizard modules from disk.  You can do so manually or via the ContentBox administrator dashboard as you can see from the screenshot above.
-
-{Root}/modules/contentbox-installer
-{Root}/modules/contentbox-dsncreator
+> **Caution** We recommend that after you install ContentBox that you remove the installer and datsource wizard modules from disk.  You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
