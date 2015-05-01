@@ -13,7 +13,8 @@ wget http://www.ortussolutions.com/parent/download/contentbox?type=war
 wget http://www.ortussolutions.com/parent/download/contentbox?type=war&version=be
 ```
 
-##
+## Step 2: Deploy WAR
+Drop the war into the web application folder of your favorite servelt container or use any of their deployment tools to do so.  Then startup the engine and let the war be expanded.
 
 ## Step 2: Create Your Database
 Now that the source is deployed in your webserver, it is time to create your database in your favorite DBMS engine.  ContentBox is built with Hibernate ORM technology, so in theory it should work in all major database systems. You can even use an embedded database like Apache or Hypersonic.
