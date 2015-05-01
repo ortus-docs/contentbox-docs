@@ -10,5 +10,5 @@
    * [CommandBox Installation](installation/commandbox_installation.md)
    * [Source Installation](installation/source_installation.md)
    * [WAR Installation](installation/war_installation.md)
-   * Express Installation
+   * [Express Installation](installation/express_installation.md)
 
