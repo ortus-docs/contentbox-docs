@@ -24,15 +24,22 @@ http://integration.staging.ortussolutions.com/artifacts/ortussolutions/contentbo
 ```
 Or you can visit www.ortussolutions.com/products/contentbox for all the available download patches.
 
+### Patch Types
+There are three types of patches you can manually download and apply:
+
+* **Full Patch**: Includes source, framework and database content updates
+* **Database Patch**: Includes database content updates only
+* **No ColdBox**: Includes source and database content updates only
+
 ### Patch Structure
 Each patch contains the following structure:
 
-Update.cfc  : Contains the code needed for pre and post installation procedures
-deletes.txt : Contains a list of all source files that will be removed from your installation
-patch.zip : Contains all the new or modified source files that need to be deployed
+* `Update.cfc`  : Contains the code needed for pre and post installation procedures
+* `deletes.txt` : Contains a list of all source files that will be removed from your installation
+* `patch.zip` : Contains all the new or modified source files that need to be deployed
 You can then use the upload patch functionality in our Updates panel to upload the patch and install it.
 
-We do not recommend running the Update.cfc or patch files manually.  Let the installer do its job.
+We do not recommend running the `Update.cfc` or patch files manually.  Let the installer do its job.
 
 Manual Downloading Patches
 You can also use the Updates panel to point to a download URL so ContentBox can be patched via a patch URL.  This functionality is mostly used by our support customers so we can deliver on-demand patches to their ContentBox instances.  You can also use this approach to deliver patches to a local intranet of ContentBox instances.  Just type in the download URL and hit update!
