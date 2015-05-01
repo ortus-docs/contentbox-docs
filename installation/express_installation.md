@@ -64,7 +64,7 @@ http://localhost:8085/lucee/admin/server.cfm
 http://localhost:8085/lucee/admin/web.cfm
 ```
 
-## Step 4: Create A Datasource
+## Step 5: Create A Datasource
 
 
 ![](../images/datasource_wizard.png)
@@ -72,8 +72,7 @@ http://localhost:8085/lucee/admin/web.cfm
 You can now visit your application under `http://localhost:8085` and you will be presented with our datasource wizard.  Since we are in express edition, just choose the embedded database and follow the instructions.
 
 
-
-## Step 4: Run ContentBox Installer
+## Step 6: Run ContentBox Installer
 
 ![](../images/installer_wizard.png)
 
