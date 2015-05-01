@@ -46,7 +46,7 @@ ContentBox relies on Search Engine Safe (SES) URLs and URL Routing.  The majorit
 * Nginx
 
 
-File Permissions
+## File Permissions
 ContentBox needs some files/folders to be writable at runtime.  We use this for our installer, ForgeBox cloud deployments, auto-updates and more.  The following directories need read/write permissions for the installer only to work:
 
 {Root}/Application.cfc
