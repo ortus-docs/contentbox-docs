@@ -2,6 +2,23 @@
 
 The express version of ContentBox is a fully integrated running server powered by Lucee, an open source CFML engine, and Tomcat.  
 
+## Requirements
+Make sure your system has a working Java Runtime 1.7+ environment.  A quick test to see if your system supports Java is to open a terminal or command prompt and typing:
+
+```
+java -version
+```
+
+You should see something like this:
+
+```
+java version "1.8.0_40"
+Java(TM) SE Runtime Environment (build 1.8.0_40-b27)
+Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)
+```
+
+Just make sure what it is Java 1.7+.
+
 
 ## Step 1: Download WAR
 The first step is for you to download ContentBox (http://www.ortussolutions.com/products/contentbox) or you can use the command below:
