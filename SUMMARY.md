@@ -5,4 +5,5 @@
    * [About This Book](introduction/about_this_book.md)
    * [Author](introduction/author.md)
 * [Getting Started](getting_started.md)
+* Installation
 
