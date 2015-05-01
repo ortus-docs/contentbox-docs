@@ -2,7 +2,7 @@
 
 In this section you will install ContentBox by using the **war** download option and deploying it to any Java 1.7+ servlet container.
 
-# Step 1: Download WAR
+## Step 1: Download WAR
 The first step is for you to download ContentBox (http://www.ortussolutions.com/products/contentbox) or you can use the command below:
 
 ```
@@ -13,13 +13,7 @@ wget http://www.ortussolutions.com/parent/download/contentbox?type=war
 wget http://www.ortussolutions.com/parent/download/contentbox?type=war&version=be
 ```
 
-Expand the archive into your web root or a sub folder of your favorite CFML engine.
-
-```
-unzip contentbox_{version}.zip 
-```
-
-> **Caution** Due to a bug in some CFML engines, DO NOT use the subfolder name `contentbox`, use cbox or site or whatever you like if you will be deploying under a subfolder.
+##
 
 ## Step 2: Create Your Database
 Now that the source is deployed in your webserver, it is time to create your database in your favorite DBMS engine.  ContentBox is built with Hibernate ORM technology, so in theory it should work in all major database systems. You can even use an embedded database like Apache or Hypersonic.
