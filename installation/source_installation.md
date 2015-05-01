@@ -1,9 +1,17 @@
 # Source Installation
 
-Step 1: Download Source
-The first step is for you to download ContentBox or you can use the command below:
+In this section you will install ContentBox by using the **source** download option.
 
-wget http://www.gocontentbox.org/parent/site/download 
+# Step 1: Download Source
+The first step is for you to download ContentBox (http://www.ortussolutions.com/products/contentbox) or you can use the command below:
+
+```
+# stable
+wget http://stg.ortussolutions.com/parent/download/contentbox
+
+# bleeding edge
+wget http://stg.ortussolutions.com/parent/download/contentbox?version=be
+```
 
 Expand the archive into your web root or a sub folder:
 
