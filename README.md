@@ -1,15 +1,16 @@
 ```
-   ____      _     _ ____            
-  / ___|___ | | __| | __ )  _____  __
- | |   / _ \| |/ _` |  _ \ / _ \ \/ /
- | |__| (_) | | (_| | |_) | (_) >  < 
-  \____\___/|_|\__,_|____/ \___/_/\_\ v4.1.0
+   ____            _             _   ____            
+  / ___|___  _ __ | |_ ___ _ __ | |_| __ )  _____  __
+ | |   / _ \| '_ \| __/ _ \ '_ \| __|  _ \ / _ \ \/ /
+ | |__| (_) | | | | ||  __/ | | | |_| |_) | (_) >  < 
+  \____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\ v2.1.0
 ```
 
 # ContentBox Modular CMS - v2.1.0
 ![ContentBox](./images/ContentBoxLogo300.png)
 
-ColdBox is a [conventions-based](http://en.wikipedia.org/wiki/Convention_over_configuration) [MVC](http://en.wikipedia.org/wiki/Model–view–controller) development framework for [ColdFusion](http://en.wikipedia.org/wiki/Adobe_ColdFusion) ([CFML](http://en.wikipedia.org/wiki/ColdFusion_Markup_Language)). It provides a set of reusable code and tools that can be used to increase your development productivity as well as a development standard for working in team environments. ColdBox is natively based on [modular architecture](http://en.wikipedia.org/wiki/Modular_design) which helps address most infrastructure concerns of typical web applications.
+ContentBox is a professional open source modular content management engine that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
+
 
 
 # Versioning
