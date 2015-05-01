@@ -35,12 +35,11 @@ ContentBox Modular CMS is open source and licensed under the [Apache 2](http://w
 
 
 # Discussion & Help
-The ColdBox help and discussion group can be found here: https://groups.google.com/forum/#!forum/coldbox
+The ContentBox and discussion group can be found here: https://groups.google.com/d/forum/contentbox
 
 # Reporting a Bug
-We all make mistakes from time to time :) So why not let us know about it and help us out.  We also love pull requests, so please star us and fork us: https://github.com/coldbox/coldbox-platform
-* By Email: [bugs@coldbox.org](mailto:bugs@coldbox.org)
-* By Jira: https://ortussolutions.atlassian.net/browse/COLDBOX
+We all make mistakes from time to time :) So why not let us know about it and help us out.  We also love pull requests, so please star us and fork us: https://github.com/Ortus-Solutions/ContentBox
+* By Jira: https://ortussolutions.atlassian.net/browse/CONTENTBOX
 
 # Professional Open Source
 ![Ortus Solutions, Corp](images/ortussolutions_button.png)
