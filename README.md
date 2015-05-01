@@ -57,9 +57,9 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 * Source Code: https://github.com/Ortus-Solutions/ContentBox
 * Bug Tracker: https://ortussolutions.atlassian.net/browse/CONTENTBOX
 * Twitter: [@gocontentbox](http://www.twitter.com/gocontentbox)
-* Facebook: https://www.facebook.com/contentbox
-* Google+: https://www.google.com/+ColdboxOrg
-* Vimeo Channel: http://vimeo.com/channels/coldbox
+* Facebook: https://www.facebook.com/gocontentbox
+* Google+: https://www.google.com/+GoContentBoxOrg
+* Vimeo Channel: http://vimeo.com/channels/contentbox
 
 
 
