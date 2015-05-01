@@ -4,21 +4,27 @@
 
 ContentBox sports automatic updates via the administrator panel `Dashboard > Updates`.  You can connect to the following update channels:
 
-* Stable: Where all our official stable releases go
-* Bleeding Edge: This is where we release beta or test versions
+* **Stable**: Where all our official stable releases go
+* **Bleeding Edge**: This is where we release beta or test versions
 
 Once an auto-update package is detected you can then opt to install it.
 
-As with all automated installers, we recommend you create backups of your source and database before applying or at least testing in a staging or development version of your site.
+**As with all automated installers, we recommend you create backups of your source and database before applying or at least testing in a staging or development version of your site.**
 
-Database Migrations
+
+## Database Migrations
 ContentBox contains Database migrations for you.  It will only do additive migrations, so no remove or dropping ever occurs on patches.  We highly advice you to do so and point you in the right direction via the release notes.
 
-Manual Uploading Patches
+## Manual Uploading Patches
 Once a patch is released in our update sites you can then choose to manually download the patch and apply it manually yourself.  We store all patches in our integration server that can be found here:
 
+```
 // Artifacts Server
 http://integration.staging.ortussolutions.com/artifacts/ortussolutions/contentbox/
+```
+Or you can visit www.ortussolutions.com/products/contentbox for all the available download patches.
+
+### Patch Structure
 Each patch contains the following structure:
 
 Update.cfc  : Contains the code needed for pre and post installation procedures
