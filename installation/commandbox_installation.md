@@ -33,3 +33,5 @@ server start --rewritesEnable
 ```
 
 This will install the latest stable ContentBox and run an embedded server for it.  After this you will get the ContenBox installer.  Just follow it through.
+
+![](../images/datasource_wizard.png)
