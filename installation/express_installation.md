@@ -39,8 +39,16 @@ unzip contentbox-express-{version}.zip
 
 This will expand into the folder of your liking.
 
-## Step 2: Deploy WAR
-Drop the war into the web application folder of your favorite servelt container or use any of their deployment tools to do so.  Then startup the engine and let the war be expanded.
+## Step 2: Permissions
+
+On some operating systems like Linux or Mac, you will need to enable run permissions. So drop into a shell or terminal in that folder you expanded and type:
+
+```
+chmod -R 777 bin
+```
+
+This will add execution and write permissions to the `bin` folder which is required.
+
 
 ## Step 2: Create Your Database
 Now that the war is deployed in your server, it is time to create your database in your favorite DBMS engine.  ContentBox is built with Hibernate ORM technology, so in theory it should work in all major database systems. You can even use an embedded database like Apache or Hypersonic.
