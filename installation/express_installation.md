@@ -50,10 +50,20 @@ chmod -R 777 bin
 This will add execution and write permissions to the `bin` folder which is required.
 
 
-## Step 2: Create Your Database
-Now that the war is deployed in your server, it is time to create your database in your favorite DBMS engine.  ContentBox is built with Hibernate ORM technology, so in theory it should work in all major database systems. You can even use an embedded database like Apache or Hypersonic.
+## Step 3: Run it
+Go into the `bin` folder and and execute either the `startup.bat` or `startup.sh` or `startup.app` according to your OS.  Then visit the site in a browser on port `8085` by default.
 
-Make sure your database supports utf-8 or utf-16 character sets if you will be using multi-lingual or localization support.
+## Changing the Default Port
+
+Go to the `conf/server.xml` and look for the following:
+
+```xml
+<Connector port="8085" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+```               
+
+Just update the `port` to whatever you desire.
 
 ## Step 3: Create A Datasource
 
