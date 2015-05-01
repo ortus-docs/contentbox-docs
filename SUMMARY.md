@@ -8,5 +8,5 @@
 * [Installation](installation/index.md)
    * [System Requirements](installation/system_requirements.md)
    * [CommandBox Installation](installation/commandbox_installation.md)
-   * Source Installation
+   * [Source Installation](installation/source_installation.md)
 
