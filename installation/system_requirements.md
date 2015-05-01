@@ -70,8 +70,9 @@ ContentBox needs some files/folders to be writable at runtime.  We use this for 
 {Root}/coldbox/system/aop/tmp
 ```
 
-The following locations need read/write permissions for normal operations after the installer:
+### Engine
 
+```
 {Root}/coldbox/system/aop/tmp
 {Root}/modules/contentbox/content
 {Root}/modules/contentbox/email_templates
@@ -79,3 +80,4 @@ The following locations need read/write permissions for normal operations after 
 {Root}/modules/contentbox/modules
 {Root}/modules/contentbox/updates
 {Root}/modules/contentbox/widgets
+```
