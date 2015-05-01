@@ -11,4 +11,5 @@
    * [Source Installation](installation/source_installation.md)
    * [WAR Installation](installation/war_installation.md)
    * [Express Installation](installation/express_installation.md)
+* Upgrading ContentBox
 
