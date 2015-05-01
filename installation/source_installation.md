@@ -33,17 +33,18 @@ Make sure your database supports utf-8 or utf-16 character sets if you will be u
 You can now visit your application and will be presented with our datasource wizard.  You can either use our datasource wizard or you can create the datasource yourself manually in the CFML administrator.
 
 
-Step 4: Run ContentBox Installer
-​
+## Step 4: Run ContentBox Installer
 
-That's it! We are now ready to run the ContentBox installer.  So hit your webroot or the subfolder where you deployed ContentBox and let it spin for a bit.  ContentBox will automagically create all the necessary database tables, indexes and constraints for you.  After it does this, it will present you with our ContentBox installer, where you will fill in:
+![](../images/installer_wizard.png)
 
-Administrator Account
-Site Information
-Notification Emails
-Email Information
-URL Rewriting
-Enjoy your ContentBox installation!
+That's it! We are now ready to run the ContentBox installer wizard.  ContentBox will automagically create all the necessary database tables, indexes and constraints for you.  After it does this, it will present you with our ContentBox installer, where you will fill in:
+
+* Administrator Account
+* Site Information
+* Notification Emails
+* Email Information
+* URL Rewriting
+* Enjoy your ContentBox installation!
 
  
 
