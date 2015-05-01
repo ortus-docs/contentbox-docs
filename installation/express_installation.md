@@ -54,6 +54,8 @@ This will add execution and write permissions to the `bin` folder which is requi
 
 Go into the `bin` folder and and execute either the `startup.bat` or `startup.sh` or `startup.app` according to your OS.  Then visit the site in a browser on port `8085` by default.
 
+
+
 ## Changing the Default Port
 
 Go to the `conf/server.xml` and look for the following:
@@ -66,31 +68,3 @@ Go to the `conf/server.xml` and look for the following:
 
 Just update the `port` to whatever you desire.
 
-## Step 3: Create A Datasource
-
-
-![](../images/datasource_wizard.png)
-
-You can now visit your application and will be presented with our datasource wizard.  You can either use our datasource wizard or you can create the datasource yourself manually in the CFML administrator by visiting the URL for the administrator:
-
-```
-/{appcontext}/lucee/admin/server.cfm
-```
-
-
-## Step 4: Run ContentBox Installer
-
-![](../images/installer_wizard.png)
-
-That's it! We are now ready to run the ContentBox installer wizard.  ContentBox will automagically create all the necessary database tables, indexes and constraints for you.  After it does this, it will present you with our ContentBox installer, where you will fill in:
-
-* Administrator Account
-* Site Information
-* Notification Emails
-* Email Information
-* URL Rewriting
-* Enjoy your ContentBox installation!
-
- 
-
-> **Caution** We recommend that after you install ContentBox that you remove the installer and datsource wizard modules from disk.  You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
