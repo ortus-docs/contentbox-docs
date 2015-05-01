@@ -2,11 +2,10 @@
 
 ![](../images/CommandBoxLogo.png)
 
-The first step in our journey is to [install](http://commandbox.ortusbooks.com/content/setup/installation.html) CommandBox.  [CommandBox](http://www.ortussolutions.com/products/commandbox) is a ColdFusion (CFML) Command Line Interface (CLI), REPL, Package Manager and Embedded Server.  We will be using CommandBox for almost every excercise in this manual and it will also allow you to get up and running with ColdFusion and ColdBox in a much speedier manner.
+[CommandBox](http://www.ortussolutions.com/products/commandbox) is a ColdFusion (CFML) Command Line Interface (CLI), REPL, Package Manager and Embedded Server.  We will leverage the CLI in CommandBox to install, deploy and configure ContentBox.  The full CommandBox installation instructions can be found here: http://commandbox.ortusbooks.com/content/setup/installation.html.  We will do the short version.
 
->**Note** : However, you can use your own ColdFusion server setup as you see fit.  We use CommandBox as everything is scriptable and fast!
 
-### Download CommandBox
+## Download CommandBox
 You can download CommandBox from the official site: http://www.ortussolutions.com/products/commandbox#download and install in your preferred Operating System (Windows, Mac, *unix).  CommandBox comes in two flavors:
 
 1. No Java Runtime (30mb)
