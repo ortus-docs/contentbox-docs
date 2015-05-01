@@ -9,5 +9,5 @@
    * [System Requirements](installation/system_requirements.md)
    * [CommandBox Installation](installation/commandbox_installation.md)
    * [Source Installation](installation/source_installation.md)
-   * WAR Installation
+   * [WAR Installation](installation/war_installation.md)
 
