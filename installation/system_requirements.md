@@ -38,11 +38,14 @@ this.ormsettings = {
 
 ## URL Rewriting
 
-ContentBox relies on Search Engine Safe (SES) URLs and URL Routing.  The majority of CFML engines already allow for these types of URLs out of the box and ContentBox supports it out of the box.  However, if you would like to use full URL rewriting (which we recommend) you will need to use a web server rewriting tool and ContentBox will configure it for you.  So before you install Contentbox make sure that you are using one of the supported rewriting engines show below:
+ContentBox relies on Search Engine Safe (SES) URLs and URL Routing.  The majority of CFML engines already allow for these types of URLs out of the box and ContentBox supports it out of the box.  However, if you would like to use full URL rewriting (which we recommend, that's where the `index.cfm` is not showing in the URLs) you will need to use a web server rewriting tool and ContentBox will configure it for you.  So before you install Contentbox make sure that you are using one of the supported rewriting engines show below:
 
-Apache mod_rewrite
-IIS 7 rewrite module
-Tuckey rewrite filter
+* Apache mod_rewrite
+* IIS 7 rewrite module
+* Tuckey rewrite filter
+* Nginx
+
+
 File Permissions
 ContentBox needs some files/folders to be writable at runtime.  We use this for our installer, ForgeBox cloud deployments, auto-updates and more.  The following directories need read/write permissions for the installer only to work:
 
