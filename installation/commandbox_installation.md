@@ -43,3 +43,5 @@ This will install the latest stable ContentBox and run an embedded server for it
 To change the datasource you can go into the CFML engine administrator and changing it.  Just look in your taskbar for an Ortus Logo like the one below:
 
 ![](../images/commandbox_tray.png)
+
+Click on `open web admin` and go into the datasources section and create one.
