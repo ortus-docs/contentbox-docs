@@ -13,7 +13,7 @@ wget http://stg.ortussolutions.com/parent/download/contentbox
 wget http://stg.ortussolutions.com/parent/download/contentbox?version=be
 ```
 
-Expand the archive into your web root or a sub folder:
+Expand the archive into your web root or a sub folder of your favorite CFML engine.
 
 ```
 unzip contentbox_{version}.zip 
