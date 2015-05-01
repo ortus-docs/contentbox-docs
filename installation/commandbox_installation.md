@@ -21,3 +21,15 @@ Once you download and expand CommandBox you will have the `box.exe` or `box` bin
 
 We will be able to execute a-la-carte commands from our command line or go into the interactive shell for multiple commands.  We recommend the interactive shell as it is faster and can remain open in your project root.
 
+## Creating A ContentBox Site
+
+Now that we have CommandBox we can use it to install and execute a ContentBox site using the embedded server.  You can use an embedded database or connect the embedded server to any database server as well.  Open a CommandBox shell in your directory of choice and after the welcome screen type the following commands:
+
+```
+mkdir mysite
+cd mysite
+install contentbox
+server start --rewritesEnable
+```
+
+This will install the latest stable ContentBox and run an embedded server for it.  After this you will get the ContenBox installer.  Just follow it through.
