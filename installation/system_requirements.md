@@ -59,11 +59,17 @@ if( len(getSetting('AppMapping') ) lte 1){
 ```
 
 ## File Permissions
+
 ContentBox needs some files/folders to be writable at runtime.  We use this for our installer, ForgeBox cloud deployments, auto-updates and more.  The following directories need read/write permissions for the installer only to work:
 
+### Installer
+
+```
 {Root}/Application.cfc
 {Root}/config/ColdBox.cfc
 {Root}/coldbox/system/aop/tmp
+```
+
 The following locations need read/write permissions for normal operations after the installer:
 
 {Root}/coldbox/system/aop/tmp
