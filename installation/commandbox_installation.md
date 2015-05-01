@@ -14,7 +14,7 @@ You can download CommandBox from the official site: http://www.ortussolutions.co
 So make sure you choose your desired installation path and follow the instructions here: [http://commandbox.ortusbooks.com/content/setup/installation.html](http://commandbox.ortusbooks.com/content/setup/installation.html)
 
 
-### Starting CommandBox
+## Starting CommandBox
 Once you download and expand CommandBox you will have the `box.exe` or `box` binary, which you can place in your Windows Path or *Unix `/usr/bin` folder to have it available system wide.  Then just open the binary and CommandBox will unpack itself your user's directory: `{User}/.CommandBox`.  This happens only once and the next thing you know, you are in the CommandBox interactive shell!
 
 ![](../images/commandbox-terminal.png)
