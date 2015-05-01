@@ -51,6 +51,7 @@ This will add execution and write permissions to the `bin` folder which is requi
 
 
 ## Step 3: Run it
+
 Go into the `bin` folder and and execute either the `startup.bat` or `startup.sh` or `startup.app` according to your OS.  Then visit the site in a browser on port `8085` by default.
 
 ## Changing the Default Port
