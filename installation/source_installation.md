@@ -15,11 +15,13 @@ wget http://stg.ortussolutions.com/parent/download/contentbox?version=be
 
 Expand the archive into your web root or a sub folder:
 
+```
 unzip contentbox_{version}.zip 
+```
 
-Due to a bug in some CFML engines, DO NOT use the subfolder name contentbox, use cbox or site or whatever you like if you will be deploying under a subfolder.
+> **Caution** Due to a bug in some CFML engines, DO NOT use the subfolder name `contentbox`, use cbox or site or whatever you like if you will be deploying under a subfolder.
 
-Step 2: Create Your Database
+## Step 2: Create Your Database
 Now that the source is deployed in your webserver, it is time to create your database in your favorite DBMS engine.  ContentBox is built with Hibernate ORM technology, so in theory it should work in all major database systems.  The major databases have been tested with ContentBox: MySQL, MSSQL, Oracle, PostgreSQL, Hypersonic, H2 and Apache Derby.
 
 Make sure your database supports utf-8 or utf-16 character sets if you will be using multi-lingual or localization support. Please also look at our MySQL caveat above.
