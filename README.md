@@ -28,14 +28,11 @@ And constructed with the following guidelines:
 
 
 # License
-The ColdBox Platform is open source and licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.html) License.  If you use ColdBox,
-please try to make mention of it in your code or web site or add a Powered By Coldbox icon.
+ContentBox Modular CMS is open source and licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.html) License.  Ortus Solutions, Corp, the makers of ContentBox, can also offer commercial and supported versions as well.
 
 * Copyright by Ortus Solutions, Corp
-* ColdBox is a registered trademark by Ortus Solutions, Corp
+* ContentBox is a registered trademark by Ortus Solutions, Corp
 
-
->**Info**: The ColdBox Websites, Documentation, logo and content have a separate license and they are a separate entity.
 
 # Discussion & Help
 The ColdBox help and discussion group can be found here: https://groups.google.com/forum/#!forum/coldbox
