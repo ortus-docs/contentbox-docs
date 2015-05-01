@@ -69,7 +69,7 @@ http://localhost:8085/lucee/admin/web.cfm
 
 ![](../images/datasource_wizard.png)
 
-You can now visit your application under `http://localhost:8085` and you will be presented with our datasource wizard.  Since we are in express edition, just choose the embedded 
+You can now visit your application under `http://localhost:8085` and you will be presented with our datasource wizard.  Since we are in express edition, just choose the embedded database and follow the instructions.
 
 
 
