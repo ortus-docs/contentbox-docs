@@ -17,14 +17,15 @@ ContentBox source can be deployed to the following ColdFusion CFML engines:
 ## Databases
 ContentBox can run on any database engine that Hibernate ORM supports, but we officially support the following:
 
-MySQL 5+ (InnoDB ONLY!)
-Microsoft SQL Server 2008+
-Oracle
-PostgreSQL
-Hypersonic
-H2
-Apache Derby
-If you have another database engine that needs ContentBox support, please let us know and we will be able to help you.
+* MySQL 5+ (InnoDB ONLY!)
+* Microsoft SQL Server 2008+
+* Oracle
+* PostgreSQL
+* Hypersonic
+* H2
+* Apache Derby
+
+If you have another database engine that needs ContentBox support, please let us know and we will be able to help you (http://www.ortussolutions.com/contact)
 
 MySQL Caveats: If you are running MySQL server with MyISAM as your default table engine, you will need to either make the default InnoDB or use the InnoDB dialect.  You can do this by adding a dialect section to the ORM settings in the Application.cfc:  dialect = "MySQLWithInnoDB";
 URL Rewriting
