@@ -15,7 +15,7 @@ ContentBox source can be deployed to the following ColdFusion CFML engines:
 > **Caution** Please note that Railo support has been deprecated and will not be supported in future versions of ContentBox.
 
 ## Databases
-ContentBox can run on any database engine that Hibernate ORM supports, but we officially support the following:
+ContentBox can run on any database engine that Hibernate ORM supports (https://developer.jboss.org/wiki/SupportedDatabases2), but we officially support the following:
 
 * MySQL 5+ (InnoDB ONLY!)
 * Microsoft SQL Server 2008+
@@ -27,7 +27,14 @@ ContentBox can run on any database engine that Hibernate ORM supports, but we of
 
 If you have another database engine that needs ContentBox support, please let us know and we will be able to help you (http://www.ortussolutions.com/contact)
 
-> **Caution** **MySQL Caveats** If you are running MySQL server with MyISAM as your default table engine, you will need to either make the default InnoDB or use the InnoDB dialect.  You can do this by adding a dialect section to the ORM settings in the Application.cfc:  dialect = "MySQLWithInnoDB";
+### MySQL Caveats 
+If you are running MySQL server with `MyISAM` as your default table engine, you will need to either make the default `InnoDB` or use the `InnoDB` dialect.  You can do this by adding a dialect section to the ORM settings in the `Application.cfc`:  `dialect = "MySQLWithInnoDB"`
+
+```js
+this.ormsettings = {
+    dialect = "MySQLWithInnoDB
+};
+```
 
 ## URL Rewriting
 ContentBox relies on Search Engine Safe (SES) URLs.  The majority of CFML engines already allow for these types of URLs out of the box and ContentBox supports it out of the box.  However, if you would like to use full URL rewriting (which we recommend) you will need to use a web server rewriting tool and ContentBox will configure it for you.  So before you install Contentbox make sure that you are using one of the supported rewriting engines show below:
