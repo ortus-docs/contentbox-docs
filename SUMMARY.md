@@ -6,5 +6,5 @@
    * [Author](introduction/author.md)
 * [Getting Started](getting_started.md)
 * [Installation](installation/index.md)
-   * System Requirements
+   * [System Requirements](installation/system_requirements.md)
 
