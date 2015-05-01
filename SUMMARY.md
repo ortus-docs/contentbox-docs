@@ -7,4 +7,5 @@
 * [Getting Started](getting_started.md)
 * [Installation](installation/index.md)
    * [System Requirements](installation/system_requirements.md)
+   * CommandBox Installation
 
