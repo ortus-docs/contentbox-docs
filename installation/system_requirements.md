@@ -81,3 +81,6 @@ ContentBox needs some files/folders to be writable at runtime.  We use this for 
 {Root}/modules/contentbox/updates
 {Root}/modules/contentbox/widgets
 ```
+
+
+> **Info** If you will not be using any ForgeBox download deployments then you do not need to enable write permissions for `layouts, modules, and widgets`.
