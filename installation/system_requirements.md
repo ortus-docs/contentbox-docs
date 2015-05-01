@@ -47,6 +47,17 @@ ContentBox relies on Search Engine Safe (SES) URLs and URL Routing.  The majorit
 
 The ContentBox installer will create rewrite files automatically for you for Apache, IIS7 and express editions.  For Nginx or other rewrite engines you will need to add the rewrites yourself and then manually modify the routing file: `config/routes.cfm` and remove any reference to `index.cfm`.  That's it!
 
+```js
+// Base URL
+if( len(getSetting('AppMapping') ) lte 1){
+    // Remove the index.cfm
+	setBaseURL("http://#cgi.HTTP_HOST##getContextRoot()#/index.cfm");
+} else {
+    // Remove the index.cfm
+	setBaseURL("http://#cgi.HTTP_HOST##getContextRoot()#/#getSetting('AppMapping')#/index.cfm");
+}
+```
+
 ## File Permissions
 ContentBox needs some files/folders to be writable at runtime.  We use this for our installer, ForgeBox cloud deployments, auto-updates and more.  The following directories need read/write permissions for the installer only to work:
 
