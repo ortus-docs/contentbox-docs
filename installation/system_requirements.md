@@ -37,7 +37,8 @@ this.ormsettings = {
 ```
 
 ## URL Rewriting
-ContentBox relies on Search Engine Safe (SES) URLs.  The majority of CFML engines already allow for these types of URLs out of the box and ContentBox supports it out of the box.  However, if you would like to use full URL rewriting (which we recommend) you will need to use a web server rewriting tool and ContentBox will configure it for you.  So before you install Contentbox make sure that you are using one of the supported rewriting engines show below:
+
+ContentBox relies on Search Engine Safe (SES) URLs and URL Routing.  The majority of CFML engines already allow for these types of URLs out of the box and ContentBox supports it out of the box.  However, if you would like to use full URL rewriting (which we recommend) you will need to use a web server rewriting tool and ContentBox will configure it for you.  So before you install Contentbox make sure that you are using one of the supported rewriting engines show below:
 
 Apache mod_rewrite
 IIS 7 rewrite module
