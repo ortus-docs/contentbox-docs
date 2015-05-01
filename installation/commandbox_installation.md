@@ -32,6 +32,8 @@ install contentbox
 server start --rewritesEnable
 ```
 
+> **Info** You can install the bleeding edge of ContentBox by using the `contentbox-be` slug instead of `contentbox` in the install command.
+
 This will install the latest stable ContentBox and run an embedded server for it.  After this you will get the ContenBox installer.  Just follow it through.
 
 ![](../images/datasource_wizard.png)
