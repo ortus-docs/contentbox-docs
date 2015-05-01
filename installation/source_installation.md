@@ -28,7 +28,9 @@ Make sure your database supports utf-8 or utf-16 character sets if you will be u
 
 ## Step 3: Create A Datasource
 
-You can now visit your application and will be presented with our datasource wizard.  You can either use our datasource wizard or you can create the datasource yourself manually.
+
+You can now visit your application and will be presented with our datasource wizard.  You can either use our datasource wizard or you can create the datasource yourself manually in the CFML administrator.
+
 
 Step 4: Run ContentBox Installer
 ​
