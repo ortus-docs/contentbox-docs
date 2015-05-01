@@ -26,7 +26,11 @@ Make sure your database supports utf-8 or utf-16 character sets if you will be u
 
 ![](../images/datasource_wizard.png)
 
-You can now visit your application and will be presented with our datasource wizard.  You can either use our datasource wizard or you can create the datasource yourself manually in the CFML administrator.
+You can now visit your application and will be presented with our datasource wizard.  You can either use our datasource wizard or you can create the datasource yourself manually in the CFML administrator by visiting the URL for the administrator:
+
+```
+/{appcontext}/lucee/admin/server.cfm
+```
 
 
 ## Step 4: Run ContentBox Installer
