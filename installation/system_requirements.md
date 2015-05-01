@@ -9,8 +9,10 @@ ContentBox will run in any Java 1.7+ enabled servlet container.
 ContentBox source can be deployed to the following ColdFusion CFML engines:
 
 * Adobe ColdFusion 9.01+
-* Railo 3+
 * Lucee 4.5+
+* Railo 3+
+
+> **Caution** Please note that Railo support has been deprecated and will not be supported in future versions of ContentBox.
 
 ## Databases
 ContentBox can run on any database engine that Hibernate ORM supports, but we officially support the following:
