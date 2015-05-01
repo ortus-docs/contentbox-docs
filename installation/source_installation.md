@@ -7,10 +7,10 @@ The first step is for you to download ContentBox (http://www.ortussolutions.com/
 
 ```
 # stable
-wget http://stg.ortussolutions.com/parent/download/contentbox
+wget http://www.ortussolutions.com/parent/download/contentbox
 
 # bleeding edge
-wget http://stg.ortussolutions.com/parent/download/contentbox?version=be
+wget http://www.ortussolutions.com/parent/download/contentbox?version=be
 ```
 
 Expand the archive into your web root or a sub folder of your favorite CFML engine.
