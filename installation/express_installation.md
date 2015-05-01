@@ -20,15 +20,15 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)
 Just make sure what it is Java 1.7+.
 
 
-## Step 1: Download WAR
+## Step 1: Download Express
 The first step is for you to download ContentBox (http://www.ortussolutions.com/products/contentbox) or you can use the command below:
 
 ```
 # stable
-wget http://www.ortussolutions.com/parent/download/contentbox?type=war
+wget http://www.ortussolutions.com/parent/download/contentbox?type=express
 
 # bleeding edge
-wget http://www.ortussolutions.com/parent/download/contentbox?type=war&version=be
+wget http://www.ortussolutions.com/parent/download/contentbox?type=express&version=be
 ```
 
 ## Step 2: Deploy WAR
