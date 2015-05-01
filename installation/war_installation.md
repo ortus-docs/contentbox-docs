@@ -7,7 +7,7 @@ The first step is for you to download ContentBox (http://www.ortussolutions.com/
 
 ```
 # stable
-wget http://www.ortussolutions.com/parent/download/contentbox
+wget http://www.ortussolutions.com/parent/download/contentbox?type=war
 
 # bleeding edge
 wget http://www.ortussolutions.com/parent/download/contentbox?version=be
