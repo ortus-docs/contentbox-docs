@@ -14,7 +14,7 @@ ContentBox is a professional open source modular content management engine that 
 
 
 # Versioning
-ColdBox is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible.Releases will be numbered with the following format:
+ContentBox is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible.Releases will be numbered with the following format:
 
 ```
 <major>.<minor>.<patch>
