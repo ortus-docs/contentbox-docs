@@ -6,7 +6,7 @@ The source code for this book is hosted in GitHub: https://github.com/ortus-solu
 
 
 ## External Trademarks & Copyrights
-Flash, Flex, ColdFusion, and Adobe are registered trademarks and copyrights of Adobe Systems, Inc. Railo is a trademark and copyright of Railo Technologies, GmbH.
+Flash, Flex, ColdFusion, and Adobe are registered trademarks and copyrights of Adobe Systems, Inc. Lucee is a trademark of the Lucee Association of Switzerland.
 
 ## Notice of Liability
 The information in this book is distributed “as is”, without warranty.  The author and Ortus Solutions, Corp shall not have any liability to any person or entity with respect to loss or damage caused or alleged to be caused directly or indirectly by the content of this training book, software and resources described in it.
