@@ -3,7 +3,7 @@
 The express version of ContentBox is a fully integrated running server powered by Lucee, an open source CFML engine, and Tomcat.  It comes bundled with a JRE for your operating system or one without a JRE.
 
 ## Requirements
-Make sure your system has a working Java Runtime 1.7+ environment.  A quick test to see if your system supports Java is to open a terminal or command prompt and typing:
+Make sure your system has a working Java Runtime 1.7+ environment if you are downloading the express version with no JRE.  A quick test to see if your system supports Java is to open a terminal or command prompt and typing:
 
 ```
 java -version
