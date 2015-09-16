@@ -3,10 +3,10 @@
 Let's get started with some system requirements for running ContentBox sites:
 
 ## Java
-ContentBox will run in any Java 1.7+ enabled servlet container.
+ContentBox will run in any Java 1.7+ enabled servlet container as a WAR or self-contained express.
 
-## CFML Engine
-ContentBox source can be deployed to the following ColdFusion CFML engines:
+## ColdFusion (CFML) Engine
+ContentBox source can be also be deployed to the following ColdFusion CFML engines:
 
 * Adobe ColdFusion 9.01+
 * Lucee 4.5+
