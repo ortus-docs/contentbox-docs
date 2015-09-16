@@ -74,12 +74,14 @@ ContentBox needs some files/folders to be writable at runtime.  We use this for 
 
 ### Engine
 
+Here are the folders for the core
+
 ```
 {Root}/coldbox/system/aop/tmp
 {Root}/modules/contentbox/content
 {Root}/modules/contentbox/email_templates
-{Root}/modules/contentbox/layouts
-{Root}/modules/contentbox/modules
+{Root}/modules/contentbox/themes
+{Root}/modules/contentbox/modules_user
 {Root}/modules/contentbox/updates
 {Root}/modules/contentbox/widgets
 ```
