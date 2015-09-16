@@ -24,11 +24,23 @@ Just make sure what it is Java 1.7+.
 The first step is for you to download ContentBox (http://www.ortussolutions.com/products/contentbox) or you can use the command below:
 
 ```
-# stable
+# stable no-jre
 wget http://www.ortussolutions.com/parent/download/contentbox?type=express
+# stable with jre for windows
+wget http://www.ortussolutions.com/parent/download/contentbox?type=express-win
+# stable with jre for mac
+wget http://www.ortussolutions.com/parent/download/contentbox?type=express-mac
+# stable with jre for linux
+wget http://www.ortussolutions.com/parent/download/contentbox?type=express-linux
 
-# bleeding edge
+# bleeding edge no-jre
 wget http://www.ortussolutions.com/parent/download/contentbox?type=express&version=be
+# bleeding edge with jre for windows
+wget http://www.ortussolutions.com/parent/download/contentbox?type=express-win&version=be
+# bleeding edge with jre for mac
+wget http://www.ortussolutions.com/parent/download/contentbox?type=express-mac&version=be
+# bleeding edge with jre for linux
+wget http://www.ortussolutions.com/parent/download/contentbox?type=express-linux&version=be
 ```
 
 Once downloaded expand the archive
