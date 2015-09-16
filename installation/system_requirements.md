@@ -34,6 +34,10 @@ this.ormsettings = {
 };
 ```
 
+### PostgreSQL Caveats
+
+We have seen some issues on some versions of PostgreSQL where Boolean values of numerical `1` and `0` are not been translated correctly.  If this is the case in your version of PostgreSQL you will see some `cannot cast Boolean to Integer` exceptions.  If this is the case please contact us and we will show you how to update your installation to allow for these conversions.  
+
 ## URL Rewriting
 
 ContentBox relies on Search Engine Safe (SES) URLs and URL Routing.  The majority of CFML engines already allow for these types of URLs out of the box and ContentBox supports it out of the box.  However, if you would like to use full URL rewriting (which we recommend, that's where the `index.cfm` is not showing in the URLs) you will need to use a web server rewriting tool and ContentBox will configure it for you.  So before you install Contentbox make sure that you are using one of the supported rewriting engines show below:
