@@ -3,10 +3,10 @@
   / ___|___  _ __ | |_ ___ _ __ | |_| __ )  _____  __
  | |   / _ \| '_ \| __/ _ \ '_ \| __|  _ \ / _ \ \/ /
  | |__| (_) | | | | ||  __/ | | | |_| |_) | (_) >  < 
-  \____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\ v2.1.0
+  \____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\ v3.0.0
 ```
 
-# ContentBox Modular CMS - v2.1.0
+# ContentBox Modular CMS - v3.0.0
 ![ContentBox](./images/ContentBoxLogo300.png)
 
 ContentBox is a professional open source modular content management engine that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
