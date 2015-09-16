@@ -4,6 +4,7 @@
    * [What's New With 3.0.0](introduction/whats_new.md)
    * [About This Book](introduction/about_this_book.md)
    * [Author](introduction/author.md)
+   * Upgrading to 3.0.0
 * [Getting Started](getting_started.md)
 * [Installation](installation/index.md)
    * [System Requirements](installation/system_requirements.md)
