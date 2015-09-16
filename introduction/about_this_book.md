@@ -3,7 +3,6 @@ The source code for this book is hosted in GitHub: https://github.com/ortus-solu
 
 * The majority of code examples in this book are done in `cfscript`.
 * The majority of code generation and running of examples are done via **CommandBox**: The ColdFusion (CFML) CLI, Package Manager, REPL - http://www.ortussolutions.com/products/commandbox
-* All ColdFusion examples designed to run on the open soure Railo Platform or Adobe ColdFusion 9.0.2+
 
 
 ## External Trademarks & Copyrights
