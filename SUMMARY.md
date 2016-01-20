@@ -13,5 +13,5 @@
    * [WAR Installation](installation/war_installation.md)
    * [Express Installation](installation/express_installation.md)
 * [Upgrading ContentBox](upgrading_contentbox.md)
-* Themes
+* [Using ContentBox](using/README.md)
 
