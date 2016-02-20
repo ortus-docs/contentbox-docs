@@ -15,5 +15,6 @@
 * [Upgrading ContentBox](upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
 * [Developing For ContentBox](developing/README.md)
+   * [Front End Development](developing/front_end/README.md)
    * [Themes](developing/themes/README.md)
 
