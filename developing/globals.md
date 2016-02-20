@@ -23,6 +23,7 @@ Content and Settings Retrieval Methods
 - `cb.getCurrentEntries()`:
 - `cb.getCurrentEntriesCount()`:
 - `cb.getCurrentCategories()`:
+- `cb.getCurrentPage()`:
 
 
 Path and URL Utility Methods
