@@ -30,7 +30,7 @@ Content and Settings Retrieval Methods
 - `cb.getCurrentCustomFields()`: Returns a structure of custom fields for the active post or entry
 - `cb.getCustomField( string fieldName, any defaultValue )`: Returns the value of a custom field for the active post or entry
 - `cb.quickSearchForm()`: returns the HTML of a standard ContentBox Search Form according to the SearchForm widget
-- 
+- `cb.getSearchResults()`: returns an array of results for an active search
 
 Path and URL Utility Methods
 ----------------------------
