@@ -35,7 +35,7 @@
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
        * [Theme Development](developing/themes/README.md)
-       * [The Content Store](developing/front_end/contentStore.md)
+       * [The Content Store](developing/front_end/contentstore.md)
        * [Customizing Views](developing/front_end/views.md)
        * [Customizing Layouts](developing/front_end/layouts.md)
        * [Managing Assets](developing/front_end/assets.md)
