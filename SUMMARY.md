@@ -22,6 +22,7 @@
         * [Content Store](using/managers/contentStore.md)
         * [Content Categories](using/managers/categories.md)
         * [Roles and Permissions](using/managers/permissions.md)
+        * [Comments](using/managers/comments.md)
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
