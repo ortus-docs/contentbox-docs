@@ -22,6 +22,7 @@
         * [Media Manager](using/managers/media.md)
         * [Content Store](using/managers/contentStore.md)
         * [Content Categories](using/managers/categories.md)
+        * [User Management](using/managers/users.md)
         * [Roles and Permissions](using/managers/permissions.md)
     * [Administrators](using/administrators/README.md)
         * [System Settings](using/administrators/settings.md)
