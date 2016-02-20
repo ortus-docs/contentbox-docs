@@ -20,7 +20,7 @@ Content and Settings Retrieval Methods
 - `cb.contentStoreObject( string slug )`: retrieves the associated [Content Store][1] object
 - `cb.themeSetting( string settingName, any defaultValue )`: retrieves a theme setting by name. A default value may be specified
 - `cb.isCommentsEnabled()`: returns a true|false value of whether site comments are enabled and if the current entry accepts comments
-- `cb.getCurrentEntries()`
+- `cb.getCurrentEntries()`:
 
 Path and URL Utility Methods
 ----------------------------
