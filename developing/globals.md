@@ -36,7 +36,7 @@ Content and Settings Retrieval Methods
 - `cb.linkAdminLogout()`: creates a link to logout of ContentBox administration
 - `cb.linkBlog()`: creates a link to the site's blog
 - `cb.linksSelf()`: creates a link to the current page
-- `cb.linkRSS()`: creates a link to the RSS feed applicable to the active request
+- `cb.linkRSS( any categoryFilter, boolean showComments, )`: creates a link to the RSS feed applicable to the active request
 - 
 
 Path and URL Utility Methods
