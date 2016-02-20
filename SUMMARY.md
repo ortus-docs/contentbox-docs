@@ -18,5 +18,6 @@
    * [Front End Development](developing/front_end/README.md)
        * [Theme Development](developing/themes/README.md)
        * [Customizing Views](developing/themes/views.md)
+       * [Customizing Navigation](developing/themes/navigation.md)
        * [Global Variables](developing/themes/globals.md)
 
