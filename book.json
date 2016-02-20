@@ -2,7 +2,8 @@
     "plugins": [
         "richquotes",
         "-highlightjs",
-        "highlight"
+        "highlight",
+        "anchor-navigation"
     ],
     "pluginsConfig": {}
 }
