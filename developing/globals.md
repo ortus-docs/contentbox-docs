@@ -7,5 +7,5 @@ During the ContentBox request, common variables and supertype methods are made a
 
 The `cb` object contains a variety of common methods for retrieving ContentBox content and settings.  Methods include:
 
-- `contentStore(required string slug)`: retrieves the HTML output of a [Content Store](/content/using/managers/contentstore/index.html) item by its slug
+- `contentStore(required string slug)`: retrieves the HTML output of a [Content Store](/content/using/managers/contentstore.html) item by its slug
 - `contentStoreObject(required string slug)`: retrieves the associated Content Store object.
