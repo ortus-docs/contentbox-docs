@@ -37,6 +37,7 @@ Content and Settings Retrieval Methods
 - `cb.linkBlog()`: creates a link to the site's blog
 - `cb.linksSelf()`: creates a link to the current page
 - `cb.linkRSS( any categoryFilter)`: creates a link to the RSS feed applicable to the active request
+- `cb.linkSiteRSS( any categoryFilter)`: creates a link to the site's RSS feed
 - 
 
 Path and URL Utility Methods
