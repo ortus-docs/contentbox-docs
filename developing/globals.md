@@ -46,6 +46,7 @@ Link Building Methods
 - `cb.linkSiteRSS( any categoryFilter )`: creates a link to the site's RSS feed
 - `cb.linkCategory( string categorySlug )`: creates a link to a specific category page
 - `cb.quickCategoryLinks( string categorySlug )`: creates an HTML unordered list of category links
+- 
 
 Path and URL Utility Methods
 ----------------------------
