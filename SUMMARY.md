@@ -16,7 +16,7 @@
     * [Content Managers](using/managers/README.md)
         * [Publishing Workflow](using/managers/workflow.md)
         * [Menu Manager](using/managers/navigation.md)
-        * [The Content Store](using/managers/contentStore.md)
+        * [Content Store](using/managers/contentStore.md)
         * [Content Categories](using/managers/categories.md)
         * [Roles and Permissions](using/managers/permissions.md)
 * [Developing For ContentBox](developing/README.md)
