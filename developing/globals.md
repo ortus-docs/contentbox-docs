@@ -59,3 +59,4 @@ Development and Debugging Helper Methods:
 
 
 [1]: /content/using/managers/contentstore.html
+[2]: /content/using/managers/widgets.html
