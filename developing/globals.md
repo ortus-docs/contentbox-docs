@@ -1,6 +1,6 @@
 # Global Variables
 
-During the ContentBox request, common variables and supertype methods are made available to all templates and views used in that request.  When developing themes and modules for ContentBox, you may assume availability of the following:
+During the ContentBox request, common variables and super-type methods are made available to all templates and views used in that request.  When developing themes and modules for ContentBox, you may assume availability of the following:
 
 `#cb#`
 ===
@@ -28,7 +28,7 @@ Content and Settings Retrieval Methods
 - `cb.getCurrentCommentsCount()`: Returns the count of published comments for the current entry
 - `cb.getCurrentRelatedContent()`: Returns an array of content related to the active post or entry
 - `cb.getCurrentCustomFields()`: Returns a structure of custom fields for the active post or entry
-- 
+- `cb.getCustomField()`: 
 
 
 Path and URL Utility Methods
