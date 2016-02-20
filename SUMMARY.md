@@ -27,7 +27,7 @@
    * [Administrators](using/administrators/README.md)
        * [System Settings](using/administrators/settings.md)
        * [Security Rules](using/administrators/security.md)
-       * [&ldquo;Geek&rdquo; Settings](using/administrators/geekSettings.md)
+       * [&ldquo;Geek&rdquo; Settings](using/administrators/geeksettings.md)
        * [Log Viewer](using/administrators/logs.md)
        * [Import/Export](using/administrators/import-export.md)
        * [Cache Management](using/administrators/caching.md)
