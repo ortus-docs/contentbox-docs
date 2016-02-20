@@ -22,6 +22,8 @@ Content and Settings Retrieval Methods
 - `cb.isCommentsEnabled()`: returns a true|false value of whether site comments are enabled and if the current entry accepts comments
 - `cb.getCurrentEntries()`:
 - `cb.getCurrentEntriesCount()`:
+- `cb.getCurrentCategories()`:
+
 
 Path and URL Utility Methods
 ----------------------------
