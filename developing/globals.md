@@ -43,8 +43,9 @@ Link Building Methods
 - `cb.linkBlog()`: creates a link to the site's blog
 - `cb.linksSelf()`: creates a link to the current page
 - `cb.linkPageRSS( any categoryFilter)`: creates a link to the RSS feed applicable to the active request
-- `cb.linkSiteRSS( any categoryFilter)`: creates a link to the site's RSS feed
-- `cb.linkCategory( string categorySlug)`: creates a link to a specific category page
+- `cb.linkSiteRSS( any categoryFilter )`: creates a link to the site's RSS feed
+- `cb.linkCategory( string categorySlug )`: creates a link to a specific category page
+- `cb.quickCategoryLinks( string categorySlug )`: 
 
 Path and URL Utility Methods
 ----------------------------
