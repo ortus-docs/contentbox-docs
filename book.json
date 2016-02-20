@@ -1,7 +1,7 @@
 {
     "plugins": [
         "richquotes",
-        "highlightjs"
+        "-highlightjs"
     ],
     "pluginsConfig": {}
 }
