@@ -26,6 +26,7 @@ Content and Settings Retrieval Methods
 - `cb.getCurrentPage()`:
 - `cb.getCurrentComments()`: Returns the published comments for the current entry
 - `cb.getCurrentCommentsCount()`: Returns the count of published comments for the current entry
+- `cb.getCurrentRelatedContent()`: Returns an array of content related to the current entry
 - 
 
 
