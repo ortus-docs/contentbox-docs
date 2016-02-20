@@ -26,7 +26,7 @@
     * [Administrators](using/administrators/README.md)
         * [System Settings](using/administrators/settings.md)
         * [Security Rules](using/administrators/security.md)
-        * [&ldquo;Geek&rdquo; Settings](using/administrators/security.md)
+        * [&ldquo;Geek&rdquo; Settings](using/administrators/geekSettings.md)
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
