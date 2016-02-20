@@ -32,8 +32,8 @@ Content and Settings Retrieval Methods
 - `cb.quickSearchForm()`: returns the HTML of a standard ContentBox Search Form according to the SearchForm widget
 - `cb.getSearchResults()`: returns an array of results for an active search
 - `cb.linkAdmin()`: creates a link to the ContentBox admin
+- `cb.linkAdminLogin()`: creates a link to the ContentBox administration login form
 - `cb.linkAdminLogout()`: creates a link to logout of ContentBox administration
-- 
 
 Path and URL Utility Methods
 ----------------------------
