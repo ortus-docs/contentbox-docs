@@ -21,6 +21,7 @@
        * [Menu Manager](using/managers/menu.md)
        * [Media Manager](using/managers/media.md)
        * [Content Store](using/managers/contentstore.md)
+       * [Widgets](using/managers/widgets.md)
        * [Content Categories](using/managers/categories.md)
        * [User Management](using/managers/users.md)
        * [Roles and Permissions](using/managers/permissions.md)
