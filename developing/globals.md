@@ -15,6 +15,7 @@ Content and Settings Retrieval Methods
 - `cb.siteDescription()`:
 - `cb.siteKeywords()`:
 - `cb.siteEmail()`:
+- `cb.siteOutgoingEmail()`:
 - `cb.contentStore( string slug )`: retrieves the HTML output of a [Content Store][1] item by its slug
 - `cb.contentStoreObject( string slug )`: retrieves the associated [Content Store][1] object
 - `cb.themeSetting( string settingName, any defaultValue )`: retrieves a theme setting by name. A default value may be specified
