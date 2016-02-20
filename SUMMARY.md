@@ -16,5 +16,6 @@
 * [Using ContentBox](using/README.md)
 * [Developing For ContentBox](developing/README.md)
    * [Front End Development](developing/front_end/README.md)
-       * [Theme Development](developing/front_end/themes/README.md)
+       * [Theme Development](developing/themes/README.md)
+       * [Global Variables](developing/themes/globals.md)
 
