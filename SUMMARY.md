@@ -15,6 +15,8 @@
 * [Using ContentBox](using/README.md)
     * [Content Managers](using/managers/README.md)
         * [Publishing Workflow](using/managers/workflow.md)
+            * [Pages](using/managers/pages.md)
+            * [Blog Entries](using/managers/blog.md)
         * [Menu Manager](using/managers/menu.md)
         * [Media Manager](using/managers/media.md)
         * [Content Store](using/managers/contentStore.md)
