@@ -14,6 +14,7 @@
    * [Express Installation](installation/express_installation.md)
 * [Upgrading ContentBox](upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
+    * [Content Managers](using/managers/README.md)
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
