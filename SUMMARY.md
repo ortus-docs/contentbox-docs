@@ -23,11 +23,10 @@
        * [Customizing Layouts](developing/front_end/layouts.md)
        * [Managing Assets](developing/front_end/assets.md)
        * [Customizing Navigation](developing/front_end/navigation.md)
-       * [Global Variables](developing/themes/globals.md)
+       * [Global Variables](developing/globals.md)
        * [Template Variables](developing/front_end/templateVars.md)
    * [Back-End Development](developing/back_end/readme.md)
        * [Coldbox Conventions](developing/back_end/coldbox.md)
        * [Module Conventions](developing/back_end/modules.md)
        * [Interceptors](developing/back_end/interceptors.md)
        * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
-
