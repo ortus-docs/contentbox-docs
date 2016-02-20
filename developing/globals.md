@@ -27,7 +27,7 @@ Content and Settings Retrieval Methods
 - `cb.getCurrentComments()`: Returns the published comments for the current entry
 - `cb.getCurrentCommentsCount()`: Returns the count of published comments for the current entry
 - `cb.getCurrentRelatedContent()`: Returns an array of content related to the active post or entry
-- `cb.getCurrentCustomFields()`
+- `cb.getCurrentCustomFields()`: Returns a structure of custom fields for the active post or entry
 
 
 Path and URL Utility Methods
