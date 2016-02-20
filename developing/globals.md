@@ -5,7 +5,7 @@ During the ContentBox request, common variables and super-type methods are made 
 `#cb#`
 ===
 
-The `cb` object contains a variety of common methods for retrieving ContentBox content and settings.  Methods include:
+The `cb` object contains a variety of common methods for retrieving ContentBox content and settings.  Below are some common methods used to retrieve and create HTML content:
 
 Content and Settings Retrieval Methods
 ------------------------
