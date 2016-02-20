@@ -35,7 +35,7 @@ Content and Settings Retrieval Methods
 - `cb.linkAdminLogin()`: creates a link to the ContentBox administration login form
 - `cb.linkAdminLogout()`: creates a link to logout of ContentBox administration
 - `cb.linkBlog()`: creates a link to the site's blog
-- 
+- `cb.linksSelf()`: creates a link to the current page
 
 Path and URL Utility Methods
 ----------------------------
