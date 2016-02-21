@@ -1,6 +1,6 @@
-# Global Variables
+# Global Variables and Functions
 
-During the ContentBox request, common variables and super-type methods are made available to all templates and views used in that request.  When developing themes and modules for ContentBox, you may assume availability of the following:
+During the ContentBox request, common variables and super-type methods are made available to all templates and views used in that request.  When developing themes and modules for ContentBox, the following methods and variables are available for use in customization:
 
 `#cb#`
 ===
