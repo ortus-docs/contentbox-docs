@@ -10,18 +10,15 @@ The `cb` object contains a variety of common methods for retrieving ContentBox c
 Content and Settings Retrieval Methods
 ------------------------
 
-- `cb.siteName()`:
-- `cb.siteTagline()`:
-- `cb.siteDescription()`:
-- `cb.siteKeywords()`:
-- `cb.siteEmail()`:
-- `cb.siteOutgoingEmail()`:
-- `cb.contentStore( string slug )`: retrieves the HTML output of a [Content Store][1] item by its slug
-- `cb.contentStoreObject( string slug )`: retrieves the associated [Content Store][1] object
-- `cb.widget( string widgetName, struct args )`: executes a named widget's `renderit` method and returns the HTML.  A structure of arguments may be passed.
-- `cb.getWidget( string widgetName )`: retreives the associated [widget][2] object
-- `cb.themeSetting( string settingName, any defaultValue )`: retrieves a theme setting by name. A default value may be specified
-- `cb.isCommentsEnabled()`: returns a true|false value of whether site comments are enabled and if the current entry accepts comments
+#### Settings Retreival
+- `cb.siteName()`: retrieves the configured name of Contentbox installation
+- `cb.siteTagline()`: retrieves the configured tagline for the ContentBox installation
+- `cb.siteDescription()`: retrieves the configured description for the Contentbox installation
+- `cb.siteKeywords()`: retrieves the configured global keywords
+- `cb.siteEmail()`: retrieves the default site email
+- `cb.siteOutgoingEmail()`: retreives the configured email used in outbound deliveries
+
+#### Entry Retrieval
 - `cb.getCurrentEntries()`:
 - `cb.getCurrentEntriesCount()`:
 - `cb.getCurrentCategories()`:
@@ -31,11 +28,18 @@ Content and Settings Retrieval Methods
 - `cb.getCurrentRelatedContent()`: Returns an array of content related to the active post or entry
 - `cb.getCurrentCustomFields()`: Returns a structure of custom fields for the active post or entry
 - `cb.getCustomField( string fieldName, any defaultValue )`: Returns the value of a custom field for the active post or entry
+
+#### Content Store Retreival
+- - `cb.contentStore( string slug )`: retrieves the HTML output of a [Content Store][1] item by its slug
+- `cb.contentStoreObject( string slug )`: retrieves the associated [Content Store][1] object
+- `cb.widget( string widgetName, struct args )`: executes a named widget's `renderit` method and returns the HTML.  A structure of arguments may be passed.
+- `cb.getWidget( string widgetName )`: retreives the associated [widget][2] object
+- `cb.themeSetting( string settingName, any defaultValue )`: retrieves a theme setting by name. A default value may be specified
+- `cb.isCommentsEnabled()`: returns a true|false value of whether site comments are enabled and if the current entry accepts comments
 - `cb.quickSearchForm()`: returns the HTML of a standard ContentBox Search Form according to the SearchForm widget
 - `cb.getSearchResults()`: returns an array of results for an active search
 
-Link Building Methods
----------------------
+#### Link Building Methods
 
 - `cb.linkAdmin()`: creates a link to the ContentBox admin
 - `cb.linkAdminLogin()`: creates a link to the ContentBox administration login form
@@ -48,8 +52,7 @@ Link Building Methods
 - `cb.quickCategoryLinks( string categorySlug )`: creates an HTML unordered list of category links
 - 
 
-Path and URL Utility Methods
-----------------------------
+#### Path and URL Utility Methods
 
 - `cb.themeRoot()`: returns the location of your currently defined theme in the application, great for assets, cfincludes, etc
 - `cb.siteRoot()`: returns the site root location using your configured module's entry point
@@ -57,8 +60,7 @@ Path and URL Utility Methods
 - `cb.adminRoot()`: returns the root location of the admin using your configured module's entry point
 - `widgetRoot()`: returns the location of your widgets, great for assets and includes
 
-Development and Debugging Helper Methods:
-----------------------------------------
+#### Development and Debugging Helper Methods:
 
 - `cb.themeName()`: returns the currently active theme name
 - `cb.layoutName()`: returns the currently active layout name 
