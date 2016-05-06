@@ -9,7 +9,7 @@
 * [Installation](installation/index.md)
    * [System Requirements](installation/system_requirements.md)
    * [CommandBox Installation](installation/commandbox_installation.md)
-   * [Source Installation](installation/source_installation.md)
+   * [Source Installation](installation/source_installation.md)````````````
    * [WAR Installation](installation/war_installation.md)
    * [Express Installation](installation/express_installation.md)
    * [Upgrading ContentBox](installation/upgrading_contentbox.md)
@@ -50,5 +50,4 @@
        * [Interceptors](developing/back_end/interceptors.md)
        * [Customizing the Admin](developing/back_end/admin.md)
        * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
-* [Recipes](recipes/index.md)
-
+   * [Recipes](recipes/index.md)
