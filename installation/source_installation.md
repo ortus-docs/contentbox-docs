@@ -33,10 +33,12 @@ Make sure your database supports utf-8 or utf-16 character sets if you will be u
 You can now visit your application and will be presented with our datasource wizard.  You can either use our datasource wizard or you can create the datasource yourself manually in the CFML administrator.
 
 ### Datasource Creation Wizard
+The datasource wizard requires your CFML Admin Password, or your ( Railo/Lucee ) Web Context Password to create the datasource. 
+
+Note: Depending on your CFML Engine Install, the Web Context Password might not be set. To use the Datasource Creator Wizard, you will be required to access the admin, set the password, then continue the installation.
 
 ![](../images/step2.png)
-The datasource wizard requires your CFML Admin Password, or your ( Railo/Lucee ) Web Context Password to create the datasource. 
-Note: Depending on your CFML Engine Install, the Web Context Password might not be set. To use the Datasource Creator Wizard, you will be required to access the admin, set the password, then continue the installation.
+
 
 ## Step 4: Run ContentBox Installer
 
