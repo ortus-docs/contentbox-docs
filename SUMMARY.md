@@ -12,6 +12,7 @@
    * [Source Installation](installation/source_installation.md)
    * [WAR Installation](installation/war_installation.md)
    * [Express Installation](installation/express_installation.md)
+* [Upgrading ContentBox](upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
    * [Content Managers](using/managers/README.md)
        * [Publishing Workflow](using/managers/workflow.md)
@@ -49,6 +50,5 @@
        * [Interceptors](developing/back_end/interceptors.md)
        * [Customizing the Admin](developing/back_end/admin.md)
        * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
-* [Upgrading ContentBox](upgrading_contentbox.md)
 * [Recipes](recipes/index.md)
 
