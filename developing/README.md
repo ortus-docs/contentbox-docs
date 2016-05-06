@@ -2,9 +2,9 @@
 
 ContentBox's modular architecture, combined with the awesome power of the [ColdBox](https://www.ortussolutions.com/products/coldbox) development framework, allows for a familiar, yet unrestricted, platform from which to develop great web applications.
 
-If you're a Front End Developer, you'll appreciate the straightforward configuration and pre-defined ( yet highly customizable! ) asset conventions.  
+If you're a Front End Developer, you'll appreciate the straightforward configuration and pre-defined ( but highly customizable! ) asset conventions.  
 
-Within the [Coldbox](https://www.ortussolutions.com/products/coldbox) framework, itself ContentBox is comprised of three modules:
+Within the [ColdBox](https://www.ortussolutions.com/products/coldbox) framework, itself ContentBox is comprised of three modules:
 
 * `contentbox` - Includes the the underlying libraries for content organization and presentation
 * `contentbox-admin` - Provides the administrative interface for managing your CMS
