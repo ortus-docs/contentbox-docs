@@ -32,6 +32,12 @@ Make sure your database supports utf-8 or utf-16 character sets if you will be u
 
 You can now visit your application and will be presented with our datasource wizard.  You can either use our datasource wizard or you can create the datasource yourself manually in the CFML administrator.
 
+The datasource wizard has the following fields.
+
+
+
+If you are using Lucee, the password 
+
 
 ## Step 4: Run ContentBox Installer
 
