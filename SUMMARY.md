@@ -50,5 +50,5 @@
        * [Customizing the Admin](developing/back_end/admin.md)
        * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
 * [Upgrading ContentBox](upgrading_contentbox.md)
-* Recipes
+* [Recipes](recipes/index.md)
 
