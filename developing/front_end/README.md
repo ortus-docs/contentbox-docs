@@ -26,5 +26,8 @@ For more information on the theme directory structure and configuration options 
 ### Modularity
 
 
-In addition, many front-end focused modules and libraries are available on Forgebox and can be quickly installed from the [CommandBox](http://commandbox.ortusbooks.com/content/) CLI and used immediately in your templates, widgets and views.  For example, to install a Twitter feed widget for ContentBox, simply run `box install ID=cbwidget-tweetfeed directory=widgets` from  your theme directory and it will automatically be available for use in the admin.   You may browse the ever-growing list of Forgebox libraries and modules on [the Forgebox site](https://www.coldbox.org/forgebox/) or run `forgebox help` from within CommandBox to begin exploring the available options.
+In addition, many front-end focused modules and libraries are available on Forgebox and can be installed from the [CommandBox](http://commandbox.ortusbooks.com/content/) CLI and used immediately in your templates, widgets and views.  For example, to install a Twitter feed widget for ContentBox, simply run `box install ID=cbwidget-tweetfeed directory=widgets` from  your theme directory and it will automatically be available for use in the admin.   You may browse the ever-growing list of Forgebox libraries and modules on [the Forgebox site](https://www.coldbox.org/forgebox/) or run `forgebox help` from within CommandBox to begin exploring the available options.
+
+
+
 
