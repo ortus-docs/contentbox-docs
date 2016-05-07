@@ -9,7 +9,7 @@
 * [Installation](installation/index.md)
    * [System Requirements](installation/system_requirements.md)
    * [CommandBox Installation](installation/commandbox_installation.md)
-   * [Source Installation](installation/source_installation.md)````````````
+   * [Source Installation](installation/source_installation.md)
    * [WAR Installation](installation/war_installation.md)
    * [Express Installation](installation/express_installation.md)
    * [Upgrading ContentBox](installation/upgrading_contentbox.md)
@@ -22,8 +22,8 @@
        * [Menu Manager](using/managers/menu.md)
        * [Media Manager](using/managers/media.md)
        * [Content Store](using/managers/contentstore.md)
-       * [Widgets](using/managers/widgets.md)
        * [Content Categories](using/managers/categories.md)
+       * [Widgets](using/managers/widgets.md)
        * [User Management](using/managers/users.md)
        * [Roles and Permissions](using/managers/permissions.md)
    * [Administrators](using/administrators/README.md)
@@ -51,3 +51,4 @@
        * [Customizing the Admin](developing/back_end/admin.md)
        * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
    * [Recipes](recipes/index.md)
+
