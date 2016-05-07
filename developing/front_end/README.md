@@ -1,6 +1,6 @@
 # Front End Development
 
-In developing your front-end user interface, the majority of your time will be spent in the admin and within the `[ContentBox Module Home]/themes` directory.  
+In developing your front-end user interface, the majority of your time will be spent creating content in the admin and within the `[ContentBox Module Home]/themes` directory.  
 
 With state-of-the art development tools like [CommandBox](http://commandbox.ortusbooks.com/content/) to assist with scaffolding and dependency management and [Coldbox Elixr](https://github.com/ColdBox/elixir/wiki), it's easy to build out your theme in a fraction of the time it might otherwise take.   
 
