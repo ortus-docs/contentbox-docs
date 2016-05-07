@@ -66,5 +66,6 @@ Content and Settings Retrieval Methods
 - `cb.layoutName()`: returns the currently active layout name 
 
 
+
 [1]: /content/using/managers/contentstore.html
 [2]: /content/using/managers/widgets.html
