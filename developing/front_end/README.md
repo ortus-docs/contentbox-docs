@@ -1,12 +1,12 @@
 # Front End Development
 
-In developing your user interface, the majority of your time will be spent creating content in the admin and within the `[ContentBox Module Home]/themes` directory.  
+In developing your user interface, the majority of your time will be spent creating content in the admin and modifying files from within your custom theme, located in the `[ContentBox Module Home]/themes` directory.  
 
 With state-of-the art development tools like [CommandBox](http://commandbox.ortusbooks.com/content/) to assist with scaffolding and dependency management and [Coldbox Elixr](https://github.com/ColdBox/elixir/wiki), it's easy to build out your theme in a fraction of the time it might otherwise take.   
 
-### Directory Conventions
+### Theme Directory Conventions
 
-A typical theme directory structure would be:
+A typical theme directory structure might be:
 
 #### <i class="fa fa-folder-open"></i> MyAwesomeTheme
 
@@ -20,7 +20,7 @@ A typical theme directory structure would be:
 ##### - <i class="fa fa-folder"></i> views
 ##### - <i class="fa fa-folder"></i> widgets
 
-For more information on the theme directory structure and configuration see the [Themes documentation](developing/themes/README.md).
+For more information on the theme directory structure and configuration options see [ContentBox Theme Development](developing/themes/README.md).
 
 
 ### Modularity
