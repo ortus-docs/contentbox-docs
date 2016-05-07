@@ -18,6 +18,10 @@ Content and Settings Retrieval Methods
 - `cb.siteEmail()`: retrieves the default site email
 - `cb.siteOutgoingEmail()`: retreives the configured email used in outbound deliveries
 
+#### Theme Views
+- `cb.quickView( viewTemplate )`: Renders a view partial located in the `[theme home]/views` directory.  A `.cfm` file extension is not required.
+- `cb.mainView( args )`: Renders the main view for the handler action.  A struct containing the args necessary for view rendering should be passed in.  By default, this struct is available in your layout and is also named `args`.
+
 #### Entry Retrieval
 - `cb.getCurrentEntries()`:
 - `cb.getCurrentEntriesCount()`:
@@ -59,6 +63,15 @@ Content and Settings Retrieval Methods
 - `cb.siteBaseURL()`: returns the site's SES base URL
 - `cb.adminRoot()`: returns the root location of the admin using your configured module's entry point
 - `widgetRoot()`: returns the location of your widgets, great for assets and includes
+
+#### Interception Points
+
+A number of built-in interception points are avaialble within the ContentBox request, which may be run using the `cb.event()` method.  For examples of how these are used, see the default theme layout files.  Examples include:
+
+- `cb.event( "cbui_beforeHeadEnd" )`
+- `cb.event( "cbui_afterBodyStart" )`
+- `cb.event( "cbui_afterContent" )`
+- `cb.event( "cbui_beforeBodyEnd" )`
 
 #### Development and Debugging Helper Methods:
 
