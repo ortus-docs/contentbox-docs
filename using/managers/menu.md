@@ -31,7 +31,7 @@ Each content type has it's own set of attributes.
 - Label - Read Only - Same as the Item Content field below.
 - Item Content - This is Name/Title that shows in the Menu Item itself. 
 - CSS Classes - Optional additional CSS classes to be added to the list item
-- 
+
 ### Type: Content
 
 Content refers to a Page, or Blog Entry. You can search and select the content item you wish this item to link to. The Item Content ( visible label for the menu item ) automatically populates when you select an item for Content Item.
