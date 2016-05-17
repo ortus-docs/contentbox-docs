@@ -23,6 +23,8 @@ We have introduced local storage auto saving capabilities for all editors in Con
 ## Responsive Previews
 All live previews are now responsive.  Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
 
+## New ContentBox Theme
+We have a new official UI theme that you will come to love.  It has over 10 different skins and configurations that will give you a plethora of configuration patterns for your site.  It is based on bower and grunt assets, so you can easily fork and customize.
 
 
 
