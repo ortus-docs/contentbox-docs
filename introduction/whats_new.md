@@ -55,5 +55,7 @@ Here is a collection of all the new admin interception points:
 
 * `onGlobalSearchRequest` - When a global search is made
 * `onGlobalSearchDisplay` - When the global search is displayed
+* `cbadmin_beforeLoginForm` - Before the login form renders
+* `cbadmin_afterLoginForm` - After the login form renders
 
                         
