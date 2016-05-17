@@ -26,6 +26,12 @@ All live previews are now responsive.  Meaning you can choose from the responsiv
 ## New ContentBox Theme
 We have a new official UI theme that you will come to love.  It has over 10 different skins and configurations that will give you a plethora of configuration patterns for your site.  It is based on bower and grunt assets, so you can easily fork and customize.
 
+## Featured Images
+All content objects now have the ability to set natively a featured image alongside the content.
+
+## ContentBox Express with JRE
+Our entire build process has been revamped and now we can produce ContentBox Express editions with included Java runtimes for Linux, Mac OS X and Windows.
+
 
 
                         
