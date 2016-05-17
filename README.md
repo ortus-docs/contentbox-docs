@@ -9,7 +9,7 @@
 # ContentBox Modular CMS - v3.0.0
 ![ContentBox](./images/ContentBoxLogo300.png)
 
-ContentBox is a professional open source modular content management engine that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
+ContentBox is a professional open source modular CMS (Content Management System) for ColdFusion (CFML) and Java engines that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
 
 
 
