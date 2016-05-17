@@ -10,6 +10,12 @@ We have updated the entire core to leverage ColdBox 4 and modularity.  We have c
 ## Oracle + PostgreSQL Support
 Oracle and PostgreSQL are now fully supported.
 
+## BCrypt Support
+The default algorithm for passwords is now BCrypt with work factors for better security and entropy.
+
+## Password Policy
+A new password policy is now in place for ContentBox for new and current users.  
+
 ## SSL Support
 SSL support can now be found everywhere in ContentBox for both the UI and admin modules.  Users can even select specific pages for users to transition into or out of SSL for richer eCommerce or secure experiences.
 
