@@ -17,5 +17,8 @@ The majority of all modules have been now translated into English, Spanish, Ital
 ## Admin UI
 The administration module sports a completely re-designed responsive UI.  Our goal was to think mobile first and build from there.  So you will see tons of great additions for working on mobile devices, new editors, new fullscreen mdoes and much much more.
 
+## Auto Save
+We have introduced local storage auto saving capabilities for all editors in ContentBox.  No matter the implementation, we will provide auto-save capabilities.  This is a great way to know that silently your work is secure.
+
 
                         
