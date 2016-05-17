@@ -25,6 +25,9 @@ We have included a new code editor that supports HTML and Markdown natively.  Th
 ## Fullscreen Mode
 We have added HTML5 fullscreen mode capabilities for the admin UI.  This will allow you to go full screen to edit, create and manage in a gorgeous huge display.
 
+## Configurable RSS
+RSS feed creation can now be customized via settings.
+
 ## SSL Support
 SSL support can now be found everywhere in ContentBox for both the UI and admin modules.  Users can even select specific pages for users to transition into or out of SSL for richer eCommerce or secure experiences.
 
