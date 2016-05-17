@@ -75,4 +75,7 @@ A new header will be sent to the browser if a content page is cached: `x-content
 
 ## Settings Cluster Storage
 You can now decide in which caching engine to store global ContentBox settings. This provides the way to fully scale ContentBox in any cloud provider.
+
+## Core Settings
+Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings.
                         
