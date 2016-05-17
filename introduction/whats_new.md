@@ -32,6 +32,15 @@ All content objects now have the ability to set natively a featured image alongs
 ## ContentBox Express with JRE
 Our entire build process has been revamped and now we can produce ContentBox Express editions with included Java runtimes for Linux, Mac OS X and Windows.
 
+## Author Content Edits
+The author details now sports two new panels to showcase their latest edits and latest drafts.  It will make it much easier for authors or administrators to discover what they are working on.
+
+## Layouts are now Themes
+Themes is our new mantra.  We have transitioned layouts to what we now call ContentBox Themes.  They have been revamped to support ColdBox 4.
+
+### New Theme.cfc
+The theme descriptor CFC is now named `Theme.cfc`.  Backwards compatibility still remains, but now the new descriptor will provide a nice way for editors and tools to target.
+
 
 
                         
