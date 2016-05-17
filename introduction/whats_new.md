@@ -44,6 +44,14 @@ Themes is our new mantra.  We have transitioned layouts to what we now call Cont
 ### New Theme.cfc
 The theme descriptor CFC is now named `Theme.cfc`.  Backwards compatibility still remains, but now the new descriptor will provide a nice way for editors and tools to target.
 
+### New Theme Events
+The theme life-cycle now presents several new events:
+
+* `cbadmin_preThemeSettingsSave` - Before saving theme settings
+* `cbadmin_postThemeSettingsSave` - After saving theme settings
+* `cbadmin_onThemeSettings` - When displaying theme settings in the admin UI
+* `cbadmin_onThemeInfo` - When displaying theme information on the admin UI
+
 ## CBHelper Updates
 The CBHelper sports some new methods:
 * `getPrivateRequestCollection()` - Get the ColdBox private request collection
@@ -57,6 +65,10 @@ Here is a collection of all the new admin interception points:
 * `onGlobalSearchDisplay` - When the global search is displayed
 * `cbadmin_beforeLoginForm` - Before the login form renders
 * `cbadmin_afterLoginForm` - After the login form renders
+* `cbadmin_preThemeSettingsSave` - Before saving theme settings
+* `cbadmin_postThemeSettingsSave` - After saving theme settings
+* `cbadmin_onThemeSettings` - When displaying theme settings in the admin UI
+* `cbadmin_onThemeInfo` - When displaying theme information on the admin UI
 
 ## New Rendering Cache Header
 A new header will be sent to the browser if a content page is cached: `x-contentbox-cached-content`. This can provide proxies or cache engines the ability to tell when a page is cached by ContentBox.
