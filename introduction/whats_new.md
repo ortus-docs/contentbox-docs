@@ -81,4 +81,13 @@ You can now decide in which caching engine to store global ContentBox settings. 
 
 ## Core Settings
 Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings.
-                        
+
+## UI Response Formats
+The UI module now allows you to be able to export your pages, or blog entries in many response formats:
+
+* json
+* XML
+* PDF
+* word
+
+The JSON and XML support means you can now build alternative UI modules based on modern JavaScript or other language frameworks.  This is a game changer for ContentBox as it will provide you with the ability to export any piece of content or blog in a tranportable RESTFul format.
