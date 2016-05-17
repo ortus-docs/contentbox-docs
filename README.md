@@ -58,9 +58,8 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 * Bug Tracker: https://ortussolutions.atlassian.net/browse/CONTENTBOX
 * Twitter: [@gocontentbox](http://www.twitter.com/gocontentbox)
 * Facebook: https://www.facebook.com/gocontentbox
-* Google+: https://www.google.com/+GoContentBoxOrg
 * Vimeo Channel: http://vimeo.com/channels/contentbox
-* YouTube Channel: https://www.youtube.com/channel/UCNU1ojqJr6G6LK1_OiXYsew
+* YouTube Channel: https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg
 
 
 
