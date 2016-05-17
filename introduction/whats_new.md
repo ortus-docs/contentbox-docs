@@ -44,6 +44,16 @@ Themes is our new mantra.  We have transitioned layouts to what we now call Cont
 ### New Theme.cfc
 The theme descriptor CFC is now named `Theme.cfc`.  Backwards compatibility still remains, but now the new descriptor will provide a nice way for editors and tools to target.
 
+## CBHelper Updates
+The CBHelper sports some new methods:
+* `getPrivateRequestCollection()` - Get the ColdBox private request collection
+* `isHomePage()` - Verify if the current rendered page is the home page
+* `prepareUIRequest()` - Use in any ColdBox module to prepare rendering under the ContentBox theme
 
+## New Admin Interception Points
+Here is a collection of all the new admin interception points:
+
+* `onGlobalSearchRequest` - When a global search is made
+* `onGlobalSearchDisplay` - When the global search is displayed
 
                         
