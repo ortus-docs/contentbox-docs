@@ -44,6 +44,9 @@ Themes is our new mantra.  We have transitioned layouts to what we now call Cont
 ### New Theme.cfc
 The theme descriptor CFC is now named `Theme.cfc`.  Backwards compatibility still remains, but now the new descriptor will provide a nice way for editors and tools to target.
 
+### Theme Modules
+Themes can now include ContentBox modules in a new folder convention called `modules`. This allows you to ship your theme with 1 or a billion modules.
+
 ### New Theme Events
 The theme life-cycle now presents several new events:
 
