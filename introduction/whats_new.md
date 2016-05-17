@@ -5,7 +5,7 @@ ContentBox 3.0.0 is a major release and with a completely rewritten administrati
 ContentBox 3 is a collection of more than 150 tickets resolved.  It has been a massive undertaking with some great resoluts.  Below we go through the major updates and feature improvements.
 
 ## ColdBox 4 
-We have updated the entire core to leverage ColdBox 4 and modularity.  We have completely re-architected all modules to adhere to ColdBox 4 standards and rely on CommandBox CLI for package management and resolutions.
+We have updated the entire core to leverage ColdBox 4 and modularity.  We have completely re-architected all modules to adhere to ColdBox 4 standards and rely on CommandBox CLI for package management and resolutions.  This update in itself is worth noting as it not only modularized even more ContentBox, but gave it a source code reduction and performance boosts.
 
 
                         
