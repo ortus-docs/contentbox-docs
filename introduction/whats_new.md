@@ -61,4 +61,6 @@ Here is a collection of all the new admin interception points:
 ## New Rendering Cache Header
 A new header will be sent to the browser if a content page is cached: `x-contentbox-cached-content`. This can provide proxies or cache engines the ability to tell when a page is cached by ContentBox.
 
+## Settings Cluster Storage
+You can now decide in which caching engine to store global ContentBox settings. This provides the way to fully scale ContentBox in any cloud provider.
                         
