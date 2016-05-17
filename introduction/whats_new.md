@@ -14,7 +14,8 @@ SSL support can now be found everywhere in ContentBox for both the UI and admin 
 The majority of all modules have been now translated into English, Spanish, Italian, German and French.  There is still work to do to localize the entire source, but it is coming.
 
 
-
+## Admin UI
+The administration module sports a completely re-designed responsive UI.  Our goal was to think mobile first and build from there.  So you will see tons of great additions for working on mobile devices, new editors, new fullscreen mdoes and much much more.
 
 
                         
