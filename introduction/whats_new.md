@@ -58,4 +58,7 @@ Here is a collection of all the new admin interception points:
 * `cbadmin_beforeLoginForm` - Before the login form renders
 * `cbadmin_afterLoginForm` - After the login form renders
 
+## New Rendering Cache Header
+A new header will be sent to the browser if a content page is cached: `x-contentbox-cached-content`. This can provide proxies or cache engines the ability to tell when a page is cached by ContentBox.
+
                         
