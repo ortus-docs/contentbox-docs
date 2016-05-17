@@ -7,5 +7,8 @@ ContentBox 3 is a collection of more than 150 tickets resolved.  It has been a m
 ## ColdBox 4 
 We have updated the entire core to leverage ColdBox 4 and modularity.  We have completely re-architected all modules to adhere to ColdBox 4 standards and rely on CommandBox CLI for package management and resolutions.  This update in itself is worth noting as it not only modularized even more ContentBox, but gave it a source code reduction and performance boosts.
 
+## SSL Support
+SSL support can now be found everywhere in ContentBox for both the UI and admin modules.  Users can even select specific pages for users to transition into or out of SSL for richer eCommerce or secure experiences.
+
 
                         
