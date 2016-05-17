@@ -20,5 +20,8 @@ The administration module sports a completely re-designed responsive UI.  Our go
 ## Auto Save
 We have introduced local storage auto saving capabilities for all editors in ContentBox.  No matter the implementation, we will provide auto-save capabilities.  This is a great way to know that silently your work is secure.
 
+## Responsive Previews
+All live previews are now responsive.  Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
+
 
                         
