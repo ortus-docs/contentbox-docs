@@ -20,9 +20,13 @@ Open the `bin` folder and double click `startup.bat` (Windows) or execute the `s
 
 > **Tip** : If you are in Unix or Mac OS X, make sure you give the `bin` folder execution permissions.  You can do this by running `chmod -R +x bin` to give the directory execution permissions.
 
+### Step 3 : Installer
 
-4.  Once the server is online go to your browser and type localhost:8085  which is the port that ContentBox uses and hit enter. Your browser should open the install wizard.
-Note: if you go back again to the bin folder you are going to find a new folder called contentboxDB. This is ContentBox Express embedded data base. This doesn’t mean you can’t use other data bases with ContentBox Express Edition, but it has been done this way out of convenience. 
+Once the server is online go to your browser and type `http://localhost:8085`  which is the port that ContentBox Express uses and hit enter. Your browser should now open the install wizard.
+
+> **Note** : if you go back again to the `bin` folder you are going to find a new folder called `contentboxDB`. This is the ContentBox Express embedded database. This doesn’t mean you can’t use other data bases with ContentBox Express Edition, but it has been done this way out of convenience. 
+
+
 In the install wizard click Start Installer.
  Administrator: Fill out the setup details for your ContentBox Administrator and click Next Step.
  Site: Fill out basic information for your ContentBox Site and click Next Step.
