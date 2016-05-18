@@ -83,7 +83,7 @@ All live previews are now responsive.  Meaning you can choose from the responsiv
 ### Featured Images
 All content objects now have the ability to set natively a featured image alongside the content.
 
-## Author Content Edits
+### Author Edit Panels
 The author details now sports two new panels to showcase their latest edits and latest drafts.  It will make it much easier for authors or administrators to discover what they are working on.
 
 ### Layouts are now Themes
