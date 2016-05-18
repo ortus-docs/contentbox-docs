@@ -26,12 +26,12 @@ We will be able to execute a-la-carte commands from our command line or go into 
 Now that we have CommandBox we can use it to install and execute a ContentBox site using the embedded server.  You can use an embedded database or connect the embedded server to any database server as well.  Open a CommandBox shell in your directory of choice by typing `box` or executing the `box` binary and after the welcome screen type the following commands:
 
 ```
-mkdir mysite && cd mysite
-box install contentbox
+mkdir mysite --cd
+install contentbox
 server start --rewritesEnable
 ```
 
-> **Info** You can install the bleeding edge of ContentBox by using the `contentbox-be` slug instead of `contentbox` in the install command.
+> **Note** You can install the bleeding edge of ContentBox by using the `contentbox-be` slug instead of `contentbox` in the install command.
 
 This will install the latest stable ContentBox and run an embedded server for it.  After this you will get the ContenBox installer.  Just follow it through.
 
