@@ -9,7 +9,7 @@ The following are major system architecture updates we have done in ContentBox 3
 We have updated the entire core to leverage ColdBox 4 and modularity.  We have completely re-architected all modules to adhere to ColdBox 4 standards and rely on CommandBox CLI for package management and resolutions.  This update in itself is worth noting as it not only modularized even more ContentBox, but gave it a source code reduction and performance boosts.
 
 
-### Oracle + PostgreSQL Support
+### <i class="fa fa-database"></i> Oracle + PostgreSQL Support
 
 <img src="/images/postgresql.png" width="250">
 <img src="/images/oracle.gif" width="300">
