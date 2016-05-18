@@ -77,6 +77,8 @@ RSS feed options and caching options can now be customized via settings.
 ### Content Featured Images
 All content objects now have the ability to set natively a featured image alongside the content.
 
+![](/images/featured_image.png)
+
 ### Author Edit Panels
 The author details now sports two new panels to showcase their latest edits and latest drafts.  It will make it much easier for authors or administrators to discover what they are working on.
 
