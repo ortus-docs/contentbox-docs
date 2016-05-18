@@ -76,8 +76,17 @@ We have included a new code editor that supports HTML and Markdown natively.  Th
 ### Editor Auto Save
 We have introduced local storage auto saving capabilities for all editors in ContentBox.  No matter the implementation, we will provide auto-save capabilities.  This is a great way to know that silently your work is secure.
 
-### Escaping Markup Translations
+### Editor Escaping Markup Translations
 You can now use the `<escape></escape>` syntax in any content editor to escape ContentBox translations for settings, markdown, etc.
+
+
+### Editor Responsive Previews
+All live previews are now responsive.  Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
+
+
+### Editor UI Updates
+The content editors have completely been re-designed for mobile first paradigm.  They sport new tabbed interfaces for history, comments, custom fields and editing.  You also have much more real estate when editing and even full screen editing support. 
+
 
 
 ### Admin Fullscreen Mode
@@ -86,10 +95,6 @@ We have added HTML5 fullscreen mode capabilities for the admin UI.  This will al
 
 ### Configurable RSS
 RSS feed creation can now be customized via settings.
-
-
-### Editor Responsive Previews
-All live previews are now responsive.  Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
 
 
 ### Content Featured Images
