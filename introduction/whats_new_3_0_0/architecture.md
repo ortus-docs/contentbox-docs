@@ -18,7 +18,7 @@ Oracle and PostgreSQL are now fully supported.
 
 
 ### BCrypt Support
-The default algorithm for passwords is now based on BCrypt with work factors for better security and entropy.
+The default algorithm for passwords is now based on BCrypt with work factors for better security and entropy. You can read more on bcrypt here: https://en.wikipedia.org/wiki/Bcrypt
 
 
 ### Password Policy
