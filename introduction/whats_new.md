@@ -4,23 +4,31 @@ ContentBox 3.0.0 is a major release and with a completely rewritten administrati
 
 ContentBox 3 is a collection of more than 150 tickets resolved.  It has been a massive undertaking with some great resoluts.  Below we go through the major updates and feature improvements.
 
-## ColdBox 4 
+## System Architecture Updates
+
+The following are major system architecture updates we have done in ContentBox 3.
+
+### ColdBox 4 
 We have updated the entire core to leverage ColdBox 4 and modularity.  We have completely re-architected all modules to adhere to ColdBox 4 standards and rely on CommandBox CLI for package management and resolutions.  This update in itself is worth noting as it not only modularized even more ContentBox, but gave it a source code reduction and performance boosts.
 
-## Oracle + PostgreSQL Support
+### Oracle + PostgreSQL Support
 Oracle and PostgreSQL are now fully supported.
 
-## Admin UI
+### Admin UI
 The administration module sports a completely re-designed responsive UI.  Our goal was to think mobile first and build from there.  So you will see tons of great additions for working on mobile devices, new editors, new fullscreen mdoes and much much more.
 
-## BCrypt Support
+### BCrypt Support
 The default algorithm for passwords is now BCrypt with work factors for better security and entropy.
 
-## Password Policy
+### Password Policy
 A new password policy is now in place for ContentBox for new and current users.  
 
 ## Markdown Native Support
 ContentBox now sports native Markdown support for all content objects.
+
+----
+
+## Admin Updates
 
 ## New Code Editor
 We have included a new code editor that supports HTML and Markdown natively.  This will allow developers or editors to write in native markup and have all the integrations into ContentBox.  It also sports realtime previews and side-by-side editing in full screen.  Your editing experience is about to get a whole lot better now.
@@ -102,6 +110,12 @@ You can now decide in which caching engine to store global ContentBox settings. 
 
 ## Core Settings
 Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings.
+
+
+----
+
+## Major Front End Updates
+
 
 ## UI Response Formats
 The UI module now allows you to be able to export your pages, or blog entries in many response formats:
