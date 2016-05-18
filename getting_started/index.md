@@ -254,7 +254,7 @@ As an administrator here you have full control of how this editor looks like. So
 
 You can also  insert images from the media manager gallery [click image icon/beside ‘A’], you can insert an image and say, browse server [click browse server], and you'll see that it’ll give you our ColdBox file browser [will pop up]. You can see the different medias that are available in the system [ ICONS/quit list view]. You can actually create new media very easily by drag and drop. 
 
-Print Renders
+#### Content Response Formats
 When you are in your site (not in the admin) there are also pretty cool things you can do. We created what we call a print renders. You can now come in and say, I want to view my page as print. You just need to add <.print> to the page URL and hit enter. And you will see that it changes the whole format to print version. You have complete control of this layout as well. By convention you just have the same layout called underscore print. You can create one called underscore pdf as well  or add “.pdf” to URL, and you'll see that it’ll produce a pdf output of your page as you designed it. You can also produce a word document by adding <.doc> to the URL of the page. 
 
 The Blog
