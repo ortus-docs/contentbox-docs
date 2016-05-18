@@ -27,7 +27,7 @@ Once the server is online go to your browser and type `http://localhost:8085`  w
 ![](images/installer_step1.png)
 
 
-> **Note** : if you go back again to the `bin` folder you are going to find a new folder called `contentboxDB`. This is the ContentBox Express embedded database. This doesn’t mean you can’t use other data bases with ContentBox Express Edition, but it has been done this way out of convenience. 
+> **Note** If you go back again to the `bin` folder you are going to find a new folder called `contentboxDB`. This is the ContentBox Express embedded database. This doesn’t mean you can’t use other data bases with ContentBox Express Edition, but it has been done this way out of convenience. 
 
 
 ### Step 4 : Administrator Information
