@@ -138,7 +138,7 @@ When saving content, a number of options are available:
 * Draft: Save a draft of the content and close Page Editor
 * Publish: Publish the content to your site and close Page Editor
 
-> Tip: You can collapse the side bar and still have your Quick Edits controls right from the gear widget [on the up right corner]. 
+> **Hint** You can collapse the side bar and still have your Quick Edits controls right from the gear widget [on the up right corner]. 
 
 ##### Display Options
 Display options allows you to control many aspects related to how the page will be displayed within your site.
