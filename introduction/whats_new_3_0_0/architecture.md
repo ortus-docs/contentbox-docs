@@ -38,7 +38,7 @@ Introduction of core and user based system settings. This allows for the disting
 You can now decide in which caching engine to store global ContentBox settings. This provides the way to fully scale ContentBox in any cloud provider.
 
 
-### SSL Support + 
+### <i class="fa fa-shield"></i> SSL Support + 
 SSL support can now be found everywhere in ContentBox for both the UI and admin modules.  Users can even select specific pages for users to transition into or out of SSL for richer eCommerce or secure experiences.
 
 
