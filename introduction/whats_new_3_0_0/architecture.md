@@ -21,7 +21,7 @@ Oracle and PostgreSQL are now fully supported.
 The default algorithm for passwords is now based on BCrypt with work factors for better security and entropy. You can read more on bcrypt here: https://en.wikipedia.org/wiki/Bcrypt
 
 
-### Password Policy
+### <i class="fa fa-lock"></i> Password Policy
 A new password policy is now in place for ContentBox for new and current users, which must be greater than 8 characters with at least one:
 
 * Lower case character
