@@ -50,7 +50,7 @@ The majority of all modules have been now translated into English, Spanish, Ital
 Our entire build process has been revamped and now we can produce ContentBox Express editions with included Java runtimes for Linux, Mac OS X and Windows.
 
 
-### Automated Asset Pipeline
+### <i class="fa fa-exchange"></i> Automated Asset Pipeline
 We have completely re-architected our asset pipeline and ContentBox now comes with an integrated development pipeline for front-end development.  All assets are now tracked via bower and npm.  We have created a developer guide for anybody working with the admin assets and collaborating.
 
 
