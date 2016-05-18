@@ -79,8 +79,10 @@ Here are the folders for the core engine to work accordingly
 ```
 {Root}/coldbox/system/aop/tmp
 {Root}/modules/contentbox/content
-{Root}/modules/contentbox/themes
 {Root}/modules/contentbox/modules_user
+
+# If you want ForgeBox enabled downloads
+{Root}/modules/contentbox/themes
 {Root}/modules/contentbox/updates
 {Root}/modules/contentbox/widgets
 ```
