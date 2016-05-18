@@ -224,7 +224,7 @@ Choosing “Delete” from the Page Actions menu will delete the selected page, 
 ##### History
 Choosing History from the Page Actions menu will open the history channel for the selected page. You can view how many versions of the page exist, as well as compare the current version [black dot (left side under diff) to the last item] with the latest version [click compare versions; red button]. Comparing two versions will display a comparison chart of the data that have changed between versions. If needed, content versions can roll back to previous versions. When content is rolled back, ContentBox will create a new version number for the current version with the rollback.
 
-#### Widgets. An Easy Example.
+## Widgets. An Easy Example.
 Widgets are one of the most powerful tools in ContentBox.  Let’s start with an easy sample: Creating a News Page.
 
 [Pages view] Create a New Page [Create Page] and name it “News Page” [title]. Inside the CKEditor [ckeditor window] type:  “Welcome to my news!” and give it a heading [heading 2].
@@ -240,7 +240,7 @@ Now that you are done configuring the options that the RSS widget offers, click 
 
 You can actually have a Quick Preview by clicking the EYE or typing the Keyboard shortcut: Ctrl + P. The Quick Preview allows you to see how the changes you have made to your page (like your new widget) are going to render on your site before publishing them. 
 
-#### Inside the Page Editor
+### Inside the Page Editor
 
 Apart from the widgets you also have the ability to insert entries from the Content Store [ contentstore icon], to link to specific pages [ link icon], or to link to a specific entry [pencil icon]. You can also insert different media items and images [image icon].
 
@@ -254,10 +254,10 @@ As an administrator here you have full control of how this editor looks like. So
 
 You can also  insert images from the media manager gallery [click image icon/beside ‘A’], you can insert an image and say, browse server [click browse server], and you'll see that it’ll give you our ColdBox file browser [will pop up]. You can see the different medias that are available in the system [ ICONS/quit list view]. You can actually create new media very easily by drag and drop. 
 
-#### Content Response Formats
+## Content Response Formats
 When you are in your site (not in the admin) there are also pretty cool things you can do. We created what we call a print renders. You can now come in and say, I want to view my page as print. You just need to add <.print> to the page URL and hit enter. And you will see that it changes the whole format to print version. You have complete control of this layout as well. By convention you just have the same layout called underscore print. You can create one called underscore pdf as well  or add “.pdf” to URL, and you'll see that it’ll produce a pdf output of your page as you designed it. You can also produce a word document by adding <.doc> to the URL of the page. 
 
-#### The Blog
+## The Blog
 The Blog [Content dropdown menu + blog], it basically reuses almost the same things. Actually under the hood, you can say we have an ORM object model that you can very easily extend and create custom content types, so, entries actually are just another custom content type based on a custom content object that we provide in ContentBox. You have the same capabilities [Global Actions] except there is no hierarchy but the rest it’s the same as if you were writing a normal page except these are based on blogs. 
 
 The Content Store
