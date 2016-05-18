@@ -56,6 +56,8 @@ The dashboard now supports a cleaner interface for visualizing the latest conten
 ### Media Manager Updates
 Improved UI to match the new admin UI with responsive updates.  It also has a smoother uploading and drag and drop uploading capabilities.
 
+![](/images/mediamanager.png)
+
 ### Admin Fullscreen Mode
 We have added HTML5 fullscreen mode capabilities for the admin UI.  This will allow you to go full screen to edit, create and manage in a gorgeous huge display.
 
