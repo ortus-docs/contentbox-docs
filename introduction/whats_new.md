@@ -10,6 +10,9 @@ We have updated the entire core to leverage ColdBox 4 and modularity.  We have c
 ## Oracle + PostgreSQL Support
 Oracle and PostgreSQL are now fully supported.
 
+## Admin UI
+The administration module sports a completely re-designed responsive UI.  Our goal was to think mobile first and build from there.  So you will see tons of great additions for working on mobile devices, new editors, new fullscreen mdoes and much much more.
+
 ## BCrypt Support
 The default algorithm for passwords is now BCrypt with work factors for better security and entropy.
 
@@ -21,6 +24,9 @@ ContentBox now sports native Markdown support for all content objects.
 
 ## New Code Editor
 We have included a new code editor that supports HTML and Markdown natively.  This will allow developers or editors to write in native markup and have all the integrations into ContentBox.  It also sports realtime previews and side-by-side editing in full screen.  Your editing experience is about to get a whole lot better now.
+
+## Auto Save
+We have introduced local storage auto saving capabilities for all editors in ContentBox.  No matter the implementation, we will provide auto-save capabilities.  This is a great way to know that silently your work is secure.
 
 ## Fullscreen Mode
 We have added HTML5 fullscreen mode capabilities for the admin UI.  This will allow you to go full screen to edit, create and manage in a gorgeous huge display.
@@ -34,12 +40,6 @@ SSL support can now be found everywhere in ContentBox for both the UI and admin 
 ## Internationalization
 The majority of all modules have been now translated into English, Spanish, Italian, German and French.  There is still work to do to localize the entire source, but it is coming.
 
-
-## Admin UI
-The administration module sports a completely re-designed responsive UI.  Our goal was to think mobile first and build from there.  So you will see tons of great additions for working on mobile devices, new editors, new fullscreen mdoes and much much more.
-
-## Auto Save
-We have introduced local storage auto saving capabilities for all editors in ContentBox.  No matter the implementation, we will provide auto-save capabilities.  This is a great way to know that silently your work is secure.
 
 ## Responsive Previews
 All live previews are now responsive.  Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
