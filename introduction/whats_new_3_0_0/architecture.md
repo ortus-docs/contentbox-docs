@@ -34,6 +34,7 @@ A new password policy is now in place for ContentBox for new and current users, 
 
 The ContentBox administrator module now comes with a login tracker which if enabled can track invalid logins and be able to block individual ip addresses from brute-force attempts.  We even track all valid logins into the new ContentBox Security Audit Log.
 
+![](/images/authlogs.png)
 ![](/images/logintracker.png)
 
 
