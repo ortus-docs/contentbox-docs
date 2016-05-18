@@ -58,7 +58,13 @@ Click Start Installation! ContentBox will prepare the database and process the f
 ![](images/installer_done.png)
 
 
-You are done! Go ahead and visit your site by clicking Visit Site and log into your Contentbox Administration by clicking Visit Administrator.
+You are done! Go ahead and visit your site by clicking **Visit Site** and log into your Contentbox Administration by clicking **Visit Administrator**.
+
+> **Important** : Please make sure you delete the `contentbox-installer` and `contentbox-dsncreator` modules after installation.  The administrator will warn you about it and you can even delete those modules from the admin dashboard.
+
+
+
+
 Welcome to ContentBox! 
 ContentBox is a professional open source software. For support or custom development, please feel free to contact us.
 
