@@ -37,10 +37,10 @@ The ContentBox administrator module now comes with a login tracker which if enab
 ![](/images/authlogs.png)
 ![](/images/logintracker.png)
 
-
-
-
 ### <i class="fa fa-filter"></i> Rate Limiter
+
+
+![](/images/ratelimiter.png)
 
 
 ### <i class="fa fa-gear"></i> Core Settings
