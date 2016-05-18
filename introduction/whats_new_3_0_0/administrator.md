@@ -63,11 +63,16 @@ Improved UI to match the new admin UI with responsive updates.  It also has a sm
 ### Admin Fullscreen Mode
 We have added HTML5 fullscreen mode capabilities for the admin UI.  This will allow you to go full screen to edit, create and manage in a gorgeous huge display.
 
-![](/images/admin_actions.png)
+![](/images/admin_topactions.png)
 
 
 ### Configurable RSS
 RSS feed creation can now be customized via settings.
+
+
+![](/images/rss_options.png)
+
+![](/images/rss_caching.png)
 
 
 ### Content Featured Images
