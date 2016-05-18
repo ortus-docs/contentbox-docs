@@ -30,7 +30,7 @@ A new password policy is now in place for ContentBox for new and current users, 
 * Special character
 
 
-### <i class="fa fa-lock"></i> Login Tracker
+### <i class="fa fa-paw"></i> Login Tracker
 
 
 ### <i class="fa fa-filter"></i> Rate Limiter
