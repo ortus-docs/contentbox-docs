@@ -1,4 +1,4 @@
-# ContentBox Getting Started
+# ContentBox CMS Getting Started Guide
 
 ## Quick Setup
 The Quick Setup will take you through 11 easy steps in order to configure and install a ContentBox Express Edition with an embedded database. Ready, set, go!
