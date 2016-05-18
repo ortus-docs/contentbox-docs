@@ -72,19 +72,19 @@ Our entire build process has been revamped and now we can produce ContentBox Exp
 ## Author Content Edits
 The author details now sports two new panels to showcase their latest edits and latest drafts.  It will make it much easier for authors or administrators to discover what they are working on.
 
-## Layouts are now Themes
+### Layouts are now Themes
 Themes is our new mantra.  We have transitioned layouts to what we now call ContentBox Themes.  They have been revamped to support ColdBox 4.
 
-### New Theme.cfc
+#### New Theme.cfc
 The theme descriptor CFC is now named `Theme.cfc`.  Backwards compatibility still remains, but now the new descriptor will provide a nice way for editors and tools to target.
 
-### Theme Setting Groups
+#### Theme Setting Groups
 You can now create theme setting groups in the theme descriptor `Theme.cfc` and the new admin UI will present them in a categorized and ordered format.  This is a great way to visualize theme settings.
 
-### Theme Modules
+#### Theme Modules
 Themes can now include ContentBox modules in a new folder convention called `modules`. This allows you to ship your theme with 1 or a billion modules.
 
-### New Theme Events
+#### New Theme Events
 The theme life-cycle now presents several new events:
 
 * `cbadmin_preThemeSettingsSave` - Before saving theme settings
@@ -92,13 +92,13 @@ The theme life-cycle now presents several new events:
 * `cbadmin_onThemeSettings` - When displaying theme settings in the admin UI
 * `cbadmin_onThemeInfo` - When displaying theme information on the admin UI
 
-## CBHelper Updates
+### CBHelper Updates
 The CBHelper sports some new methods:
 * `getPrivateRequestCollection()` - Get the ColdBox private request collection
 * `isHomePage()` - Verify if the current rendered page is the home page
 * `prepareUIRequest()` - Use in any ColdBox module to prepare rendering under the ContentBox theme
 
-## New Admin Interception Points
+### New Admin Interception Points
 Here is a collection of all the new admin interception points:
 
 * `onGlobalSearchRequest` - When a global search is made
