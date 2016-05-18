@@ -41,12 +41,12 @@ Fill out basic information for your ContentBox Site and click Next Step.
 ![](images/installer_step3.png)
 
 ### Step 6 : Email Setup
-You can connect ContentBox to any email system in order to send notifications. By clicking Next Step without changing anything ContentBox will use by default the email settings in your application server.
+You can connect ContentBox to any email system in order to send notifications. By clicking Next Step without changing anything ContentBox will use by default the email settings in your application server (default).
 
 ![](images/installer_step4.png)
 
 ### Step 7 : URL Rewrites
- URL Rewrites: ContentBox Express Edition already has Full URL Rewrites enabled  It will automatically create you one URL for rewrite and one for iis7. 
+ContentBox Express Edition already has Full URL Rewrites enabled. So just use the dropdown to select `ContentBox Express` and it will automatically configure ContentBox for full URL rewrites.  We also support iis, nginx, apache, and CommandBox.
  
  
 ![](images/installer_step5.png)
