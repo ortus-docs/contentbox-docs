@@ -4,7 +4,7 @@
 The Quick Setup will take you through 11 easy steps in order to configure and install ContentBox Express Edition starting from scratch. Ready, set, go!
 
 1. Go to https://www.ortussolutions.com/products/contentbox#downloads and click on the download ContentBox Express Edition for your operating system.
-1. Extract the contentbox-express  zip (we recommend you to do this in a new folder) . 
+1. Extract the `contentbox-express.zip` (we recommend you to do this in a new folder) . 
 Open the bin folder and double click startup.bat and Kaboom! ContentBox will start to deploy.
 ContentBox will set a local server. This server is embedded so you don’t have to install anything to your machine.
 Once the server is online go to your browser and type localhost:8085  which is the port that ContentBox uses and hit enter. Your browser should open the install wizard.
