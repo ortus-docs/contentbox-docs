@@ -67,7 +67,7 @@ We have added HTML5 fullscreen mode capabilities for the admin UI.  This will al
 
 
 ### Configurable RSS
-RSS feed options and caching can now be customized via settings.
+RSS feed options and caching options can now be customized via settings.
 
 
 ![](/images/rss_options.png)
