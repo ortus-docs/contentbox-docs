@@ -49,6 +49,9 @@ The content editors have completely been re-designed for mobile first paradigm. 
 ### New Dashboard
 The dashboard now supports a cleaner interface for visualizing the latest content edits, drafts, comments and news.
 
+![](/images/dashboard_tabs.png)
+![](/images/dashboard_latest.png)
+
 
 ### Media Manager Updates
 Improved UI to match the new admin UI with responsive updates.  It also has a smoother uploading and drag and drop uploading capabilities.
