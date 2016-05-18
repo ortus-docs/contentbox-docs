@@ -1,4 +1,4 @@
-# Getting Started
+> # Getting Started
 
 ## Quick Setup
 The Quick Setup will take you through 11 easy steps in order to configure and install a ContentBox Express Edition with an embedded database. Ready, set, go!
@@ -18,7 +18,7 @@ Once downloaded, extract the `contentbox-express-{version}.zip` (we recommend yo
 
 Open the `bin` folder and double click `startup.bat` (Windows) or execute the `startup.sh` (Linux,Mac) and Kaboom! ContentBox will start to deploy a local embedded server with an embedded database.
 
-
+> **Tip** : If you are in Unix or Mac OS X, make sure you give the `bin` folder execution permissions.  You can do this by running `chmod -R +x bin` to give the directory execution permissions.
 
 
 4.  Once the server is online go to your browser and type localhost:8085  which is the port that ContentBox uses and hit enter. Your browser should open the install wizard.
