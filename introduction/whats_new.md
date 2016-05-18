@@ -42,6 +42,10 @@ Our entire build process has been revamped and now we can produce ContentBox Exp
 We have completely re-architected our asset pipeline and ContentBox now comes with an integrated development pipeline for front-end development.  All assets are now tracked via bower and npm.  We have created a developer guide for anybody working with the admin assets and collaborating.
 
 
+### CommandBox Integration
+All development is now done with CommandBox and all dependencies are tracked via CommandBox.  This provides a smoother update processes for users and also a great workflow for collaboratino.
+
+
 ----
 
 ## Admin Updates
