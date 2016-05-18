@@ -24,6 +24,9 @@ Open the `bin` folder and double click `startup.bat` (Windows) or execute the `s
 
 Once the server is online go to your browser and type `http://localhost:8085`  which is the port that ContentBox Express uses and hit enter. Your browser should now open the install wizard.  Read the instructions and click on the **Start Installer** button to start the process.
 
+![](images/installer_step1.png)
+
+
 > **Note** : if you go back again to the `bin` folder you are going to find a new folder called `contentboxDB`. This is the ContentBox Express embedded database. This doesn’t mean you can’t use other data bases with ContentBox Express Edition, but it has been done this way out of convenience. 
 
 
