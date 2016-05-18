@@ -34,7 +34,7 @@ A new password policy is now in place for ContentBox for new and current users, 
 Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings.
 
 
-### <i class="fa fa-world"></i> Settings Cluster Storage
+### <i class="fa fa-globe"></i> Settings Cluster Storage
 You can now decide in which caching engine to store global ContentBox settings. This provides the way to fully scale ContentBox in any cloud provider.
 
 
