@@ -77,13 +77,18 @@ ContentBox needs some files/folders to be writable at runtime.  We use this for 
 Here are the folders for the core engine to work accordingly
 
 ```
+# Engine Operation (REQUIRED)
 {Root}/coldbox/system/aop/tmp
+
+# Media Manager
 {Root}/modules/contentbox/content
-{Root}/modules/contentbox/modules_user
+
+# Auto-udpates
+{Root}/modules/contentbox/updates
 
 # If you want ForgeBox enabled downloads
+{Root}/modules/contentbox/modules_user
 {Root}/modules/contentbox/themes
-{Root}/modules/contentbox/updates
 {Root}/modules/contentbox/widgets
 ```
 
