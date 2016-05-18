@@ -36,7 +36,7 @@ Fill out the setup details for your ContentBox Administrator and click Next Step
 ![](images/installer_step2.png)
 
 ### Step 5 : Site Setup
-Site: Fill out basic information for your ContentBox Site and click Next Step.
+Fill out basic information for your ContentBox Site and click Next Step.
 
 ![](images/installer_step3.png)
 
