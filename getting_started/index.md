@@ -3,7 +3,7 @@
 ## Quick Setup
 The Quick Setup will take you through 8 easy steps in order to configure and install a ContentBox Express Edition with an embedded database. Ready, set, go!
 
-> You can also use our CommandBox installation process but you will need to setup your own database.  The Express edition already comes with an embedded database, so it will be easier to setup.
+> **Note** You can also use our CommandBox installation process but you will need to setup your own database.  The Express edition already comes with an embedded database, so it will be easier to setup.
 
 ### Step 1 : Download
 Go to https://www.ortussolutions.com/products/contentbox#downloads and click on the download ContentBox Express Edition for your operating system.
@@ -18,7 +18,7 @@ Once downloaded, extract the `contentbox-express-{version}.zip` (we recommend yo
 
 Open the `bin` folder and double click `startup.bat` (Windows) or execute the `startup.sh` (Linux,Mac) and Kaboom! ContentBox will start to deploy a local embedded server with an embedded database.
 
-> **Tip** If you are in Unix or Mac OS X, make sure you give the `bin` folder execution permissions.  You can do this by running `chmod -R +x bin` to give the directory execution permissions.
+> **Warning** If you are in Unix or Mac OS X, make sure you give the `bin` folder execution permissions.  You can do this by running `chmod -R +x bin` to give the directory execution permissions.
 
 ### Step 3 : Running the Installer
 
@@ -27,7 +27,7 @@ Once the server is online go to your browser and type `http://localhost:8085`  w
 ![](images/installer_step1.png)
 
 
-> **Note** If you go back again to the `bin` folder you are going to find a new folder called `contentboxDB`. This is the ContentBox Express embedded database. This doesn’t mean you can’t use other data bases with ContentBox Express Edition, but it has been done this way out of convenience. 
+> **Hint** If you go back again to the `bin` folder you are going to find a new folder called `contentboxDB`. This is the ContentBox Express embedded database. This doesn’t mean you can’t use other data bases with ContentBox Express Edition, but it has been done this way out of convenience. 
 
 
 ### Step 4 : Administrator Information
@@ -60,7 +60,7 @@ Click Start Installation! ContentBox will prepare the database and process the f
 
 You are done! Go ahead and visit your site by clicking **Visit Site** and log into your Contentbox Administration by clicking **Visit Administrator**.
 
-> **Important** : Please make sure you delete the `contentbox-installer` and `contentbox-dsncreator` modules after installation.  The administrator will warn you about it and you can even delete those modules from the admin dashboard.
+> **Danger** : Please make sure you delete the `contentbox-installer` and `contentbox-dsncreator` modules after installation.  The administrator will warn you about it and you can even delete those modules from the admin dashboard.
 
 Welcome to ContentBox! 
 
@@ -116,7 +116,7 @@ Inside Pages click Create Page and the Page Editor will open.
 Name your page by giving it a Title and ContentBox will give you the permalink for the page. 
 By default, the Page Editor uses CKeditor for a WYSIWYG editor. ContentBox also offers different other editors that are available in your installation.
 
-> Remember that editors are programmable so any module developer can actually register new editors in your system.
+> **Hint** Remember that editors are programmable so any module developer can actually register new editors in your system.
 
 The Page editor has markup support [button right beside Editor Button]. HTML markup is currently supported by default. 
 
