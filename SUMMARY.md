@@ -3,6 +3,7 @@
 * [Introduction](README.md)
    * [What's New With 3.0.0](introduction/whats_new.md)
        * Architecture
+       * Adminstrator
    * [Upgrading to 3.0.0](introduction/upgrading.md)
    * [About This Book](introduction/about_this_book.md)
    * [Author](introduction/author.md)
