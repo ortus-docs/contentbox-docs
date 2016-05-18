@@ -79,8 +79,12 @@ All content objects now have the ability to set natively a featured image alongs
 
 ![](/images/featured_image.png)
 
+
+
 ### Author Edit Panels
 The author details now sports two new panels to showcase their latest edits and latest drafts.  It will make it much easier for authors or administrators to discover what they are working on.
+
+![](/images/author_tabs.png)
 
 
 ### CBHelper Updates
