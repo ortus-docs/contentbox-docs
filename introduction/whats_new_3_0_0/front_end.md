@@ -7,12 +7,18 @@ We have a new official UI theme that you will come to love.  It has over 10 diff
 
 
 ## RESTFul Response Formats
-The UI module now allows you to be able to export your pages, or blog entries in many response formats:
+The UI module now allows you to be able to export your pages, or blog entries in many response formats by adding the formats as extensions to the URL or using a `?format=XXX` URL variable.
 
 * json
 * XML
 * PDF
 * word
+
+```
+http://localhost/home.json
+http://localhost/blog.json
+http://localhost/blog/websockets.xml
+```
 
 The JSON and XML support means you can now build alternative UI modules based on modern JavaScript or other language frameworks.  This is a game changer for ContentBox as it will provide you with the ability to export any piece of content or blog in a tranportable RESTFul format.
 
