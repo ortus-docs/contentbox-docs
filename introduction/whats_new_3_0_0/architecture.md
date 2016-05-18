@@ -22,7 +22,12 @@ The default algorithm for passwords is now based on BCrypt with work factors for
 
 
 ### Password Policy
-A new password policy is now in place for ContentBox for new and current users.  
+A new password policy is now in place for ContentBox for new and current users, which must be greater than 8 characters with at least one:
+
+* Lower case character
+* Upper case character
+* Digit
+* Special character
 
 
 ### Core Settings
