@@ -42,11 +42,11 @@ You can now decide in which caching engine to store global ContentBox settings. 
 SSL support can now be found everywhere in ContentBox for both the UI and admin modules.  Users can even select specific pages for users to transition into or out of SSL for richer eCommerce or secure experiences.
 
 
-### Internationalization
+### <i class="fa fa-language"></i> Internationalization
 The majority of all modules have been now translated into English, Spanish, Italian, German and French.  There is still work to do to localize the entire source, but it is coming.
 
 
-### ContentBox Express with JRE
+### <i class="fa fa-java"></i> ContentBox Express with JRE
 Our entire build process has been revamped and now we can produce ContentBox Express editions with included Java runtimes for Linux, Mac OS X and Windows.
 
 
