@@ -235,7 +235,7 @@ Before clicking Insert Widget there are a few things you can modify. For example
 
 Now that you are done configuring the options that the RSS widget offers, click Insert Widget. You should now see a graphical representation of your widget within the CKEditor content editing area. 
 
-> Note: You can configure your inserted widget anytime by double-clicking the widget content, or by choosing “Edit Widget” from the context menu
+> **Hint** You can configure your inserted widget anytime by double-clicking the widget content, or by choosing “Edit Widget” from the context menu
 
 
 You can actually have a Quick Preview by clicking the EYE or typing the Keyboard shortcut: Ctrl + P. The Quick Preview allows you to see how the changes you have made to your page (like your new widget) are going to render on your site before publishing them. 
@@ -248,7 +248,7 @@ For example, to link a few words [select a word from TEXT] to a specific page, h
 
 You can also insert from the Content Store [ccontentstore icon].  You can try inserting something from the Content Store you will see it creates a kind of pseudo Markup. ContentBox will automatically render this content when the page is viewed.
 
-> Tip: [clicking the eye or type CTRL+P] to get a preview and to actually see the translation of that markup.
+> **Hint** [clicking the eye or type CTRL+P] to get a preview and to actually see the translation of that markup.
 
 As an administrator here you have full control of how this editor looks like. So for example right now you are seeing every single option known to man. However you can basically limit this for editors. You can limit actually all the controls that you are seeing. So you have all control of how everything looks and feels. So if you need to make it simpler you can really do so very easy.  
 
