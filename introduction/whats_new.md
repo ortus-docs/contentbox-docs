@@ -26,12 +26,18 @@ A new password policy is now in place for ContentBox for new and current users.
 ### Core Settings
 Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings.
 
-## Markdown Native Support
-ContentBox now sports native Markdown support for all content objects.
+### Settings Cluster Storage
+You can now decide in which caching engine to store global ContentBox settings. This provides the way to fully scale ContentBox in any cloud provider.
+
+
 
 ----
 
 ## Admin Updates
+
+## Markdown Native Support
+ContentBox now sports native Markdown support for all content objects.
+
 
 ## New Code Editor
 We have included a new code editor that supports HTML and Markdown natively.  This will allow developers or editors to write in native markup and have all the integrations into ContentBox.  It also sports realtime previews and side-by-side editing in full screen.  Your editing experience is about to get a whole lot better now.
@@ -107,9 +113,6 @@ Here is a collection of all the new admin interception points:
 
 ## New Rendering Cache Header
 A new header will be sent to the browser if a content page is cached: `x-contentbox-cached-content`. This can provide proxies or cache engines the ability to tell when a page is cached by ContentBox.
-
-## Settings Cluster Storage
-You can now decide in which caching engine to store global ContentBox settings. This provides the way to fully scale ContentBox in any cloud provider.
 
 
 
