@@ -20,6 +20,11 @@ You can now create theme setting groups in the theme descriptor `Theme.cfc` and 
 ## Theme Modules
 Themes can now include ContentBox modules in a new folder convention called `modules`. This allows you to ship your theme with 1 or a billion modules.
 
+
+![](/images/themes_structure.png)
+
+
+
 ## New Theme Events
 The theme life-cycle now presents several new events:
 
