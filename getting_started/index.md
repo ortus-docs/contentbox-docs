@@ -20,7 +20,7 @@ Open the `bin` folder and double click `startup.bat` (Windows) or execute the `s
 
 > **Tip** : If you are in Unix or Mac OS X, make sure you give the `bin` folder execution permissions.  You can do this by running `chmod -R +x bin` to give the directory execution permissions.
 
-### Step 3 : Installer
+### Step 3 : Running the Installer
 
 Once the server is online go to your browser and type `http://localhost:8085`  which is the port that ContentBox Express uses and hit enter. Your browser should now open the install wizard.
 
