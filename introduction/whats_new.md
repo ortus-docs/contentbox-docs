@@ -34,6 +34,14 @@ SSL support can now be found everywhere in ContentBox for both the UI and admin 
 The majority of all modules have been now translated into English, Spanish, Italian, German and French.  There is still work to do to localize the entire source, but it is coming.
 
 
+### ContentBox Express with JRE
+Our entire build process has been revamped and now we can produce ContentBox Express editions with included Java runtimes for Linux, Mac OS X and Windows.
+
+
+### Automated Asset Pipeline
+We have completely re-architected our asset pipeline and ContentBox now comes with an integrated development pipeline for front-end development.  All assets are now tracked via bower and npm.
+
+
 ----
 
 ## Admin Updates
@@ -59,17 +67,17 @@ We have introduced local storage auto saving capabilities for all editors in Con
 ### Admin Fullscreen Mode
 We have added HTML5 fullscreen mode capabilities for the admin UI.  This will allow you to go full screen to edit, create and manage in a gorgeous huge display.
 
+
 ### Configurable RSS
 RSS feed creation can now be customized via settings.
+
 
 ### Responsive Previews
 All live previews are now responsive.  Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
 
+
 ### Featured Images
 All content objects now have the ability to set natively a featured image alongside the content.
-
-## ContentBox Express with JRE
-Our entire build process has been revamped and now we can produce ContentBox Express editions with included Java runtimes for Linux, Mac OS X and Windows.
 
 ## Author Content Edits
 The author details now sports two new panels to showcase their latest edits and latest drafts.  It will make it much easier for authors or administrators to discover what they are working on.
