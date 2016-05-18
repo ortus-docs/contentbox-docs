@@ -76,7 +76,7 @@ We have added HTML5 fullscreen mode capabilities for the admin UI.  This will al
 RSS feed creation can now be customized via settings.
 
 
-### Responsive Previews
+### Editor Responsive Previews
 All live previews are now responsive.  Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
 
 
