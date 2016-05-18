@@ -41,7 +41,7 @@ Fill out basic information for your ContentBox Site and click Next Step.
 ![](images/installer_step3.png)
 
 ### Step 6 : Email Setup
-Email: you can connect ContentBox to any email system in order to receive notifications. By clicking Next Step without changing anything ContentBox will use by default the email settings in your application server.
+You can connect ContentBox to any email system in order to send notifications. By clicking Next Step without changing anything ContentBox will use by default the email settings in your application server.
 
 ![](images/installer_step4.png)
 
