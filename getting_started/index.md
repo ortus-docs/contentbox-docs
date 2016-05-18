@@ -18,7 +18,7 @@ Once downloaded, extract the `contentbox-express-{version}.zip` (we recommend yo
 
 Open the `bin` folder and double click `startup.bat` (Windows) or execute the `startup.sh` (Linux,Mac) and Kaboom! ContentBox will start to deploy a local embedded server with an embedded database.
 
-> **Tip** : If you are in Unix or Mac OS X, make sure you give the `bin` folder execution permissions.  You can do this by running `chmod -R +x bin` to give the directory execution permissions.
+> **Tip** If you are in Unix or Mac OS X, make sure you give the `bin` folder execution permissions.  You can do this by running `chmod -R +x bin` to give the directory execution permissions.
 
 ### Step 3 : Running the Installer
 
