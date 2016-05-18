@@ -92,6 +92,9 @@ The content editors have completely been re-designed for mobile first paradigm. 
 The dashboard now supports a cleaner interface for visualizing the latest content edits, drafts, comments and news.
 
 
+### Media Manager Updates
+Improved UI to match the new admin UI with responsive updates.  It also has a smoother uploading and drag and drop uploading capabilities.
+
 ### Admin Fullscreen Mode
 We have added HTML5 fullscreen mode capabilities for the admin UI.  This will allow you to go full screen to edit, create and manage in a gorgeous huge display.
 
