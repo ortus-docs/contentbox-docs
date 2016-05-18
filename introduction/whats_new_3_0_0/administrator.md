@@ -3,7 +3,7 @@
 Below is a listing of all the major updates in the administration modules.
 
 ### Admin UI
-The administration module sports a completely re-designed responsive UI.  Our goal was to think mobile first and build from there.  So you will see tons of great additions for working on mobile devices, new editors, new fullscreen mdoes and much much more.
+The administration module sports a completely re-designed responsive UI.  Our goal was to think mobile first and build from there.  So you will see tons of great additions for working on mobile devices, new editors, new fullscreen mdoes and much much more.  Below is a nice image gallery of all the changes in the administration module.  Please note that every single screen has changed.
 
 <br>
 
