@@ -9,7 +9,7 @@
    * [Upgrading to 3.0.0](introduction/upgrading.md)
    * [About This Book](introduction/about_this_book.md)
    * [Author](introduction/author.md)
-* [Getting Started](getting_started.md)
+* [Getting Started](getting_started/index.md)
 * [Installation](installation/index.md)
    * [System Requirements](installation/system_requirements.md)
    * [CommandBox Installation](installation/commandbox_installation.md)
