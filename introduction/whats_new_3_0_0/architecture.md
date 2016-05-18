@@ -30,6 +30,12 @@ A new password policy is now in place for ContentBox for new and current users, 
 * Special character
 
 
+### <i class="fa fa-lock"></i> Login Tracker
+
+
+### <i class="fa fa-filter"></i> Rate Limiter
+
+
 ### <i class="fa fa-gear"></i> Core Settings
 Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings when managing them from the geek panel.
 
