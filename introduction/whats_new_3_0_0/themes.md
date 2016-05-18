@@ -5,6 +5,8 @@ We have also updated the theming engine in ContentBox with ColdBox 4 goodness an
 ## Themes not Layouts
 Themes is our new mantra.  We have transitioned layouts to what we now call ContentBox Themes.  They have been revamped to support ColdBox 4.
 
+![](/images/themes_location.png)
+
 ## New Theme.cfc
 The theme descriptor CFC is now named `Theme.cfc`.  Backwards compatibility still remains, but now the new descriptor will provide a nice way for editors and tools to target.
 
