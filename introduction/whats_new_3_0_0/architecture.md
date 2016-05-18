@@ -35,6 +35,10 @@ Introduction of core and user based system settings. This allows for the disting
 
 
 ### <i class="fa fa-globe"></i> Settings Cluster Storage
+
+![](/images/cluster_settings.png)
+
+
 You can now decide in which caching engine to store global ContentBox settings. This provides the way to fully scale ContentBox in any cloud provider.
 
 
