@@ -23,6 +23,9 @@ The default algorithm for passwords is now BCrypt with work factors for better s
 ### Password Policy
 A new password policy is now in place for ContentBox for new and current users.  
 
+### Core Settings
+Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings.
+
 ## Markdown Native Support
 ContentBox now sports native Markdown support for all content objects.
 
@@ -108,8 +111,7 @@ A new header will be sent to the browser if a content page is cached: `x-content
 ## Settings Cluster Storage
 You can now decide in which caching engine to store global ContentBox settings. This provides the way to fully scale ContentBox in any cloud provider.
 
-## Core Settings
-Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings.
+
 
 
 ----
