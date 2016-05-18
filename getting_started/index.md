@@ -195,7 +195,7 @@ When you Publish your Child Page you will be redirected to the Parent Page Hiera
 
 You can then continue to go back in your hierarchy and you can go back home [click home button]. The “+” sign beside a page indicates that that pages has at least one Child Page. 
 
-> Tip: Visit your page to see the changes you have made to your site. We recommend you Clear Content Caches.
+> **Hint** Visit your page to see the changes you have made to your site. We recommend you Clear Content Caches.
 
 #### Global Actions
 The Pages manager provides a number of global actions [Global Action button; drop down menu/beside create page button] that make managing your content easy. These actions include:
