@@ -171,8 +171,8 @@ ContentBox allows you to provide additional organization of your content by sett
 ##### HTML Attributes
 To help you configure your page for Search Engine Optimization (SEO), ContentBox provides the ability to specify HTML attributes for your page, including:
 
-* Keywords: List of keywords that will be added to the <head> of your page
-* Description: Text description of the content that will be added to the <head> of your page
+* Keywords: List of keywords that will be added to the `<head>` of your page
+* Description: Text description of the content that will be added to the `<head>` of your page
 
 On the bottom of the page you have the Page Excerpts. You can create summaries of your Page 
 Excerpts pages and then in your UI use them as you see fit.
