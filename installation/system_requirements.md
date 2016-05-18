@@ -74,12 +74,11 @@ ContentBox needs some files/folders to be writable at runtime.  We use this for 
 
 ### Engine
 
-Here are the folders for the core
+Here are the folders for the core engine to work accordingly
 
 ```
 {Root}/coldbox/system/aop/tmp
 {Root}/modules/contentbox/content
-{Root}/modules/contentbox/email_templates
 {Root}/modules/contentbox/themes
 {Root}/modules/contentbox/modules_user
 {Root}/modules/contentbox/updates
@@ -87,4 +86,4 @@ Here are the folders for the core
 ```
 
 
-> **Info** If you will not be using any ForgeBox download deployments then you do not need to enable write permissions for `themes, modules_user, and widgets`.
+> **Danger** If you will not be using any ForgeBox download deployments then you do not need to enable write permissions for `themes, modules_user, and widgets`.
