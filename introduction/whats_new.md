@@ -39,7 +39,7 @@ Our entire build process has been revamped and now we can produce ContentBox Exp
 
 
 ### Automated Asset Pipeline
-We have completely re-architected our asset pipeline and ContentBox now comes with an integrated development pipeline for front-end development.  All assets are now tracked via bower and npm.
+We have completely re-architected our asset pipeline and ContentBox now comes with an integrated development pipeline for front-end development.  All assets are now tracked via bower and npm.  We have created a developer guide for anybody working with the admin assets and collaborating.
 
 
 ----
