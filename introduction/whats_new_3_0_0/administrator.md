@@ -89,6 +89,7 @@ The author details now sports two new panels to showcase their latest edits and 
 
 ### CBHelper Updates
 The CBHelper sports some new methods:
+
 * `getPrivateRequestCollection()` - Get the ColdBox private request collection
 * `isHomePage()` - Verify if the current rendered page is the home page
 * `prepareUIRequest()` - Use in any ColdBox module to prepare rendering under the ContentBox theme
