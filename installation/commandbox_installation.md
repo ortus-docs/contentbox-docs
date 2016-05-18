@@ -39,6 +39,7 @@ This will install the latest stable ContentBox and run an embedded server (lucee
 
 > **Danger** We recommend that after you install ContentBox that you remove the installer and datsource wizard modules from disk.  You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
 
+
 ## Custom Datasources
 
 To change the datasource you can go into the CFML engine administrator and changing it.  Just look in your taskbar for an Ortus Logo like the one below:
