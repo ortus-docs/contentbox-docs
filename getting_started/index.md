@@ -260,33 +260,43 @@ When you are in your site (not in the admin) there are also pretty cool things y
 ## The Blog
 The Blog [Content dropdown menu + blog], it basically reuses almost the same things. Actually under the hood, you can say we have an ORM object model that you can very easily extend and create custom content types, so, entries actually are just another custom content type based on a custom content object that we provide in ContentBox. You have the same capabilities [Global Actions] except there is no hierarchy but the rest it’s the same as if you were writing a normal page except these are based on blogs. 
 
-The Content Store
+## The Content Store
 [Click Content dropdown ContentStore] The contentstore is one of the most interesting features of ContentBox which allows you to store any piece of content, whether it can be Java Script, HTML CSS internalization bid, anything that you like can be stored, binaries images RSS feeds, you name it. You can store anything you want in the content store. 
+
 This is also a custom content type based on ORM object. Same capabilities [global actions] of export, draft, importing, are available to you. The same actions pretty much. [3xGears] You have history, so you have version control, you have the ability to export them, edit them, clone them, delete them, etc.
+
 When you create content [click create content] is a little bit different than the other ones. You have a title for your content. The slug is the unique identifier that you will access this content piece with; and a short description. And then in the editor [click the editor box] you can choose this to be content [circle around blank area] or if you wanted just a simple text area [change Editor dropdown menu to Text Area] you can move to a simple text area [click OK]. 
+
 [Content Store Editor opens] and  [click typing box] just type a content as you see fit. Or if you want, what we call [drop down menu Editor, select Edit/Area + cancel/ok] our coders. 
+
 Example:
  [coders editors drop down, default HTML] And right here is our coders editor and you can see that you can even say [drop down menu] 'I want to type in ColdFusion', you can go ahead and start typing here [type asdf + enter x3] and it’ll do some syntax highlighting for you.
 
 But the whole thing is for you to be able to create content. Give the metadata [scroll down] to specific content.
+
 You can also choose publishing schema [scroll up, topright corner side bar] for your content, different caching characteristics [hover over caching open/close] if you are an administrator and also, categorize [open/close categories] your content as you see fit. 
 [click BACK] [Content Store view opens] So the Content Store is very powerful and you can pretty much do anything you like with it and then retrieve or build your own modules to get that content out. 
 
-Categories
+## Categories
 [Content + Categories] Categories is very simple, it's just categorization. This is where you can create as many categorize as you see fit. 
 
-Media Manager
+## Media Manager
 [Content + Media manager] Media manager is and embedded media manager that we ship with ColdBox. If you are an administrator you have different libraries [Switch Library drop down menu; top right] that you can managed for example if you want to manage the widgets [click widgets in the DDM] you can manage the widgets, so you can install manually other widgets or download some of the widgets that you have available here. 
+
 [Switch Library + Update] You can check out the auto update channel so you can actually do any type of modifications. So it’s up to you what you want to do with is [switch to list view]. Obviously, and administrator can choose all the different things [select new ‘blog folder’ & click X to delete] and all different permissions and right that you can do with this [hover in circle] as well. 
 
-Comments
+## Comments
 [Click Comments + Inbox] It’s basically an inbuilt commenting system. It has lots of capabilities [Global Actions] from approving to moderation. You have a lot of settings [comment + settings] available for commenting as well, from enabling ‘Site Wide’ comments, to disabling them. URL translations, security captchas, moderation rules, notification rules, so you have a lot of flexibility when it comes to your comments so you can attach comments to anything e.g. pages, blog entries, etc except the Content Store. 
 
-Look and Feel
+## Look and Feel
 [look & Feel + Layouts] Now, Look and Feel are obviously very important.
 So you have our layouts section. As you can see some of our sections are tide to forgebox [ForgeBox upper right corner].
+
  Again this is administration permission, but you can actually talk into ForgeBox [click ForgeBox] so you can connect to ForgeBox. It will bring you all the different setups available that you can install immediately. If you download a layout for example, you can then go to your Manage Layouts 
+ 
 [click manage layouts / left side panel] and you can see that the new layout will be there. If you want to set is as your current layout you can go ahead and activate it [click Activate for the layout]. You can go to your site and check your new layout. 
  So very easy [back to admin / active layout] you can now start skinning or downloading themes. 
+
 If you are building themes just please remember to contribute into ForgeBox so everybody can benefit. 
+
 [Manage Layouts]  Management is for you to be able to see which layouts you have. Activate them, upload them, if you need to upload a new theme [Upload layout / up right], rebuild the internal registry or do any kind of clean up.
