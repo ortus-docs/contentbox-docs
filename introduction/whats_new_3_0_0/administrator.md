@@ -6,6 +6,10 @@ Below is a listing of all the major updates in the administration modules.
 The administration module sports a completely re-designed responsive UI.  Our goal was to think mobile first and build from there.  So you will see tons of great additions for working on mobile devices, new editors, new fullscreen mdoes and much much more.
 
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/143009820@N03/albums/72157668208952472" title="ContentBox 3 Gallery"><img src="https://farm8.staticflickr.com/7365/26985570222_f377c7f69c_z.jpg" width="640" height="419" alt="ContentBox 3 Gallery"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+
 ### Markdown Native Support
 ContentBox now sports native Markdown support for all content objects.
 
