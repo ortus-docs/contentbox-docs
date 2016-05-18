@@ -115,21 +115,28 @@ You also have Global Actions: Delete Selected, Draft Selected, Publish Selected,
 Inside Pages click Create Page and the Page Editor will open. 
 Name your page by giving it a Title and ContentBox will give you the permalink for the page. 
 By default, the Page Editor uses CKeditor for a WYSIWYG editor. ContentBox also offers different other editors that are available in your installation.
-Remember that editors are programmable so any module developer can actually register new editors in your system.
+
+> Remember that editors are programmable so any module developer can actually register new editors in your system.
+
 The Page editor has markup support [button right beside Editor Button]. HTML markup is currently supported by default. 
+
 ContentBox’s implementation of CKEditor comes with support for a number of plugins, including:
-Insert code snippets [page icon beside (right) to World], 
-iframe [the world]
-Youtube or embedded media 
-Insert Lorem Ipsum Dolor [T] to create content. 
-Contentbox Widgets 
+* Insert code snippets [page icon beside (right) to World], 
+* iframe [the world]
+* Youtube or embedded media 
+* Insert Lorem Ipsum Dolor [T] to create content. 
+* Contentbox Widgets 
+
 On the right panel you have the Paging Details. 
-Publishing
+
+### Publishing
 ContentBox allows you to publish the page on a specific date and time, as well as set an expiration date to expire the content on any schedule you choose. Additionally, commit messages can be included (and even required) via the change log, providing built-in version control of your content.
+
 When saving content, a number of options are available:
-Save: Preserve a snapshot of the page as is, and continue editing
-Draft: Save a draft of the content and close Page Editor
-Publish: Publish the content to your site and close Page Editor
+
+* Save: Preserve a snapshot of the page as is, and continue editing
+* Draft: Save a draft of the content and close Page Editor
+* Publish: Publish the content to your site and close Page Editor
 
 Tip: You can collapse the side bar and still have your Quick Edits controls right from the gear widget [on the up right corner]. 
 Display Options
