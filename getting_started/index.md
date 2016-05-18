@@ -187,41 +187,58 @@ After you are done editing your page, you can go ahead and Publish it [click pub
 
 #### Child Pages
 In addition to specifying the parent of a page via the Page Editor, ContentBox also allows you to quickly create “child” pages via the main Page Manager.
+
 On the Pages page, find a page you have already created and click Page Actions and select Create Child. Page actions button) in the product row at the right edge; click ‘Create Child’].
 The Page Editor will open as normal. However, in this scenario, the new page will automatically be added to the selected parent page.
-When you Publish your Child Page you will be redirected to the Parent Page Hierarchy View where you will be able to see all the Child Pages for the parent page. Just like with Pages, when you have created multiple Child Pages you have also complete control of manipulating how the Child Pages are rendered. So again, you can choose which Child Page should be last or first with simple drag and drop.
-You can then continue to go back in your hierarchy and you can go back home [click home button]. The “+” sign beside a page indicates that that pages has at least one Child Page. 
-Tip: Visit your page to see the changes you have made to your site. We recommend you Clear Content Caches.
 
-3.1.3 Global Actions
+When you Publish your Child Page you will be redirected to the Parent Page Hierarchy View where you will be able to see all the Child Pages for the parent page. Just like with Pages, when you have created multiple Child Pages you have also complete control of manipulating how the Child Pages are rendered. So again, you can choose which Child Page should be last or first with simple drag and drop.
+
+You can then continue to go back in your hierarchy and you can go back home [click home button]. The “+” sign beside a page indicates that that pages has at least one Child Page. 
+
+> Tip: Visit your page to see the changes you have made to your site. We recommend you Clear Content Caches.
+
+#### Global Actions
 The Pages manager provides a number of global actions [Global Action button; drop down menu/beside create page button] that make managing your content easy. These actions include:
-Delete Selected: Will delete all selected pages (via checkboxes)
-Draft Selected: Will put all selected pages into draft status (via checkboxes)
-Publish Selected: Will publish all selected pages (via checkboxes)
-Import: If you have a ContentBox page export file (.json) from another site, you can use the Import option to quickly import the file and add the page to your site
-Export All: Allows you to export all your pages as either XML or JSON. This is particular useful if you need to transfer content from one site to another.
-Show All: By default, ContentBox “pages” your view to provide the best performance. However, you can select “Show All” to view the full list of all the pages in your site.
-3.1.4 Page Actions
+
+* Delete Selected: Will delete all selected pages (via checkboxes)
+* Draft Selected: Will put all selected pages into draft status (via checkboxes)
+* Publish Selected: Will publish all selected pages (via checkboxes)
+* Import: If you have a ContentBox page export file (.json) from another site, you can use the Import option to quickly import the file and add the page to your site* 
+* Export All: Allows you to export all your pages as either XML o* r JSON. This is particular useful if you need to transfer content from one site to another.* 
+* Show All: By default, ContentBox “pages” your view to provide the best performance. However, you can select “Show All” to view the full list of all the pages in your site.
+
+#### Page Actions
 Each page in the Pages view has an actions column which allows you to quickly execute several actions on your page.
-Page Info
+
+##### Page Info
 Provides detailed information about your page [go to about row on the list and hover over the ‘’i’’], from last edited date to page-rendering configuration.
-Clone
+
+##### Clone
 If you have a page that you’d like to use as starting point for a new page, you can Clone a selected page by choosing “Clone” from the Page Actions menu. 
 When cloning a page, you can specify a new, custom title for the page, as well as whether or not the new, cloned page should be automatically published. Additionally, you can clone entire hierarchy of pages [hover over products]. 
 Interesting: ContentBox will look into the content of cloned pages  and update any slug that points to any point of the hierarchy so anything that is slash “myoriginalpage” page will be rewritten to slash/new-myoriginalpage.
-Delete
+
+##### Delete
 Choosing “Delete” from the Page Actions menu will delete the selected page, as well as any child pages.
-History
+
+##### History
 Choosing History from the Page Actions menu will open the history channel for the selected page. You can view how many versions of the page exist, as well as compare the current version [black dot (left side under diff) to the last item] with the latest version [click compare versions; red button]. Comparing two versions will display a comparison chart of the data that have changed between versions. If needed, content versions can roll back to previous versions. When content is rolled back, ContentBox will create a new version number for the current version with the rollback.
-Widgets. An Easy Example.
-Widgets are one of the most powerful tools in ContentBox.
-Let’s start with an easy sample: Creating a News Page.
+
+#### Widgets. An Easy Example.
+Widgets are one of the most powerful tools in ContentBox.  Let’s start with an easy sample: Creating a News Page.
+
 [Pages view] Create a New Page [Create Page] and name it “News Page” [title]. Inside the CKEditor [ckeditor window] type:  “Welcome to my news!” and give it a heading [heading 2].
+
 Click Create a New Widget and type “RSS” in the Quick Filter. Select the RSS Widget . You will see that it gives you an error because you need to fill out the required info for the widget. To do this, get the RSS link for your favorite news site and paste it in the feed URL field. If your link is valid, you should see a list of links display in the Widget Preview area. 
+
 Before clicking Insert Widget there are a few things you can modify. For example, maxItems allows you to select very easy how many items you want to be displayed in. You can also  use showBody in order to show the body or collapse the body of the news article.
+
 Now that you are done configuring the options that the RSS widget offers, click Insert Widget. You should now see a graphical representation of your widget within the CKEditor content editing area. 
-Note: You can configure your inserted widget anytime by double-clicking the widget content, or by choosing “Edit Widget” from the context menu
- You can actually have a Quick Preview by clicking the EYE or typing the Keyboard shortcut: Ctrl + P. The Quick Preview allows you to see how the changes you have made to your page (like your new widget) are going to render on your site before publishing them. 
+
+> Note: You can configure your inserted widget anytime by double-clicking the widget content, or by choosing “Edit Widget” from the context menu
+
+
+You can actually have a Quick Preview by clicking the EYE or typing the Keyboard shortcut: Ctrl + P. The Quick Preview allows you to see how the changes you have made to your page (like your new widget) are going to render on your site before publishing them. 
 Inside the Page Editor
  [Inside Page Editor] 
 Apart from the widgets you also have the ability to insert entries from the Content Store [ contentstore icon], to link to specific pages [ link icon], or to link to a specific entry [pencil icon]. You can also insert different media items and images [image icon].
