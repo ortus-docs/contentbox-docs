@@ -35,6 +35,7 @@ You can now decide in which caching engine to store global ContentBox settings. 
 ### SSL Support + 
 SSL support can now be found everywhere in ContentBox for both the UI and admin modules.  Users can even select specific pages for users to transition into or out of SSL for richer eCommerce or secure experiences.
 
+
 ### Internationalization
 The majority of all modules have been now translated into English, Spanish, Italian, German and French.  There is still work to do to localize the entire source, but it is coming.
 
