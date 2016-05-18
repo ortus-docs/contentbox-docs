@@ -12,7 +12,7 @@ Go to https://www.ortussolutions.com/products/contentbox#downloads and click on 
 
 Once downloaded, extract the `contentbox-express-{version}.zip` (we recommend you to do this in a new folder).
 
-
+![](images/express_structure.png)
 
 4. 
 5. 3. Open the `bin` folder and double click `startup.bat` (Windows) or execute the `startup.sh` (Linux,Mac) and Kaboom! ContentBox will start to deploy.  ContentBox will set a local server. This server is embedded so you don’t have to install anything to your machine.
