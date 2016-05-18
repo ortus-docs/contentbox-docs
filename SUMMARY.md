@@ -4,7 +4,7 @@
    * [What's New With 3.0.0](introduction/whats_new.md)
        * [Architecture](introduction/whats_new_3_0_0/architecture.md)
        * [Administrator](introduction/whats_new_3_0_0/administrator.md)
-       * Front End
+       * [Front End](introduction/whats_new_3_0_0/front_end.md)
    * [Upgrading to 3.0.0](introduction/upgrading.md)
    * [About This Book](introduction/about_this_book.md)
    * [Author](introduction/author.md)
