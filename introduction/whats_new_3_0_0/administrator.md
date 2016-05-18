@@ -12,7 +12,7 @@ The administration module sports a completely re-designed responsive UI.  Our go
 
 
 ### Markdown Native Support
-ContentBox now sports native Markdown support for all content objects.
+ContentBox now sports native Markdown support for writing all content objects.  You can even choose markdown on a per-user level as your preferred writing style.
 
 
 ### New Code Editor
