@@ -33,11 +33,11 @@ server start --rewritesEnable
 
 > **Note** You can install the bleeding edge of ContentBox by using the `contentbox-be` slug instead of `contentbox` in the install command.
 
-This will install the latest stable ContentBox and run an embedded server for it.  After this you will get the ContenBox installer.  Just follow it through.
+This will install the latest stable ContentBox and run an embedded server (lucee) for it.  After this you will get the ContenBox installer.  Just follow it through.
 
 ![](../images/datasource_wizard.png)
 
-> **Caution** We recommend that after you install ContentBox that you remove the installer and datsource wizard modules from disk.  You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
+> **Danger** We recommend that after you install ContentBox that you remove the installer and datsource wizard modules from disk.  You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
 
 ## Custom Datasources
 
