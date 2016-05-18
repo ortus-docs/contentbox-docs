@@ -65,9 +65,10 @@ You are done! Go ahead and visit your site by clicking **Visit Site** and log in
 Welcome to ContentBox! 
 
 
-2.0 The ContentBox Dashboard
+## The ContentBox Dashboard
 Before diving into ContentBox, we recommend you to take a few minutes to get to know your Dashboard.
-2.1 Home 
+
+### Home 
 Under Recent Content you have:  Recent Pages, Recent Entries and Recent Content Store.
 
 On the right panel you have Data Snapshots where you can check Top visited Content, Top commented Content, Discussions and Content.
@@ -76,35 +77,39 @@ Then you have the whole layout of the administrator.
 On the upper right corner you have who you are and the about information about the software. There is also the add/remove Sidebar button so that you can remove the Sidebar to have more reading space. 
 On the upper left you have your administrator commands [the house icon on top] opening the site, [the plus icon] adding new data, [pencil icon] creating posts [the pencil icon + close] and some administrative options [master 3xWheel icon:] like the ability to clear the caches, reload the applications, reload the ORM, reload the administrator, and reload every single piece of module that you have available at ContentBox. 
 You have a Global Search which searches pretty much anything in your ContentBox.
-2.2 About
+
+### About
 Our about page is very useful. Apart from your build information it contains keyboard shortcuts! 
 ContentBox has a lot of keyboard shortcuts available for you and you can very easily navigate throughout it once you memorize them. 
 Also, for you module developers we also have an API based on a jquery java script library. And you can very easily do data biding for your own shortcuts so if you want to offer you own keyboard shortcuts it’s very easy. 
-2.3 Updates
+
+### Updates
 Our sophisticated auto-update system offers 3 ways of getting updates from Ortus Solutions. 
 Check for updates:
 We have a Stable Channel which can check against new ContentBox releases. 
 We also have a Bleeding Edge Release: all our releases will go in our release cycle so all our releases will be in the bleeding edge channel 1 or 2 weeks before actually making to a stable channel. 
 
-Download Updates:
+#### Download Updates:
 If you are upgrading from an old version of ContentBox, or you are a Ortus Solutions support client, we have the capability to give you an URL for specific patches. 
  
-Upload Updates:
+#### Upload Updates:
 If you don’t have internet access you can upload the patch and it will be delivered through your ContentBox installation. 
 Options 2 and 3 are great avenues for those companies and individuals that have support contracts or other special project arrangements with Ortus Solutions.
 
-3.0 Content
+## Content
 ContentBox provides many options for managing content, including:
 The ability to create pages which can be hierarchical
 An integrated blog which gives you instant, turn-key blogging capabilities
 The super-flexible Content Store which allows you to create and store any kind of content that you’d like. Whether you’re creating custom localized content, simple lists, or a complex content-delivery system for your mobile app, the Content Store is specifically designed to accommodate whatever your site or app needs. In conjunction with a RESTful API, you have a powerful content repository that can be used however you want!
 Categories which allow you to quickly and easily organize all your content in whatever way you choose
 An easy-to-use Media Manager which not only provides storage for your documents, images and other assets, but is also integrated into content creation tools to make using media in your content quick and easy.
-3.1 Pages
+
+### Pages
 Let’s get started with Pages. 
 Inside pages on your right panel you see that we have set up filters to filter out the view of the pages. 
 You also have Global Actions: Delete Selected, Draft Selected, Publish Selected, Import, Export All and Show All. 
-3.1.1 Page Editor
+
+### Page Editor
 Inside Pages click Create Page and the Page Editor will open. 
 Name your page by giving it a Title and ContentBox will give you the permalink for the page. 
 By default, the Page Editor uses CKeditor for a WYSIWYG editor. ContentBox also offers different other editors that are available in your installation.
