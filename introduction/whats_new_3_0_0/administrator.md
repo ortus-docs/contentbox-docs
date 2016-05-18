@@ -20,7 +20,7 @@ We have included a new code editor that supports HTML and Markdown natively.  Th
 
 ![](/images/code_editor.png)
 
-![](/images/editor_sidebyside.png)
+![width="40"](/images/editor_sidebyside.png)
 
 
 ### Editor Auto Save
