@@ -3,6 +3,8 @@
 ### New ContentBox Theme
 We have a new official UI theme that you will come to love.  It has over 10 different skins and configurations that will give you a plethora of configuration patterns for your site.  It is based on bower and grunt assets, so you can easily fork and customize.
 
+![](/images/themes_structure.png)
+
 
 ### RESTFul Response Formats
 The UI module now allows you to be able to export your pages, or blog entries in many response formats:
