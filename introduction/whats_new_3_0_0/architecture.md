@@ -39,6 +39,7 @@ The ContentBox administrator module now comes with a login tracker which if enab
 
 ### <i class="fa fa-filter"></i> Rate Limiter
 
+ContentBox now comes with a rate limiter module that can limit count and duration and very configurable.  This can stop denial of service attacks or just penetration hacking attempts.
 
 ![](/images/ratelimiter.png)
 
