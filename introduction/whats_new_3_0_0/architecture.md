@@ -46,7 +46,7 @@ SSL support can now be found everywhere in ContentBox for both the UI and admin 
 The majority of all modules have been now translated into English, Spanish, Italian, German and French.  There is still work to do to localize the entire source, but it is coming.
 
 
-### <i class="fa fa-java"></i> ContentBox Express with JRE
+### <i class="fa fa-coffee"></i> ContentBox Express with JRE
 Our entire build process has been revamped and now we can produce ContentBox Express editions with included Java runtimes for Linux, Mac OS X and Windows.
 
 
