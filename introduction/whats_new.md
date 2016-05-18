@@ -51,6 +51,9 @@ We have completely re-architected our asset pipeline and ContentBox now comes wi
 ### CommandBox Integration
 All development is now done with CommandBox and all dependencies are tracked via CommandBox.  This provides a smoother update processes for users and also a great workflow for collaboration.
 
+### DocBox API Docs
+DocBox now generates all API docs with much better documentation and readability.
+
 
 ----
 
