@@ -11,17 +11,22 @@ The following are major system architecture updates we have done in ContentBox 3
 ### ColdBox 4 
 We have updated the entire core to leverage ColdBox 4 and modularity.  We have completely re-architected all modules to adhere to ColdBox 4 standards and rely on CommandBox CLI for package management and resolutions.  This update in itself is worth noting as it not only modularized even more ContentBox, but gave it a source code reduction and performance boosts.
 
+
 ### Oracle + PostgreSQL Support
 Oracle and PostgreSQL are now fully supported.
+
 
 ### BCrypt Support
 The default algorithm for passwords is now BCrypt with work factors for better security and entropy.
 
+
 ### Password Policy
 A new password policy is now in place for ContentBox for new and current users.  
 
+
 ### Core Settings
 Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings.
+
 
 ### Settings Cluster Storage
 You can now decide in which caching engine to store global ContentBox settings. This provides the way to fully scale ContentBox in any cloud provider.
@@ -152,5 +157,5 @@ The UI module now allows you to be able to export your pages, or blog entries in
 
 The JSON and XML support means you can now build alternative UI modules based on modern JavaScript or other language frameworks.  This is a game changer for ContentBox as it will provide you with the ability to export any piece of content or blog in a tranportable RESTFul format.
 
-### New Rendering Cache Header
+### New Rendering Cache Headers
 A new header will be sent to the browser if a content page is cached: `x-contentbox-cached-content`. This can provide proxies or cache engines the ability to tell when a page is cached by ContentBox.
