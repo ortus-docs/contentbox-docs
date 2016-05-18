@@ -11,8 +11,8 @@ We have updated the entire core to leverage ColdBox 4 and modularity.  We have c
 
 ### Oracle + PostgreSQL Support
 
-![](/images/oracle.gif)
-![](/images/postgresql.png)
+<img src="/images/postgresql.png" width="250">
+<img src="/images/oracle.gif" width="300">
 
 Oracle and PostgreSQL are now fully supported.
 
