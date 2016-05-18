@@ -86,7 +86,14 @@ All content objects now have the ability to set natively a featured image alongs
 ### Author Edit Panels
 The author details now sports two new panels to showcase their latest edits and latest drafts.  It will make it much easier for authors or administrators to discover what they are working on.
 
-### Layouts are now Themes
+
+----
+
+## Theme Updates
+
+We have also updated the theming engine in ContentBox with ColdBox 4 goodness and extreme modularity.  Here you can find the major updates for the theming engine.
+
+### Themes not Layouts
 Themes is our new mantra.  We have transitioned layouts to what we now call ContentBox Themes.  They have been revamped to support ColdBox 4.
 
 #### New Theme.cfc
