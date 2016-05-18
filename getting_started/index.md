@@ -257,7 +257,7 @@ You can also  insert images from the media manager gallery [click image icon/bes
 #### Content Response Formats
 When you are in your site (not in the admin) there are also pretty cool things you can do. We created what we call a print renders. You can now come in and say, I want to view my page as print. You just need to add <.print> to the page URL and hit enter. And you will see that it changes the whole format to print version. You have complete control of this layout as well. By convention you just have the same layout called underscore print. You can create one called underscore pdf as well  or add “.pdf” to URL, and you'll see that it’ll produce a pdf output of your page as you designed it. You can also produce a word document by adding <.doc> to the URL of the page. 
 
-The Blog
+#### The Blog
 The Blog [Content dropdown menu + blog], it basically reuses almost the same things. Actually under the hood, you can say we have an ORM object model that you can very easily extend and create custom content types, so, entries actually are just another custom content type based on a custom content object that we provide in ContentBox. You have the same capabilities [Global Actions] except there is no hierarchy but the rest it’s the same as if you were writing a normal page except these are based on blogs. 
 
 The Content Store
