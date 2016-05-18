@@ -27,12 +27,22 @@ Once the server is online go to your browser and type `http://localhost:8085`  w
 > **Note** : if you go back again to the `bin` folder you are going to find a new folder called `contentboxDB`. This is the ContentBox Express embedded database. This doesn’t mean you can’t use other data bases with ContentBox Express Edition, but it has been done this way out of convenience. 
 
 
-In the install wizard click Start Installer.
- Administrator: Fill out the setup details for your ContentBox Administrator and click Next Step.
- Site: Fill out basic information for your ContentBox Site and click Next Step.
- Email: you can connect ContentBox to any email system in order to receive notifications. By clicking Next Step without changing anything ContentBox will use by default the email settings in your application server.
+### Step 4 : Administrator Information
+Fill out the setup details for your ContentBox Administrator and click Next Step.
+
+### Step 5 : Site Setup
+Site: Fill out basic information for your ContentBox Site and click Next Step.
+
+### Step 6 : Email Setup
+Email: you can connect ContentBox to any email system in order to receive notifications. By clicking Next Step without changing anything ContentBox will use by default the email settings in your application server.
+
+### Step 7 : URL Rewrites
  URL Rewrites: ContentBox Express Edition already has Full URL Rewrites enabled  It will automatically create you one URL for rewrite and one for iis7. 
- Click Start Installation! ContentBox will prepare the database and process the final configurations so it can start running. 
+
+### Step 8 : Done!
+Click Start Installation! ContentBox will prepare the database and process the final configurations so it can start running. 
+
+
 You are done! Go ahead and visit your site by clicking Visit Site and log into your Contentbox Administration by clicking Visit Administrator.
 Welcome to ContentBox! 
 ContentBox is a professional open source software. For support or custom development, please feel free to contact us.
