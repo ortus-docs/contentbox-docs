@@ -58,8 +58,12 @@ Improved UI to match the new admin UI with responsive updates.  It also has a sm
 
 ![](/images/mediamanager.png)
 
+
+
 ### Admin Fullscreen Mode
 We have added HTML5 fullscreen mode capabilities for the admin UI.  This will allow you to go full screen to edit, create and manage in a gorgeous huge display.
+
+![](/images/admin_actions.png)
 
 
 ### Configurable RSS
