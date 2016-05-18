@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
    * [What's New With 3.0.0](introduction/whats_new.md)
-       * Architecture
+       * [Architecture](introduction/whats_new_3_0_0/architecture.md)
        * Administrator
        * Front End
    * [Upgrading to 3.0.0](introduction/upgrading.md)
