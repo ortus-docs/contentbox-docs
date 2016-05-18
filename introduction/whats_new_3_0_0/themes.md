@@ -10,6 +10,8 @@ Themes is our new mantra.  We have transitioned layouts to what we now call Cont
 ## New Theme.cfc
 The theme descriptor CFC is now named `Theme.cfc`.  Backwards compatibility still remains, but now the new descriptor will provide a nice way for editors and tools to target.
 
+![](/images/themes_structure.png)
+
 ## Theme Setting Groups
 You can now create theme setting groups in the theme descriptor `Theme.cfc` and the new admin UI will present them in a categorized and ordered format.  This is a great way to visualize theme settings.
 
