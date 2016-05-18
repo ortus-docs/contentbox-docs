@@ -5,6 +5,8 @@ We have a new official UI theme that you will come to love.  It has over 10 diff
 
 ![](/images/themes_structure.png)
 
+![](/images/contentbox3_theme.png)
+
 
 ## RESTFul Response Formats
 The UI module now allows you to be able to export your pages, or blog entries in many response formats by adding the formats as extensions to the URL or using a `?format=XXX` URL variable.
