@@ -43,6 +43,8 @@ All live previews are now responsive.  Meaning you can choose from the responsiv
 ### Editor UI Updates
 The content editors have completely been re-designed for mobile first paradigm.  They sport new tabbed interfaces for history, comments, custom fields and editing.  You also have much more real estate when editing and even full screen editing support. 
 
+![](/images/editor_tabs.png)
+
 
 ### New Dashboard
 The dashboard now supports a cleaner interface for visualizing the latest content edits, drafts, comments and news.
