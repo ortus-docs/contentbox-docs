@@ -8,8 +8,10 @@ The Quick Setup will take you through 11 easy steps in order to configure and in
 1. Go to https://www.ortussolutions.com/products/contentbox#downloads and click on the download ContentBox Express Edition for your operating system.
 1. Extract the `contentbox-express-{version}.zip` (we recommend you to do this in a new folder) . 
 1. Open the `bin` folder and double click `startup.bat` (Windows) or execute the `startup.sh` (Linux,Mac) and Kaboom! ContentBox will start to deploy.
+
 ContentBox will set a local server. This server is embedded so you don’t have to install anything to your machine.
-Once the server is online go to your browser and type localhost:8085  which is the port that ContentBox uses and hit enter. Your browser should open the install wizard.
+
+4. Once the server is online go to your browser and type localhost:8085  which is the port that ContentBox uses and hit enter. Your browser should open the install wizard.
 Note: if you go back again to the bin folder you are going to find a new folder called contentboxDB. This is ContentBox Express embedded data base. This doesn’t mean you can’t use other data bases with ContentBox Express Edition, but it has been done this way out of convenience. 
 In the install wizard click Start Installer.
  Administrator: Fill out the setup details for your ContentBox Administrator and click Next Step.
