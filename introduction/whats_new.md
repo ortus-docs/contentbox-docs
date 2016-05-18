@@ -60,15 +60,10 @@ We have added HTML5 fullscreen mode capabilities for the admin UI.  This will al
 ### Configurable RSS
 RSS feed creation can now be customized via settings.
 
-
-
-## Responsive Previews
+### Responsive Previews
 All live previews are now responsive.  Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
 
-## New ContentBox Theme
-We have a new official UI theme that you will come to love.  It has over 10 different skins and configurations that will give you a plethora of configuration patterns for your site.  It is based on bower and grunt assets, so you can easily fork and customize.
-
-## Featured Images
+### Featured Images
 All content objects now have the ability to set natively a featured image alongside the content.
 
 ## ContentBox Express with JRE
@@ -125,8 +120,11 @@ A new header will be sent to the browser if a content page is cached: `x-content
 
 ## Major Front End Updates
 
+### New ContentBox Theme
+We have a new official UI theme that you will come to love.  It has over 10 different skins and configurations that will give you a plethora of configuration patterns for your site.  It is based on bower and grunt assets, so you can easily fork and customize.
 
-## UI Response Formats
+
+### UI Response Formats
 The UI module now allows you to be able to export your pages, or blog entries in many response formats:
 
 * json
