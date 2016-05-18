@@ -8,7 +8,7 @@ The Quick Setup will take you through 11 easy steps in order to configure and in
 ### Step 1 : Download
 Go to https://www.ortussolutions.com/products/contentbox#downloads and click on the download ContentBox Express Edition for your operating system.
 
-
+![](images/express_download.png)
 
 2. Extract the `contentbox-express-{version}.zip` (we recommend you to do this in a new folder) . 
 3. Open the `bin` folder and double click `startup.bat` (Windows) or execute the `startup.sh` (Linux,Mac) and Kaboom! ContentBox will start to deploy.  ContentBox will set a local server. This server is embedded so you don’t have to install anything to your machine.
