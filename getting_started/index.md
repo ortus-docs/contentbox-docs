@@ -33,17 +33,29 @@ Once the server is online go to your browser and type `http://localhost:8085`  w
 ### Step 4 : Administrator Information
 Fill out the setup details for your ContentBox Administrator and click Next Step.
 
+![](images/installer_step1.png)
+
 ### Step 5 : Site Setup
 Site: Fill out basic information for your ContentBox Site and click Next Step.
+
+![](images/installer_step2.png)
 
 ### Step 6 : Email Setup
 Email: you can connect ContentBox to any email system in order to receive notifications. By clicking Next Step without changing anything ContentBox will use by default the email settings in your application server.
 
+![](images/installer_step3.png)
+
 ### Step 7 : URL Rewrites
  URL Rewrites: ContentBox Express Edition already has Full URL Rewrites enabled  It will automatically create you one URL for rewrite and one for iis7. 
+ 
+ 
+![](images/installer_step4.png)
 
 ### Step 8 : Done!
 Click Start Installation! ContentBox will prepare the database and process the final configurations so it can start running. 
+
+
+![](images/installer_step5.png)
 
 
 You are done! Go ahead and visit your site by clicking Visit Site and log into your Contentbox Administration by clicking Visit Administrator.
