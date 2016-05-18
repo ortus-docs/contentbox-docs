@@ -17,7 +17,7 @@ We have updated the entire core to leverage ColdBox 4 and modularity.  We have c
 Oracle and PostgreSQL are now fully supported.
 
 
-### BCrypt Support
+### <i class="fa fa-lock"></i> BCrypt Support
 The default algorithm for passwords is now based on BCrypt with work factors for better security and entropy. You can read more on bcrypt here: https://en.wikipedia.org/wiki/Bcrypt
 
 
@@ -30,7 +30,7 @@ A new password policy is now in place for ContentBox for new and current users, 
 * Special character
 
 
-### Core Settings
+### <i class="fa fa-gear"></i> Core Settings
 Introduction of core and user based system settings. This allows for the distinguishing of what are ContentBox core settings and custom user or module settings.
 
 
