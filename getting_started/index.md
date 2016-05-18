@@ -62,11 +62,8 @@ You are done! Go ahead and visit your site by clicking **Visit Site** and log in
 
 > **Important** : Please make sure you delete the `contentbox-installer` and `contentbox-dsncreator` modules after installation.  The administrator will warn you about it and you can even delete those modules from the admin dashboard.
 
-
-
-
 Welcome to ContentBox! 
-ContentBox is a professional open source software. For support or custom development, please feel free to contact us.
+
 
 2.0 The ContentBox Dashboard
 Before diving into ContentBox, we recommend you to take a few minutes to get to know your Dashboard.
