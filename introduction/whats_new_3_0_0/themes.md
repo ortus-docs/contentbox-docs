@@ -15,6 +15,8 @@ The theme descriptor CFC is now named `Theme.cfc`.  Backwards compatibility stil
 ## Theme Setting Groups
 You can now create theme setting groups in the theme descriptor `Theme.cfc` and the new admin UI will present them in a categorized and ordered format.  This is a great way to visualize theme settings.
 
+![](/images/theme_setting_groups.png)
+
 ## Theme Modules
 Themes can now include ContentBox modules in a new folder convention called `modules`. This allows you to ship your theme with 1 or a billion modules.
 
