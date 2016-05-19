@@ -20,7 +20,7 @@
    * [Upgrading ContentBox](installation/upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
    * [Content Publishing](using/sitemap.md)
-       * Sitemap
+       * [Sitemap](using/sitemap.md)
        * Blog
    * [Content Managers](using/managers/README.md)
        * [Menu Manager](using/managers/menu.md)
