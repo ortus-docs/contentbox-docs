@@ -79,4 +79,13 @@ this.ormSettings = {
 };
 ```
 
+### Step 4 : `ColdBox.cfc` Settings
+
+We now move to the last step, open your application's `ColdBox.cfc` and you will add the following settings:
+
+```js
+
+
+```
+
 
