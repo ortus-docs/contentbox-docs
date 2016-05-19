@@ -1,2 +1,2 @@
-# &ldquo;Geek&rdquo; Settings
+# Geek Settings
 
