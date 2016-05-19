@@ -16,8 +16,8 @@
    * [Source Installation](installation/source_installation.md)
    * [WAR Installation](installation/war_installation.md)
    * [Express Installation](installation/express_installation.md)
-   * [Upgrading ContentBox](installation/upgrading_contentbox.md)
    * Existing ColdBox Application
+   * [Upgrading ContentBox](installation/upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
    * [Content Managers](using/managers/README.md)
        * [Publishing Workflow](using/managers/workflow.md)
