@@ -35,6 +35,7 @@
        * [Import/Export](using/administrators/import-export.md)
        * [Cache Management](using/administrators/caching.md)
    * [Content Publishing](using/sitemap.md)
+       * Sitemap
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
