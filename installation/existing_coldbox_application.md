@@ -34,8 +34,7 @@ You can either do a `install {list here}` and list out all the dependencies or j
 "cbmarkdown":"2.0.0+00007"
 ```
 
-## Step 2 : Copy over ContentBox
-
+## Step 2 : Copy over ContentBox Modules
 Now that the dependencies are installed, copy over all of the ContentBox modules from our regular download:
 
 * contentbox
@@ -43,6 +42,16 @@ Now that the dependencies are installed, copy over all of the ContentBox modules
 * contentbox-installer
 * contentbox-ui
 
+
+## Step 3 : `Application.cfc` Updates
+Now open your `Application.cfc` and you will add the following updates:
+
+```js
+// LOCATION MAPPINGS
+this.mappings[ "/contentbox" ] 	= COLDBOX_APP_ROOT_PATH & "modules/contentbox";
+// THE LOCATION OF THE ORM MODULE
+this.mappings[ "/cborm" ] = COLDBOX_APP_ROOT_PATH & "/modules/cborm";
+```
 
 
 
