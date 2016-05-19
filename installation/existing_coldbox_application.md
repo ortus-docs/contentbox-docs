@@ -108,3 +108,14 @@ That's it!  Once all those settings, mappings and module installations are done 
 > **Danger** Make sure you have the datasource created in your ColdFusion administrator.
 
 
+### Step 5 (Optional) : UI Route
+By default ContentBox is in **take over** mode. Meaning that the UI module will intercept all calls made to the application and process them as pages or blog entries.  If you DO NOT want this to happen, then you can segregate the UI module into a single entry point URL like `blog` or `site` or `pages`.  You can do this by opening the following file: `modules/contentbox-ui/ModuleConfig.cfc` and looking for the following code:
+
+```
+// YOUR SES URL ENTRY POINT FOR CONTENTBOX, IF EMPTY IT WILL TAKE OVER THE ENTIRE APPLICATION
+// IF YOU WANT TO SECTION OFF CONTENTBOX THEN FILL OUT AN SES ENTRY POINT LIKE /site OR /content
+// BY DEFAULT IT TAKES OVER THE ENTIRE APPLICATION
+this.entryPoint	= "";
+```
+
+Now update the `this.entryPoint` to whatever you like the entry point URL to be.  Restart the application and voila!
