@@ -21,6 +21,7 @@
 * [Using ContentBox](using/README.md)
    * [Content Publishing](using/sitemap.md)
        * [Blog](using/blog.md)
+       * Sitemap
    * [Content Managers](using/managers/README.md)
        * [Menu Manager](using/managers/menu.md)
        * [Media Manager](using/managers/media.md)
