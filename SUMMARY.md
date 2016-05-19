@@ -19,6 +19,9 @@
    * [Existing ColdBox Application](installation/existing_coldbox_application.md)
    * [Upgrading ContentBox](installation/upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
+   * [Content Publishing](using/sitemap.md)
+       * Sitemap
+       * Blog
    * [Content Managers](using/managers/README.md)
        * [Menu Manager](using/managers/menu.md)
        * [Media Manager](using/managers/media.md)
@@ -34,9 +37,6 @@
        * [Log Viewer](using/administrators/logs.md)
        * [Import/Export](using/administrators/import-export.md)
        * [Cache Management](using/administrators/caching.md)
-   * [Content Publishing](using/sitemap.md)
-       * Sitemap
-       * Blog
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
