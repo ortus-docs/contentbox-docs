@@ -34,6 +34,15 @@ You can either do a `install {list here}` and list out all the dependencies or j
 "cbmarkdown":"2.0.0+00007"
 ```
 
+## Step 2 : Copy over ContentBox
+
+Now that the dependencies are installed, copy over all of the ContentBox modules from our regular download:
+
+* contentbox
+* contentbox-admin
+* contentbox-installer
+* contentbox-ui
+
 
 
 
