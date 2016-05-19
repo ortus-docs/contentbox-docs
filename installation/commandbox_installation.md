@@ -1,4 +1,4 @@
-# CommandBox Installation
+# Installation using CommandBox
 
 ![](../images/CommandBoxLogo.png)
 
@@ -42,7 +42,7 @@ This will install the latest stable ContentBox and run an embedded server (lucee
 
 ## Custom Datasources
 
-To change the datasource you can go into the CFML engine administrator and changing it.  Just look in your taskbar for an Ortus Logo like the one below:
+To change the datasource you can go into the CFML engine administrator and change it.  Just look in your taskbar for an Ortus Logo like the one below:
 
 ![](../images/commandbox_tray.png)
 
