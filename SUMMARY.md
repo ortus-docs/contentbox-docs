@@ -17,7 +17,7 @@
    * [WAR Installation](installation/war_installation.md)
    * [Express Installation](installation/express_installation.md)
    * Existing ColdBox Application
-   * [Upgrading ContentBox](installation/upgrading_contentbox.md)
+   * [Upgrading ContentBox](installation/existing_coldbox_application.md)
 * [Using ContentBox](using/README.md)
    * [Content Managers](using/managers/README.md)
        * [Publishing Workflow](using/managers/workflow.md)
