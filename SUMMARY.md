@@ -21,7 +21,7 @@
 * [Using ContentBox](using/README.md)
    * [Content Publishing](using/content_publishing/index.md)
        * [Sitemap](using/content_publishing/sitemap.md)
-       * [content_publishing/Blog](using/content_publishing/contentpublishing/blog.md)
+       * [Blog](using/content_publishing/contentpublishing/blog.md)
    * [Content Managers](using/managers/README.md)
        * [Menu Manager](using/managers/menu.md)
        * [Media Manager](using/managers/media.md)
