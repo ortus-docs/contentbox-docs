@@ -1,6 +1,7 @@
 # Upgrading ContentBox
 
-![](images/updates.png)
+![udpates](/getting_started/images/updates.png)
+
 
 ContentBox sports automatic updates via the administrator panel `Dashboard > Updates`.  You can connect to the following update channels:
 
