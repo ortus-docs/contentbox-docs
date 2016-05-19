@@ -6,4 +6,6 @@ There are several ways to install ContentBox. You can:
 * Leverage the `ContentBox.war` to any **Java** enabled server
 * Run an express self-contained version.  
 
+
+
 So let's get started.
