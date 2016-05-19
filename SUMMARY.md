@@ -20,7 +20,7 @@
    * [Upgrading ContentBox](installation/upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
    * [Content Managers](using/managers/README.md)
-       * [Publishing Workflow](using/managers/workflow.md)
+       * [Sitemap](using/managers/workflow.md)
            * [Pages](using/managers/pages.md)
            * [Blog Entries](using/managers/blog.md)
            * [Comments](using/managers/comments.md)
