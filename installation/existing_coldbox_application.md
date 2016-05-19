@@ -44,6 +44,8 @@ Now that the dependencies are installed, copy over all of the ContentBox modules
 * contentbox-installer
 * contentbox-ui
 
+> **Note** Don't copy the DSN creator module, as we are assuming that your application already has an active datasource definition.
+
 
 ## Step 3 : `Application.cfc` Updates
 Now open your `Application.cfc` and you will add the following updates:
