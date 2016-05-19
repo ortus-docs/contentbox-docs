@@ -84,8 +84,23 @@ this.ormSettings = {
 We now move to the last step, open your application's `ColdBox.cfc` and you will add the following settings:
 
 ```js
+// Configure the admin messagebox
+messagebox = {
+    styleOverride 	= true,
+    template 		= "/contentbox/models/ui/templates/messagebox.cfm"
+};
 
-
+// ORM Module Configuration
+orm = {
+    // Enable Injection
+    injection = {
+        enabled = true
+    }
+};
 ```
+
+That's it!  Once all those settings, mappings and module installations are done you can now visit the installer module to continue with the installation process: `http://localhost/index.cfm/cbinstaller`
+
+> **Danger** Make sure you have the datasource created in your ColdFusion administrator.
 
 
