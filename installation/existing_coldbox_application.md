@@ -46,6 +46,7 @@ Now that the dependencies are installed, copy over all of the ContentBox modules
 ## Step 3 : `Application.cfc` Updates
 Now open your `Application.cfc` and you will add the following updates:
 
+### Mappings
 ```js
 // LOCATION MAPPINGS
 this.mappings[ "/contentbox" ] 	= COLDBOX_APP_ROOT_PATH & "modules/contentbox";
@@ -53,5 +54,29 @@ this.mappings[ "/contentbox" ] 	= COLDBOX_APP_ROOT_PATH & "modules/contentbox";
 this.mappings[ "/cborm" ] = COLDBOX_APP_ROOT_PATH & "/modules/cborm";
 ```
 
+### ORM Settings
+
+```js
+// ORM SETTINGS
+this.ormEnabled = true;
+this.ormSettings = {
+    // ENTITY LOCATIONS, ADD MORE LOCATIONS AS YOU SEE FIT
+    cfclocation=[ "models", "modules" ],
+    // DO NOT REMOVE THE FOLLOWING LINE OR AUTO-UPDATES MIGHT FAIL.
+    dbcreate = "update",
+    // FILL OUT: IF YOU WANT CHANGE SECONDARY CACHE, PLEASE UPDATE HERE
+    secondarycacheenabled = false,
+    cacheprovider		= "ehCache",
+    // ORM SESSION MANAGEMENT SETTINGS, DO NOT CHANGE
+    logSQL 				= false,
+    flushAtRequestEnd 	= false,
+    autoManageSession	= false,
+    // ORM EVENTS MUST BE TURNED ON FOR CONTENTBOX TO WORK
+    eventHandling 		= true,
+    eventHandler		= "cborm.models.EventHandler",
+    // THIS IS ADDED SO OTHER CFML ENGINES CAN WORK WITH CONTENTBOX
+    skipCFCWithError	= true
+};
+```
 
 
