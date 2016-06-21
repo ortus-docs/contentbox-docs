@@ -21,3 +21,5 @@ In order for the module to take effect, you must restart your application or eve
 
 ## Step 5: Visit Module
 Now open your application and visit the module by using the `/CB3Updater` URL entry point.  Here is an example: `http://mysite.com/cb3updater`
+
+<img src="images/cb3updater-step1.png">
