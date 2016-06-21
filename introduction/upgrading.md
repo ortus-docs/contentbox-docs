@@ -28,3 +28,5 @@ The module will be active and it will tell you to upgrade your application's `co
 
 ## Step 6: Automation
 Now you will be in step2 of the module wizard.  It will show you an updated `Application.cfc` according to your old `Application.cfc` on disk.  If there are any custom changes that are not reflected, then update as you see fit.  Once done, then click on the continue and save button. This will start the upgrade process.
+
+<img src="images/cb3updater-step2.png">
