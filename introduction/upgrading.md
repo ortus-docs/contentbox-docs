@@ -13,3 +13,5 @@ We have created a special ContentBox 2 module that will update your installation
 ## Step 3: Install CBCMS3 Updater
 
 Unzip the download and copy over the folder to your current ContentBox installation in the `modules` folder.  Make sure the folder is called `cbcms-updater-v3`.
+
+<img src="images/cb3updater-module.png">
