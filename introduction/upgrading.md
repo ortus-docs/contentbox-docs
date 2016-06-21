@@ -27,6 +27,6 @@ Now open your application and visit the module by using the `/CB3Updater` URL en
 The module will be active and it will tell you to upgrade your application's `config/ColdBox.cfc` that you must do so manually according to the instructions presented.  Once you have done this manual step, then save your file and click on the **Continue** button.
 
 ## Step 6: Automation
-Now you will be in step2 of the module wizard.  It will show you an updated `Application.cfc` according to your old `Application.cfc` on disk.  If there are any custom changes that are not reflected, then update as you see fit.  Once done, then click on the continue and save button. This will start the upgrade process.
+Now you will be in step2 of the module wizard.  It will show you an updated `Application.cfc` according to your old `Application.cfc` on disk.  If there are any custom changes that are not reflected, then update as you see fit.  Once done, then click on the continue and save button. This will start the upgrade process, grab a cup of coffee and wait for the installer to show you the finalization screens.
 
 <img src="images/cb3updater-step2.png">
