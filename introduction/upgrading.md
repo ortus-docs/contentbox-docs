@@ -23,3 +23,5 @@ In order for the module to take effect, you must restart your application or eve
 Now open your application and visit the module by using the `/CB3Updater` URL entry point.  Here is an example: `http://mysite.com/cb3updater`
 
 <img src="images/cb3updater-step1.png">
+
+The module will be active and it will tell you to upgrade your application's `config/ColdBox.cfc` that you must do so manually according to the instructions presented.  Once you have done this manual step, then save your file and click on the **Continue** button.
