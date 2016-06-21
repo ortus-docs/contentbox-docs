@@ -15,3 +15,9 @@ We have created a special ContentBox 2 module that will update your installation
 Unzip the download and copy over the folder to your current ContentBox installation in the `modules` folder.  Make sure the folder is called `cbcms-updater-v3`. It should be placed alongside the other ContentBox modules.
 
 <img src="images/cb3updater-module.png">
+
+## Step 4: Restart Application
+In order for the module to take effect, you must restart your application or even better your server.  
+
+## Step 5: Visit Module
+Now open your application and visit the module by using the `/CB3Updater` URL entry point.  Here is an example: `http://mysite.com/cb3updater`
