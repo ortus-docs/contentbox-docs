@@ -7,3 +7,5 @@ Like with any automated process, there is room for error. So backup your files a
 
 ## Step 2: Install CBCMS3 Updater
 We have created a special ContentBox 2 module that will update your installation.  Please visit https://github.com/Ortus-Solutions/cbcms-updater-v3 and download the **master** branch by clicking on the download button.
+
+<img src="images/cb3updater-github.png">
