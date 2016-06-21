@@ -31,7 +31,7 @@ Now you will be in step2 of the module wizard.  It will show you an updated `App
 
 <img src="images/cb3updater-step2.png">
 
-## Step 7: Finalizations
+## Step 7: DELETE UPDATE MODULE FROM DISK
 <img src="images/cb3updater-final.png">
 
 If all went well, then you should see the screenshot above.  You can now log in to your new application and site.  We would recommend a final server restart if possible as well. **IMPORTANT: Now you must delete the module from disk**
