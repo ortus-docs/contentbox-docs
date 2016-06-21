@@ -34,4 +34,4 @@ Now you will be in step2 of the module wizard.  It will show you an updated `App
 ## Step 7: Finalizations
 <img src="images/cb3updater-final.png">
 
-If all went well, then you should see the screenshot above.  You can now log in to your new application and site.  We would recommend a final server restart if possible as well.
+If all went well, then you should see the screenshot above.  You can now log in to your new application and site.  We would recommend a final server restart if possible as well. **IMPORTANT: Now you must delete the module from disk**
