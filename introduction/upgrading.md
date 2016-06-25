@@ -31,7 +31,12 @@ Now you will be in step2 of the module wizard.  It will show you an updated `App
 
 <img src="images/cb3updater-step2.png">
 
-## Step 7: DELETE UPDATE MODULE FROM DISK
+
+## Step 7 : WINDOWS ONLY
+
+If you are on a Windows machine, unfortunately, you will have to have an extra step due to the fact the OS creates file locks on certain files.  This means that the upgrader will not be able to upgrade the `coldbox` folder in its entirety.  You will have to stop the ColdFusion/Java server, and remove the following folder: `coldbox/system/core/javaloader` manually.  Once removed, restart the server and click on the button that says **Continue** so you can finalize the process.
+
+## Step 8: DELETE UPDATE MODULE FROM DISK
 <img src="images/cb3updater-final.png">
 
 If all went well, then you should see the screenshot above.  You can now log in to your new application and site.  We would recommend a final server restart if possible as well. **IMPORTANT: Now you must delete the module from disk**
