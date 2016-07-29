@@ -24,7 +24,6 @@
        * [Content Store](using/managers/contentstore.md)
        * [Media Manager](using/managers/media.md)
        * [Menu Manager](using/managers/menu.md)
-       * [Widgets](using/managers/widgets.md)
        * [Categories](using/managers/categories.md)
        * [Sitemap](using/content_publishing/sitemap.md)
    * [Administration](using/administrators/README.md)
@@ -38,6 +37,7 @@
        * Updates
    * Comments
    * Look & Feel
+   * [Widgets](using/managers/widgets.md)
    * Modules
    * Users
    * Tools
