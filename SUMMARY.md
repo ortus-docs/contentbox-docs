@@ -42,8 +42,8 @@
    * Look & Feel
    * Modules
    * Users
-   * System
    * Tools
+   * System
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
