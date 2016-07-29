@@ -29,7 +29,7 @@
    * [Comments](using/comments/index.md)
        * [Inbox](using/comments/inbox.md)
        * [Settings](using/comments/settings.md)
-   * [Widgets](using/look-and-feel/widgets.md)
+   * [Widgets](using/look-and-feel/index.md)
        * [Active Theme](using/look-and-feel/active_theme.md)
        * [Global HTML](using/look-and-feel/global_html.md)
        * [Themes](using/look-and-feel/themes.md)
