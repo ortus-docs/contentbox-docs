@@ -23,7 +23,7 @@
        * [Blog](using/content/blog.md)
        * [Content Store](using/managers/contentstore.md)
        * [Media Manager](using/content/media-manager.md)
-       * [Menu Manager](using/managers/menu.md)
+       * [Menu Manager](using/content/menu-manager.md)
        * [Categories](using/managers/categories.md)
        * [Sitemap](using/content_publishing/sitemap.md)
    * [Comments](using/comments)
