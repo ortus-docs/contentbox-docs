@@ -37,7 +37,7 @@
        * Updates
    * [Comments](using/comments)
    * [Widgets](using/managers/widgets.md)
-   * Look & Feel
+   * [Look & Feel](using/using/look_&_feel.md)
    * Modules
    * Users
    * Tools
