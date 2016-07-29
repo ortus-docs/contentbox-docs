@@ -30,7 +30,7 @@
        * [Inbox](using/comments/inbox.md)
        * [Settings](using/comments/settings.md)
    * [Widgets](using/look-and-feel/widgets.md)
-       * Look & Feel
+       * [Look & Feel](using/look-and-feel/look_&_feel.md)
    * Modules
    * Users
    * Tools
