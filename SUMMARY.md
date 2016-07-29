@@ -37,7 +37,7 @@
    * Modules
    * [Users](using/users/index.md)
        * [Manage](using/users/manage.md)
-       * Permissions
+       * [Permissions](using/users/permissions.md)
        * Roles
    * Tools
    * System
