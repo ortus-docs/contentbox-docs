@@ -36,8 +36,8 @@
        * [Cache Management](using/administrators/caching.md)
        * Updates
    * Comments
-   * Look & Feel
    * [Widgets](using/managers/widgets.md)
+   * Look & Feel
    * Modules
    * Users
    * Tools
