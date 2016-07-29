@@ -36,7 +36,7 @@
        * [Widgets](using/look-and-feel/widgets.md)
    * Modules
    * [Users](using/users/index.md)
-       * Manage
+       * [Manage](using/users/manage.md)
        * Permissions
        * Roles
    * Tools
