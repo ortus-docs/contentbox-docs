@@ -33,7 +33,7 @@
        * [Active Theme](using/look-and-feel/active_theme.md)
        * [Global HTML](using/look-and-feel/global_html.md)
        * [Themes](using/look-and-feel/themes.md)
-       * Widgets
+       * [Widgets](using/look-and-feel/widgets.md)
    * Modules
    * Users
    * Tools
