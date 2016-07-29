@@ -32,6 +32,7 @@
    * [Widgets](using/look-and-feel/widgets.md)
        * [Look & Feel](using/look-and-feel/look_&_feel.md)
        * [Active Theme](using/look-and-feel/active_theme.md)
+       * Global HTML
    * Modules
    * Users
    * Tools
