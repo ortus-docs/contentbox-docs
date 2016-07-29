@@ -37,6 +37,7 @@
    * Modules
    * [Users](using/users/index.md)
        * Manage
+       * Permissions
    * Tools
    * System
 * [Developing For ContentBox](developing/README.md)
