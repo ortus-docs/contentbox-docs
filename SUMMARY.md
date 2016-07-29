@@ -22,7 +22,7 @@
    * [Content](using/content/index.md)
        * [Blog](using/content/blog.md)
        * [Content Store](using/managers/contentstore.md)
-       * [Media Manager](using/managers/media.md)
+       * [Media Manager](using/content/media-manager.md)
        * [Menu Manager](using/managers/menu.md)
        * [Categories](using/managers/categories.md)
        * [Sitemap](using/content_publishing/sitemap.md)
