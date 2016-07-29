@@ -35,7 +35,7 @@
        * [Themes](using/look-and-feel/themes.md)
        * [Widgets](using/look-and-feel/widgets.md)
    * Modules
-   * Users
+   * [Users](using/users/index.md)
    * Tools
    * System
 * [Developing For ContentBox](developing/README.md)
