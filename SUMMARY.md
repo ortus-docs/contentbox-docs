@@ -27,7 +27,6 @@
        * [Menu Manager](using/managers/menu.md)
        * [Categories](using/managers/categories.md)
        * [Widgets](using/managers/widgets.md)
-       * [Content Store](using/content_publishing/content_store.md)
    * [Administration](using/administrators/README.md)
        * [Roles and Permissions](using/managers/permissions.md)
        * [System Settings](using/administrators/settings.md)
