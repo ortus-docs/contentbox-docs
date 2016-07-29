@@ -28,7 +28,6 @@
        * [Content Store](using/managers/contentstore.md)
        * [Menu Manager](using/managers/menu.md)
        * [Content Store](using/content_publishing/content_store.md)
-   * [Content Managers](using/managers/README.md)
    * [Administrators](using/administrators/README.md)
        * [User Management](using/managers/users.md)
        * [Roles and Permissions](using/managers/permissions.md)
