@@ -27,7 +27,6 @@
        * [Categories](using/managers/categories.md)
        * [Sitemap](using/content_publishing/sitemap.md)
    * [Administration](using/administrators/README.md)
-       * [Roles and Permissions](using/managers/permissions.md)
        * [System Settings](using/administrators/settings.md)
        * Updates
    * [Comments](using/comments)
