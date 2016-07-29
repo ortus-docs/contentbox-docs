@@ -38,9 +38,9 @@
        * [Import/Export](using/administrators/import-export.md)
        * [Cache Management](using/administrators/caching.md)
        * Updates
+   * Comments
    * Look & Feel
    * Modules
-   * Comments
    * Users
    * System
    * Tools
