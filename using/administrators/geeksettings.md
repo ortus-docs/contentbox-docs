@@ -1,2 +1,0 @@
-# Geek Settings
-
