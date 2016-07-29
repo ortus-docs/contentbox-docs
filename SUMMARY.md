@@ -31,7 +31,7 @@
        * [Settings](using/comments/settings.md)
    * [Widgets](using/look-and-feel/widgets.md)
        * [Look & Feel](using/look-and-feel/look_&_feel.md)
-       * Active Theme
+       * [Active Theme](using/look-and-feel/active_theme.md)
    * Modules
    * Users
    * Tools
