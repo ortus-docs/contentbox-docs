@@ -46,7 +46,7 @@
        * [Auth Logs](using/system/auth_logs.md)
        * [Geek Settings](using/system/geek_settings.md)
        * [Settings](using/system/settings.md)
-       * Security Rules
+       * [Security Rules](using/system/security_rules.md)
        * Updates
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
