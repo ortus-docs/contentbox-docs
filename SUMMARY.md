@@ -30,7 +30,6 @@
        * [Roles and Permissions](using/managers/permissions.md)
        * [System Settings](using/administrators/settings.md)
        * [Security Rules](using/administrators/security.md)
-       * Updates
    * [Comments](using/comments)
    * [Widgets](using/managers/widgets.md)
    * [Look & Feel](using/using/look_&_feel.md)
