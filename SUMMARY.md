@@ -28,6 +28,7 @@
        * [Sitemap](using/content/sitemap.md)
    * [Comments](using/comments/index.md)
        * [Inbox](using/comments/inbox.md)
+       * Settings
    * [Widgets](using/managers/widgets.md)
    * [Look & Feel](using/using/look_&_feel.md)
    * Modules
