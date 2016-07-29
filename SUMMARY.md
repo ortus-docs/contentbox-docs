@@ -25,7 +25,7 @@
        * [Content Store](using/managers/contentstore.md)
        * [Media Manager](using/managers/media.md)
        * [Menu Manager](using/managers/menu.md)
-       * [Content Categories](using/managers/categories.md)
+       * [Categories](using/managers/categories.md)
        * [Widgets](using/managers/widgets.md)
        * [Content Store](using/content_publishing/content_store.md)
    * [Administration](using/administrators/README.md)
