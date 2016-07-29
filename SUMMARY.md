@@ -39,7 +39,7 @@
        * [Manage](using/users/manage.md)
        * [Permissions](using/users/permissions.md)
        * [Roles](using/users/roles.md)
-   * Tools
+   * [Tools](using/tools/index.md)
    * System
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
