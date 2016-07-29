@@ -47,7 +47,7 @@
        * [Geek Settings](using/system/geek_settings.md)
        * [Settings](using/system/settings.md)
        * [Security Rules](using/system/security_rules.md)
-       * Updates
+       * [Updates](using/system/updates.md)
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
