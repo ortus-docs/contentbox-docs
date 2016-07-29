@@ -44,7 +44,7 @@
        * [Export](using/tools/export.md)
    * [System](using/system/index.md)
        * [Auth Logs](using/system/auth_logs.md)
-       * Geek Settings
+       * [Geek Settings](using/system/geek_settings.md)
        * Settings
        * Security Rules
        * Updates
