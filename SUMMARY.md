@@ -27,7 +27,7 @@
        * [Categories](using/content/categories.md)
        * [Sitemap](using/content/sitemap.md)
    * [Comments](using/comments/index.md)
-       * Inbox
+       * [Inbox](using/comments/inbox.md)
    * [Widgets](using/managers/widgets.md)
    * [Look & Feel](using/using/look_&_feel.md)
    * Modules
