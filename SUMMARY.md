@@ -40,7 +40,7 @@
        * [Permissions](using/users/permissions.md)
        * [Roles](using/users/roles.md)
    * [Tools](using/tools/index.md)
-       * Import
+       * [Import](using/tools/import.md)
    * System
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
