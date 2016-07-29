@@ -43,7 +43,7 @@
        * [Import](using/tools/import.md)
        * [Export](using/tools/export.md)
    * [System](using/system/index.md)
-       * Auth Logs
+       * [Auth Logs](using/system/auth_logs.md)
        * Geek Settings
        * Settings
        * Security Rules
