@@ -26,7 +26,6 @@
        * [Menu Manager](using/managers/menu.md)
        * [Categories](using/managers/categories.md)
        * [Sitemap](using/content_publishing/sitemap.md)
-   * [Administration](using/administrators/README.md)
    * [Comments](using/comments)
    * [Widgets](using/managers/widgets.md)
    * [Look & Feel](using/using/look_&_feel.md)
