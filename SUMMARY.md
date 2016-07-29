@@ -44,6 +44,7 @@
        * [Export](using/tools/export.md)
    * [System](using/system/index.md)
        * Auth Logs
+       * Geek Settings
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
