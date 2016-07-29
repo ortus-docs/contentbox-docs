@@ -40,6 +40,7 @@
        * Updates
    * Look & Feel
    * Modules
+   * Comments
 * [Developing For ContentBox](developing/README.md)
    * [Front-End Development](developing/front_end/README.md)
        * [File Structure](developing/front_end/files.md)
