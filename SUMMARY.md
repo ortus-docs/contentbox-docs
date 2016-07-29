@@ -24,7 +24,7 @@
        * [Content Store](using/managers/contentstore.md)
        * [Media Manager](using/content/media-manager.md)
        * [Menu Manager](using/content/menu-manager.md)
-       * [Categories](using/managers/categories.md)
+       * [Categories](using/content/categories.md)
        * [Sitemap](using/content_publishing/sitemap.md)
    * [Comments](using/comments)
    * [Widgets](using/managers/widgets.md)
