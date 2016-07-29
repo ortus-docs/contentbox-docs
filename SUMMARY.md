@@ -19,7 +19,7 @@
    * [Existing ColdBox Application](installation/existing_coldbox_application.md)
    * [Upgrading ContentBox](installation/upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
-   * [Content](using/content_publishing/index.md)
+   * [Content](using/content/index.md/Content)
        * [Blog](using/content_publishing/blogmd.md)
        * [Content Store](using/managers/contentstore.md)
        * [Media Manager](using/managers/media.md)
