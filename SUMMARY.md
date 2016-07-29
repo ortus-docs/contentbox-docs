@@ -33,7 +33,6 @@
        * [Geek Settings](using/administrators/geeksettings.md)
        * [Log Viewer](using/administrators/logs.md)
        * [Import/Export](using/administrators/import-export.md)
-       * [Cache Management](using/administrators/caching.md)
        * Updates
    * [Comments](using/comments)
    * [Widgets](using/managers/widgets.md)
