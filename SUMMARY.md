@@ -25,7 +25,7 @@
            * [Sitemap](using/content/direct_publish/sitemap.md)
        * [Indirect Publishing](using/content/indirect_publishing/index.md)
            * [Content Store](using/content/indirect_publishing/contentstore.md)
-           * [Categories](using/content/categories.md)
+           * [Categories](using/content/indirect_publishing/categories.md)
            * [Media Manager](using/content/media-manager.md)
            * [Menu Manager](using/content/menu-manager.md)
    * [Comments](using/comments/index.md)
