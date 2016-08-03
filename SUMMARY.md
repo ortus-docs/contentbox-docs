@@ -23,8 +23,8 @@
        * [Direct Publishing](using/content/direct_pubilsh/index.md)
            * [Blog](using/content/direct_pubilsh/blog.md)
            * [Sitemap](using/content/sitemap.md)
-           * [Content Store](using/managers/contentstore.md)
        * Indirect Publishing
+           * [Content Store](using/managers/contentstore.md)
            * [Categories](using/content/categories.md)
            * [Media Manager](using/content/media-manager.md)
            * [Menu Manager](using/content/menu-manager.md)
