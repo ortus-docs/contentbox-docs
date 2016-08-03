@@ -11,9 +11,27 @@ ContentBox comes with a built-in blog which you can turn ON and OFF from t`Syste
 
 The main Blog page in your ContentBox Administrator shows a table with all your blog posts. We have 3 useful indicators.
 
-* ![](/images/published.png)Shows a if your post has been published or not i.e. a green check or a red cross respectively
-* ![](/images/views.png) Shos
-* ![](/images/comments.png)Shows the number of comments that you post has
+
+* ![](/images/published.png) Shows a if your post has been published
+* ![](/images/views.png)Shows the numbers of views
+* ![](/images/comments.png) Shows the number of comments
+
+<br>
+
+And you also have quick actions:
+
+![](/images/blog-info-actions.png)
+
+
+Where you can check the info related to each individual post
+![](/images/blog-info.png) 
+
+<br>
+
+And entry actions
+
+![](/images/blog-actions.png)
+
 
 
 

@@ -20,7 +20,7 @@
    * [Upgrading ContentBox](installation/upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
    * [Content](using/content/index.md)
-       * Direct Publish
+       * [Direct Publish](using/content/direct_publish.md)
        * [Blog](using/content/blog.md)
        * [Content Store](using/managers/contentstore.md)
        * [Media Manager](using/content/media-manager.md)
