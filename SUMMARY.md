@@ -27,6 +27,7 @@
        * [Media Manager](using/content/media-manager.md)
        * [Menu Manager](using/content/menu-manager.md)
        * [Categories](using/content/categories.md)
+       * Indirect Publish
    * [Comments](using/comments/index.md)
        * [Inbox](using/comments/inbox.md)
        * [Settings](using/comments/settings.md)
