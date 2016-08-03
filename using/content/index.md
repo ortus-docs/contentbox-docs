@@ -1,6 +1,6 @@
 # Content
 
-Contentbox has many options for creating and managing content:
+Contentbox has many options for creating and managing content, which are accessible through the ContentBox Administrator:
 
 1. Blog entries
 2. Categories
@@ -10,4 +10,4 @@ Contentbox has many options for creating and managing content:
 6. Sitemap
 
 
-In the following chapters you'll find an overview of every options so that you can get familiar with them.
+In the following chapters you'll find an quick overview of each one of these options.
