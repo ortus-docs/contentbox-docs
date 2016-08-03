@@ -20,7 +20,7 @@
    * [Upgrading ContentBox](installation/upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
    * [Content](using/content/index.md)
-       * [Publishing Content](using/content/direct_pubilsh/index.md)
+       * [Publish Content](using/content/direct_pubilsh/index.md)
            * [Blog](using/content/direct_pubilsh/blog.md)
            * [Sitemap](using/content/direct_publish/sitemap.md)
        * [Consumable Content](using/content/indirect_publishing/index.md)
