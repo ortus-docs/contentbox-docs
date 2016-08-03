@@ -20,13 +20,13 @@
    * [Upgrading ContentBox](installation/upgrading_contentbox.md)
 * [Using ContentBox](using/README.md)
    * [Content](using/content/index.md)
+       * Direct Publish
        * [Blog](using/content/blog.md)
        * [Content Store](using/managers/contentstore.md)
        * [Media Manager](using/content/media-manager.md)
        * [Menu Manager](using/content/menu-manager.md)
        * [Categories](using/content/categories.md)
        * [Sitemap](using/content/sitemap.md)
-       * Direct Publish
    * [Comments](using/comments/index.md)
        * [Inbox](using/comments/inbox.md)
        * [Settings](using/comments/settings.md)
