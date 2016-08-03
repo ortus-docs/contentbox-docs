@@ -24,8 +24,8 @@
            * [Blog](using/content/direct_pubilsh/blog.md)
            * [Sitemap](using/content/sitemap.md)
            * [Content Store](using/managers/contentstore.md)
-       * [Media Manager](using/content/media-manager.md)
        * [Menu Manager](using/content/menu-manager.md)
+       * [Media Manager](using/content/media-manager.md)
        * Indirect Publish
            * [Categories](using/content/categories.md)
            * test
