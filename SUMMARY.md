@@ -27,7 +27,7 @@
            * [Content Store](using/content/indirect_publishing/contentstore.md)
            * [Categories](using/content/indirect_publishing/categories.md)
            * [Media Manager](using/content/indirect_publishing/media-manager.md)
-           * [Menu Manager](using/content/menu-manager.md)
+           * [Menu Manager](using/content/indirect_publishing/menu-manager.md)
    * [Comments](using/comments/index.md)
        * [Inbox](using/comments/inbox.md)
        * [Settings](using/comments/settings.md)
