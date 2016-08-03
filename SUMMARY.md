@@ -28,6 +28,7 @@
        * [Menu Manager](using/content/menu-manager.md)
        * [Categories](using/content/categories.md)
        * Indirect Publish
+           * test
    * [Comments](using/comments/index.md)
        * [Inbox](using/comments/inbox.md)
        * [Settings](using/comments/settings.md)
