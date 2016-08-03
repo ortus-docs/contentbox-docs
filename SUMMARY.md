@@ -24,10 +24,10 @@
            * [Blog](using/content/direct_pubilsh/blog.md)
            * [Sitemap](using/content/sitemap.md)
            * [Content Store](using/managers/contentstore.md)
-       * [Menu Manager](using/content/menu-manager.md)
        * Indirect Publish
            * [Categories](using/content/categories.md)
            * [Media Manager](using/content/media-manager.md)
+           * [Menu Manager](using/content/menu-manager.md)
            * test
    * [Comments](using/comments/index.md)
        * [Inbox](using/comments/inbox.md)
