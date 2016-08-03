@@ -22,12 +22,12 @@
    * [Content](using/content/index.md)
        * [Direct Publish](using/content/direct_pubilsh/index.md)
            * [Blog](using/content/direct_pubilsh/blog.md)
+           * [Sitemap](using/content/sitemap.md)
            * [Content Store](using/managers/contentstore.md)
            * test
        * [Media Manager](using/content/media-manager.md)
        * [Menu Manager](using/content/menu-manager.md)
        * [Categories](using/content/categories.md)
-       * [Sitemap](using/content/sitemap.md)
    * [Comments](using/comments/index.md)
        * [Inbox](using/comments/inbox.md)
        * [Settings](using/comments/settings.md)
