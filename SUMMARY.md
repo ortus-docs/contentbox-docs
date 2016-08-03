@@ -23,7 +23,7 @@
        * [Publish Content](using/content/direct_pubilsh/index.md)
            * [Blog](using/content/direct_pubilsh/blog.md)
            * [Sitemap](using/content/direct_publish/sitemap.md)
-       * [Consumable Content](using/content/indirect_publishing/index.md)
+       * [Consume Content](using/content/indirect_publishing/index.md)
            * [Content Store](using/content/indirect_publishing/contentstore.md)
            * [Categories](using/content/indirect_publishing/categories.md)
            * [Media Manager](using/content/indirect_publishing/media-manager.md)
