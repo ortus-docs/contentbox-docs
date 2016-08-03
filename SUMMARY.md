@@ -26,8 +26,8 @@
            * [Content Store](using/managers/contentstore.md)
        * [Media Manager](using/content/media-manager.md)
        * [Menu Manager](using/content/menu-manager.md)
-       * [Categories](using/content/categories.md)
        * Indirect Publish
+           * [Categories](using/content/categories.md)
            * test
    * [Comments](using/comments/index.md)
        * [Inbox](using/comments/inbox.md)
