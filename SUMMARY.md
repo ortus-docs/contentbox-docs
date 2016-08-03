@@ -22,8 +22,8 @@
    * [Content](using/content/index.md)
        * [Direct Publish](using/content/direct_pubilsh/index.md)
            * [Blog](using/content/direct_pubilsh/blog.md)
+           * [Content Store](using/managers/contentstore.md)
            * test
-       * [Content Store](using/managers/contentstore.md)
        * [Media Manager](using/content/media-manager.md)
        * [Menu Manager](using/content/menu-manager.md)
        * [Categories](using/content/categories.md)
