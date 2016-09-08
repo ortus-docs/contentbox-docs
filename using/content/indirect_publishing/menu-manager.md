@@ -8,7 +8,7 @@ Some Themes may support additional menus for top menus, footer menus, side bar m
 
 ## Menu Data
 
-![](../../images/admin/menuManager/menuManagerAdd.png)
+![](../../../images/admin/menuManager/menuManagerAdd.png)
 
 - Title: The name of the Menu
 - List Type: ( ul | ol ) Unordered List or Ordered List
@@ -114,11 +114,11 @@ In Addition to the Common Attributes listed above, this type also includes:
 This is a menu item that creates a 'free-text' menu item.
 This item only uses the common attributes, Item Content, and CSS Classes... listed above.
 
-![](../../images/admin/menuManager/addFreeItem.png)
+![](../../../images/admin/menuManager/addFreeItem.png)
 
 ## Preview
 
 As you add, edit, and delete Menu Items, you can preview those menu items in page. 
 You can refresh the menu by clicking the refresh icon next to the title Preview if the preview has not updated as expected.
 
-![](../../images/admin/menuManager/menuPreview.png)
+![](../../../images/admin/menuManager/menuPreview.png)
