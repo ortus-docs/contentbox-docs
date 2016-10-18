@@ -11,7 +11,8 @@
         "richquotes",
         "edit-link",
         "github",
-        "advanced-emoji"
+        "advanced-emoji",
+        "sitemap"
     ],
     "pluginsConfig": {
     	"edit-link": {
@@ -20,6 +21,9 @@
         },
         "github": {
             "url": "https://github.com/ortus-solutions/contentbox"
+        },
+        "sitemap": {
+            "hostname": "https://contentbox.ortusbooks.com"
         }
     },
     "links": {
