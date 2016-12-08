@@ -1,6 +1,6 @@
 # Installing a Module
 
-You can either build one, copy the source manually, install with CommandBox, install via ContentBox itself.
+Using contentbox's Module Manager can help you install modules from Forgebox, Commandbox can help you install modules from Forgebox into wherever you need them, and of course, get your hands dirty and write some code too. You can either build one, copy the source manually, install with CommandBox, install via ContentBox itself.
 
 ## Where are modules located in a ContentBox 3 application
 
