@@ -38,6 +38,7 @@
        * [Widgets](using/look-and-feel/widgets.md)
    * [Modules](using/modules/index.md)
        * Installing Modules
+       * Managing Modules
    * [Users](using/users/index.md)
        * [Manage](using/users/manage.md)
        * [Permissions](using/users/permissions.md)
