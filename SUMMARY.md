@@ -67,5 +67,6 @@
        * [Interceptors](developing/back_end/interceptors.md)
        * [Customizing the Admin](developing/back_end/admin.md)
        * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
+       * Modules
    * [Recipes](recipes/index.md)
 
