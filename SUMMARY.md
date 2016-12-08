@@ -73,6 +73,7 @@
            * [Scaffold a Module](developing/back_end/modules/scaffhold.md)
            * [Theme your Module](developing/back_end/modules/theme.md)
            * [Build an Admin Module](developing/back_end/modules/buildadmin.md)
+           * Adding Admin Menus to your Module
        * [Interceptors](developing/back_end/interceptors.md)
        * [Customizing the Admin](developing/back_end/admin.md)
        * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
