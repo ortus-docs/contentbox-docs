@@ -36,7 +36,7 @@
        * [Global HTML](using/look-and-feel/global_html.md)
        * [Themes](using/look-and-feel/themes.md)
        * [Widgets](using/look-and-feel/widgets.md)
-   * Modules
+   * [Modules](using/modules/index.md)
    * [Users](using/users/index.md)
        * [Manage](using/users/manage.md)
        * [Permissions](using/users/permissions.md)
