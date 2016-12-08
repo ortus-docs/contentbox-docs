@@ -66,7 +66,7 @@
    * [Back-End Development](developing/back_end/readme.md)
        * [Coldbox Conventions](developing/back_end/coldbox.md)
        * [Modules](developing/back_end/modules/index.md)
-           * Installing a Module
+           * [Installing a Module](developing/back_end/modules/installing.md)
            * [Using a Module](developing/back_end/modules/using.md)
        * [Interceptors](developing/back_end/interceptors.md)
        * [Customizing the Admin](developing/back_end/admin.md)
