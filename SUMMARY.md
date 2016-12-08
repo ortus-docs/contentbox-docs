@@ -68,7 +68,7 @@
        * [Modules](developing/back_end/modules/index.md)
            * [Installing a Module](developing/back_end/modules/installing.md)
            * [Using a Module](developing/back_end/modules/using.md)
-           * Module Locations and Conventions
+           * [Module Locations and Conventions](developing/back_end/modules/conventions.md)
        * [Interceptors](developing/back_end/interceptors.md)
        * [Customizing the Admin](developing/back_end/admin.md)
        * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
