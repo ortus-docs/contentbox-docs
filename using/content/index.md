@@ -7,7 +7,7 @@ Contentbox has many options for creating and managing content, which are accessi
 3. Content Store Items
 4. Media Manager
 5. Menu Manager
-6. Sitemap
+6. Sitemap ( Pages ) 
 
 
 In the following chapters you'll find an quick overview of each one of these options.
