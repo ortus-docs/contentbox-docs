@@ -126,3 +126,71 @@ When the module is activated, and you hit the entry point, you will get the erro
 Here is the gist of step 1.
 ModuleConfig.CFC for Step 1 - https://gist.github.com/gpickin/545242a3da6c2805efb4e6cac82ce1ad
 
+As you can see, we have our own routes setup for the module in the ModuleConfig.cfc. The default action is handler=home and action=index. We'll need to create this event, or update our module route to point to the new one. Let's keep it simple, and we'll make a home.index event.
+
+### First step - we need to make a views folder for all of our views.
+
+ColdBox and therefore ContentBox calls the views folder 'views'. Since our action is home.index, we need a folder inside of 'views' called home, and an index.cfm file inside of that.
+
+```
+- mySecrets
+--- views
+------ home
+--------- index.cfm
+--- ModuleConfig.cfc
+```
+
+### Next Step - Add some code to our view Index.cfm
+
+Inside the index.cfm, just put some simple html, like &lt;h1&gt;my Secrets&lt;/h1&gt;
+
+### Next Step - Reload our Application and Test the Entrypoint
+
+Lets reload our application with `/?fwreinit=1` or Reload Application from the admin cog dropdown menu.
+Now lets try hitting out entrypoint `/mysecrets` and you'll see something like this.
+
+![ContentBox View 1](view1.jpg)
+
+Wait, why did that work? ColdBox uses conventions to find the view, even without the handler. For legacy conversion or simple views, you don't even need the handler. 
+Wait, I wasn't logged into the admin, how did that not ask me to login?
+
+If you look at the url, i was using `/mysecrets` which is actually the front end url... so that worked.
+
+What is the admin entrypoint for this module?: `/cbadmin/modules/mysecrets/`
+Now what happens when we hit that url
+
+![ContentBox View Login](viewLogin.jpg)
+
+It bounces me to the login page, like it should. Ok, so when I login, then what happens?
+
+![ContentBox View Handler](viewHandlerError.JPG)
+
+In the admin, its throwing an error, telling me the handler doesn't exist. Strange that it worked in the front end right? The admin has a little more security, so it requires a handler. One of the pitfalls of not using handlers is that the ColdBox Lifecycle special actions like pre and post handlers etc cannot run, because it bypasses a lot of the lifecycle and just spits out the view. Keep that in mind when you are having issues with anything out of the ordinary and you don't have a handler, or have a handler without a handler event for the event you're executing.
+
+### Lets add a handler
+
+We need to follow conventions ( unless you want to complicate things and override the conventions ) and make a folder called 'handlers' for our handler. We can just add the Home.cfc directly into the 'handlers' folder, and now your folder tree structure will look like this
+
+![ContentBox Handler Folder Tree](handlerFolderTree.jpg)
+
+We'll keep our handler very simple, just a shell, so we'll add this to our Home.cfc
+
+```
+component{
+        function index( event, rc, prc ){
+             event.setView( "home/index" );
+       }
+}
+```
+
+Now we have added the handler, lets reinit the application and see what it looks like now.
+
+Another note: If you hit http://127.0.0.1:61805/cbadmin/module/mysecrets/ you will get a strange handler error... because it things the module isn't a module, but its an action of a parent module... so make sure you use the full url, like below.
+
+`http://127.0.0.1:61805/cbadmin/module/mysecrets/home/index`
+
+Now, you will see the following
+
+![ContentBox Admin Handler View](handlerAdminView.jpg)
+
+Now our module is working, in the admin, we need to add some menu buttons so users can access your module.
