@@ -65,7 +65,7 @@
        * [Template Variables](developing/front_end/templateVars.md)
    * [Back-End Development](developing/back_end/readme.md)
        * [Coldbox Conventions](developing/back_end/coldbox.md)
-       * [Module Conventions](developing/back_end/modules/index.md)
+       * [Modules](developing/back_end/modules/index.md)
            * Installing a Module
        * [Interceptors](developing/back_end/interceptors.md)
        * [Customizing the Admin](developing/back_end/admin.md)
