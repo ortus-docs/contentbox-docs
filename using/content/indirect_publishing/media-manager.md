@@ -59,4 +59,59 @@ Next to the Module Name - 'Media Manager' you will see `Content` in a yellow lab
 
 Depending on your security settings, you will be able to directly browse, upload, rename and delete filtes from the Content, Modules, Updates and Widgets locations.
 
+# Media Manager Settings
+
+There are a lot of configurable options for the Media Manager, to fit in with your use cases.  Media Manager Settings are found in the administrator under `System > Settings > Media Manager`
+
+## Directory Root:
+
+The relative path or ColdFusion mapping in your server that will be the expanded root of your media manager. The default is `modules/contentbox/content`. This is restricted to relative paths to ensure the user of the Media Manager cannot access content outside of the web root. If you would like to use a folder outside of the web root, please create a coldfusion mapping ( and web accessible mapping if required by the Media Provider ) to ensure the folder is relative to the web root.
+
+## Media Providers
+
+Media providers are used to deliver your media files securely and with greater flexibility as you can place your entire media root outside of the webroot.
+
+### CF Content Media Provider ( default )
+
+This provider uses the ColdFusion cfcontent tag to deliver and stream files securely to the user. This uses a ContentBox route `__media`, that translates the path into a cfcontent call and delivers the content.
+
+### Forward Media Provider
+
+This provider will forward to the real physical location in the server for the media path requested via the internal servlet page context, so no real media path URL will be shown to the user. Use only if the media root is web accessible and a relative web root path, so double check your media root. 
+
+### Relocation Media Provider
+
+This provider will relocate to the real physical location in the server for the media path requested. Use only if the media root is web accessible, so double check your media root. 
+
+## Provider Caching Headers:
+
+If enabled, the media provider system will issue caching headers for all assets. You can use the `cbcache=true` URL param to issue no caching headers on any asset. 
+
+Default: `true`
+
+## FileBrowser Options
+
+![Media Manager Settings - FileBrowser Options](/assets/cbcms_mediamanager_settings_bottom.jpg)
+
+File Browser options includes a series of user options ( Yes / No ):
+
+- Allow Creation
+- Allow Deletes
+- Allow Downloads
+- Allow Uploads
+
+### Accepted Upload File Mime Types
+
+### HTML5 Uploads
+
+**Size Limit** - Maximum size of the file upload in mb - defaults to 100mb
+
+**Max Similtaneous Uploads** - Number of uploads allowed at the same time - defaults to 25
+
+### Quick View Image Width ( Pixels )
+
+When using the Quick View for images, images are shown in a modal window, with a maximum width defined by this setting. 
+
+
+
 
