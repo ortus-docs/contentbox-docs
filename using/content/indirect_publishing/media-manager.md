@@ -26,7 +26,30 @@ The Media Manager has many options, but by default will look like the image belo
 
 ![Media Manager Icon - Quick View](/assets/cbcms_mediamanager_icon_quickview.jpg) Quick View - Preview the currently selected image in a modal window. Only supports Images.
 
+![Media Manager Icon - File Listing](/assets/cbcms_mediamanager_icon_filelisting.jpg) File Listing - This shows the current folder in File Listing / Details view. This is the default listing style, shown in the screenshot above.
 
+![Media Manager Icon - Grid Listing](/assets/cbcms_mediamanager_icon_gridlisting.jpg) Grid Listing - This shows the current folder in Grid Listing / Thumbnails view. This is a great way to preview directories of images. This view can seen in the screenshot below.
+
+![Media Manager showing files in Grid Listing / Thumbnail style](/assets/cbcms_mediamanager_view2.jpg)
+
+## File / Folder Context Menus
+
+Context Menus ( otherwise known as right click menus ) are available for Files and Folders. Files have the following context menu items
+
+![Media Manager - Context Menu for Files](/assets/cbcms_mediamanager_file_contextmenu.jpg)
+
+Folders have the following context menu items
+
+![Media Manager - Context Menu for Folders](/assets/cbcms_mediamanager_folder_contextmenu.jpg)
+
+## Status Bar
+
+The Status Bar has useful quick view information.
+
+- Full file path breadcrumbs
+- Filename, File Size, and last modified date-time stamp.
+
+![Media Manager Status Bar](/assets/cbcms_mediamanager_statusbar.jpg)
 
 ## Libraries
 
