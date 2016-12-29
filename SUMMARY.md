@@ -23,6 +23,8 @@
         * [Publish Content](using/content/direct_pubilsh/index.md)
             * [Blog](using/content/direct_pubilsh/blog.md)
             * [Sitemap](using/content/direct_publish/sitemap.md)
+            * [Content Editing Tips](using/content/direct_pubilsh/content-editing-tips.md)
+                * [Dynamic Variable Output](using/content/direct_pubilsh/dynamic-variable-output.md)
         * [Consume Content](using/content/indirect_publishing/index.md)
             * [Content Store](using/content/indirect_publishing/contentstore.md)
             * [Categories](using/content/indirect_publishing/categories.md)
