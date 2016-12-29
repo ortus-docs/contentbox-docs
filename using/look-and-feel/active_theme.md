@@ -1,6 +1,6 @@
 # Active Theme
 
-When installing a CMS, one of the first steps you would normally take, is install a theme. We wanted to give you a head-start and give you a theme that gives you plenty of options to customize your site, colors, social media icons, and even a  hero style homepage. In ContentBox 3.1 ( about to be released ) we even updated Themes to have better documentation, so it's easier to get started with your theme. Let's see what the default theme can do for you.
+When installing a CMS, one of the first steps you would normally take, is install a theme. We wanted to give you a head-start and give you a theme that gives you plenty of options to customize your site, colors, social media icons, and even a  hero style homepage. In ContentBox 3.1 we even updated Themes to have better documentation, so it's easier to get started with your theme. Let's see what the default theme can do for you.
 
 ## Theme Settings
 
