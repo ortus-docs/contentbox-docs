@@ -56,7 +56,7 @@
         * [Settings](using/system/settings.md)
             * Site Options
             * Admin Options
-            * Security Options
+            * [Security Options](using/system/security-options.md)
             * Content Options
             * Editor Options
             * Media Manager Options
