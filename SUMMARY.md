@@ -27,6 +27,7 @@
                 * [Editor Features](using/content/direct_pubilsh/editor-features.md)
                 * [Dynamic Variable Output](using/content/direct_pubilsh/dynamic-variable-output.md)
                 * [Markdown Support](using/content/direct_pubilsh/markdown-support.md)
+                * [Scheduled Content](using/content/direct_pubilsh/scheduled-content.md)
         * [Consume Content](using/content/indirect_publishing/index.md)
             * [Content Store](using/content/indirect_publishing/contentstore.md)
             * [Categories](using/content/indirect_publishing/categories.md)
