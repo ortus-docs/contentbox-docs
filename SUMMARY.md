@@ -93,6 +93,7 @@
             * [Adding Meta to your Modules](developing/back_end/modules/adding-meta-to-your-modules.md)
         * [Widgets](developing/back_end/widgets.md)
             * [Simple Widget](developing/back_end/simple-widget.md)
+            * [Widgets with Arguments](developing/back_end/widgets-with-arguments.md)
         * [Interceptors](developing/back_end/interceptors.md)
         * [Customizing the Admin](developing/back_end/admin.md)
         * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
