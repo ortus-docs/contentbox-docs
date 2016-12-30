@@ -75,6 +75,7 @@
             * [Theme your Module](developing/back_end/modules/theme.md)
             * [Build an Admin Module](developing/back_end/modules/buildadmin.md)
             * Adding Admin Menus to your Module
+            * [Adding Meta to your Modules](developing/back_end/modules/adding-meta-to-your-modules.md)
         * [Interceptors](developing/back_end/interceptors.md)
         * [Customizing the Admin](developing/back_end/admin.md)
         * [Staying on the Upgrade Path](developing/back_end/upgrades.md)

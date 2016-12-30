@@ -46,3 +46,5 @@ The string for the name of the layout allows you to pick and choose the layout i
 ## Step 3 : Build Cool Stuff
 
 We tried hard to make this as simple as possible, so you can drop a module in and have it using the theme in seconds. Try it out and go build cool stuff!
+
+[Add Meta to your Modules - Find out how here](/developing/back_end/modules/adding-meta-to-your-modules.md)
