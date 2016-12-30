@@ -56,7 +56,7 @@
         * [Geek Settings](using/system/geek_settings.md)
         * [Settings](using/system/settings.md)
             * Site Options
-            * Admin Options
+            * [Admin Options](using/system/admin-options.md)
             * [Security Options](using/system/security-options.md)
             * Content Options
             * Editor Options
