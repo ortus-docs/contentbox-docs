@@ -41,6 +41,7 @@
         * [Global HTML](using/look-and-feel/global_html.md)
         * [Themes](using/look-and-feel/themes.md)
         * [Widgets](using/look-and-feel/widgets.md)
+            * [Inserting a Simple Widget](using/look-and-feel/inserting-a-simple-widget.md)
     * [Modules](using/modules/index.md)
         * Installing Modules
         * Managing Modules
