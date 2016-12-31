@@ -94,6 +94,7 @@
         * [Widgets](developing/back_end/widgets.md)
             * [Simple Widget](developing/back_end/simple-widget.md)
             * [Widgets with Arguments](developing/back_end/widgets-with-arguments.md)
+            * [Multiple Render Function Widgets](developing/back_end/multiple-render-function-widgets.md)
         * [Interceptors](developing/back_end/interceptors.md)
         * [Customizing the Admin](developing/back_end/admin.md)
         * [Staying on the Upgrade Path](developing/back_end/upgrades.md)

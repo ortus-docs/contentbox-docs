@@ -201,8 +201,48 @@ With either of these two options, you will see the list of Options provided by t
 
 ![](/assets/cb_widget_argument_optionsUDF_fixed.jpg)
 
+### MultiOptions - Multiple Choice Options
 
+Using Labels, Hints and Required fields helps the user, but in some cases its best if you can give your users a set list of options to pick from, especially if they user could/should pick one or more options. This will provide the user a multi select drop down box, instead of a text box. This ensures there are no typos. 
 
+To add options for an argument, add Javadoc Meta comment `@urlTarget.multioptions _self,_blank,_top,_parent` to the function meta.
 
+```
+/**
+* Renders this widget
+* @urlTarget.label This is my label 
+* @urlTarget.required
+* @urlTarget.hint This is the html target type for the link. _self _blank _top _parent frameName
+* @urlTarget.multioptions _self,_blank,_top,_parent
+*/
+function renderit( urlTarget ){
+```
 
+![](/assets/cb_widget_argument_multioption.jpg)
+
+### MultiOptionsUDF - Multiple Choice Options via UDF
+
+MultiOptionsUDF works the same as OptionsUDF except the user can select none, one or more of the options.
+
+Add the meta to the RenderIt() function
+```
+/**
+* Renders this widget
+* @urlTarget.label This is my label 
+* @urlTarget.required
+* @urlTarget.hint This is the html target type for the link. _self _blank _top _parent frameName
+* @urlTarget.default _blank
+* @urlTarget.multioptionsudf getTargetTypes
+*/
+function renderit( urlTarget ){
+```	
+
+Add the UDF ( include the cbignore meta data so the Widget Form builder ignores the function ) 
+```
+function getTargetTypes() cbignore {
+	return [ '_self','_blank','_top','_parent','ThisisfromTheUDF' ];
+}
+```
+
+![](/assets/cb_widget_argument_multioptionudf.jpg)
 
