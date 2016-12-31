@@ -46,3 +46,28 @@ You will see the argument name `urlTarget` shown, with the type `(any)`. We can 
 - MultiOptions
 - MultiOptionsUDF
 
+These are all added via the JavaDoc syntax for the RenderIt() function. Below is an example of the label being used.
+
+```
+/**
+* Descript of the function
+* @argumentName.label
+*/
+```
+
+### Label
+
+The Label is used when you want to have a more meaningful label for the form field than the name of the argument itself. In our example, by default, the label is `urlTarget`, but we can change it to something like `This is my Label`
+
+```
+/**
+* Renders this widget
+* @urlTarget.label This is my label 
+*/
+function renderit( urlTarget ){
+```	
+
+The Widget Form now shows this label instead of the Argument name
+
+![](/assets/cb_widget_argument_label.jpg)
+
