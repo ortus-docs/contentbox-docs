@@ -106,6 +106,36 @@ function renderit( urlTarget ){
 
 ![](/assets/cb_widget_argument_hint.jpg)
 
+### Argument Type
+
+Argument Type is very important. By default, all arguments are considered strings, and are shown as a Text Input. The type tells the Widget form builder how to display the argument field. The logic is processed in this order.
+
+- Boolean - as a yes / no select drop down
+- Numeric / String with Options - Select drop down with items from the options list.
+- Numeric / String with OptionsUDF - Select drop down with items from the options UDF
+- Numeric / String with MultiOptions - Multiple Select drop down with items from the options list.
+- Numeric / String with MultiOptionsUDF - Multiple Select drop down with items from the options UDF
+- Numeric / String - Text Input box
+
+Argument Type can be defined by the Function definition, or with the Meta Data. Below you can see these argument types being set inside the function itself.
+
+```
+function renderIt(
+		boolean dropdown=false,
+		boolean showPostCount=true,
+		string title="",
+		string titleLevel="2" ){
+```
+
+You can also use the Meta Data approach that most of the argument options require.
+
+```
+/**
+* @numberOfPages.type boolean
+*/
+function listOfPages( numberOfPages ){
+```	
+
 ### Default Value 
 
 You can set a default Value for the field. 
