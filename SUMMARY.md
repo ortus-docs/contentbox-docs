@@ -89,7 +89,7 @@
             * [Scaffold a Module](developing/back_end/modules/scaffhold.md)
             * [Theme your Module](developing/back_end/modules/theme.md)
             * [Build an Admin Module](developing/back_end/modules/buildadmin.md)
-            * Adding Admin Menus to your Module
+            * [Adding Admin Menus to your Module](developing/back_end/modules/adding-admin-menus-to-your-module.md)
             * [Adding Meta to your Modules](developing/back_end/modules/adding-meta-to-your-modules.md)
         * [Widgets](developing/back_end/widgets.md)
             * [Simple Widget](developing/back_end/simple-widget.md)
