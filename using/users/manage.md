@@ -1,4 +1,4 @@
-# Manage
+# Manage Users
 
 To create or edit administrative users for ContentBox, select the `User` menu in the navigation bar on the left. The menu will drop down and you will need to select `Manage`.
  
