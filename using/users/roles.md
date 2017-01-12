@@ -1,4 +1,4 @@
-# Roles
+# Users Roles
 
 The roles menu is located under the `User` menu in the navigation bar to the left of the screen.
 
