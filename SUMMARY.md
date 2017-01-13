@@ -56,7 +56,7 @@
         * [Auth Logs](using/system/auth_logs.md)
         * [Geek Settings](using/system/geek_settings.md)
         * [Settings](using/system/settings.md)
-            * Site Options
+            * [Site Options](using/system/site-options.md)
             * [Admin Options](using/system/admin-options.md)
             * [Security Options](using/system/security-options.md)
             * Content Options
@@ -78,6 +78,7 @@
             * [Theme Templates](developing/themes/theme-templates.md)
             * [Theme Layouts](developing/themes/theme-layouts.md)
             * [Theme Views](developing/themes/theme-views.md)
+            * [Theme SEO Functionality](developing/themes/theme-seo-functionality.md)
         * [The Content Store](developing/front_end/contentstore.md)
         * [Customizing Views](developing/front_end/views.md)
         * [Customizing Layouts](developing/front_end/layouts.md)

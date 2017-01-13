@@ -28,7 +28,8 @@ A theme is composed of the following pieces
   + <i class="fa fa-folder-open"></i> entry.cfm (The template used to display an iteration of entries in the home page using coldbox collection rendering)
 
 - <i class="fa fa-folder-open"></i> widgets (A folder that can contain layout specific widgets which override core ContentBox widgets)
-- 
+
+
 
 
 
