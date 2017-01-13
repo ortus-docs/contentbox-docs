@@ -74,6 +74,7 @@
         * [File Structure](developing/front_end/files.md)
         * [Theme Development](developing/themes/README.md)
             * [Theme Settings](developing/themes/theme-settings.md)
+            * [Theme UDFs](developing/themes/theme-user-defined-functions.md)
             * [Theme Templates](developing/themes/theme-templates.md)
             * [Theme Layouts](developing/themes/theme-layouts.md)
             * [Theme Views](developing/themes/theme-views.md)
