@@ -1,6 +1,6 @@
 # Theme Templates
 
-## File Structure
+## Template Folder File Structure
 
 - <i class="fa fa-folder-open"></i> templates (The folder that contains optional templates for collection rendering that are used using the quick rendering methods in the CB Helper. See below for additional information)
 

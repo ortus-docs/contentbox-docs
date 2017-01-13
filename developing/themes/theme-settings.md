@@ -25,3 +25,10 @@ this.settings = [
 	{ name="Colors", defaultValue="blue", required="false", type="select", label="Color:", options="red,blue,orange,gray" }
 ];
 ```
+
+## Theme Settings Admin Form
+
+Below is a annotated screenshot showing most of the visible elements generated in the Theme Settings Admin form from the Theme Settings configuration structure.
+
+![](/assets/contentbox-themeDiagram.jpg)
+

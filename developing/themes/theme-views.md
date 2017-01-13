@@ -1,5 +1,7 @@
 # Theme Views
 
+## Views Folder File Structure
+
 - <i class="fa fa-folder-open"></i> views (The folder that contains views for rendering)
     + <i class="fa fa-folder-open"></i> archives.cfm (MANDATORY: The view used to render out blog archives.)
     + <i class="fa fa-folder-open"></i> entry.cfm (MANDATORY: The view used to render out a single blog entry with comments, etc.)
