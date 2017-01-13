@@ -8,8 +8,6 @@ To access the user, you can use this variable
 
 `prc.oAuthor`
 
-
-
 You can dump this variable out, but I would limit the number of rows deep you go, as this object has objects which has objects, and can give you a heap space error.
 
 `<cfdump var="#prc.oauthor#" top=3>`
@@ -17,7 +15,7 @@ or
 `writeDump( var=prc.oAuthor, top=3 );`
 
 
-What is available with the Current Logged in User?
+## What is available with the Current Logged in User?
 
 - Author First Name `prc.oAuthor.getFirstName()`
 - Author LastName `prc.oAuthor.getLastName()`
@@ -25,11 +23,10 @@ What is available with the Current Logged in User?
 - Author Username `prc.oAuthor.getUserame()`
 - Author Created Date `prc.oAuthor.getCreatedDate()`
 - Author Modified Date `prc.oAuthor.getModifiedDate()`
-- Author Last Login Date `prc.oAuthor.getLastLogic()`
+- Author Last Login Date `prc.oAuthor.getLastLogin()`
 - Author Biography `prc.oAuthor.getFirstName()`
 - Author Preferences `prc.oAuthor.getFirstName()`
-- Author Role `prc.oAuthor.getRole.getName()`
-
+- Author Role `prc.oAuthor.getRole().getName()`
 
 ## Additional Author Content
 
