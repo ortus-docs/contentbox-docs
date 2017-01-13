@@ -76,7 +76,7 @@
             * [Theme Settings](developing/themes/theme-settings.md)
             * [Theme Templates](developing/themes/theme-templates.md)
             * [Theme Layouts](developing/themes/theme-layouts.md)
-            * Theme Views
+            * [Theme Views](developing/themes/theme-views.md)
         * [The Content Store](developing/front_end/contentstore.md)
         * [Customizing Views](developing/front_end/views.md)
         * [Customizing Layouts](developing/front_end/layouts.md)
