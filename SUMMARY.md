@@ -73,6 +73,10 @@
     * [Front-End Development](developing/front_end/README.md)
         * [File Structure](developing/front_end/files.md)
         * [Theme Development](developing/themes/README.md)
+            * [Theme Settings](developing/themes/theme-settings.md)
+            * [Theme Templates](developing/themes/theme-templates.md)
+            * [Theme Layouts](developing/themes/theme-layouts.md)
+            * Theme Views
         * [The Content Store](developing/front_end/contentstore.md)
         * [Customizing Views](developing/front_end/views.md)
         * [Customizing Layouts](developing/front_end/layouts.md)
