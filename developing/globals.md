@@ -77,7 +77,7 @@ A number of built-in interception points are avaialble within the ContentBox req
 
 - `cb.themeName()`: returns the currently active theme name
 - `cb.layoutName()`: returns the currently active layout name 
-
+- `cb.isPrintFormat()`: returns true if you are in printing or exporting format
 
 
 [1]: /content/using/managers/contentstore.html
