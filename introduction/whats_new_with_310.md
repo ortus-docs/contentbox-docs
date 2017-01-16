@@ -47,6 +47,14 @@ Please note that the **keywords** for a page now comes in the following discover
 3. Global Site Keywords
 
 
+### SEO Module Overrides
+
+If you are building custom modules with views that render in a site's theme, you can now also set SEO content for title, description and keywords by leveraging the following methods in the ContentBox Helper:
+
+* `setMetaTitle()`
+* `setMetaDescription()`
+* `setMetaKeywords()`
+
 ## Static Site Generator
 
 ![](/images/static_site_generator.png)
