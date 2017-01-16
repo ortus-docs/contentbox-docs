@@ -43,12 +43,8 @@ Please note that the **description** for a page now comes in the following disco
 Please note that the **keywords** for a page now comes in the following discovery hiearchy:
 
 1. Override set by custom modules
-2. SEO Panel description
-3. Excerpt
-4. Dynamic Excerpt (160 characters) from content
-
-
-
+2. SEO Panel keywords
+3. Global Site Keywords
 
 
 ## Static Site Generator
