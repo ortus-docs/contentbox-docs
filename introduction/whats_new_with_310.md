@@ -4,7 +4,17 @@ ContentBox 3.1.0 is a minor release with over 40 issues, improvements and new fe
 
 ## Upgrading to 3.1.0
 
-The easiest way to upgrade your ContentBox installation is to use the auto updater located in the **system > updates** panel.  Just make sure you please backup your database and source code as this release includes a major framework update and you will **most likely need to reboot your engine or server**.
+The easiest way to upgrade your ContentBox installation is to use the auto updater located in the **system > updates** panel. Just make sure you please backup your database and source code as this release includes a major framework update and you will **most likely need to reboot your engine or server**.
+
+## Updated JDK/JRE + Lucee Engines
+All express versions have been updated with the latest JRE/JDKs and Lucee CFML engines.
+
+## Easily render captcha tags
+ContentBox supports native captcha support and now your themes can render out a nice captcha image by using the new ContentBox helper method: `cb.renderCaptcha()` method.
+
+
+
+----
 
 ## Release Notes
             
