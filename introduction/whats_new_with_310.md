@@ -9,7 +9,7 @@ The easiest way to upgrade your ContentBox installation is to use the auto updat
 ## Updated JDK/JRE + Lucee Engines
 All express versions have been updated with the latest JRE/JDKs and Lucee CFML engines.
 
-## Easily render captcha tags
+## Easily render captcha images
 ContentBox supports native captcha support and now your themes can render out a nice captcha image by using the new ContentBox helper method: `cb.renderCaptcha()` method.
 
 
