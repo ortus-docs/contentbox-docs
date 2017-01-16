@@ -15,6 +15,29 @@ All express versions have been updated with the latest JRE/JDKs and Lucee CFML e
 ## Easily Render Captcha Images
 ContentBox supports native captcha support and now your themes can render out a nice captcha image by using the new ContentBox helper method: `cb.renderCaptcha()` method.
 
+## SEO Enhancements 
+
+We have also devoted time to enhance the SEO capabilities of ContentBox not only in the ContentBox helper object but in the updated default theme.  The new helper methods are:
+
+* `getContentTitle()` : Retrieve the assigned title for a rendered page
+* `getContentDescription()` : Retrieve the assigned description for a rendered page
+* `getContentKeywords()` : Retrieve the assigned keywords for a rendered page
+
+### Title Discovery
+Please note that the **title** for a page now comes in the following discovery hiearchy:
+
+1. SEO Panel title
+2. Page name
+
+
+### Description Discovery
+Please note that the **description** for a page now comes in the following discovery hiearchy:
+
+1. SEO Panel description
+2. Excerpt
+3. Dynamic Excerpt (160 characters) from content
+
+
 ## Static Site Generator
 
 ![](/images/static_site_generator.png)
