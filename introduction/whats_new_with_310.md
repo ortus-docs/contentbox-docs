@@ -1,3 +1,6 @@
+ContentBox 3.1.0 is a minor release with over 40 issues, improvements and new features addressed. 
+
+
 ## Release Notes - ContentBox Modular CMS - Version 3.1.0
             
 ### Bug
