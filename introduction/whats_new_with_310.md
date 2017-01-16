@@ -9,10 +9,14 @@ The easiest way to upgrade your ContentBox installation is to use the auto updat
 ## Updated JDK/JRE + Lucee Engines
 All express versions have been updated with the latest JRE/JDKs and Lucee CFML engines.
 
-## Easily render captcha images
+## Easily Render Captcha Images
 ContentBox supports native captcha support and now your themes can render out a nice captcha image by using the new ContentBox helper method: `cb.renderCaptcha()` method.
 
+## Static Site Generator
 
+![](/images/static_site_generator.png)
+
+ContentBox 3.1 now supports the generation of static sites from your content and blog. This is a great addition to ContentBox as now you can produce static versions, deploy to CDN networks and much more.
 
 
 ----
