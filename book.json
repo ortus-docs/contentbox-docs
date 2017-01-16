@@ -12,10 +12,11 @@
         "edit-link",
         "github",
         "advanced-emoji",
-        "sitemap"
+        "sitemap",
+        "collapsible-chapters"
     ],
     "pluginsConfig": {
-    	"edit-link": {
+        "edit-link": {
             "base": "https://github.com/Ortus-Solutions/contentbox-docs/tree/master",
             "label": "Edit This Page"
         },
