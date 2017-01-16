@@ -21,6 +21,8 @@ ContentBox 3.1 now supports the generation of static sites from your content and
 * `cbadmin_preStaticSiteExport` : Receives all the export `options` in the intercept data so you can alter the export behavior.
 * `cbadmin_postStaticSiteExport` : Receives all the export `options` and also a `results` structure with the following keys: `exportLog:builder, exportDirectory, exportArchive`.  This is a great way to listen for the export and send to S3 for archiving, etc.
 
+> **Warning** Dynamic elements like commenting, searching, etc must require a JavaScript implementation.  So make sure you have a static export strategy in place.
+
 
 ----
 
