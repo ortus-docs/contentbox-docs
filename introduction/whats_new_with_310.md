@@ -26,16 +26,29 @@ We have also devoted time to enhance the SEO capabilities of ContentBox not only
 ### Title Discovery
 Please note that the **title** for a page now comes in the following discovery hiearchy:
 
-1. SEO Panel title
+1. Override set by custom modules
+2. SEO Panel title
 2. Page name
 
 
 ### Description Discovery
 Please note that the **description** for a page now comes in the following discovery hiearchy:
 
-1. SEO Panel description
-2. Excerpt
-3. Dynamic Excerpt (160 characters) from content
+1. Override set by custom modules
+2. SEO Panel description
+3. Excerpt
+4. Dynamic Excerpt (160 characters) from content
+
+### Keywords Discovery
+Please note that the **keywords** for a page now comes in the following discovery hiearchy:
+
+1. Override set by custom modules
+2. SEO Panel description
+3. Excerpt
+4. Dynamic Excerpt (160 characters) from content
+
+
+
 
 
 ## Static Site Generator
