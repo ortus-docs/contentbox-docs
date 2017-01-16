@@ -23,6 +23,16 @@ ContentBox 3.1 now supports the generation of static sites from your content and
 
 > **Warning** Dynamic elements like commenting, searching, etc must require a JavaScript implementation.  So make sure you have a static export strategy in place.
 
+## Module Enhancements
+
+This release sports many enhancements to support module development authors in order for them to seamlessly build high impact applications using ContentBox.
+
+### Author Object Availability
+
+The logged in (or not) author/user of ContentBox is now globally available in the ColdBox private request collection as `prc.oCurrentAuthor`.  This will allow module developers to have easy access to the current object that would represent a logged in Author or User of the ContentBox instance.
+
+
+
 
 ----
 
