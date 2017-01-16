@@ -1,6 +1,6 @@
 # What's New With 3.1.0
 
-ContentBox 3.1.0 is a minor release with over 40 issues, improvements and new features addressed.  Below you will find the detailed release notes about this release but also the major areas of improvement and new features introduced in this release. Enjoy!
+ContentBox 3.1.0 is a minor release with over 40 issues, improvements and new features addressed.  Below you will find the detailed release notes about this release but also the major areas of improvement and new features introduced. Enjoy!
 
 ## Upgrading to 3.1.0
 The easiest way to upgrade your ContentBox installation is to use the auto updater located in the **system > updates** panel.  Just make sure you please backup your database and source code as this release includes a major framework update and you will **most likely need to reboot your engine or server**.
