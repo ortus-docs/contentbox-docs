@@ -74,6 +74,10 @@ This release sports many enhancements to support module development authors in o
 
 The logged in (or not) author/user of ContentBox is now globally available in the ColdBox private request collection as `prc.oAuthor`.  This will allow module developers to have easy access to the current object that would represent a logged in Author or User of the ContentBox instance.
 
+## File Manager UI Updates
+
+The File Manager / Media Manager is an important part of a Content Management System, and we have fixed several UI bugs, and added a few smaller features. The Context Menus are more accurate, and function on the selected item. The file location breadcrumb is now clickable, to allow you to move about your file structure easier. 
+
 ----
 
 ## Release Notes
