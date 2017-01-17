@@ -79,6 +79,13 @@ A number of built-in interception points are avaialble within the ContentBox req
 - `cb.layoutName()`: returns the currently active layout name 
 - `cb.isPrintFormat()`: returns true if you are in printing or exporting format
 
+#### UI Utility Functions
+
+- **Easily Render Captcha Images** - ContentBox supports native captcha support and now your themes can render out a nice captcha image by using the new ContentBox helper method:
+    -    `cb.renderCaptcha()` method.
+
+
+
 
 [1]: /content/using/managers/contentstore.html
 [2]: /content/using/managers/widgets.html
