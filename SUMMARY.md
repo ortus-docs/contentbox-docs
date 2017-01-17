@@ -103,6 +103,7 @@
             * [Simple Widget](developing/back_end/simple-widget.md)
             * [Widgets with Arguments](developing/back_end/widgets-with-arguments.md)
             * [Multiple Render Function Widgets](developing/back_end/multiple-render-function-widgets.md)
+        * [JS and CSS Assets](developing/back_end/js-and-css-assets.md)
         * [Interceptors](developing/back_end/interceptors.md)
         * [Accessing Logged in User](developing/back_end/accessing-logged-in-user.md)
         * [Customizing the Admin](developing/back_end/admin.md)
