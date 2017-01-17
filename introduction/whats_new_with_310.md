@@ -6,7 +6,7 @@ ContentBox 3.1.0 is a minor release with over 40 issues, improvements and new fe
 
 ![](/images/system_updates.png)
 
-The easiest way to upgrade your ContentBox installation is to use the auto updater located in the **system > updates** panel. Just make sure you please backup your database and source code as this release includes a major framework update and you will **most likely need to reboot your engine or server**.  Go to our [upgrading guide](/../installation/upgrading_contentbox.md) for much more information about upgrading ContentBox.
+The easiest way to upgrade your ContentBox installation is to use the auto updater located in the **system > updates** panel. Just make sure you please backup your database and source code as this release includes a major framework update and you will **most likely need to reboot your engine or server**.  Go to our [upgrading guide](/installation/upgrading_contentbox.md) for much more information about upgrading ContentBox.
 
 ## Travis Integration
 Travis is now building and publishing ContentBox to ForgeBox.io.  We will also be able to accept pull requests with satisfaction that they do not break the builds.  So pull away my friends!
