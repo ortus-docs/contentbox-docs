@@ -28,7 +28,7 @@ Please note that the **title** for a page now comes in the following discovery h
 
 1. Override set by custom modules
 2. SEO Panel title
-2. Page name
+3. Page name
 
 
 ### Description Discovery
@@ -72,10 +72,7 @@ This release sports many enhancements to support module development authors in o
 
 ### Author Object Availability
 
-The logged in (or not) author/user of ContentBox is now globally available in the ColdBox private request collection as `prc.oCurrentAuthor`.  This will allow module developers to have easy access to the current object that would represent a logged in Author or User of the ContentBox instance.
-
-
-
+The logged in (or not) author/user of ContentBox is now globally available in the ColdBox private request collection as `prc.oAuthor`.  This will allow module developers to have easy access to the current object that would represent a logged in Author or User of the ContentBox instance.
 
 ----
 

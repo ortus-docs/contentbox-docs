@@ -53,6 +53,7 @@
     * [Tools](using/tools/index.md)
         * [Import](using/tools/import.md)
         * [Export](using/tools/export.md)
+        * [Static Site Generation](using/tools/static-site-generation.md)
     * [System](using/system/index.md)
         * [Auth Logs](using/system/auth_logs.md)
         * [Geek Settings](using/system/geek_settings.md)
