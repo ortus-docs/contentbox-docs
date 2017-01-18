@@ -34,7 +34,7 @@ function listData( event, rc, prc ){
     prc.data = myservice.getData();
      
     // Tell ColdBox to use the ContentBox theme
-    prepareUIRequest();
+    cbHelper.prepareUIRequest();
      
     // set view to render
     event.setView( "genera/data" );
