@@ -37,7 +37,7 @@ function listData( event, rc, prc ){
     cbHelper.prepareUIRequest();
      
     // set view to render
-    event.setView( "genera/data" );
+    event.setView( "general/data" );
 }
 ```
 
