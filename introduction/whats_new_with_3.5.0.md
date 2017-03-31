@@ -1,4 +1,4 @@
-# What's coming in 3.2.0
+# What's coming in 3.5.0
 
 This release we're focusing on feedback from ContentBox 3.x customers. Building on top of the SEO updates in ContentBox 3.1.0, we're continuing to make ContentBox more SEO friendly, Search Engine Friendly and Social Media Friendly.
 
