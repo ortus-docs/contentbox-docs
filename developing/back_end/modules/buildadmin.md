@@ -185,7 +185,7 @@ component{
 
 Now we have added the handler, lets reinit the application and see what it looks like now.
 
-Another note: If you hit http://127.0.0.1:61805/cbadmin/module/mysecrets/ you will get a strange handler error... because it things the module isn't a module, but its an action of a parent module... so make sure you use the full url, like below.
+Another note: If you hit http://127.0.0.1:61805/cbadmin/module/mysecrets/ you will get a strange handler error... because it thinks the module isn't a module, but its an action of a parent module... so make sure you use the full url, like below.
 
 `http://127.0.0.1:61805/cbadmin/module/mysecrets/home/index`
 
