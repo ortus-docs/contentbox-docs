@@ -6,6 +6,8 @@ This release we're focusing on feedback from ContentBox 3.x customers and the ab
 
 The ContentBox dashboard gets some love with two new reports:
 
+<img src="/images/3.5.0/dashboard-reports.png">
+
 * Future Published Content - Shows top 10 content that publishes in the future.
 * Expired Content - Shows the top 10 expired content.
 
