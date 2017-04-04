@@ -4,7 +4,7 @@ This release we're focusing on feedback from ContentBox 3.x customers and the ab
 
 ## On Demand Sitemap Generation for Search Engines
 
-In an effort to make ContentBox work better with search engines, we have added Sitemap Generation for Search Engines, so you can upload your XML sitemaps to Google, Yahoo, Bing and any other search engine you would like to work with.
+In an effort to make ContentBox work better with search engines, we have added a Sitemap Generation Module for Search Engines.  You can now upload your XML sitemaps to Google, Yahoo, Bing and any other search engine you would like to work with.
 
 The Sitemap generation is available on demand, and available in several formats. Following Google's convention, we have implemented the following url patterns:
 
@@ -12,8 +12,9 @@ The Sitemap generation is available on demand, and available in several formats.
 - `/sitemap.txt`
 - `/sitemap.json`
 - `/sitemap.html`
+- `/sitemap` - which defaults to `html`
 
-Google recommends XML, but supports txt as well. XML allows for more information, including:
+Google recommends XML, but supports `txt` as well. XML allows for more information, including:
 
  - `loc` - location / url of the content
  - `lastmod` - last modified
@@ -22,7 +23,9 @@ Google recommends XML, but supports txt as well. XML allows for more information
 
 If you use the featured image with your pages and blog entries, the image will be included in the site map, and the last modified date as well.
 
-The site maps shows all pages and blog entries that are published, and not hidden. If you disable the blog, all blog posts are removed from the site map.
+The site maps shows all pages and blog entries that are published, and not hidden via the show in search bit. 
+
+> If you disable the blog, all blog posts are removed from the site map.
 
 The html version of the sitemap does not take into consideration any of the hierarchy of your site. It simply outputs all visible content into a list. This can be used for a crawl-able site page, but it not intended for your website visitors, at this time. We intend to add a Sitemap module to the admin of the site for more options regarding site map generation, including html.
 
