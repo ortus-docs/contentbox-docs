@@ -2,6 +2,21 @@
 
 This release we're focusing on feedback from ContentBox 3.x customers and the ability to containerize ContentBox. Building on top of the SEO updates in ContentBox 3.1.0, we're continuing to make ContentBox more SEO friendly, Search Engine Friendly and Social Media Friendly.  This update has a tremendous amount of updates and bug fixes for your current installations.  So let's start investigating all the major areas of improvement:
 
+## Installation Slugs
+
+ContentBox has been partitioned into three installation slugs from ForgeBox:
+
+1. `contentbox` - Installs ContentBox as a module into any ColdBox application.
+1. `contentbox-site` - Installs a new ColdBox site enabled for ContentBox with a dependency on `contentbox` for its module.
+1. `contentbox-installer` - Same as above but with our DSN Creator and Installer Module.
+
+This new schema and re-organization allows us better flexibility when updating ContentBox and installing ContentBox under docker containers.  First of all, updating ContentBox will now be a matter of two simple steps:
+
+1. Run `box update contentbox` in the root of the site
+1. Apply the `contentbox-db` patch in the admin
+
+We are trying to leverage CommandBox much more for updates and also for ease of use of installation.
+
 ## Container Based Updates
 
 On our move to greater containerization we have made several improvements and re-structuring in ContentBox.
