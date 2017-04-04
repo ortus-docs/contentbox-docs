@@ -2,6 +2,52 @@
 
 This release we're focusing on feedback from ContentBox 3.x customers and the ability to containerize ContentBox. Building on top of the SEO updates in ContentBox 3.1.0, we're continuing to make ContentBox more SEO friendly, Search Engine Friendly and Social Media Friendly.  This update has a tremendous amount of updates and bug fixes for your current installations.  So let's start investigating all the major areas of improvement:
 
+## Container Based Updates
+
+On our move to greater containerization we have made several improvements and re-structuring in ContentBox.
+
+### Override ContentBox Settings via ColdBox.cfc
+
+You can now override any runtime setting for ContentBox via a configuration structure in your main `ColdBox.cfc` configuration file.  This will allow developers to override any runtime setting for any site (yes multi-site is coming).
+
+All you need to do is create the a `contentbox` structure in your `configure()` or any tier method, with the name of the site (`default` is the default site) and then any setting name-value pair.
+
+```js
+contentbox = {
+	
+ // Runtime Settings Override by site slug
+ settings = {
+  // Default site
+  default = {
+   "cb_search_adapter" 		= "my.search.adapter",
+   "cb_media_directoryRoot" 	= "/docker/mount"
+  }
+ }
+}
+```
+
+### Override ContentBox Settings via Java Environment Variables
+
+You can also override any runtime ContentBox setting by passing them via Docker/Java Runtime variables.
+
+Since these are string keys we can now use our fancy structures like the settings above, so you must adhere to our recognition pattern:
+
+```
+contentbox_{site}_{setting}=value
+```
+
+Here is an example on adding a custom media root:
+
+```
+-Dcontentbox_default_cb_media_directoryRoot=./build/docker/contentbox/content
+```
+
+This will allow especially Docker environments to override settings as environments or even provide secrets.  More is coming, so stay tuned to our updates.
+
+
+
+
+
 ## Updated Dashboard
 
 The ContentBox dashboard gets some love with two new reports:
