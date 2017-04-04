@@ -17,7 +17,7 @@ The *Latest Edits* widget also shows hit counts for the pages as a mini-report.
 
 <img src="/images/3.5.0/search.png">
 
-The admin global search has been completely revamped.  The UI has been updated to reflect the different types of context searches: pages, contentstore, entries and authors.  It also allows you to edit or open directly to the site if available.  We have also introduced that ability to scope your search context with the following prefixes:
+The admin global search has been completely revamped.  The UI has been updated to reflect the different types of context searches: pages, contentstore, entries and authors.  It also allows you to edit or open directly to the site if available.  We have also introduced that ability to scope your search context with the following search prefixes:
 
 * `author:{text}`
 * `page:{text}`
