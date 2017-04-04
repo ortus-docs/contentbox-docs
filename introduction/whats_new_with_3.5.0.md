@@ -4,7 +4,7 @@ This release we're focusing on feedback from ContentBox 3.x customers and the ab
 
 ## Installation Slugs
 
-ContentBox has been partitioned into three installation slugs from ForgeBox:
+ContentBox has been partitioned into three installation slugs from ForgeBox in this version going forward:
 
 1. `contentbox` - Installs ContentBox as a module into any ColdBox application.
 1. `contentbox-site` - Installs a new ColdBox site enabled for ContentBox with a dependency on `contentbox` for its module.
