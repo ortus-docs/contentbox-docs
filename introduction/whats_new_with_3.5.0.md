@@ -1,6 +1,6 @@
-# What's coming in 3.5.0
+# What's New in 3.5.0
 
-This release we're focusing on feedback from ContentBox 3.x customers. Building on top of the SEO updates in ContentBox 3.1.0, we're continuing to make ContentBox more SEO friendly, Search Engine Friendly and Social Media Friendly.
+This release we're focusing on feedback from ContentBox 3.x customers and the ability to containerize ContentBox. Building on top of the SEO updates in ContentBox 3.1.0, we're continuing to make ContentBox more SEO friendly, Search Engine Friendly and Social Media Friendly.  This update has a tremendous amount of updates and bug fixes for your current installations.  So let's start investigating all the major areas of improvement:
 
 ## On Demand Sitemap Generation for Search Engines
 

@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+  * [What's New With 3.5.0](introduction/whats_new_with_3.5.0.md)
   * [What's New With 3.1.0](introduction/whats_new_with_310.md)
   * [What's New With 3.0.0](introduction/whats_new.md)
     * [Architecture](introduction/whats_new_3_0_0/architecture.md)
@@ -8,7 +9,6 @@
     * [Themes](introduction/whats_new_3_0_0/themes.md)
     * [Front End](introduction/whats_new_3_0_0/front_end.md)
     * [Upgrading to 3.0.0](introduction/upgrading.md)
-  * [What's New With 3.5.0](introduction/whats_new_with_3.5.0.md)
   * [About This Book](introduction/about_this_book.md)
   * [Author](introduction/author.md)
 * [Getting Started](getting_started/index.md)
