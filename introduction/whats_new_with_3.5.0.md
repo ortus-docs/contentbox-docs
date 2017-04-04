@@ -70,7 +70,11 @@ More information on Facebook and OpenGraph can be found here: [https://developer
 
 
 ## CKEditor Updates
+
 CKEditor has been updated to its latest stable release with its new skin which looks fantastic within ContentBox.
+
+<img src="/images/3.5.0/ckeditor.png">
+
 
 ## Update of all JavaScript libraries + Widgets
 
