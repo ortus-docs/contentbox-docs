@@ -24,7 +24,11 @@ The admin global search has been completely revamped.  The UI has been updated t
 * `contenstore:{text}`
 * `entry:{text}`
 
-You can replace the `{text}` with whatever you want to search for and ContentBox will search only the context you applied.
+You can replace the `{text}` with whatever you want to search for and ContentBox will search only the context you 
+applied.
+
+<img src="/images/3.5.0/search-author.png">
+<img src="/images/3.5.0/search-page.png">
 
 ### Global Search Interceptors
 
