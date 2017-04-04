@@ -73,6 +73,9 @@ ${i18n:resourceKey@bundleName}
 
 This will allow you better localization in any page, blog entry or content store item.
 
+## i18n Caching Updates
+
+All the UI front-end caching mechanisms have been updated to incorporate the user's language locale via the `i18n` module included in ContentBox.  This means that you can localize any content now by using the `getFWLocale()` method included in the `i18n` module.
 
 
 ## Updated Dashboard
