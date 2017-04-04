@@ -41,7 +41,7 @@ The ContentBox and discussion group can be found here: [https://groups.google.co
 
 We all make mistakes from time to time :\) So why not let us know about it and help us out.  We also love pull requests, so please star us and fork us: [https://github.com/Ortus-Solutions/ContentBox](https://github.com/Ortus-Solutions/ContentBox)
 
-* By Jira: [https:\/\/ortussolutions.atlassian.net\/browse\/CONTENTBOX](https://ortussolutions.atlassian.net/browse/CONTENTBOX)
+* By Jira: [https:///ortussolutions.atlassian.net/browse/CONTENTBOX](https://ortussolutions.atlassian.net/browse/CONTENTBOX)
 
 # Professional Open Source
 
