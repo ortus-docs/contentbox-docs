@@ -115,7 +115,7 @@ function onDeactivate(){
 }
 ```
 
-This is a bare bones template for a module controlled by ContentBox, but right now it doesn't really do anything... in fact if you tried to hit the module, the default route for / would look for home hander with index action/view but we haven't created those yet. None of the functions above do anything, so all the activation and deactivation does, is make the module available or not. If you try and access /mysecrets ( the entry point ) with the module deactivated you see this
+This is a bare bones template for a module controlled by ContentBox, but right now it doesn't really do anything... in fact if you tried to hit the module, the default route for / would look for home handler with index action/view but we haven't created those yet. None of the functions above do anything, so all the activation and deactivation does, is make the module available or not. If you try and access /mysecrets ( the entry point ) with the module deactivated you see this
 
 ![ContentBox Module Deactivated](modulesEntryPointDeactivated.jpg)
 
