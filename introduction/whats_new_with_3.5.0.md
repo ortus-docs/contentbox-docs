@@ -28,8 +28,10 @@ You can replace the `{text}` with whatever you want to search for and ContentBox
 
 ### Global Search Interceptors
 
-You can add your own contexts and search contributions by listening to the following events:
+You can add your own search contexts and search contributions by listening to the following two events:
 
+* `onGlobalSearchRequest`
+* `onGlobalSearchDisplay`
 
 
 
