@@ -68,6 +68,14 @@ Once you have made this change, reinitialize the site, the easiest way is to log
 
 More information on Facebook and OpenGraph can be found here: [https://developers.facebook.com/docs/sharing/webmasters](https://developers.facebook.com/docs/sharing/webmasters)
 
+
+## CKEditor Updates
+CKEditor has been updated to its latest stable release with its new skin which looks fantastic within ContentBox.
+
+## Update of all JavaScript libraries + Widgets
+
+All internally used JavaScript libraries and widgets have been updated to their latest stable versions.
+
 ## Release Notes
 
 ### Bugs    
