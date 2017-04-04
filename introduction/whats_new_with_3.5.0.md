@@ -23,9 +23,7 @@ Google recommends XML, but supports `txt` as well. XML allows for more informati
 
 If you use the featured image with your pages and blog entries, the image will be included in the site map, and the last modified date as well.
 
-The site maps shows all pages and blog entries that are published, and not hidden via the show in search bit. 
-
-> If you disable the blog, all blog posts are removed from the site map.
+The site maps shows all pages and blog entries that are published, and not hidden via the show in search bit. If you disable the blog, all blog posts are removed from the site map.
 
 > **Info** The HTML version of the sitemap does not take into consideration any of the hierarchy of your site. It simply outputs all visible content into a list. This can be used for a crawl-able site page, but it not intended for your website visitors, at this time.
 
