@@ -2,6 +2,15 @@
 
 This release we're focusing on feedback from ContentBox 3.x customers and the ability to containerize ContentBox. Building on top of the SEO updates in ContentBox 3.1.0, we're continuing to make ContentBox more SEO friendly, Search Engine Friendly and Social Media Friendly.  This update has a tremendous amount of updates and bug fixes for your current installations.  So let's start investigating all the major areas of improvement:
 
+## Updated Dashboard
+
+The ContentBox dashboard gets some love with two new reports:
+
+* Future Published Content - Shows top 10 content that publishes in the future.
+* Expired Content - Shows the top 10 expired content.
+
+The *Latest Edits* widget also shows hit counts for the pages as a mini-report.
+
 ## On Demand Sitemap Generation for Search Engines
 
 In an effort to make ContentBox work better with search engines, we have added a Sitemap Generation Module for Search Engines.  You can now upload your XML sitemaps to Google, Yahoo, Bing and any other search engine you would like to work with.
