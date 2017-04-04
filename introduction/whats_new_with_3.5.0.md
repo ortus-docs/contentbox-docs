@@ -59,7 +59,19 @@ Here is an example on adding a custom media root:
 
 This will allow especially Docker environments to override settings as environments or even provide secrets.  More is coming, so stay tuned to our updates.
 
+## i18n Editor Integration
 
+The ContentBox editors now accept a new markup for retrieving localized content from any resource bundle in the ColdBox application.  You can now use the following markup:
+
+```
+// Retrieve a key from the default resource bundle
+${i18n:resourcekey}
+
+// Retrieve a key from a named bundle
+${i18n:resourceKey@bundleName}
+```
+
+This will allow you better localization in any page, blog entry or content store item.
 
 
 
