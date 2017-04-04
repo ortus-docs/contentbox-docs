@@ -1,9 +1,10 @@
-```
-____            _             _   ____            
-  / ___|___  _ __ | |_ ___ _ __ | |_| __ )  _____  __
- | |   / _ \| '_ \| __/ _ \ '_ \| __|  _ \ / _ \ \/ /
- | |__| (_) | | | | ||  __/ | | | |_| |_) | (_) >  < 
-  \____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\
+`
+``
+____ _ _ ____
+/ ___|___ _ __ | |_ ___ _ __ | |_| __ ) _____ __
+| | / _ \| '_ \| __/ _ \ '_ \| __| _ \ / _ \ \/ /
+| |__| (_) | | | | || __/ | | | |_| |_) | (_) > <
+\____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\
 ```
 
 # ContentBox Modular CMS - v3.5.0
@@ -28,7 +29,7 @@ And constructed with the following guidelines:
 
 # License
 
-ContentBox Modular CMS is open source and licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.html) License.  Ortus Solutions, Corp, the makers of ContentBox, can also offer commercial and supported versions as well.
+ContentBox Modular CMS is open source and licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.html) License. Ortus Solutions, Corp, the makers of ContentBox, can also offer commercial and supported versions as well.
 
 * Copyright by Ortus Solutions, Corp
 * ContentBox is a registered trademark by Ortus Solutions, Corp
@@ -39,9 +40,9 @@ The ContentBox and discussion group can be found here: [https://groups.google.co
 
 # Reporting a Bug
 
-We all make mistakes from time to time :\) So why not let us know about it and help us out.  We also love pull requests, so please star us and fork us: [https://github.com/Ortus-Solutions/ContentBox](https://github.com/Ortus-Solutions/ContentBox)
+We all make mistakes from time to time :\) So why not let us know about it and help us out. We also love pull requests, so please star us and fork us: [https://github.com/Ortus-Solutions/ContentBox](https://github.com/Ortus-Solutions/ContentBox)
 
-* By Jira: [https:///ortussolutions.atlassian.net/browse/CONTENTBOX](https://ortussolutions.atlassian.net/browse/CONTENTBOX)
+* By Jira: [https://ortussolutions.atlassian.net/browse/CONTENTBOX](https://ortussolutions.atlassian.net/browse/CONTENTBOX)
 
 # Professional Open Source
 
@@ -59,13 +60,13 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 
 # Resources
 
-* Official Website: [https:\/\/www.contentboxcms.org](https://www.contentboxcms.org)
-* Source Code: [https:\/\/github.com\/Ortus-Solutions\/ContentBox](https://github.com/Ortus-Solutions/ContentBox)
-* Bug Tracker: [https:\/\/ortussolutions.atlassian.net\/browse\/CONTENTBOX](https://ortussolutions.atlassian.net/browse/CONTENTBOX)
+* Official Website: [https://www.contentboxcms.org](https://www.contentboxcms.org)
+* Source Code: [https://github.com/Ortus-Solutions/ContentBox](https://github.com/Ortus-Solutions/ContentBox)
+* Bug Tracker: [https://ortussolutions.atlassian.net/browse/CONTENTBOX](https://ortussolutions.atlassian.net/browse/CONTENTBOX)
 * Twitter: [@gocontentbox](http://www.twitter.com/gocontentbox)
-* Facebook: [https:\/\/www.facebook.com\/gocontentbox](https://www.facebook.com/gocontentbox)
-* Vimeo Channel: [http:\/\/vimeo.com\/channels\/contentbox](http://vimeo.com/channels/contentbox)
-* YouTube Channel: [https:\/\/www.youtube.com\/channel\/UCKLYx772weG6Eh06ny-lJBg](https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg)
+* Facebook: [https://www.facebook.com/gocontentbox](https://www.facebook.com/gocontentbox)
+* Vimeo Channel: [http://vimeo.com/channels/contentbox](http://vimeo.com/channels/contentbox)
+* YouTube Channel: [https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg](https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg)
 
 ---
 
@@ -73,8 +74,7 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 
 Because of His grace, this project exists. If you don't like this, then don't read it, its not for you.
 
-> "Therefore being justified by **faith**, we have peace with God through our Lord Jesus Christ:  
+> "Therefore being justified by **faith**, we have peace with God through our Lord Jesus Christ:
 > By whom also we have access by **faith** into this **grace** wherein we stand, and rejoice in hope of the glory of God." Romans 5:5
-
 
 
