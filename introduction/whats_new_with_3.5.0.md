@@ -26,6 +26,11 @@ The admin global search has been completely revamped.  The UI has been updated t
 
 You can replace the `{text}` with whatever you want to search for and ContentBox will search only the context you applied.
 
+### Global Search Interceptors
+
+You can add your own contexts and search contributions by listening to the followig events:
+
+
 
 
 ## Content Store Ordering
