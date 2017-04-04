@@ -27,7 +27,14 @@ The site maps shows all pages and blog entries that are published, and not hidde
 
 > If you disable the blog, all blog posts are removed from the site map.
 
-The html version of the sitemap does not take into consideration any of the hierarchy of your site. It simply outputs all visible content into a list. This can be used for a crawl-able site page, but it not intended for your website visitors, at this time. We intend to add a Sitemap module to the admin of the site for more options regarding site map generation, including html.
+> **Info** The HTML version of the sitemap does not take into consideration any of the hierarchy of your site. It simply outputs all visible content into a list. This can be used for a crawl-able site page, but it not intended for your website visitors, at this time.
+
+### Sitemap Options
+
+You can turn on/off the sitemap features of ContentBox via the *Settings* Panel.
+
+<img src="/images/3.5.0/sitemap-options.png">
+
 
 ### Sitemap.txt support requires manual step
 
