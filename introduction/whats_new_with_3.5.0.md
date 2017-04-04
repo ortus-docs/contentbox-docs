@@ -13,6 +13,12 @@ The ContentBox dashboard gets some love with two new reports:
 
 The *Latest Edits* widget also shows hit counts for the pages as a mini-report.
 
+## Content Store Ordering
+
+<img src="/images/3.5.0/ordering-actions.png">
+
+The content store hierarchy has now been introduced to ordering digits. This means that instead of retrieving content store collections ordered by their natural keys, you now have full control of ordering hierarchies.  This will allow you to create ordered collections for things like photo galleries, metadata, etc.
+
 ## On Demand Sitemap Generation for Search Engines
 
 In an effort to make ContentBox work better with search engines, we have added a Sitemap Generation Module for Search Engines.  You can now upload your XML sitemaps to Google, Yahoo, Bing and any other search engine you would like to work with.
