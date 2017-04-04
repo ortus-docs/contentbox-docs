@@ -36,7 +36,7 @@ You can turn on/off the sitemap features of ContentBox via the *Settings* Panel.
 
 ### Sitemap.txt support requires manual step
 
-To support sitemap.txt, you will need to edit your `config/routes.cfm` file. 
+To support `sitemap.txt`, you will need to edit your `config/routes.cfm` file. 
 Inside that file you will find a line:
 
 `setValidExtensions('xml,json,jsont,rss,html,htm,cfm,print,pdf,doc');`
