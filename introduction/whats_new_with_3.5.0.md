@@ -61,10 +61,29 @@ This will allow especially Docker environments to override settings as environme
 
 ## UI AdminBar
 
+<img src="/images/3.5.0/adminbar.png">
+
 We have added a new Admin Bar that can help you manage and edit content from the front end website.  This Admin Bar can be enabled/disabled from the ContentBox Settings panel and will only show up if it meets the following rules:
 
 1. You are logged in
 1. You have ANY of following permissions: `CONTENTBOX_ADMIN,PAGES_ADMIN,PAGES_EDITOR,ENTRIES_ADMIN,ENTRIES_EDITOR`
+
+The admin bar will give you the following features:
+
+* Visit admin
+* Edit visited content
+* Edit custom fields
+* Edit SEO data
+* View content history
+* View Hits
+* View page layout
+* Visual Draft Mode
+* Visual Publish in Future
+
+
+<img src="/images/3.5.0/adminbar-draft.png">
+
+Hopefully, this admin bar can help you manage and edit content in a more visual manner.
 
 
 
