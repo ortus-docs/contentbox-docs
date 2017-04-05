@@ -59,6 +59,15 @@ Here is an example on adding a custom media root:
 
 This will allow especially Docker environments to override settings as environments or even provide secrets.  More is coming, so stay tuned to our updates.
 
+## UI AdminBar
+
+We have added a new Admin Bar that can help you manage and edit content from the front end website.  This Admin Bar can be enabled/disabled from the ContentBox Settings panel and will only show up if it meets the following rules:
+
+1. You are logged in
+1. You have ANY of following permissions: `CONTENTBOX_ADMIN,PAGES_ADMIN,PAGES_EDITOR,ENTRIES_ADMIN,ENTRIES_EDITOR`
+
+
+
 ## i18n Editor Integration
 
 The ContentBox editors now accept a new markup for retrieving localized content from any resource bundle in the ColdBox application.  You can now use the following markup:
