@@ -2,7 +2,7 @@
 
 This release we're focusing on feedback from ContentBox 3.x customers and the ability to containerize ContentBox. Building on top of the SEO updates in ContentBox 3.1.0, we're continuing to make ContentBox more SEO friendly, Search Engine Friendly and Social Media Friendly.  This update has a tremendous amount of updates and bug fixes for your current installations.  So let's start investigating all the major areas of improvement:
 
-## Installation Slugs
+## New Installation Slugs
 
 ContentBox has been partitioned into three installation slugs from ForgeBox in this version going forward:
 
