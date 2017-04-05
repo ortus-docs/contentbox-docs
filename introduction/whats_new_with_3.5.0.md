@@ -89,14 +89,16 @@ Hopefully, this admin bar can help you manage and edit content in a more visual 
 
 <img src="/images/3.5.0/image-editor.png">
 
-
-
 Thanks to our good friend Francesco Pepe (@tropicalista), we now have a full-fledged image editor in ContentBox Media Manager.  The new Image Editor has the following capabilities:
 
 * Visual Image Information
 * Image Resizing
 * Image Cropping
 * Image Manipulation: Rotation, Flip and much more.
+
+<img src="/images/3.5.0/image-transform.png">
+
+
 
 ## i18n Editor Integration
 
