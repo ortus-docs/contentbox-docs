@@ -85,7 +85,7 @@ The admin bar will give you the following features:
 
 Hopefully, this admin bar can help you manage and edit content in a more visual manner.
 
-## Media Manager Image Editor
+## Media Manager Image Editor + UI Updates
 
 <img src="/images/3.5.0/image-editor.png">
 
@@ -98,7 +98,7 @@ Thanks to our good friend Francesco Pepe (@tropicalista), we now have a full-fle
 
 <img src="/images/3.5.0/image-transform.png">
 
-
+The media manager also sports better dialogs, context menus and better visualization.  You can now also do multiple select via the use of the `ctrl` key.
 
 ## i18n Editor Integration
 
