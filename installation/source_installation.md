@@ -21,6 +21,23 @@ unzip contentbox_{version}.zip
 
 > **Caution** Due to a bug in some CFML engines, DO NOT use the subfolder name `contentbox`, use cbox or site or whatever you like if you will be deploying under a subfolder.
 
+Please also note that you can also download two more types:
+
+1. **Module** - The ContentBox module so you can deploy into any existing ColdBox application
+
+```
+wget https://www.ortussolutions.com/parent/download/contentbox
+
+```
+
+2. **Site** - A pre-configured site like the installer but with no DSN Creator and ContentBox Installer
+
+```
+wget https://www.ortussolutions.com/parent/download/contentbox?type=site
+
+```
+
+
 ## Step 2: Create Your Database
 Now that the source is deployed in your webserver, it is time to create your database in your favorite DBMS engine.  ContentBox is built with Hibernate ORM technology, so in theory it should work in all major database systems. You can even use an embedded database like Apache or Hypersonic.
 
