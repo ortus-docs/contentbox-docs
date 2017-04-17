@@ -27,11 +27,11 @@ Now that we have CommandBox we can use it to install and execute a ContentBox si
 
 ```
 mkdir mysite --cd
-install contentbox
+install contentbox-installer
 server start --rewritesEnable
 ```
 
-> **Note** You can install the bleeding edge of ContentBox by using the `contentbox-be` slug instead of `contentbox` in the install command.
+> **Note** You can install the bleeding edge of ContentBox by using the `contentbox-install@be` identifier in the install command.  Basically, you can add any `@be` to any ID and CommandBox will try to retrieve the latest bleeding edge.
 
 This will install the latest stable ContentBox and run an embedded server (lucee) for it.  After this you will get the ContenBox installer.  Just follow it through.
 
