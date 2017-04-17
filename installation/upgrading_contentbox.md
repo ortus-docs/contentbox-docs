@@ -45,5 +45,13 @@ We do not recommend running the `Update.cfc` or patch files manually.  Let the i
 ## Manual Downloading Patches
 You can also use the Updates panel to point to a download URL so ContentBox can be patched via a patch URL.  This functionality is mostly used by our support customers so we can deliver on-demand patches to their ContentBox instances.  You can also use this approach to deliver patches to a local intranet of ContentBox instances.  Just type in the download URL and hit update!
 
+## CommandBox Updates
+If you are using the `contentbox` module approach via CommandBox, you can easily upgrade by doing two things:
+
+1. Issue an update command: `box update contentbox`. This will update the module to its latest version
+1. Apply the `db-only` patch in your administrator
+
+Then restart your engine.
+
 ## Professional Updating
 The ContentBox team can also do the heavy lifting for you as we are a professional open source project.  So just contact us and we will update or install any ContentBox instances in a secure and fast way!
