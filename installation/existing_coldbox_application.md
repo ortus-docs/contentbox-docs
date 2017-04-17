@@ -3,48 +3,23 @@
 If you already have a ColdBox application and you wish to install ContentBox into it, you most definitely can. 
 
 ## System Requirements
-Please note that ContentBox 3 requires ColdBox 4.3+.
+Please note that ContentBox requires ColdBox 4.3+.
 
 ## Step 1 : Dependencies
-Before we go and install the ContentBox modules we must make sure our application has the right dependencies for ContentBox to work.  Please make sure you download and install [CommandBox](https://www.ortussolutions.com/products/commandbox) as we will use it for dependency management.  Open a CommandBox shell in the root of your ColdBox application by typing `box` or opening the `box` binary in that directory.  Once in the shell you will install the following dependencies:
 
-* cborm
-* cbjavaloader
-* cbmailservices
-* cbsecurity
-* cbstorages
-* cbfeeds
-* cbmessagebox
-* cbantisamy
-* bcrypt
-* cbmarkdown
+Since version 3.5.0, you can now simply issue a command in CommandBox to install the ContentBox module into an existing ColdBox application.  Just open a `box` shell in the root of your ColdBox application and use the following command:
 
-You can either do a `install {list here}` and list out all the dependencies or just copy paste the following snippet below and add it to your `dependencies` structure of your `box.json` file and then type `install`
-
-```js
-"cborm":"1.2.1+00004",
-"cbjavaloader":"1.1.0+00002",
-"cbmailservices":"1.2.0+00028",
-"cbsecurity":"1.3.0+00003",
-"cbstorages":"1.1.0+00002",
-"cbfeeds":"1.0.1",
-"cbmessagebox":"2.1.0+00027",
-"cbantisamy":"1.3.0+00033",
-"bcrypt":"https://github.com/coldbox-modules/cbox-bcrypt/archive/v2.1.0.zip",
-"cbmarkdown":"2.0.0+00007"
+```
+install contentbox production=true
 ```
 
-> **Hint** You can find the latest dependency listing inside of the ConntentBox download in the root as `box.json`
+This will install the ContentBox module with all of its dependencies under the `/modules/contentbox` folder and update your `box.json` with the appropriate dependency.  That's it, next step!
 
-## Step 2 : Copy over ContentBox Modules
-Now that the dependencies are installed, copy over all of the ContentBox modules from our regular [download](https://www.ortussolutions.com/products/contentbox#downloads):
 
-* contentbox
-* contentbox-admin
-* contentbox-installer
-* contentbox-ui
+## Step 2 : Copy Over Installer (Optional)
+If you need to execute the ContentBox installer for the first time, you will have to download the installer package from our [download page](https://www.ortussolutions.com/products/contentbox#downloads).  Extract the zip and copy over the `modules/contentbox-installer` folder into your `modules` folder.
 
-> **Note** Don't copy the DSN creator module, as we are assuming that your application already has an active datasource definition.
+> **Note** We will create another installer approach in the future for this portion.
 
 
 ## Step 3 : `Application.cfc` Updates
