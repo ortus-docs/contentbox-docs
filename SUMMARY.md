@@ -74,6 +74,7 @@
     * [Security Rules](using/system/security_rules.md)
     * [Updates](using/system/updates.md)
 * [Developing For ContentBox](developing/README.md)
+  * [Overriding ContentBox Settings](developing/overriding-contentbox-settings.md)
   * [Front-End Development](developing/front_end/README.md)
     * [File Structure](developing/front_end/files.md)
     * [Theme Development](developing/themes/README.md)
