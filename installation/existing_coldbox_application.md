@@ -1,9 +1,9 @@
 # Existing ColdBox Application
 
-If you already have a ColdBox application and you wish to install ContentBox into it, you most definitely can.  There are a few more steps involved than our simple `box install contentbox` procedure as we will be integrating into an existing application.
+If you already have a ColdBox application and you wish to install ContentBox into it, you most definitely can. 
 
 ## System Requirements
-Please note that ContentBox 3 requires ColdBox 4.2+.
+Please note that ContentBox 3 requires ColdBox 4.3+.
 
 ## Step 1 : Dependencies
 Before we go and install the ContentBox modules we must make sure our application has the right dependencies for ContentBox to work.  Please make sure you download and install [CommandBox](https://www.ortussolutions.com/products/commandbox) as we will use it for dependency management.  Open a CommandBox shell in the root of your ColdBox application by typing `box` or opening the `box` binary in that directory.  Once in the shell you will install the following dependencies:
