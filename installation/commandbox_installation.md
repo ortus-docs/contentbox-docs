@@ -51,7 +51,7 @@ Click on `open web admin` and go into the datasources section and create one.
 ## Installation Slugs
 ContentBox is partitioned into three installation slugs from ForgeBox in order to allow for more flexible installation structures.  We used the installer above, but you can use the following approaches as well:
 
-1. `contentbox` - Installs ContentBox as a module into any ColdBox application.
-1. `contentbox-site` - Installs a new ColdBox site enabled for ContentBox with a dependency on `contentbox` for its module.
+1. `contentbox` - Installs ContentBox as a module into any existing ColdBox application.
+1. `contentbox-site` - Installs a new ColdBox site enabled for ContentBox with a dependency on `contentbox` for its module but no installer or DSN creator.
 1. `contentbox-installer` - Same as above but with our DSN Creator and Installer Module.
 
