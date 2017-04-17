@@ -651,7 +651,7 @@
 		<tr>
 			<td><code>cb_site_email</code></td>
 			<td>string</td>
-			<td>jclausen@ortussolutions.com</td>
+			<td>(entered during initial site setup)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -717,13 +717,13 @@
 		<tr>
 			<td><code>cb_site_name</code></td>
 			<td>string</td>
-			<td>Contentbox Test</td>
+			<td>(entered during initial site setup)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_site_outgoingEmail</code></td>
 			<td>string</td>
-			<td>jclausen@ortussolutions.com</td>
+			<td>(entered during initial site setup)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -753,7 +753,7 @@
 		<tr>
 			<td><code>cb_site_tagline</code></td>
 			<td>string</td>
-			<td>Testing!</td>
+			<td>(entered during initial site setup)</td>
 			<td></td>
 		</tr>
 		<tr>
