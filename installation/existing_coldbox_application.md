@@ -28,9 +28,9 @@ Now open your `Application.cfc` and you will add the following updates:
 ### Mappings
 ```js
 // LOCATION MAPPINGS
-this.mappings[ "/contentbox" ] 	= COLDBOX_APP_ROOT_PATH & "modules/contentbox";
+this.mappings[ "/contentbox" ] = COLDBOX_APP_ROOT_PATH & "modules/contentbox";
 // THE LOCATION OF THE ORM MODULE
-this.mappings[ "/cborm" ] = COLDBOX_APP_ROOT_PATH & "/modules/cborm";
+this.mappings[ "/cborm" ] = this.mappings[ "/contentbox" ] & "/modules/contentbox-deps/modules/cborm";
 ```
 
 ### ORM Settings
@@ -40,16 +40,16 @@ this.mappings[ "/cborm" ] = COLDBOX_APP_ROOT_PATH & "/modules/cborm";
 this.ormEnabled = true;
 this.ormSettings = {
     // ENTITY LOCATIONS, ADD MORE LOCATIONS AS YOU SEE FIT
-    cfclocation=[ "models", "modules" ],
+    cfclocation=[ "models", "modules", "modules_app" ],
     // DO NOT REMOVE THE FOLLOWING LINE OR AUTO-UPDATES MIGHT FAIL.
     dbcreate = "update",
     // FILL OUT: IF YOU WANT CHANGE SECONDARY CACHE, PLEASE UPDATE HERE
-    secondarycacheenabled = false,
+    secondarycacheenabled      = false,
     cacheprovider		= "ehCache",
     // ORM SESSION MANAGEMENT SETTINGS, DO NOT CHANGE
-    logSQL 				= false,
-    flushAtRequestEnd 	= false,
-    autoManageSession	= false,
+    logSQL 			= false,
+    flushAtRequestEnd 	        = false,
+    autoManageSession	        = false,
     // ORM EVENTS MUST BE TURNED ON FOR CONTENTBOX TO WORK
     eventHandling 		= true,
     eventHandler		= "cborm.models.EventHandler",
@@ -63,12 +63,6 @@ this.ormSettings = {
 We now move to the last step, open your application's `ColdBox.cfc` and you will add the following settings:
 
 ```js
-// Configure the admin messagebox
-messagebox = {
-    styleOverride 	= true,
-    template 		= "/contentbox/models/ui/templates/messagebox.cfm"
-};
-
 // ORM Module Configuration
 orm = {
     // Enable Injection
@@ -80,7 +74,7 @@ orm = {
 
 That's it!  Once all those settings, mappings and module installations are done you can now visit the installer module to continue with the installation process: `http://localhost/index.cfm/cbinstaller`
 
-> **Danger** Make sure you have the datasource created in your ColdFusion administrator.
+> **Danger** Make sure you have the datasource created in your ColdFusion administrator or inline in your `Application.cfc`
 
 
 ### Step 5 (Optional) : UI Route
