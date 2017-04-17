@@ -4,7 +4,7 @@
 
 The Quick Setup will take you through 8 easy steps in order to configure and install a ContentBox Express Edition with an embedded database so we can start working with ContentBox. Ready, set, go!
 
-> **Note** You can also use our CommandBox installation process but you will need to setup your own database.  The Express edition already comes with an embedded database, so it will be easier to setup.
+> **Note** If you prefer a container (Docker) approach, then use the [Docker getting started guide](/installation/docker.md).
 
 ### Step 1 : Download
 
