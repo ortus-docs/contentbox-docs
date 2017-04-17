@@ -61,13 +61,13 @@
 		<tr>
 			<td><code>cb_comments_moderation_blacklist</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_comments_moderation_blockedlist</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -97,7 +97,7 @@
 		<tr>
 			<td><code>cb_comments_notifyemails</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -213,7 +213,7 @@
 		<tr>
 			<td><code>cb_dashboard_welcome_body</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -255,115 +255,115 @@
 		<tr>
 			<td><code>cb_html_afterBodyStart</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_afterContent</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_afterFooter</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_afterSideBar</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_beforeBodyEnd</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_beforeContent</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_beforeHeadEnd</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_beforeSideBar</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_postArchivesDisplay</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_postCommentForm</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_postEntryDisplay</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_postIndexDisplay</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_postPageDisplay</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_preArchivesDisplay</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_preCommentForm</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_preEntryDisplay</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_preIndexDisplay</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_html_prePageDisplay</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_media_acceptMimeTypes</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -543,7 +543,7 @@
 		<tr>
 			<td><code>cb_rss_webmaster</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -639,7 +639,7 @@
 		<tr>
 			<td><code>cb_site_description</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -663,19 +663,19 @@
 		<tr>
 			<td><code>cb_site_keywords</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_site_mail_password</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_site_mail_server</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -699,7 +699,7 @@
 		<tr>
 			<td><code>cb_site_mail_username</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -771,19 +771,19 @@
 		<tr>
 			<td><code>cb_theme_default_cssStyleOverrides</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_theme_default_footerBox</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_theme_default_headerLogo</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -819,37 +819,37 @@
 		<tr>
 			<td><code>cb_theme_default_hpHeaderBtnText</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_theme_default_hpHeaderImgBg</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_theme_default_hpHeaderLink</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_theme_default_hpHeaderText</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_theme_default_hpHeaderTitle</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td><code>cb_theme_default_overrideHeaderBGColor</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -861,7 +861,7 @@
 		<tr>
 			<td><code>cb_theme_default_overrideHeaderTextColor</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
@@ -921,7 +921,7 @@
 		<tr>
 			<td><code>cb_versions_max_history</code></td>
 			<td>string</td>
-			<td>none</td>
+			<td>(empty string)</td>
 			<td></td>
 		</tr>
 		<tr>
