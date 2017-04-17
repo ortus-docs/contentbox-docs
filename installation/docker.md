@@ -159,9 +159,8 @@ There are more geek settings and paths that we have time to go in to in this pos
 
 For a list open source themes, readily available for your customization, [visit Forgebox](https://www.forgebox.io/type/contentbox-themes).
 
-<div class="alert alert-info">
-**Please note** that the `Application.cfc` and the `config` directory of the ContentBox Docker image have some customizations specific to their purpose.  If you wish to customize those, please see [the Docker build repository files](https://github.com/Ortus-Solutions/docker-commandbox/tree/master/resources/contentbox) to ensure those customizations are present in yours.
-</div>
+
+> **Note** that the `Application.cfc` and the `config` directory of the ContentBox Docker image have some customizations specific to their purpose.  If you wish to customize those, please see [the Docker build repository files](https://github.com/Ortus-Solutions/docker-commandbox/tree/master/resources/contentbox) to ensure those customizations are present in yours.
 
 
 ## In Short
