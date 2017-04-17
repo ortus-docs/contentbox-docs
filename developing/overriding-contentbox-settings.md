@@ -8,14 +8,14 @@ All you need to do is create the a `contentbox` structure in your `configure()` 
 
 ```js
 contentbox = {
-// Runtime Settings Override by site slug
-settings = {
-// Default site
-default = {
-"cb_search_adapter" = "my.search.adapter",
-"cb_media_directoryRoot" = "/docker/mount"
-}
-}
+    // Runtime Settings Override by site slug
+    settings = {
+        // Default site
+        default = {
+            "cb_search_adapter"      = "my.search.adapter",
+            "cb_media_directoryRoot" = "/docker/mount"
+        }
+        }
 }
 ```
 
