@@ -20,6 +20,7 @@
   * [Express Installation](installation/express_installation.md)
   * [Existing ColdBox Application](installation/existing_coldbox_application.md)
   * [Upgrading ContentBox](installation/upgrading_contentbox.md)
+  * [Docker](installation/docker.md)
 * [Using ContentBox](using/README.md)
   * [Content](using/content/index.md)
     * [Publish Content](using/content/direct_pubilsh/index.md)
