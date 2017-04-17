@@ -4,10 +4,9 @@
  | |   / _ \| '_ \| __/ _ \ '_ \| __|  _ \ / _ \ \/ /
  | |__| (_) | | | | ||  __/ | | | |_| |_) | (_) >  < 
   \____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\
-                                                     
 ```
 
-# ContentBox Modular CMS - v3.5.0
+# ContentBox Modular CMS - v3.5.1
 
 ![ContentBox](./images/ContentBoxLogo300.png)
 
@@ -74,7 +73,8 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 
 Because of His grace, this project exists. If you don't like this, then don't read it, its not for you.
 
-> "Therefore being justified by **faith**, we have peace with God through our Lord Jesus Christ:
+> "Therefore being justified by **faith**, we have peace with God through our Lord Jesus Christ:  
 > By whom also we have access by **faith** into this **grace** wherein we stand, and rejoice in hope of the glory of God." Romans 5:5
+
 
 
