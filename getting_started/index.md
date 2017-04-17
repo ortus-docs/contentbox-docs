@@ -8,7 +8,7 @@ The Quick Setup will take you through 8 easy steps in order to configure and ins
 
 ### Step 1 : Download
 
-Go to [https:\/\/www.ortussolutions.com\/products\/contentbox\#downloads](https://www.ortussolutions.com/products/contentbox#downloads) and click on the download ContentBox Express Edition for your operating system.
+Go to [https://www.ortussolutions.com/products/contentbox#downloads](https://www.ortussolutions.com/products/contentbox#downloads) and click on the download ContentBox Express Edition for your operating system.
 
 ![](images/express_download.png)
 
