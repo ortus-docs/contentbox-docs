@@ -3,7 +3,7 @@
 In this section you will install ContentBox by using the **source** download option.
 
 ## Step 1: Download Source
-The first step is for you to download ContentBox (http://www.ortussolutions.com/products/contentbox) or you can use the command below:
+The first step is for you to download the ContentBox installer (http://www.ortussolutions.com/products/contentbox) or you can use the command below:
 
 ```
 # stable
