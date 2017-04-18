@@ -101,6 +101,7 @@ A number of environment variables, specific to the ContentBox image, are availab
 
 * `express=true` - Uses an H2, in-memory database. Useful for very small sites or for testing the image. See http://www.h2database.com/html/main.html
 * `install=true` (alias: `installer`) - Adds the installer module at runtime, to assit in configuring your installation. You would omit this from your `run` command, once your database has been configured
+* `$HEALTHCHECK_URI` - Specifies the URI endpoint for container health checks.  By default, this is set `http://127.0.0.1:${PORT}/` at 1 minute intervals with 5 retries and a timeout of 30s
 * `FWREINIT_PW` - Allows you to specify the reinit password for the ColdBox framework
 * `SESSION_STORAGE` - Allows the customization of session storage. Allows any valid `this.sessionStorage` value, available in [Application.cfc](http://docs.lucee.org/reference/tags/application.html). By default it will use the JDBC connection to store your sessions in your database of choice.
 * `DISTRIBUTED_CACHE` - Allows you to specify a CacheBox cache region for distributing ContentBox content, flash messages, cache storage, RSS feeds, sitemaps and settings. There are only three cache regions defined in this image: `default`, `template` and `jdbc`. `jdbc` is the default cache that will distribute your data, `default` and `template` are in-memory caches. Please see the distributed caching section below to see how to register more caches.
@@ -120,6 +121,10 @@ By default, the ContentBox image will use the Lucee Open Source CFML engine for 
 By default, our image configures a `jdbc` CacheBox cache region that will be used to distribute settings, flash data, content, RSS feeds, sitemaps, etc. This means that out-of-the-box, your ContentBox containers can use the database to distribute its content within a swarm or set of services. However, if you would like to use your own CacheBox providers or a more sophisticated distributed cache like Redis or Couchbase, you can.
 
 We have also prepared a docker compose and distribution example using Redis (more caches to come) and the ContentBox image. This example will allow you to have a stack that can easily distribute your sessions and content via Redis. You can find the repository here: [https://github.com/Ortus-Solutions/docker-contentbox-distributed](https://github.com/Ortus-Solutions/docker-contentbox-distributed)
+
+## Healthchecks
+
+The image contains built-in capabilities for healthchecks for the running application.  You can customize the URL entry point by using the `$HEALTHCHECK_URI` environment variable. By default, this is set `http://127.0.0.1:${PORT}/` at 1 minute intervals with 5 retries and a timeout of 30s.
 
 ## In The Real World
 
