@@ -23,7 +23,7 @@ A ContentBox application depends on the ColdBox i18n module which gives you the 
 
 ### Generating Locale Links
 
-The `CBHelper` object can now produce these links for you by leveraging the following method:
+The `CBHelper` object can now produce these links for you in your layouts, themes and views by leveraging the following method:
 
 ```js
 /**
