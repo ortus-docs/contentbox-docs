@@ -10,6 +10,19 @@ The installer module is now available as a standalone module using the slug `con
 install contentbox-installer-module
 ```
 
+## Ability to contribute CSS to CKEditor
+
+Thanks to the Computer Know How guys you can contribute your own CSS files to the CKEditor instance so the content has your theme's look and feel.  Please note, this is mostly usable for theme developers and module developers.
+
+The event is called `cbadmin_ckeditorContentsCss` and it will receive a struct with one key called `contentsCss` which is an array.  You can then append CSS style sheets to that array that CKEditor will showcase.
+
+
+```js
+function cbadmin_ckeditorContentsCss( event, interceptData ){
+  // Add css
+  interceptData.contentsCss.append( "/path/theme.css" );
+}
+
 ## Site Localization Updates
 
 Thanks to the Computer Know How guys, this release sports many i18n improvements.
