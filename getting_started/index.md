@@ -1,5 +1,4 @@
-#
-ContentBox CMS Getting Started Guide
+# ContentBox CMS Getting Started Guide
 
 ## Quick Setup
 
