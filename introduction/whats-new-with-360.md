@@ -22,6 +22,7 @@ function cbadmin_ckeditorContentsCss( event, interceptData ){
   // Add css
   interceptData.contentsCss.append( "/path/theme.css" );
 }
+```
 
 ## Site Localization Updates
 
