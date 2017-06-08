@@ -26,5 +26,11 @@ A ContentBox application depends on the ColdBox i18n module which gives you the 
 The `CBHelper` object can now produce these links for you by leveraging the following method:
 
 ```js
-linkLanguageChange
+/**
+ * Link to the __changeLang route, this is where the fwLocale is changed
+ * @lang The iso language code
+ */
+function linkLanguageChange( string lang = "en_US" ) {
+	return getRequestContext().buildLink( '__changeLang/' & arguments.lang );
+}
 ```
