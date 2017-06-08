@@ -86,7 +86,6 @@
 ## Developing
 
 * [Developing For ContentBox](developing/README.md)
-  * [Overriding ContentBox Settings](developing/overriding-contentbox-settings.md)
   * [Front-End Development](developing/front_end/README.md)
     * [File Structure](developing/front_end/files.md)
     * [Theme Development](developing/themes/README.md)
@@ -104,6 +103,7 @@
     * [Global Variables](developing/globals.md)
     * [Template Variables](developing/front_end/templateVars.md)
   * [Back-End Development](developing/back_end/readme.md)
+    * [Overriding ContentBox Settings](developing/overriding-contentbox-settings.md)
     * [Modules](developing/back_end/modules/index.md)
       * [Installing a Module](developing/back_end/modules/installing.md)
       * [Using a Module](developing/back_end/modules/using.md)
