@@ -1,6 +1,6 @@
 # Developing For ContentBox
 
-ContentBox's modular architecture, combined with the awesome power of the [ColdBox](https://www.ortussolutions.com/products/coldbox) development framework, allows for a familiar, yet unrestricted, platform from which to develop great web applications.
+ContentBox's modular architecture, combined with the awesome power of the [ColdBox](https://www.ortussolutions.com/products/coldbox) MVC development framework, allows for a familiar, yet unrestricted, platform from which to develop great web applications.
 
 If you're a Front End Developer, you'll appreciate the straightforward configuration and pre-defined ( but highly customizable! ) asset conventions.  
 
