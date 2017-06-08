@@ -19,3 +19,12 @@ Thanks to the Computer Know How guys, this release sports many i18n improvements
 A ContentBox application depends on the ColdBox i18n module which gives you the ability to serve any content in any language, use resource bundles and use the resource utilities.  However, we have now exposed the ability natively for users to change locales via the UI module using our URL of: `http://site.com/__changelang/en_US`.  The route expects an ISO valid language code in the format of `code_variant`.  
 
 > **Note** By default, visitor locale's are stored in the `cookie` scope. You can change this via the `config/Coldbox.cfc` configuration CFC.
+
+
+### Generating Locale Links
+
+The `CBHelper` object can now produce these links for you by leveraging the following method:
+
+```js
+linkLanguageChange
+```
