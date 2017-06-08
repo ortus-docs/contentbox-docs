@@ -3,6 +3,7 @@
 ## Intro
 
 * [Introduction](README.md)
+  * [What's New With 3.6.0](introduction/whats-new-with-360.md)
   * [What's New With 3.5.0](introduction/whats_new_with_3.5.0.md)
   * [What's New With 3.1.0](introduction/whats_new_with_310.md)
   * [What's New With 3.0.0](introduction/whats_new.md)
@@ -25,7 +26,7 @@
   * [Existing ColdBox Application](installation/existing_coldbox_application.md)
   * [Upgrading ContentBox](installation/upgrading_contentbox.md)
   * [Docker](installation/docker.md)
-* [Getting Started](getting_started/index.md)
+* [Quick Guide](getting_started/index.md)
 
 ## Usage
 
@@ -122,5 +123,4 @@
     * [Accessing Logged in User](developing/back_end/accessing-logged-in-user.md)
     * [Customizing the Admin](developing/back_end/admin.md)
     * [Staying on the Upgrade Path](developing/back_end/upgrades.md)
-  * [Recipes](recipes/index.md)
 
