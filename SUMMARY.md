@@ -1,5 +1,7 @@
 # Summary
 
+## Intro
+
 * [Introduction](README.md)
   * [What's New With 3.5.0](introduction/whats_new_with_3.5.0.md)
   * [What's New With 3.1.0](introduction/whats_new_with_310.md)
@@ -11,7 +13,9 @@
     * [Upgrading to 3.0.0](introduction/upgrading.md)
   * [About This Book](introduction/about_this_book.md)
   * [Author](introduction/author.md)
-* [Getting Started](getting_started/index.md)
+
+## Getting Started
+
 * [Installation](installation/index.md)
   * [System Requirements](installation/system_requirements.md)
   * [CommandBox Installation](installation/commandbox_installation.md)
@@ -21,6 +25,10 @@
   * [Existing ColdBox Application](installation/existing_coldbox_application.md)
   * [Upgrading ContentBox](installation/upgrading_contentbox.md)
   * [Docker](installation/docker.md)
+* [Getting Started](getting_started/index.md)
+
+## Usage
+
 * [Using ContentBox](using/README.md)
   * [Content](using/content/index.md)
     * [Publish Content](using/content/direct_pubilsh/index.md)
@@ -73,6 +81,9 @@
       * RSS
     * [Security Rules](using/system/security_rules.md)
     * [Updates](using/system/updates.md)
+
+## Developing
+
 * [Developing For ContentBox](developing/README.md)
   * [Overriding ContentBox Settings](developing/overriding-contentbox-settings.md)
   * [Front-End Development](developing/front_end/README.md)
