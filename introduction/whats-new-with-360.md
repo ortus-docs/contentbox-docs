@@ -34,3 +34,7 @@ function linkLanguageChange( string lang = "en_US" ) {
 	return getRequestContext().buildLink( '__changeLang/' & arguments.lang );
 }
 ```
+
+### Locale Content Caching
+
+All caching strategies have now been updated to allow for locale to determine its key.  This way, every visitor's language will be cacheable and performant.
