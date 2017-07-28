@@ -37,7 +37,7 @@ This will install the latest stable ContentBox and run an embedded server (Lucee
 
 ![](../images/datasource_wizard.png)
 
-### ColdFusion Engine
+### ColdFusion Engine of Choice
 
 Since we are leveraging CommandBox, you can replace the `server start` command to use Lucee or Adobe ColdFusion.  Below are some choice for the engines we support:
 
