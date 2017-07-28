@@ -59,6 +59,8 @@ this.ormsettings = {
 };
 ```
 
+We have also seen an issue where an error will be reported that `cbPermission` cannot be inserted.  This is an issue where for some reason the JDBC driver will switch context and create the tables in the `master` schema and not the schema you chose.  So please verify that the `master` schema has tables that start with `cb_*` and remove them and re-run the installer.
+
 
 
 ### MySQL Caveats 
