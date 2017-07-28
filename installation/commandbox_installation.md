@@ -32,7 +32,7 @@ server start
 ```
 
 ### Setup Admin Password
-Once you start the engine make sure you log in to the web admin in order to setup the CFML engine password. You will need this password to create the datasource via the wizard.
+Once you start the engine make sure you log in to the CFML web admin using the URL below in order to setup the CFML engine password. You will need this password to create the datasource via the wizard.
 
 ```
 http://localhost:{port}/lucee/admin/web.cfm
