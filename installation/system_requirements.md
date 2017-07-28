@@ -23,14 +23,27 @@ ContentBox can run on any database engine that Hibernate ORM supports (https://d
 * H2
 * Apache Derby
 
-If you have another database engine that needs ContentBox support, please let us know and we will be able to help you (http://www.ortussolutions.com/contact)
+If you have another database engine that needs ContentBox support, please let us know and we will be able to help you (http://www.ortussolutions.com/contact).
+
+### IMPORTANT: Dialect Choice
+
+We would highly recommend that you choose the dialect of choice for your database via the `Application.cfc` in ContentBox.  This would avoid you pains and headaches as sometimes Hibernate will not detect the database correctly.  The available dialects can be found here: https://helpx.adobe.com/coldfusion/developing-applications/coldfusion-orm/configure-orm/orm-settings.html.
+
+
+```js
+this.ormsettings = {
+    dialect = "MicrosoftSQLServer
+};
+```
+
+
 
 ### MSSQL Caveats
 If you are running MSSQL server then we would recommend you update the `Application.cfc` with the ORM dialect for MSSQL.  We have seen many weird dialect issues with MSSQL if this is not done:
 
 ```js
 this.ormsettings = {
-    dialect = "MySQLWithInnoDB
+    dialect = "MicrosoftSQLServer
 };
 ```
 
