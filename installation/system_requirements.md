@@ -50,6 +50,7 @@ this.ormsettings = {
 
 
 ### MSSQL Caveats
+
 If you are running MSSQL server then we would recommend you update the `Application.cfc` with the ORM dialect for MSSQL.  We have seen many weird dialect issues with MSSQL if this is not done:
 
 ```js
@@ -61,6 +62,7 @@ this.ormsettings = {
 
 
 ### MySQL Caveats 
+
 If you are running MySQL server with `MyISAM` as your default table engine, you will need to either make the default `InnoDB` or use the `InnoDB` dialect.  You can do this by adding a dialect section to the ORM settings in the `Application.cfc`:  `dialect = "MySQLWithInnoDB"`
 
 ```js
