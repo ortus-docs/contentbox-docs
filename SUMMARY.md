@@ -3,7 +3,7 @@
 ## Intro
 
 * [Introduction](README.md)
-  * What's New With 3.7.0
+  * [What's New With 3.7.0](introduction/whats-new-with-370.md)
   * [What's New With 3.6.0](introduction/whats-new-with-360.md)
   * [What's New With 3.5.0](introduction/whats_new_with_3.5.0.md)
   * [What's New With 3.1.0](introduction/whats_new_with_310.md)
