@@ -38,13 +38,13 @@ this.ormsettings = {
 
 **Dialects We Support**
 
-* Derby
-* PostgreSQL
-* MySQL
-* MySQLwithInnoDB
-* MySQLwithMyISAM
-* Oracle10g
-* MicrosoftSQLServer
+* `Derby`
+* `PostgreSQL`
+* `MySQL`
+* `MySQLwithInnoDB`
+* `MySQLwithMyISAM`
+* `Oracle10g`
+* `MicrosoftSQLServer`
 
 > **Tip** If you are using the H2 or Hypersonic Databases, just leave the dialect empty or use the MySQL dialects for compatibility purposes.
 
