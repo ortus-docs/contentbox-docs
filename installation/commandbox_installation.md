@@ -31,6 +31,13 @@ install contentbox-installer
 server start
 ```
 
+### Setup Admin Password
+Once you start the engine make sure you log in to the web admin in order to setup the CFML engine password. You will need this password to create the datasource via the wizard.
+
+```
+http://localhost:{port}/lucee/admin/web.cfm
+```
+
 > **Note** You can install the bleeding edge of ContentBox by using the `contentbox-install@be` identifier in the install command.  Basically, you can add any `@be` to any ID and CommandBox will try to retrieve the latest bleeding edge.
 
 This will install the latest stable ContentBox and run an embedded server (Lucee 4.5) for it.  After this you will get the ContenBox installer.  Just follow it through.
