@@ -23,7 +23,7 @@ We will be able to execute a-la-carte commands from our command line or go into 
 
 ## Creating A ContentBox Site
 
-Now that we have CommandBox we can use it to install and execute a ContentBox site using the embedded server (Lucee 4.5).  You can use an embedded database or connect the embedded server to any database server as well.  Open a CommandBox shell in your directory of choice by typing `box` or executing the `box` binary and after the welcome screen type the following commands:
+Now that we have CommandBox we can use it to install and startup a ContentBox site using the embedded server (Lucee 4.5).  You can use an embedded database or connect the embedded server to any database server as well.  Open a CommandBox shell in your directory of choice by typing `box` or executing the `box` binary and after the welcome screen type the following commands:
 
 ```
 mkdir mysite --cd
