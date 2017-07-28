@@ -29,13 +29,24 @@ If you have another database engine that needs ContentBox support, please let us
 
 We would highly recommend that you choose the dialect of choice for your database via the `Application.cfc` in ContentBox.  This would avoid you pains and headaches as sometimes Hibernate will not detect the database correctly.  The available dialects can be found here: https://helpx.adobe.com/coldfusion/developing-applications/coldfusion-orm/configure-orm/orm-settings.html.
 
-
+**Example Code**
 ```js
 this.ormsettings = {
     dialect = "MicrosoftSQLServer
 };
 ```
 
+**Dialects We Support**
+
+* Derby
+* PostgreSQL
+* MySQL
+* MySQLwithInnoDB
+* MySQLwithMyISAM
+* Oracle10g
+* MicrosoftSQLServer
+
+> **Tip** If you are using the H2 or Hypersonic Databases, just leave the dialect empty or use the MySQL dialects for compatibility purposes.
 
 
 ### MSSQL Caveats
