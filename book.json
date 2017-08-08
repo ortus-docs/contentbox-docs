@@ -18,7 +18,7 @@
     ],
     "pluginsConfig": {
         "edit-link": {
-            "base": "https://github.com/Ortus-Solutions/contentbox-docs/tree/master",
+            "base": "https://github.com/ortus-docs/contentbox-docs/tree/master",
             "label": "Edit This Page"
         },
         "github": {
