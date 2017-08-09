@@ -70,6 +70,13 @@ The Author Profile Snapshot has been updated to include a better UI, better visu
 
 ## Content Updates
 
+
+### Publishing Workflows
+
+We have added a new two-step workflow for publishing any piece of content.  This will allow you better visibility when working with drafts or live content.  The new flow will also assist users that do not have any publishing capabilities.
+
+![](/assets/3.7_content_publishing.png)
+
 ### Content Hierarchy Navigation History
 
 ![](/assets/3.7_hierarchy_history.png)
