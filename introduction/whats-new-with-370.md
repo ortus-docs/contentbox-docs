@@ -27,6 +27,14 @@ The user can also setup two factor authentication for their account if so desire
 
 ![](/assets/3.7_twofactor_user.png)
 
+
+### Login Options
+
+An administrator now can control login options and enhance the logging experience of their users.
+
+![](/assets/3.7_loginoptions.png)
+
+
 ### Permission Groups
 
 We have introduced the ability to create and organize permissions not only in roles but in our new permission groups. This will allow you to create more complex and robust permission schemas and be able to assign multiple permission groups to users. The entire permissions tab for authors has been revamped to allow you better visualization of rules and permissions.
