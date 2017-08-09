@@ -8,6 +8,12 @@ This release has a major focus on security, authentication, testing and automati
 
 We have improved the navigation of the content store and the sitemap by taping into the browser history API and providing history support for hierarchy navigation.  Never again loose your place in the hierarchy.
 
+## Permission Groups
+
+We have introduced the ability to create and organize permissions not only in roles but in our new permission groups.  This will allow you to create more complex and robust permission schemas and be able to assign multiple permission groups to users.  The entire permissions tab for authors has been revamped to allow you better visualization of rules and permissions.
+
+![](/assets/3.7_permission_groups.png)
+
 ## Password Enhancements
 
 There have been many updates on both the UI and the security of user passwords.  
