@@ -40,6 +40,17 @@ As an administrator, you can now reset user passwords a-la-carte or for every si
 
 ![](/assets/3.7_password_reset_notification.png)
 
+#### New Interception Events
+
+Here are the new interception events you can listen on for password reset workflows:
+
+* `cbadmin_onGlobalPasswordReset`
+* `cbadmin_onPasswordReset`
+* `cbadmin_onPasswordReset`
+* `cbadmin_onInvalidPasswordReset`
+
+
+
 
 ## Author Updates
 
