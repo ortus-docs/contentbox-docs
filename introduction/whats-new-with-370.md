@@ -2,6 +2,10 @@
 
 This release has a major focus on security, authentication, testing and automatino.  Below you can find the major changes and updates for this release and our full release notes.
 
+## Content Hierarchy Navigation History
+
+We have improved the navigation of the content store and the sitemap by taping into the browser history API and providing history support for hierarchy navigation.  Never again loose your place in the hierarchy.
+
 ## Password Enhancements
 
 There have been many updates on both the UI and the security of user passwords.  
