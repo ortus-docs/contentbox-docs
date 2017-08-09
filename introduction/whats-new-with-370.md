@@ -65,17 +65,7 @@ The Author Profile Snapshot has been updated to include a better UI, better visu
 
 We have improved the navigation of the content store and the sitemap by taping into the browser history API and providing history support for hierarchy navigation.  Never again loose your place in the hierarchy.
 
-
-
-
-
-
-
-
-
-
-
-## Release Notes
+## Full Release Notes
 
 ### Bugs
 
