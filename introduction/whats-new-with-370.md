@@ -2,44 +2,35 @@
 
 This release has a major focus on security, authentication, testing and automatino.  Below you can find the major changes and updates for this release and our full release notes.
 
-## Content Hierarchy Navigation History
+## Security Updates
 
-![](/assets/3.7_hierarchy_history.png)
+### Permission Groups
 
-We have improved the navigation of the content store and the sitemap by taping into the browser history API and providing history support for hierarchy navigation.  Never again loose your place in the hierarchy.
-
-## Permission Groups
-
-We have introduced the ability to create and organize permissions not only in roles but in our new permission groups.  This will allow you to create more complex and robust permission schemas and be able to assign multiple permission groups to users.  The entire permissions tab for authors has been revamped to allow you better visualization of rules and permissions.
+We have introduced the ability to create and organize permissions not only in roles but in our new permission groups. This will allow you to create more complex and robust permission schemas and be able to assign multiple permission groups to users. The entire permissions tab for authors has been revamped to allow you better visualization of rules and permissions.
 
 ![](/assets/3.7_permission_groups.png)
 
-## Improved Rate Limiting
+### Improved Rate Limiting
 
-The rate limiting module has been revamped to help with Denial of Service attacks or even just pesky scrapers.  You can now configure more options for fine-tuning including relocation URLs, custom messages and improved logging.
+The rate limiting module has been revamped to help with Denial of Service attacks or even just pesky scrapers. You can now configure more options for fine-tuning including relocation URLs, custom messages and improved logging.
 
-## Improved Author Listings
 
-The author listings have been improved with tons of new filters, reporting and even sorting options.  Go admin like a mad man!
-
-![](/assets/3.7_user_listing.png) 
-
-## Password Enhancements
+### Password Enhancements
 
 There have been many updates on both the UI and the security of user passwords.  
 
-### Password Meter
+#### Password Meter
 We have introduced the concept of a visual password meter, which can guide users when changing, resetting or setting passwords:
 
 ![](/assets/3.7_password_meter.png)
 
-### Password Length Options
+#### Password Length Options
 
 You can now also as an admin decide on the minimum length of user passwords.
 
 ![](/assets/3.7_password_options.png)
 
-### Password Reset Options
+#### Password Reset Options
 
 ![](/assets/3.7_password_reset_ui.png)
 
@@ -48,6 +39,37 @@ As an administrator, you can now reset user passwords a-la-carte or for every si
 ![](/assets/3.7_password_reset_bulk.png)
 
 ![](/assets/3.7_password_reset_notification.png)
+
+
+## Author Updates
+
+### Improved Author Listings
+
+The author listings have been improved with tons of new filters, reporting and even sorting options.  Go admin like a mad man!
+
+![](/assets/3.7_user_listing.png) 
+
+
+### Improved Author Snapshot
+
+
+
+## Content Updates
+
+### Content Hierarchy Navigation History
+
+![](/assets/3.7_hierarchy_history.png)
+
+We have improved the navigation of the content store and the sitemap by taping into the browser history API and providing history support for hierarchy navigation.  Never again loose your place in the hierarchy.
+
+
+
+
+
+
+
+
+
 
 
 ## Release Notes
