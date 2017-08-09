@@ -46,6 +46,7 @@ We have introduced the ability to create and organize permissions not only in ro
 The rate limiting module has been revamped to help with Denial of Service attacks or even just pesky scrapers. You can now configure more options for fine-tuning including relocation URLs, custom messages and improved logging.
 
 
+
 ### Password Enhancements
 
 There have been many updates on both the UI and the security of user passwords.  
@@ -80,6 +81,10 @@ Here are the new interception events you can listen on for password reset workfl
 * `cbadmin_onPasswordReset`
 * `cbadmin_onInvalidPasswordReset`
 
+
+### Author Sessions Cache & Distribution
+
+In a world now of containers and distributed computing, we have added the ability for logged in sessions to be tracked by the ColdBox Cache Storages and CacheBox.  This means that you can leverage in-memory sessions or distribute to any Cache provider CacheBox can talk to and distribute your sessions easily.  
 
 
 
