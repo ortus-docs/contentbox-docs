@@ -52,6 +52,9 @@ The author listings have been improved with tons of new filters, reporting and e
 
 ### Improved Author Snapshot
 
+The Author Profile Snapshot has been updated to include a better UI, better visualization and a new action toolbar for direct Author actions and Author exporting.
+
+![](/assets/3.7_user_snapshot.png)
 
 
 ## Content Updates
