@@ -47,7 +47,7 @@ As an administrator, you can now reset user passwords a-la-carte or for every si
 
 The author listings have been improved with tons of new filters, reporting and even sorting options.  Go admin like a mad man!
 
-![](/assets/3.7_user_listing.png) 
+![](/assets/3.7_user_listing.png)
 
 
 ### Improved Author Snapshot
