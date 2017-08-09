@@ -2,6 +2,22 @@
 
 This release has a major focus on security, authentication, testing and automatino.  Below you can find the major changes and updates for this release and our full release notes.
 
+## Password Enhancements
+
+There have been many updates on both the UI and the security of user passwords.  
+
+### Password Meter
+We have introduced the concept of a visual password meter, which can guide users when changing, resetting or setting passwords:
+
+![](/assets/3.7_password_meter.png)
+
+### Password Length Options
+
+You can now also as an admin decide on the minimum length of user passwords.
+
+
+
+
 
 ## Release Notes
 
