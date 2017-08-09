@@ -16,7 +16,7 @@ We have introduced the ability to create and organize permissions not only in ro
 
 ## Improved Rate Limiting
 
-The rate limiting module has been revamped to help with Denial of Service attacks or even just pesky scrapers.  You can now configure more options for fine-tuning including relocation URLs and message vectors.
+The rate limiting module has been revamped to help with Denial of Service attacks or even just pesky scrapers.  You can now configure more options for fine-tuning including relocation URLs, custom messages and improved logging.
 
 ## Password Enhancements
 
