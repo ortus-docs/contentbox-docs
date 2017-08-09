@@ -4,6 +4,10 @@ This release has a major focus on security, authentication, testing and automati
 
 ## Security Updates
 
+### Two Factor Authentication
+
+This is one of our biggest features for ContentBox is our two factor authentication framework.  That's right, we built a two factor module framework that will allow you to build or use any two factor or multi-factor authentication mechanism.  We have included one in the core which is Email verification.
+
 ### Permission Groups
 
 We have introduced the ability to create and organize permissions not only in roles but in our new permission groups. This will allow you to create more complex and robust permission schemas and be able to assign multiple permission groups to users. The entire permissions tab for authors has been revamped to allow you better visualization of rules and permissions.
