@@ -76,9 +76,14 @@ The Author Profile Snapshot has been updated to include a better UI, better visu
 ## Content Updates
 
 
-### Markdown Support
+### Markdown Support++
 
 We introduced markdown support for all content in many versions before.  This update includes a brand new markdown engine with table support, code syntax highlighting and much more.  We also made several settings and author specific details available as markdown content.  In other words, viva markdown!
+
+
+### Markdown Editors
+
+We have also updated our markdown UI editor and it can be used everywhere in the admin were markdown is allowed.
 
 ### Publishing Workflows
 
