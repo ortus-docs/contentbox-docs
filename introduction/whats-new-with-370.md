@@ -25,6 +25,7 @@ As an administrator, you can now reset user passwords a-la-carte or for every si
 
 ![](/assets/3.7_password_reset_bulk.png)
 
+![](/assets/3.7_password_reset_notification.png)
 
 
 ## Release Notes
