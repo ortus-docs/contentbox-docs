@@ -1,6 +1,6 @@
 # What's New in 3.7.0
 
-This release has a major focus on security, authentication, testing and automatino.  Below you can find the major changes and updates for this release and our full release notes.
+This release has a major focus on security, authentication, testing and automation.  Below you can find the major changes and updates for this release and our full release notes.
 
 ## Container Updates
 
@@ -95,7 +95,6 @@ As an administrator, you can now reset user passwords a-la-carte or for every si
 Here are the new interception events you can listen on for password reset workflows:
 
 * `cbadmin_onGlobalPasswordReset`
-* `cbadmin_onPasswordReset`
 * `cbadmin_onPasswordReset`
 * `cbadmin_onInvalidPasswordReset`
 
@@ -198,7 +197,7 @@ We have improved the navigation of the content store and the sitemap by taping i
 * [<a href='https://ortussolutions.atlassian.net/browse/CONTENTBOX-957'>CONTENTBOX-957</a>] - Security services now rely on the CacheStorages instead of session to provide distribution out of the box if necessary via CacheBox
 * [<a href='https://ortussolutions.atlassian.net/browse/CONTENTBOX-958'>CONTENTBOX-958</a>] - Ability to make the datasource portable for container deployments via config/runtime.properties.cfm convention
         
-### ImprovementS
+### Improvements
 
 * [<a href='https://ortussolutions.atlassian.net/browse/CONTENTBOX-568'>CONTENTBOX-568</a>] - Allow user to choose new password on reset
 * [<a href='https://ortussolutions.atlassian.net/browse/CONTENTBOX-725'>CONTENTBOX-725</a>] - User Management: Allows duplicate emails
