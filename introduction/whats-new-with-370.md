@@ -15,6 +15,9 @@ We have introduced the concept of a visual password meter, which can guide users
 
 You can now also as an admin decide on the minimum length of user passwords.
 
+![](/assets/3.7_password_options.png)
+
+
 
 
 
