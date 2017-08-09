@@ -12,7 +12,7 @@ You can now create a `config/runtime.properties.cfm` file with your database inf
 
 ### Author Sessions Cache & Distribution
 
-In a world now of containers and distributed computing, we have added the ability for logged in sessions to be tracked by the ColdBox Cache Storages and CacheBox.  This means that you can leverage in-memory sessions or distribute to any Cache provider CacheBox can talk to and distribute your sessions easily.  It will also allow you to use the geek settings to monitor and manage the session objects of your users.  You can even clear them all or a-la-carte.
+In a world now of containers and distributed computing, we have added the ability for logged in sessions to be tracked by the ColdBox Cache Storages and CacheBox.  This means that you can leverage in-memory sessions or distribute to any Cache provider CacheBox can talk to and distribute your sessions easily.  It will also allow you to use the geek settings to monitor and manage the session objects of your users.  You can even clear them all, expire them or choose a-la-carte.
 
 > The new cache provider region is called `sessions` and you can find its definition in the `config/CacheBox.cfc` file.
 
