@@ -54,6 +54,11 @@ Here are the new interception events you can listen on for password reset workfl
 
 ## Author Updates
 
+
+### New Author Wizard
+
+We have introduced a new approach to creating authors in ContentBox. You will now be presented with the new author wizard which will allow you to pre-fill author details in a secure manner.  A notification will be sent to the new author's email address with a password setup token so they can secure their account.  
+
 ### Improved Author Listings
 
 The author listings have been improved with tons of new filters, reporting and even sorting options.  Go admin like a mad man!
@@ -76,6 +81,8 @@ The Author Profile Snapshot has been updated to include a better UI, better visu
 We have added a new two-step workflow for publishing any piece of content.  This will allow you better visibility when working with drafts or live content.  The new flow will also assist users that do not have any publishing capabilities.
 
 ![](/assets/3.7_content_publishing.png)
+
+
 
 ### Content Hierarchy Navigation History
 
