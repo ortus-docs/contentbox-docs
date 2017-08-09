@@ -18,6 +18,12 @@ We have introduced the ability to create and organize permissions not only in ro
 
 The rate limiting module has been revamped to help with Denial of Service attacks or even just pesky scrapers.  You can now configure more options for fine-tuning including relocation URLs, custom messages and improved logging.
 
+## Improved Author Listings
+
+The author listings have been improved with tons of new filters, reporting and even sorting options.  Go admin like a mad man!
+
+![](/assets/3.7_user_listing.png) 
+
 ## Password Enhancements
 
 There have been many updates on both the UI and the security of user passwords.  
