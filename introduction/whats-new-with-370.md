@@ -6,7 +6,15 @@ This release has a major focus on security, authentication, testing and automati
 
 ### Two Factor Authentication
 
+![](/assets/3.7_twofactor_challenge.png)
+
 This is one of our biggest features for ContentBox is our two factor authentication framework.  That's right, we built a two factor module framework that will allow you to build or use any two factor or multi-factor authentication mechanism.  We have included one in the core which is Email verification.
+
+#### Global Settings
+
+An admin can force two factor authentication for all users in the system and even provided a trusted device registry so  ContentBox can track their devices and challenge only after a few days.
+
+![](/assets/3.7_twofactor_settings.png)
 
 ### Permission Groups
 
