@@ -12,6 +12,8 @@ This is one of our biggest features for ContentBox is our two factor authenticat
 
 ![](/assets/3.7_twofactor_uml.png)
 
+Please refer to the developing two factor authentication providers in order to get an in-depth look of how to build your own two factor authentication provider modules.
+
 #### Global Settings
 
 An admin can force two factor authentication for all users in the system and even provided a trusted device registry so  ContentBox can track their devices and challenge only after a few days.
