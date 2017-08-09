@@ -2,6 +2,24 @@
 
 This release has a major focus on security, authentication, testing and automatino.  Below you can find the major changes and updates for this release and our full release notes.
 
+## Container Updates
+
+Our ContentBox docker image has been updated to support this release and we have added two new areas of improvements for containerization:
+
+### Portable Datasource
+
+You can now create a `config/runtime.properties.cfm` file with your database information and ContentBox will leverage it dynamically.  No more registering of datasources on the CFML engines if you do not need to.  This can allow you to leverage dynamic datasources for multiple environments and container deployments.
+
+### Author Sessions Cache & Distribution
+
+In a world now of containers and distributed computing, we have added the ability for logged in sessions to be tracked by the ColdBox Cache Storages and CacheBox.  This means that you can leverage in-memory sessions or distribute to any Cache provider CacheBox can talk to and distribute your sessions easily.  It will also allow you to use the geek settings to monitor and manage the session objects of your users.  You can even clear them all or a-la-carte.
+
+> The new cache provider region is called `sessions` and you can find its definition in the `config/CacheBox.cfc` file.
+
+
+
+
+
 ## Security Updates
 
 ### Two Factor Authentication
@@ -82,9 +100,7 @@ Here are the new interception events you can listen on for password reset workfl
 * `cbadmin_onInvalidPasswordReset`
 
 
-### Author Sessions Cache & Distribution
 
-In a world now of containers and distributed computing, we have added the ability for logged in sessions to be tracked by the ColdBox Cache Storages and CacheBox.  This means that you can leverage in-memory sessions or distribute to any Cache provider CacheBox can talk to and distribute your sessions easily.  
 
 
 
