@@ -4,6 +4,8 @@ This release has a major focus on security, authentication, testing and automati
 
 ## Content Hierarchy Navigation History
 
+
+
 We have improved the navigation of the content store and the sitemap by taping into the browser history API and providing history support for hierarchy navigation.  Never again loose your place in the hierarchy.
 
 ## Password Enhancements
