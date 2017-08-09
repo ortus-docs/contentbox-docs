@@ -19,8 +19,11 @@ You can now also as an admin decide on the minimum length of user passwords.
 
 ### Password Reset Options
 
+![](/assets/3.7_password_reset_ui.png)
+
 As an administrator, you can now reset user passwords a-la-carte or for every single user in the system.  This will issue a notification to the user with instructions on resetting their system password.  Your password reset workflow has now been improved with our new password reset screens instead of bulky double email validation mechanisms.
 
+![](/assets/3.7_password_reset_bulk.png)
 
 
 
