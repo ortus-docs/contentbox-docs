@@ -6,7 +6,7 @@
   \____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\
 ```
 
-# ContentBox Modular CMS - v3.6.0
+# ContentBox Modular CMS - v3.7.0
 
 ![ContentBox](./images/ContentBoxLogo300.png)
 
