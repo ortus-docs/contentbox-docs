@@ -121,7 +121,7 @@ The author listings have been improved with tons of new filters, reporting and e
 
 The Author Profile Snapshot has been updated to include a better UI, better visualization and a new action toolbar for direct Author actions and Author exporting.
 
-![](/assets/3.7_user_snapshot.png)
+![](/assets/3.7_user_snapsht.png)
 
 
 ## Content Updates
@@ -166,7 +166,7 @@ We have improved the navigation of the content store and the sitemap by taping i
 * [<a href='https://ortussolutions.atlassian.net/browse/CONTENTBOX-950'>CONTENTBOX-950</a>] -Adobe 2016 Syntax Error
 * [<a href='https://ortussolutions.atlassian.net/browse/CONTENTBOX-953'>CONTENTBOX-953</a>] -Check Permissions fails on User with a null Role
 
-### New Feature
+### New Features
 
 * [<a href='https://ortussolutions.atlassian.net/browse/CONTENTBOX-647'>CONTENTBOX-647</a>] - Add a password meter on the installer and user profile page with key enforcements
 * [<a href='https://ortussolutions.atlassian.net/browse/CONTENTBOX-875'>CONTENTBOX-875</a>] - Add content hierarchy history as URL doesn&#39;t reflect navigation into content hierarchy
