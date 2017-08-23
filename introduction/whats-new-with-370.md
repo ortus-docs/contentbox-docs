@@ -16,6 +16,23 @@ In a world now of containers and distributed computing, we have added the abilit
 
 > The new cache provider region is called `sessions` and you can find its definition in the `config/CacheBox.cfc` file.
 
+```js
+// ContentBox Sessions
+sessions = 	{
+	provider = "coldbox.system.cache.providers.CacheBoxColdBoxProvider",
+	properties = {
+		objectDefaultTimeout = 60,
+		objectDefaultLastAccessTimeout = 0,
+		useLastAccessTimeouts = false,
+		freeMemoryPercentageThreshold = 0,
+		reapFrequency = 2,
+		evictionPolicy = "LRU",
+		evictCount = 5,
+		maxObjects = 1000, // Can support up to 1000 user sessions concurrently.  Modify if needed. 0 = unlimited
+		objectStore = "ConcurrentStore"
+	}
+}
+```
 
 
 
