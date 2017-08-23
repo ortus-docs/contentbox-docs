@@ -39,6 +39,10 @@ The following are the new interception points for two factor authentication
 * `cbadmin_onTwoFactorSettingsPanel` - Shows on the two factor global settings panel
 * `cbadmin_onAuthorTwoFactorOptions` - Shows on the options for two factor auth in the author editor
 * `cbadmin_onAuthorTwoFactorSaveOptions` - Fires when the options are being saved
+* `cbadmin_beforeTwoFactorForm` - Shows at the beginning of two factor form challenge
+* `cbadmin_afterTwoFactorForm` - Shows after the two factor form challenge
+* `cbadmin_onInvalidTwoFactor` - Fires when an invalid challenge has been made
+* `cbadmin_onValidTwoFactor` - Fires when a valid challeng has been made
 
 #### Global Settings
 
