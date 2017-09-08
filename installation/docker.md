@@ -1,5 +1,4 @@
-<
-p class="text-align:center">
+<p class="text-align:center">
 <img src="https://www.ortussolutions.com/__media/cbox-plus-docker.jpg" alt="ContentBox + Docker" class="img-responsive"/>
 </p>
 
