@@ -19,6 +19,8 @@ docker run -p 8080:8080 \
 ortussolutions/contentbox
 ```
 
+> **Note** The command above is using `&&` to concatenate the two commands which will work under *unix. If you are in windows, run the two commands separately
+
 A new container will be spun up from the image and, upon opening your browser to `http://[docker machine ip]:8080`, you will be directed to configure your [ContentBox](https://www.ortussolutions.com/products/contentbox) installation using the ContentBox Installer.
 
 ## Persisting Data Between Restarts
