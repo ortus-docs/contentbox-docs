@@ -73,6 +73,7 @@
       * [Site Options](using/system/site-options.md)
       * [Admin Options](using/system/admin-options.md)
       * [Security Options](using/system/security-options.md)
+      * [Login Options](using/system/login-options.md)
       * Content Options
       * Editor Options
       * Media Manager Options
@@ -80,7 +81,7 @@
       * Notifications
       * Mail Server
       * Search Options
-      * RSS
+      * Login Options
     * [Security Rules](using/system/security_rules.md)
     * [Updates](using/system/updates.md)
 
