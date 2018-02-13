@@ -66,15 +66,31 @@ Changing Password allows you to change your own password or reset the password f
 
 ![](/assets/change_password.png)
 
-### You can email a password reset to any user that is not the currently logged in user.![](/assets/reset_password.png)Two Factor
-
-![](/assets/two_factor_enroll.png)
+### You can email a password reset to any user that is not the currently logged in user.![](/assets/reset_password.png)Two Factor Authentication
 
 A user can enroll themselves in two factor authentication.  The manage screen allows the user to configure any required information before starting the enrollment process.
 
-![](/assets/enrollment_screen.png)
+![](/assets/two_factor_enroll.png)
 
 To enroll, a user must successfully enter in the code or credentials sent via the default provider.  On a successful entry, the user will be enrolled in two factor authentication.
+
+![](/assets/enrollment_screen.png)
+
+Users are able to unenroll from two-factor authentication themselves from the manage screen. Users with an admin role assigned are able to unenroll not only themselves but any other user as well.
+
+
+
+### Force Two Factor Authentication
+
+If two factor authentication is being enforced, users will be forced to enroll in two factor authentication. if a user unenrolls
+
+from two-factor authentication a form to enroll in two-factor will be presented right away.
+
+![](/assets/force_two_factor.png) 
+
+
+
+When a not enrolled user is logging in and the two-factor authentication is being enforced, the enrollment form will be presented and the user won't be able to see the dashboard or any other content unless a successful enrollment in two-factor authentication is done.
 
 ### Preferences
 
