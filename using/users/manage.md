@@ -76,9 +76,9 @@ To enroll, a user must successfully enter in the code or credentials sent via th
 
 ![](/assets/enrollment_screen.png)
 
-Users are able to unenroll from two-factor authentication themselves from the manage screen. Users with an admin role assigned are able to unenroll not only themselves but any other user as well.
+Users are able to unenroll from two-factor authentication themselves from the manage screen. Users with an admin role assigned are able to unenroll not only themselves but other users as well.
 
-
+![](/assets/two_factor_unenroll.png)
 
 ### Force Two Factor Authentication
 
@@ -86,11 +86,9 @@ If two factor authentication is being enforced, users will be forced to enroll i
 
 from two-factor authentication a form to enroll in two-factor will be presented right away.
 
-![](/assets/force_two_factor.png) 
+![](/assets/force_two_factor.png)
 
-
-
-When a not enrolled user is logging in and the two-factor authentication is being enforced, the enrollment form will be presented and the user won't be able to see the dashboard or any other content unless a successful enrollment in two-factor authentication is done.
+When a not enrolled user is logging in and the two-factor authentication is being enforced, the enrollment form will be presented and the user won't be able to see the dashboard or any other content unless a successful enrollment in two-factor authentication is performed.
 
 ### Preferences
 
