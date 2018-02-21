@@ -33,7 +33,17 @@ sessions = 	{
 	}
 }
 ```
-
+Make sure that your `config.Coldbox.cfc` file contains in `configure` function
+```
+		// ContentBox relies on the Cache Storage for tracking sessions, which delegates to a Cache provider
+		storages = {
+		    // Cache Storage Settings
+		    cacheStorage = {
+		        cachename   = "sessions",
+		        timeout     = 60 // The default timeout of the session bucket, defaults to 60
+		    }
+		};
+```
 
 
 
