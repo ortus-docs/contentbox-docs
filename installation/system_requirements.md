@@ -8,7 +8,7 @@ ContentBox will run in any Java 1.7+ enabled servlet container as a WAR or self-
 ## ColdFusion (CFML) Engine
 ContentBox source can be also be deployed to the following ColdFusion CFML engines:
 
-* Adobe ColdFusion 10+
+* Adobe ColdFusion 11+
 * Lucee 4.5+
 
 
