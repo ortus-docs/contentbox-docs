@@ -20,7 +20,7 @@ A typical theme directory structure might be:
 ##### - <i class="fa fa-folder"></i> views
 ##### - <i class="fa fa-folder"></i> widgets
 
-For more information on the theme directory structure and configuration options see [ContentBox Theme Development](developing/themes/README.md).
+For more information on the theme directory structure and configuration options see [ContentBox Theme Development](https://contentbox.ortusbooks.com/developing/developing-for-contentbox/front-end-development/theme-development).
 
 
 ### Modularity
