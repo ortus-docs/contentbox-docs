@@ -12,6 +12,6 @@ Within the [ColdBox](https://www.ortussolutions.com/products/coldbox) framework,
 
 Browse through our area-specific development documentation to get started:
 
-#### [ContentBox CMS For Front-End Developers](developing/front_end/README.md)
+#### [ContentBox CMS For Front-End Developers](https://contentbox.ortusbooks.com/developing/developing-for-contentbox/front-end-development)
 
-#### [ContentBox CMS for Back-End Developers](developing/back_end/README.md)
+#### [ContentBox CMS for Back-End Developers](https://contentbox.ortusbooks.com/developing/developing-for-contentbox/back-end-development)
