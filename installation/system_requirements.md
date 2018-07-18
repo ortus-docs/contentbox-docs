@@ -86,7 +86,25 @@ ContentBox relies on Search Engine Safe (SES) URLs and URL Routing.  The majorit
 * Tuckey rewrite filter
 * Nginx
 
-The ContentBox installer will create rewrite files automatically for you for Apache, IIS7 and express editions.  For Nginx or other rewrite engines you will need to add the rewrites yourself and then manually modify the routing file: `config/routes.cfm` and remove any reference to `index.cfm`.  That's it!
+The ContentBox installer will create rewrite files automatically for you for Apache, IIS7 and express editions.  For Nginx or other rewrite engines you will need to add the rewrites yourself and then manually modify the routing file.
+
+### ContentBox 4.0+
+Edit `config/Router.cfc` and set `setFullRewrites` to `true`.  That's it!
+
+```js
+function configure(){
+	// Configuration
+	setValidExtensions( 'xml,json,jsont,rss,html,htm,cfm,print,pdf,doc,txt' );
+	// Process Full Rewrites then true, else false and an `index.cfm` will always be included in URLs
+	setFullRewrites( true );
+
+	// Mappings
+	route( ":handler/:action" ).end();
+}
+```
+
+### Older Versions of ContentBox
+Edit `config/routes.cfm` and remove any reference to `index.cfm`.  That's it!
 
 ```js
 // Base URL
