@@ -2,7 +2,119 @@
 
 ## Intro
 
-ContentBox v4.0.0 is the first major release of ContentBox and it sports tons of new updates, improvements and bug fixes including a major upgrade to [ColdBox v5.x](https://coldbox.ortusbooks.com/intro/introduction/whats-new-with-5.0.0) which in itself gives us tons of new updates and features.
+ContentBox v4.0.0 is the first major release of ContentBox and it sports tons of new updates, improvements and bug fixes including a major upgrade to [ColdBox v5.x](https://coldbox.ortusbooks.com/intro/introduction/whats-new-with-5.0.0) which in itself gives us tons of new updates and features.  So let's start exploring the major areas of improvement of this release.
+
+## ColdBox 5
+
+The entire ContentBox core has been migrated to leverage ColdBox 5.x.  This introduction has given us a plethora of features not only for development purposes but also great stability, and speed.  The major areas of improvement are:
+
+* Performance, performance, performance
+* Container and Environment support and detection
+* Full null support
+* Inheritable entry points for Modules
+* New modularity events
+* `modules_app` inception
+* Default Module Exports
+* Simplified URL Routes
+* Enhanced Routers for core and modules
+* Named Routes
+* Event Caching Improvements
+* Default JSON renderings
+* Rendering Regions
+* Faster Integration Testing
+
+You can read all about the ColdBox 5 release here: [https://coldbox.ortusbooks.com/intro/introduction/whats-new-with-5.0.0](https://coldbox.ortusbooks.com/intro/introduction/whats-new-with-5.0.0)
+
+## ContentBox Modules Full URL Routing
+
+In 4.x, modules can leverage the full power of ColdBox Routing as each module has its own `Router.cfc` now.  No more are you bound to just simple `moduleEntryPoint/handler/action` URLs, you can now use the full expressive power of ColdBox Routes:
+
+```text
+cbadmin/{module-entry-point}/${Full URL Route}
+```
+
+## ContentBox Modules Inception
+
+Thanks to ColdBox 5, your ContentBox modules now support full inception of child modules. Even the children will respond to full URL routing using the pattern shown previously.
+
+## New `contentbox-custom` Module
+
+This is one of the **major** updates for this release in order to adhere to our containerization and portability strategies.  Let's investigate the problem first:  
+
+In previous releases, custom code \(media library, themes, widgets, and modules\) had to be installed in specific folders inside of the `contentbox` module, which is installed by CommandBox.
+
+```text
++ modules
+  + contentbox
+    + content
+    + themes
+    + modules_user
+    + widgets
+```
+
+This is fine and dandy, but the issues arise once you want to put your custom code into source control but **NOT** the ContentBox source.  It makes no sense to store the ContentBox source code in source control since the inception of CommandBox and package management.  This created many issues in figuring out how to JUST add your custom pieces to source control and then came CommandBox 4 which allowed inline updates and just destroyed custom code.
+
+Then came our containerization strategy where we wanted a simple mount point for all custom code.  This was painful under the 3.x layout.
+
+### Conventions
+
+This gave way to the creation of the `contentbox-custom` module which is a module stored under the `modules_app` convention.  This module will store all **custom** code and can be stored in source control without interfering with ContentBox source code.
+
+```text
++ modules_app
+    + contentbox-custom
+        + _content (media libary)
+        + _modules (custom modules)
+        + _themes (custom themes)
+        + _widgets (custom widgets)
+        ModuleConfig.cfc
+```
+
+### Core and Custom Locations
+
+This also gave fruition to a new feature where now you can use the **custom** module for your **custom** media library, modules, themes and widgets, but also gave way to also store CommandBox controlled **core** modules and themes.  This means that when you install modules and themes from ForgeBox they will install under the previous locations because they are managed by CommandBox.
+
+### Custom Module Configuration
+
+You will also find the `ModuleConfig.cfc` in the root of your custom module with the basics to bootstrap the module by ContentBox.  The rest is up to you.  You can now leverage a full module to bootstrap all your custom code.  You now have the power to control the loading/unloading of all your custom assets. Yeayyy for modularity.
+
+### Custom Widgets
+
+If you wanted to create custom widgets before you either had to place them in themes or in the core location.  Now you can store them in the custom module under the `_widgets` folder and have them available globally.
+
+### Widget Discovery
+
+Since the addition of these new locations for widgets we have also added a **discovery** process when using widgets just by **name** in content markup or retrieval:
+
+* Check custom location: `modules_app/contentbox-custom/_widgets`
+* Check **active** theme widgets folder
+* Check core location: `modules/contentbox/widgets`
+
+### Custom Media Library
+
+The new custom module will also house your media library under the `_content` folder.  The ContentBox v3 upgrader will move your library here \(if it exists\).
+
+### Docker Container Mount Point
+
+If you are leveraging the CommandBox or ContentBox docker images, you can now easily mount your custom source code by just pointing it to the `modules_app/contentbox-custom` folder.
+
+```bash
+docker run -p 8080:8080 \
+    -e express=true \
+    -v `pwd`/contentbox-db:/data/contentbox/db \
+    -v `pwd`/contentbox-custom:/app/modules_app/contentbox-custom \
+    ortussolutions/contentbox
+```
+
+## Multi-Factor Enrollment
+
+We have now added the capability for users to enroll and unenroll in multi-factor authentication according to their provider of choice or admin's choice :\)
+
+![Multi-Factor Enrollment](../../.gitbook/assets/mfa-enrollment.png)
+
+{% hint style="success" %}
+**Tip:** Admins can also un-enroll users as a fail-safe in order to allow them to re-enroll if needed.
+{% endhint %}
 
 ## Release Notes
 

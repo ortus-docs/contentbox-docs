@@ -2,7 +2,52 @@
 
 ## Intro
 
-ContentBox v4.1.0 is a minor release sporting a focus on stability from our 4.0.0 release and some great new improvements.
+ContentBox v4.1.0 is a minor release sporting a focus on stability from our 4.0.0 release and some great new improvements.  Let's explore this release:
+
+### Upgrading
+
+This is a minor release, so a simple `box update contentbox` will get you upgraded to this release.
+
+### ColdBox Upgrade
+
+ContentBox has been upgraded to work with ColdBox 5.1.x
+
+### New Editor Interceptors
+
+All content editors have the following new events being announced:
+
+* **Editor Navigation Tab Area**
+  * These events fire after the final tab in a content editor, usually so you can add your own tabs
+    * `cbadmin_pageEditorInBody`
+    * `cbadmin_ContentStoreEditorNav`
+    * `cbadmin_entryEditorNav`
+* **Editor Navigation Body Area**
+  * These events fire after the final tab content panel, usually so you can add your own tab panels
+    * `cbadmin_pageEditorNavContent`
+    * `cbadmin_contentStoreEditorNavContent`
+    * `cbadmin_entryEditorNavContent`
+
+### Admin Menu Services
+
+If you are building custom ContentBox modules that attach menus to the admin menu, then this update is for you.  All remove and add methods for menus now will not throw up if you reference a non-existent menu or sub menu.  Cleanup is now easier since you can remove at your heart's content without worrying of getting an exception.
+
+### API Service Updates
+
+The service layer for content objects has been updated with many new arguments and methods. As always, check out the [API Docs](https://apidocs.ortussolutions.com/contentbox/4.1.0/index.html) \([https://apidocs.ortussolutions.com/contentbox/4.1.0/index.html](https://apidocs.ortussolutions.com/contentbox/4.1.0/index.html)\) for further insight.  
+
+* **ContentStoreService@cb**
+  * `findPublishedContent()`
+    * Added a `sortOrder` argument 
+  * `search()`
+    * `parent` argument can now be an entity or an entity ID
+    * New `slugPrefix` argument which you can use to root a search on a specific content hierarchy. Ex: `slugPrefix = "products"` will search for all content under `products/*`
+* **ContentService@cb**
+  * `findPublishedContent()`
+    * `parent` argument can now be an entity or an entity ID
+    * New `slugPrefix` argument which you can use to root a search on a specific content hierarchy. Ex: `slugPrefix = "products"` will search for all content under `products/*`
+* **CommentService@cb**
+  * `search()`
+  * Added a `sortOrder` argument
 
 ## Release Notes
 
@@ -27,6 +72,9 @@ ContentBox v4.1.0 is a minor release sporting a focus on stability from our 4.0.
 * \[[CONTENTBOX-1045](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1045)\] - error opening import settings in the geek panel missing js
 * \[[CONTENTBOX-1046](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1046)\] - Admin Layout does not include cbadmin\_beforeBodyEnd
 * \[[CONTENTBOX-1050](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1050)\] - Category names should be unique, validation was missing
+* \[[CONTENTBOX-1052](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1052)\] - bulk update of comment status breaks
+* \[[CONTENTBOX-1053](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1053)\] - can't edit raw settings due to JS/CF boolean conversions
+* \[[CONTENTBOX-1054](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1054)\] - security rules filter and ordering not working
 
 ### New Features
 
