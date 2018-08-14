@@ -51,7 +51,7 @@ The service layer for content objects has been updated with many new arguments a
 
 ## Release Notes
 
-### Bugs
+### Bug
 
 * \[[CONTENTBOX-1011](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1011)\] - Error while Insert Menu widget
 * \[[CONTENTBOX-1012](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1012)\] - Translation Error on Installation for Email Setup
@@ -60,6 +60,7 @@ The service layer for content objects has been updated with many new arguments a
 * \[[CONTENTBOX-1016](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1016)\] - Content displaying issues on Widget List & Media manager
 * \[[CONTENTBOX-1017](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1017)\] - meta description not rendering content
 * \[[CONTENTBOX-1019](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1019)\] - bug when creating new content, it fired a publishd nagging when saving and not publishing
+* \[[CONTENTBOX-1020](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1020)\] - Permission Groups / Permissions relationship doesn't cascade and errors when removing permissions or authors
 * \[[CONTENTBOX-1022](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1022)\] - Not able to delete a custom theme
 * \[[CONTENTBOX-1024](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1024)\] - Don't display alert as "Your content is published already" for non published pages.
 * \[[CONTENTBOX-1025](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1025)\] - Insert Widgets options are not enabled even the widgets having content.
@@ -75,16 +76,27 @@ The service layer for content objects has been updated with many new arguments a
 * \[[CONTENTBOX-1052](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1052)\] - bulk update of comment status breaks
 * \[[CONTENTBOX-1053](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1053)\] - can't edit raw settings due to JS/CF boolean conversions
 * \[[CONTENTBOX-1054](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1054)\] - security rules filter and ordering not working
+* \[[CONTENTBOX-1058](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1058)\] - Throwing error while adding the existing name in Permission, Permission Group, Categories and Roles
+* \[[CONTENTBOX-1059](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1059)\] - Need to change the Icon while assigning permissions for Roles and Permission Groups
+* \[[CONTENTBOX-1060](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1060)\] - event caching cleanup was not working correctly for wrappers
+* \[[CONTENTBOX-1061](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1061)\] - Lots of buttons missing the \`default\` class tag
+* \[[CONTENTBOX-1063](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1063)\] - Some submenu items where not activated when used
+* \[[CONTENTBOX-1064](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1064)\] - CommentForm widget previews not working and no way to default it to the currently executing page.
+* \[[CONTENTBOX-1065](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1065)\] - Can't delete raw settings due to JS error
+* \[[CONTENTBOX-1066](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1066)\] - Case issues for views on case sensitive OS's
+* \[[CONTENTBOX-1067](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1067)\] - error on async interception points loading hibernate sessions
 
-### New Features
+### New Feature
 
 * \[[CONTENTBOX-746](https://ortussolutions.atlassian.net/browse/CONTENTBOX-746)\] - Multi-select in Media Manager for deletes and downloads
 * \[[CONTENTBOX-1027](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1027)\] - Add sortOrder as an option for getting published contents
 * \[[CONTENTBOX-1041](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1041)\] - New editor nav interceptors: cbadmin\_pageEditorInBody, cbadmin\_ContentStoreEditorNav,cbadmin\_entryEditorNav
 * \[[CONTENTBOX-1042](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1042)\] - Update to ColdBox 5.1
 * \[[CONTENTBOX-1051](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1051)\] - New Editor Content Interceptors: cbadmin\_pageEditorNavContent, cbadmin\_contentStoreEditorNavContent, cbadmin\_entryEditorNavContent
+* \[[CONTENTBOX-1055](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1055)\] - Content Services search parent argument can now be the parent entity as well
+* \[[CONTENTBOX-1056](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1056)\] - Content Services hiearchical search via the slugPrefix argument on all search methods
 
-### Improvements
+### Improvement
 
 * \[[CONTENTBOX-831](https://ortussolutions.atlassian.net/browse/CONTENTBOX-831)\] - FileBrowser - Filter to only show directories for Asset Chooser
 * \[[CONTENTBOX-981](https://ortussolutions.atlassian.net/browse/CONTENTBOX-981)\] - Remove upload capabilities for widgets, modules and themes due to high security risks
@@ -94,4 +106,6 @@ The service layer for content objects has been updated with many new arguments a
 * \[[CONTENTBOX-1032](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1032)\] - Missing alert message on media manager when trying to download a file but none selected
 * \[[CONTENTBOX-1034](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1034)\] - container fluid on login screen left over in security login.cfm
 * \[[CONTENTBOX-1049](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1049)\] - Update the UI module to use the content service when displaying pages to allow for custom page types
+* \[[CONTENTBOX-1062](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1062)\] - Updated circle indicator to a filled circle for visual impact
+* \[[CONTENTBOX-1068](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1068)\] - Updated environments for container heartbeats
 
