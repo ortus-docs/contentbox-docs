@@ -19,13 +19,13 @@ ContentBox can run on any database engine that Hibernate ORM supports \([https:/
 
 * MySQL 5+ \(InnoDB ONLY!\)
 * Microsoft SQL Server 2008+
-* Oracle
-* PostgreSQL
+* Oracle 11g+
 * Hypersonic
 * H2
 * Apache Derby
+* PostgreSQL \(Experimental\)
 
-If you have another database engine that needs ContentBox support, please let us know and we will be able to help you \([http://www.ortussolutions.com/contact](http://www.ortussolutions.com/contact)\).
+If you have another database engine that needs ContentBox support, please let us know and we will be able to help you \([https://www.ortussolutions.com/contact](https://www.ortussolutions.com/contact)\).
 
 ### IMPORTANT: Dialect Choice
 
@@ -49,7 +49,9 @@ this.ormsettings = {
 * `Oracle10g`
 * `MicrosoftSQLServer`
 
-> **Tip** If you are using the H2 or Hypersonic Databases, just leave the dialect empty or use the MySQL dialects for compatibility purposes.
+{% hint style="success" %}
+**Tip:** If you are using the H2 or Hypersonic Databases, just leave the dialect empty or use the **MySQL** dialects for compatibility purposes.
+{% endhint %}
 
 ### MSSQL Caveats
 
@@ -81,6 +83,7 @@ We have seen some issues on some versions of PostgreSQL where Boolean values of 
 
 ContentBox relies on Search Engine Safe \(SES\) URLs and URL Routing. The majority of CFML engines already allow for these types of URLs out of the box and ContentBox supports it out of the box. However, if you would like to use full URL rewriting \(which we recommend, that's where the `index.cfm` is not showing in the URLs\) you will need to use a web server rewriting tool and ContentBox will configure it for you. So before you install Contentbox make sure that you are using one of the supported rewriting engines show below:
 
+* CommandBox Server
 * Apache mod\_rewrite
 * IIS 7 rewrite module
 * Tuckey rewrite filter
@@ -140,16 +143,18 @@ Here are the folders for the core engine to work accordingly
 {Root}/coldbox/system/aop/tmp
 
 # Media Manager
-{Root}/modules/contentbox/content
+{Root}/modules_app/contentbox-custom/content
 
 # Auto-udpates
 {Root}/modules/contentbox/updates
 
 # If you want ForgeBox enabled downloads
-{Root}/modules/contentbox/modules_user
-{Root}/modules/contentbox/themes
-{Root}/modules/contentbox/widgets
+{Root}/modules_app/contentbox-custom/_modules
+{Root}/modules_app/contentbox-custom/_themes
+{Root}/modules_app/contentbox-custom/_widgets
 ```
 
-> **Danger** If you will not be using any ForgeBox download deployments then you do not need to enable write permissions for `themes, modules_user, and widgets`.
+{% hint style="danger" %}
+**Danger:** If you will not be using any ForgeBox download deployments then you do not need to enable write permissions for `themes, modules, and widgets in your custom module.`
+{% endhint %}
 

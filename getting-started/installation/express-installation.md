@@ -1,6 +1,6 @@
 # Express Installation
 
-The express version of ContentBox is a fully integrated running server powered by Lucee, an open source CFML engine, and Tomcat. It comes bundled with a JRE for your operating system or one without a JRE.
+The express version of ContentBox is a fully embedded running server powered by [Lucee](http://lucee.org/), an open source CFML engine, and Tomcat. It comes bundled with a JRE for your operating system or one without a JRE can be downloaded as well.
 
 ## Requirements
 
@@ -22,26 +22,26 @@ Just make sure what it is Java 1.7+.
 
 ## Step 1: Download Express
 
-The first step is for you to download ContentBox \([http://www.ortussolutions.com/products/contentbox](http://www.ortussolutions.com/products/contentbox)\) or you can use the command below:
+The first step is for you to download ContentBox \([https://www.ortussolutions.com/products/contentbox](http://www.ortussolutions.com/products/contentbox)\) or you can use the command below:
 
 ```text
 # stable no-jre
-wget http://www.ortussolutions.com/parent/download/contentbox?type=express
+wget https://www.ortussolutions.com/parent/download/contentbox?type=express
 # stable with jre for windows
-wget http://www.ortussolutions.com/parent/download/contentbox?type=express-win
+wget https://www.ortussolutions.com/parent/download/contentbox?type=express-win
 # stable with jre for mac
-wget http://www.ortussolutions.com/parent/download/contentbox?type=express-mac
+wget https://www.ortussolutions.com/parent/download/contentbox?type=express-mac
 # stable with jre for linux
-wget http://www.ortussolutions.com/parent/download/contentbox?type=express-linux
+wget https://www.ortussolutions.com/parent/download/contentbox?type=express-linux
 
 # bleeding edge no-jre
-wget http://www.ortussolutions.com/parent/download/contentbox?type=express&version=be
+wget https://www.ortussolutions.com/parent/download/contentbox?type=express&version=be
 # bleeding edge with jre for windows
-wget http://www.ortussolutions.com/parent/download/contentbox?type=express-win&version=be
+wget https://www.ortussolutions.com/parent/download/contentbox?type=express-win&version=be
 # bleeding edge with jre for mac
-wget http://www.ortussolutions.com/parent/download/contentbox?type=express-mac&version=be
+wget https://www.ortussolutions.com/parent/download/contentbox?type=express-mac&version=be
 # bleeding edge with jre for linux
-wget http://www.ortussolutions.com/parent/download/contentbox?type=express-linux&version=be
+wget https://www.ortussolutions.com/parent/download/contentbox?type=express-linux&version=be
 ```
 
 Once downloaded expand the archive
@@ -96,7 +96,9 @@ That's it! We are now ready to run the ContentBox installer wizard. ContentBox w
 * URL Rewriting
 * Enjoy your ContentBox installation!
 
-> **Caution** We recommend that after you install ContentBox that you remove the installer and datsource wizard modules from disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
+{% hint style="warning" %}
+**Caution** We recommend that after you install ContentBox that you remove the installer and datasource wizard modules from disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
+{% endhint %}
 
 ## Changing the Default Port
 

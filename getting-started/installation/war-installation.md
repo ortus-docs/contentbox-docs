@@ -1,17 +1,17 @@
 # WAR Installation
 
-In this section you will install ContentBox by using the **war** download option and deploying it to any Java 1.7+ servlet container.
+You can also deploy ContentBox to any Java enabled servlet container by downloading our ContentBox war file.
 
 ## Step 1: Download WAR
 
-The first step is for you to download ContentBox \([http://www.ortussolutions.com/products/contentbox](http://www.ortussolutions.com/products/contentbox)\) or you can use the command below:
+The first step is for you to download ContentBox \([https://www.ortussolutions.com/products/contentbox](http://www.ortussolutions.com/products/contentbox)\) or you can use the command below:
 
 ```text
 # stable
-wget http://www.ortussolutions.com/parent/download/contentbox?type=war
+wget https://www.ortussolutions.com/parent/download/contentbox?type=war
 
 # bleeding edge
-wget http://www.ortussolutions.com/parent/download/contentbox?type=war&version=be
+wget https://www.ortussolutions.com/parent/download/contentbox?type=war&version=be
 ```
 
 ## Step 2: Deploy WAR
@@ -47,5 +47,7 @@ That's it! We are now ready to run the ContentBox installer wizard. ContentBox w
 * URL Rewriting
 * Enjoy your ContentBox installation!
 
-> **Caution** We recommend that after you install ContentBox that you remove the installer and datsource wizard modules from disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
+{% hint style="warning" %}
+**Caution:** We recommend that after you install ContentBox that you remove the installer and datasource wizard modules from disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
+{% endhint %}
 

@@ -8,11 +8,11 @@
   \____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\
 ```
 
-## ContentBox Modular CMS - v3.7.1
+## ContentBox Modular CMS - v4.x
 
 ![ContentBox](../../.gitbook/assets/contentboxlogo300.png)
 
-ContentBox is a professional open source modular CMS \(Content Management System\) for ColdFusion \(CFML\) and Java engines that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
+ContentBox is a professional open source modular CMS \(Content Management System\) for Modern ColdFusion \([CFML](https://modern-cfml.ortusbooks.com/)\) and Java engines that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
 
 ## Versioning
 
@@ -44,6 +44,7 @@ The ContentBox and discussion group can be found here: [https://groups.google.co
 We all make mistakes from time to time :\) So why not let us know about it and help us out. We also love pull requests, so please star us and fork us: [https://github.com/Ortus-Solutions/ContentBox](https://github.com/Ortus-Solutions/ContentBox)
 
 * By Jira: [https://ortussolutions.atlassian.net/browse/CONTENTBOX](https://ortussolutions.atlassian.net/browse/CONTENTBOX)
+* By Slack: [http://boxteam.herokuapp.com/](http://boxteam.herokuapp.com/)
 
 ## Professional Open Source
 
@@ -64,6 +65,7 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 * Official Website: [https://www.contentboxcms.org](https://www.contentboxcms.org)
 * Source Code: [https://github.com/Ortus-Solutions/ContentBox](https://github.com/Ortus-Solutions/ContentBox)
 * Bug Tracker: [https://ortussolutions.atlassian.net/browse/CONTENTBOX](https://ortussolutions.atlassian.net/browse/CONTENTBOX)
+* Slack: [http://boxteam.herokuapp.com/](http://boxteam.herokuapp.com/)
 * Twitter: [@gocontentbox](http://www.twitter.com/gocontentbox)
 * Facebook: [https://www.facebook.com/gocontentbox](https://www.facebook.com/gocontentbox)
 * Vimeo Channel: [http://vimeo.com/channels/contentbox](http://vimeo.com/channels/contentbox)

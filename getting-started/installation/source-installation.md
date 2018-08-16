@@ -1,10 +1,10 @@
 # Source Installation
 
-In this section you will install ContentBox by using the **source** download option.
+In this section you will install ContentBox by using the **source** download option and deploy it to your favorite ColdFusion \(CFML\) engine of choice.
 
 ## Step 1: Download Source
 
-The first step is for you to download the ContentBox installer \([http://www.ortussolutions.com/products/contentbox](http://www.ortussolutions.com/products/contentbox)\) or you can use the command below:
+The first step is for you to download the ContentBox installer \([https://www.ortussolutions.com/products/contentbox](http://www.ortussolutions.com/products/contentbox)\) or you can use the command below:
 
 ```text
 # stable
@@ -20,7 +20,9 @@ Expand the archive into your web root or a sub folder of your favorite CFML engi
 unzip contentbox_{version}.zip
 ```
 
-> **Caution** Due to a bug in some CFML engines, DO NOT use the subfolder name `contentbox`, use cbox or site or whatever you like if you will be deploying under a subfolder.
+{% hint style="warning" %}
+**Caution:** Due to a bug in some CFML engines, DO NOT use the subfolder name `contentbox`, use `cbox` or `site` or whatever you like if you will be deploying under a subfolder.
+{% endhint %}
 
 Please also note that you can also download two more types:
 
@@ -69,5 +71,7 @@ That's it! We are now ready to run the ContentBox installer wizard. ContentBox w
 * URL Rewriting
 * Enjoy your ContentBox installation!
 
-> **Caution** We recommend that after you install ContentBox that you remove the installer and datsource wizard modules from disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
+{% hint style="warning" %}
+**Caution:** We recommend that after you install ContentBox that you remove the installer and datasource wizard modules from disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
+{% endhint %}
 

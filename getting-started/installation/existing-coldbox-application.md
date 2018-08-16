@@ -4,25 +4,19 @@ If you already have a ColdBox application and you wish to install ContentBox int
 
 ## System Requirements
 
-Please note that ContentBox requires ColdBox 4.3+.
+Please note that ContentBox 4.x requires ColdBox 5.x
 
 ## Step 1 : Dependencies
 
 Since version 3.5.0, you can now simply issue a command in CommandBox to install the ContentBox module into an existing ColdBox application. Just open a `box` shell in the root of your ColdBox application and use the following command:
 
 ```text
-install contentbox production=true
+install contentbox,contentbox-installer-module
 ```
 
-This will install the ContentBox module with all of its dependencies under the `/modules/contentbox` folder and update your `box.json` with the appropriate dependency. That's it, next step!
+This will install the ContentBox module with all of its dependencies under the `/modules/contentbox` and the ContentBox installer module under `/modules/contentbox-installer`. 
 
-## Step 2 : Copy Over Installer \(Optional\)
-
-If you need to execute the ContentBox installer for the first time, you will have to download the installer package from our [download page](https://www.ortussolutions.com/products/contentbox#downloads). Extract the zip and copy over the `modules/contentbox-installer` folder into your `modules` folder.
-
-> **Note** We will create another installer approach in the future for this portion.
-
-## Step 3 : `Application.cfc` Updates
+## Step 2 : `Application.cfc` Updates
 
 Now open your `Application.cfc` and you will add the following updates:
 
@@ -60,9 +54,9 @@ this.ormSettings = {
 };
 ```
 
-### Step 4 : `ColdBox.cfc` Settings
+## Step 3 : `ColdBox.cfc` Settings
 
-We now move to the last step, open your application's `ColdBox.cfc` and you will add the following settings:
+Open your application's `ColdBox.cfc` and you will add the following settings:
 
 ```javascript
 // ORM Module Configuration
@@ -76,9 +70,53 @@ orm = {
 
 That's it! Once all those settings, mappings and module installations are done you can now visit the installer module to continue with the installation process: `http://localhost/index.cfm/cbinstaller`
 
-> **Danger** Make sure you have the datasource created in your ColdFusion administrator or inline in your `Application.cfc`
+{% hint style="danger" %}
+**Danger** Make sure you have the datasource created in your ColdFusion administrator or inline in your `Application.cfc`
+{% endhint %}
 
-### Step 5 \(Optional\) : UI Route
+## Step 4: `CacheBox.cfc` Settings
+
+Open your CacheBox configuration file: config/CacheBox.cfc and add the following cache declarations:
+
+```javascript
+// Register all the custom named caches you like here
+caches = {
+    // Named cache for all coldbox event and view template caching
+    template = {
+        provider = "coldbox.system.cache.providers.CacheBoxColdBoxProvider",
+        properties = {
+            objectDefaultTimeout = 120,
+            objectDefaultLastAccessTimeout = 30,
+            useLastAccessTimeouts = true,
+            freeMemoryPercentageThreshold = 0,
+            reapFrequency = 2,
+            evictionPolicy = "LRU",
+            evictCount = 5,
+            maxObjects = 5000,
+            objectStore = "ConcurrentSoftReferenceStore" //memory sensitive
+        }
+    },
+    // ContentBox Sessions
+    sessions = 	{
+        provider = "coldbox.system.cache.providers.CacheBoxColdBoxProvider",
+        properties = {
+            objectDefaultTimeout = 60,
+            objectDefaultLastAccessTimeout = 0,
+            useLastAccessTimeouts = false,
+            freeMemoryPercentageThreshold = 0,
+            reapFrequency = 2,
+            evictionPolicy = "LRU",
+            evictCount = 5,
+            maxObjects = 1000, // Can support up to 1000 user sessions concurrently.  Modify if needed. 0 = unlimited
+            objectStore = "ConcurrentStore"
+        }
+    }
+}
+```
+
+Once these updates are done, then you can start up the server and visit the installer URL: `http://localhost:port/cbInstaller`
+
+## Step 5 \(Optional\) : UI Route
 
 By default ContentBox is in **take over** mode. Meaning that the UI module will intercept all calls made to the application and process them as pages or blog entries. If you DO NOT want this to happen, then you can segregate the UI module into a single entry point URL like `blog` or `site` or `pages`. You can do this by opening the following file: `modules/contentbox-ui/ModuleConfig.cfc` and looking for the following code:
 

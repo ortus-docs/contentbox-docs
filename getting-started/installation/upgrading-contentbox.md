@@ -21,10 +21,10 @@ Once a patch is released in our update sites you can then choose to manually dow
 
 ```text
 // Artifacts Server
-http://integration.staging.ortussolutions.com/artifacts/ortussolutions/contentbox/
+https://downloads.ortussolutions.com/
 ```
 
-Or you can visit www.ortussolutions.com/products/contentbox for all the available download patches.
+Or you can visit [www.ortussolutions.com/products/contentbox](https://www.ortussolutions.com/products/contentbox) for all the available download patches.
 
 ### Patch Types
 

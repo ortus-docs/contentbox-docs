@@ -1,6 +1,6 @@
 # CommandBox Installation
 
-![](../../.gitbook/assets/commandboxlogo.png)
+![CommandBox CLI](../../.gitbook/assets/commandboxlogo.png)
 
 [CommandBox](http://www.ortussolutions.com/products/commandbox) is a ColdFusion \(CFML\) Command Line Interface \(CLI\), REPL, Package Manager and Embedded Server. We will leverage the CLI in CommandBox to install, deploy and configure ContentBox. The full CommandBox installation instructions can be found here: [http://commandbox.ortusbooks.com/content/setup/installation.html](http://commandbox.ortusbooks.com/content/setup/installation.html). We will do the short version.
 
@@ -23,9 +23,11 @@ We will be able to execute a-la-carte commands from our command line or go into 
 
 ## Creating A ContentBox Site
 
-Now that we have CommandBox we can use it to install and startup a ContentBox site using the embedded server \(Lucee 4.5\). You can use an embedded database or connect the embedded server to any database server as well. Open a CommandBox shell in your directory of choice by typing `box` or executing the `box` binary and after the welcome screen type the following commands:
+Now that we have CommandBox we can use it to install and startup a ContentBox site using the embedded server \(Lucee 5.x\). You can use an embedded database or connect the embedded server to any database server as well. 
 
-```text
+Open a CommandBox shell in your directory of choice by typing `box` or executing the `box` binary and after the welcome screen type the following commands:
+
+```bash
 mkdir mysite --cd
 install contentbox-installer
 server start
@@ -39,9 +41,11 @@ Once you start the engine make sure you log in to the CFML web admin using the U
 http://localhost:{port}/lucee/admin/web.cfm
 ```
 
-> **Note** You can install the bleeding edge of ContentBox by using the `contentbox-install@be` identifier in the install command. Basically, you can add any `@be` to any ID and CommandBox will try to retrieve the latest bleeding edge.
+{% hint style="info" %}
+You can install the bleeding edge of ContentBox by using the `contentbox-install@be` identifier in the install command. Basically, you can add any `@be` to any ID and CommandBox will try to retrieve the latest bleeding edge.
+{% endhint %}
 
-This will install the latest stable ContentBox and run an embedded server \(Lucee 4.5\) for it. After this you will get the ContenBox installer. Just follow it through.
+This will install the latest stable ContentBox and run an embedded server \(Lucee 5.x\) for it. After this you will get the ContentBox installer. Just follow it through.
 
 ![](../../.gitbook/assets/datasource_wizard.png)
 
@@ -50,17 +54,15 @@ This will install the latest stable ContentBox and run an embedded server \(Luce
 Since we are leveraging CommandBox, you can replace the `server start` command to use any version of Lucee or Adobe ColdFusion. Below are some choice for the engines we support:
 
 ```bash
-# default Lucee 4.5
+# default Lucee 5.x
 server start
 
-# lucee 5
-server start cfengine=lucee@5
-
-# Adobe CF11
-server start cfengine=adobe@11
-
+# Latest Adobe 2018
+server start cfengine=adobe
 # Adobe 2016
 server start cfengine=adobe@2016
+# Adobe CF11
+server start cfengine=adobe@11
 ```
 
 ## Custom Datasources
@@ -69,13 +71,13 @@ To change the datasource you can go into the CFML engine administrator and chang
 
 ![](../../.gitbook/assets/commandbox_tray.png)
 
-Click on `open web admin` and go into the datasources section and create one.
+Click on `open server admin` and go into the datasources section and create one.
 
 ## Installation Slugs
 
 ContentBox is partitioned into three installation slugs from ForgeBox in order to allow for more flexible installation structures. We used the installer above, but you can use the following approaches as well:
 
 1. `contentbox` - Installs ContentBox as a module into any existing ColdBox application.
-2. `contentbox-site` - Installs a new ColdBox site enabled for ContentBox with a dependency on `contentbox` for its module but no installer or DSN creator.
-3. `contentbox-installer` - Same as above but with our DSN Creator and Installer Module.
+2. `contentbox-site` - Installs a new ColdBox site enabled for ContentBox with a dependency on `contentbox` for its module but **no** installer or DSN creator are installed.
+3. `contentbox-installer` - Same as above but with our DSN Creator and Installer Module available.
 

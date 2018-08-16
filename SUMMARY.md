@@ -5,16 +5,9 @@
 ## Intro
 
 * [Introduction](intro/introduction/README.md)
-  * [What's New With 3.7.0](intro/introduction/whats-new-with-3.7.0.md)
-  * [What's New With 3.6.0](intro/introduction/whats-new-with-3.6.0.md)
-  * [What's New With 3.5.0](intro/introduction/whats-new-with-3.5.0.md)
-  * [What's New With 3.1.0](intro/introduction/whats-new-with-3.1.0.md)
-  * [What's New With 3.0.0](intro/introduction/whats-new-with-3.0.0/README.md)
-    * [Architecture](intro/introduction/whats-new-with-3.0.0/architecture.md)
-    * [Administrator](intro/introduction/whats-new-with-3.0.0/administrator.md)
-    * [Themes](intro/introduction/whats-new-with-3.0.0/themes.md)
-    * [Front End](intro/introduction/whats-new-with-3.0.0/front-end.md)
-    * [Upgrading to 3.0.0](intro/introduction/whats-new-with-3.0.0/upgrading-to-3.0.0.md)
+  * [What's New With 4.1.0](intro/introduction/whats-new-with-4.1.0.md)
+  * [What's New With 4.0.0](intro/introduction/whats-new-with-4.0.0.md)
+  * [Upgrading From v3.x](intro/introduction/upgrading-from-v3.x.md)
   * [About This Book](intro/introduction/about-this-book.md)
   * [Author](intro/introduction/author.md)
 
