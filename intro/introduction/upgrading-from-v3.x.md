@@ -31,7 +31,7 @@ If you are in a linux or mac environment you can execute the recipe using the fo
 
 ```bash
 # Download recipe
-curl -o updater.boxr http://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/4.1.0/updater.boxr
+curl -o updater.boxr https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/4.1.0/updater.boxr
 # Execute recipe
 box updater.boxr
 ```
