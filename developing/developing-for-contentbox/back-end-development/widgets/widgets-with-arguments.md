@@ -8,18 +8,18 @@ Let us add a few arguments to our Simple Widget.
 
 Our starting point looks like this.
 
-```text
+```java
 function renderit( ){
-        var thehtml = '<a href="https://www.contentboxcms.org/" target="_blank">
+   var thehtml = '<a href="https://www.contentboxcms.org/" target="_blank">
                 <img src="https://www.ortussolutions.com/__media/ContentBox_300.png" 
                 alt="ContentBox CMS Logo"></a>';
-        return thehtml;
+   return thehtml;
 }
 ```
 
 We want to give the user an option to change the target of the link. To start we will add the `urlTarget` argument to the `renderIt()` and then use that argument in our link.
 
-```text
+```java
 function renderit( urlTarget ){
         var thehtml = '<a href="https://www.contentboxcms.org/" target="#arguments.urlTarget#">
                 <img src="https://www.ortussolutions.com/__media/ContentBox_300.png" 
@@ -48,22 +48,22 @@ You will see the argument name `urlTarget` shown, with the type `(any)`. We can 
 
 These are all added via the JavaDoc syntax for the RenderIt\(\) function. Below is an example of the label being used.
 
-```text
+```javascript
 /**
-* Descript of the function
-* @argumentName.label
-*/
+ * Descript of the function
+ * @argumentName.label
+ */
 ```
 
 ### Argument Label
 
 The Label is used when you want to have a more meaningful label for the form field than the name of the argument itself. In our example, by default, the label is `urlTarget`, but we can change it to something like `This is my Label`
 
-```text
+```javascript
 /**
-* Renders this widget
-* @urlTarget.label This is my label 
-*/
+ * Renders this widget
+ * @urlTarget.label This is my label 
+ */
 function renderit( urlTarget ){
 ```
 
@@ -77,12 +77,12 @@ Required does what it says, it makes a field a required field. This will show a 
 
 To make a field required, add Javadoc Meta comment `@urlTarget.required` to the function meta.
 
-```text
+```javascript
 /**
-* Renders this widget
-* @urlTarget.label This is my label 
-* @urlTarget.required
-*/
+ * Renders this widget
+ * @urlTarget.label This is my label 
+ * @urlTarget.required
+ */
 function renderit( urlTarget ){
 ```
 
@@ -94,13 +94,13 @@ A label goes a long way in helping the user understand the purpose of a field, b
 
 To add a field hint, add Javadoc Meta comment `@urlTarget.hint` to the function meta.
 
-```text
+```javascript
 /**
-* Renders this widget
-* @urlTarget.label This is my label 
-* @urlTarget.required
-* @urlTarget.hint This is the html target type for the link. _self _blank _top _parent frameName
-*/
+ * Renders this widget
+ * @urlTarget.label This is my label 
+ * @urlTarget.required
+ * @urlTarget.hint This is the html target type for the link. _self _blank _top _parent frameName
+ */
 function renderit( urlTarget ){
 ```
 
@@ -119,17 +119,18 @@ Argument Type is very important. By default, all arguments are considered string
 
 Argument Type can be defined by the Function definition, or with the Meta Data. Below you can see these argument types being set inside the function itself.
 
-```text
+```javascript
 function renderIt(
-        boolean dropdown=false,
-        boolean showPostCount=true,
-        string title="",
-        string titleLevel="2" ){
+    boolean dropdown=false,
+    boolean showPostCount=true,
+    string title="",
+    string titleLevel="2" 
+){
 ```
 
 You can also use the Meta Data approach that most of the argument options require.
 
-```text
+```javascript
 /**
 * @numberOfPages.type boolean
 */
@@ -142,7 +143,7 @@ You can set a default Value for the field.
 
 To add a default value for an argument, add Javadoc Meta comment `@urlTarget.default _blank` to the function meta.
 
-```text
+```java
 /**
 * Renders this widget
 * @urlTarget.label This is my label 
@@ -161,7 +162,7 @@ Using Labels, Hints and Required fields helps the user, but in some cases its be
 
 To add options for an argument, add Javadoc Meta comment `@urlTarget.options _self,_blank,_top,_parent` to the function meta.
 
-```text
+```java
 /**
 * Renders this widget
 * @urlTarget.label This is my label 
@@ -182,7 +183,7 @@ Option lists work great for some use cases, but sometimes you might need some dy
 
 1- To add options for an argument via UDF, add Javadoc Meta comment `@urlTarget.optionsUDF getTargetTypes` to the function meta. The function should be the name without the parenthesis.
 
-```text
+```java
 /**
 * Renders this widget
 * @urlTarget.label This is my label 
@@ -196,7 +197,7 @@ function renderit( urlTarget ){
 
 2- Add the new function. The new function can be named anything \( other than RenderIt - the default function for a widget \). The function must return an array of elements that can be converted to a string. Here is the UDF function that matches the previous list of options, but this time, we added one, to be sure it is from the UDF.
 
-```text
+```java
 function getTargetTypes(){
     return [ '_self','_blank','_top','_parent','ThisisfromTheUDF' ];
 }
@@ -210,7 +211,7 @@ You might see a side effect of adding the function. Now you will see another opt
 
 To hide this function \( since this is outputting an array, not a string \), you cannot use a private function \( otherwise the UDF cannot be called by the Form Builder \), you need to add some meta data to ignore the function.
 
-```text
+```java
 /**
 * @cbignore
 */
@@ -221,7 +222,7 @@ function getTargetTypes(){
 
 or you could use the inline meta
 
-```text
+```java
 function getTargetTypes() cbignore{
     return [ '_self','_blank','_top','_parent','ThisisfromTheUDF' ];
 }
@@ -237,7 +238,7 @@ Using Labels, Hints and Required fields helps the user, but in some cases its be
 
 To add options for an argument, add Javadoc Meta comment `@urlTarget.multioptions _self,_blank,_top,_parent` to the function meta.
 
-```text
+```java
 /**
 * Renders this widget
 * @urlTarget.label This is my label 
@@ -256,7 +257,7 @@ MultiOptionsUDF works the same as OptionsUDF except the user can select none, on
 
 Add the meta to the RenderIt\(\) function
 
-```text
+```java
 /**
 * Renders this widget
 * @urlTarget.label This is my label 
@@ -270,7 +271,7 @@ function renderit( urlTarget ){
 
 Add the UDF \( include the cbignore meta data so the Widget Form builder ignores the function \)
 
-```text
+```java
 function getTargetTypes() cbignore {
     return [ '_self','_blank','_top','_parent','ThisisfromTheUDF' ];
 }

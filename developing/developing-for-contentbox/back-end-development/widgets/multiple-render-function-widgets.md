@@ -8,29 +8,13 @@ Now you will see a `Public Methods` menu, with a list of public functions in ths
 
 When you select a different Method, the options change, depending on the function. This means you could have 1 widget, with several different display options... each with their own set of arguments. Packaging them inside a single Widget CFC allows them to easily share functions.
 
-Above, you can see the `renderIt()` function has 1 arugment, with label, hint, required etc.
+Above, you can see the `renderIt()` function has 1 argument, with label, hint, required etc.
 
-The 
-
-`listOfPages()`
-
- function has 1 argument, a plain text field 
-
-`numberOfPages`
-
-, as you can see below. 
+The `listOfPages()` function has 1 argument, a plain text field `numberOfPages`, as you can see below. 
 
 ![](../../../../.gitbook/assets/cb_widget_multiple_render2.jpg)
 
-The 
-
-`listOfCategories()`
-
- function has 1 argument, a plain text field 
-
-`numberOfCategories`
-
-, as you can see below. 
+The `listOfCategories()`function has 1 argument, a plain text field `numberOfCategories`, as you can see below. 
 
 ![](../../../../.gitbook/assets/cb_widget_multiple_render3.jpg)
 
@@ -44,7 +28,7 @@ Your first thought might be, to use a private function. The Widget form builder 
 
 The solution, add Meta data about the function... including `cbignore`. You can add this with the function meta data in a comment.
 
-```text
+```java
 /**
 * @cbignore
 */
@@ -55,7 +39,7 @@ function getTargetTypes(){
 
 Or you could add this meta data with the inline meta style.
 
-```text
+```java
 function getTargetTypes() cbignore{
     return [ '_self','_blank','_top','_parent','ThisisfromTheUDF' ];
 }
