@@ -5,6 +5,7 @@
 ## Intro
 
 * [Introduction](intro/introduction/README.md)
+  * [What's New With 4.2.0](intro/introduction/whats-new-with-4.2.0.md)
   * [What's New With 4.1.0](intro/introduction/whats-new-with-4.1.0.md)
   * [What's New With 4.0.0](intro/introduction/whats-new-with-4.0.0.md)
   * [Upgrading From v3.x](intro/introduction/upgrading-from-v3.x.md)
