@@ -10,4 +10,3 @@ The login URL to use to access the contentbox administration is:
 
 You will need to use the username and password that you created during install, or one that your system administrator has provided for you.
 
-
