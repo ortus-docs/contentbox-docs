@@ -31,7 +31,7 @@ If you are in a linux or mac environment you can execute the recipe using the fo
 
 ```bash
 # Download recipe
-curl -o updater.boxr https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/4.1.0/updater.boxr
+curl -o updater.boxr https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/4.2.0/updater.boxr
 # Execute recipe
 box updater.boxr
 ```
@@ -40,7 +40,7 @@ box updater.boxr
 
 If you are in windows, download the following recipe:
 
-[http://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/4.1.0/updater.boxr](http://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/4.1.0/updater.boxr)
+[http://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/4.2.0/updater.boxr](http://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/4.2.0/updater.boxr)
 
 and place it in the root of your project. Then issue the following CommandBox shell command to execute it.
 
@@ -54,7 +54,7 @@ That's it! The updater will take care of upgrading your 3.x source code to the l
 
 Once your recipe finalizes, startup the CFML server and go to the ContentBox administrator \(`localhost:port/cbadmin`\) and navigate to the **System &gt; Updates** section. Then click on the **Download Update** tab and paste the following updater URL:
 
-[https://downloads.ortussolutions.com/ortussolutions/contentbox/4.1.0/contentbox-patch-db-4.1.0.zip](http://downloads.ortussolutions.com.s3.amazonaws.com/ortussolutions/contentbox/4.1.0/contentbox-patch-db-4.1.0.zip)
+[https://downloads.ortussolutions.com/ortussolutions/contentbox/4.2.0/contentbox-patch-db-4.2.0.zip](https://downloads.ortussolutions.com/ortussolutions/contentbox/4.2.0/contentbox-patch-db-4.2.0.zip)
 
 This will download the database updater and run it. Once finalized, your installation is ready to rock!
 
