@@ -33,7 +33,7 @@ If you are in a linux or mac environment you can execute the recipe using the fo
 # Download recipe
 curl -o updater.boxr https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/4.2.0/updater.boxr
 # Execute recipe
-box updater.boxr
+box recipe updater.boxr
 ```
 
 #### Windows
@@ -45,7 +45,7 @@ If you are in windows, download the following recipe:
 and place it in the root of your project. Then issue the following CommandBox shell command to execute it.
 
 ```bash
-box updater.boxr
+box recipe updater.boxr
 ```
 
 That's it! The updater will take care of upgrading your 3.x source code to the latest 4.x source code.
