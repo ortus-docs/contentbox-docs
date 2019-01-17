@@ -83,7 +83,7 @@ The image is configured to allow all ORM-supported JDBC drivers to be configured
 By convention, the **datasource name** expected is simply named `contentbox`.
 {% endhint %}
 
-To programatically configure the database on container start, environment variables which represent your datasource configuration should be provided. There are two patterns supported:
+To programmatically configure the database on container start, environment variables which represent your datasource configuration should be provided. There are two patterns supported:
 
 1. `DB_DRIVER` configuration - which may be used for **Adobe Coldfusion** servers
 2. `DB_CLASS` configuration - which configures a datasource by JDBC driver and connection string \(Both Adobe and Lucee\)
@@ -128,7 +128,7 @@ A number of environment variables, specific to the ContentBox image, are availab
 * `EXPRESS=true` - Uses an H2, in-memory database. Useful for very small sites or for testing the image. See [http://www.h2database.com/html/main.html](http://www.h2database.com/html/main.html)
 * `INSTALL=true` \(alias: `INSTALLER`\) - Adds the installer module at runtime, to assist in configuring your installation. You would omit this from your `run` command, once your database has been configured
 * `BE=true` - Uses the **bleeding edge** snapshot of the ContentBox CMS, else we will defer to the **latest stable** version of ContentBox.
-* `HEALTHCHECK_URI` - Specifies the URI endpoint for container health checks.  By default, this is set `http://127.0.0.1:${PORT}/` at 1 minute intervals with 5 retries and a timeout of 30s
+* `HEALTHCHECK_URI` - Specifies the URI endpoint for container health checks.  By default, this is set `http://127.0.0.1:${PORT}/` at 30s  intervals with 5 retries and a timeout of 60s
 * `FWREINIT_PW` - Allows you to specify the reinit password for the ColdBox framework
 * `SESSION_STORAGE` - Allows the customization of session storage. Allows any valid `this.sessionStorage` value, available in [Application.cfc](http://docs.lucee.org/reference/tags/application.html). By default it will use the JDBC connection to store your sessions in your database of choice.
 * `DISTRIBUTED_CACHE` - Allows you to specify a CacheBox cache region for distributing ContentBox content, flash messages, cache storage, RSS feeds, sitemaps and settings. There are only three cache regions defined in this image: `default`, `template` and `jdbc`. `jdbc` is the default cache that will distribute your data, `default` and `template` are in-memory caches. Please see the distributed caching section below to see how to register more caches.
@@ -154,7 +154,7 @@ We have also prepared a docker compose and distribution example using Redis \(mo
 
 ## Healthchecks
 
-The image contains built-in capabilities for healthchecks for the running application. You can customize the URL entry point by using the `HEALTHCHECK_URI` environment variable. By default, this is set `http://127.0.0.1:${PORT}/` at 1 minute intervals with 5 retries and a timeout of 30s.
+The image contains built-in capabilities for healthchecks for the running application. You can customize the URL entry point by using the `HEALTHCHECK_URI` environment variable. By default, this is set `http://127.0.0.1:${PORT}/` at 30s intervals with 5 retries and a timeout of 60s.
 
 ## In Short
 
