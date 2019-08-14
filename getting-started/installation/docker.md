@@ -152,6 +152,8 @@ By default, our image configures a `jdbc` CacheBox cache region that will be use
 
 We have also prepared a docker compose and distribution example using Redis \(more caches to come\) and the ContentBox image. This example will allow you to have a stack that can easily distribute your sessions and content via Redis. You can find the repository here: [https://github.com/Ortus-Solutions/docker-contentbox-distributed](https://github.com/Ortus-Solutions/docker-contentbox-distributed)
 
+{% hint style="warning" %} Please check the Database for CF Sessions, to ensure this table is purging older expired values. If this table grows in size, you will notice performance hits and may need to schedule a purge or truncation manually. {% endhint %}
+
 ## Healthchecks
 
 The image contains built-in capabilities for healthchecks for the running application. You can customize the URL entry point by using the `HEALTHCHECK_URI` environment variable. By default, this is set `http://127.0.0.1:${PORT}/` at 30s intervals with 5 retries and a timeout of 60s.
