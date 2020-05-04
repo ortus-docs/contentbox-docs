@@ -1,6 +1,6 @@
 # Markdown Support
 
-Developers are getting more and more familiar with Markdown, and its actually preferred by a lot of developers when it comes to writing documentation and blog posts, and that is why we give you native support of Markdown in the ContentBox editor. We also threw in a few other features when adding support, some might just save you hours of work.
+Developers are getting more and more familiar with Markdown, and it's actually preferred by a lot of developers when it comes to writing documentation and blog posts, and that is why we give you native support of Markdown in the ContentBox editor. We also threw in a few other features when adding support, some might just save you hours of work.
 
 ![](../../../../../.gitbook/assets/cb3_code_editor.png)
 
