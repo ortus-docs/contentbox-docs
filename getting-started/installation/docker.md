@@ -67,11 +67,11 @@ ortussolutions/contentbox
 
 ### `INSTALL` Setting Caveats
 
-Please remember that the INSTALL environment variable is ONLY used to go through the ContentBox installer wizard.  Once the database is seeded with the installation process, you will no longer use it unless you want to reconfigure the installation.
+Please remember that the INSTALL environment variable is ONLY used to go through the ContentBox installer wizard. Once the database is seeded with the installation process, you will no longer use it unless you want to reconfigure the installation.
 
 ## Custom Database Configuration
 
-If you would like to connect your container to an external database system, you can very easily do so,  which would allow us to connect from multiple containers in a distributed fashion \(MySQL, Oracle, MSSQL, etc\). If not, you run the risk of file locks if multiple container replicas are sharing the same H2 database.  
+If you would like to connect your container to an external database system, you can very easily do so, which would allow us to connect from multiple containers in a distributed fashion \(MySQL, Oracle, MSSQL, etc\). If not, you run the risk of file locks if multiple container replicas are sharing the same H2 database.
 
 {% hint style="success" %}
 **Tip:** We would suggest you use the H2 database or EXPRESS edition when using only 1 replica.
@@ -142,7 +142,7 @@ In addition, the [CommandBox docker image](https://hub.docker.com/r/ortussolutio
 
 ## Automatic Session Distribution
 
-By default, the ContentBox image will use the Lucee Open Source CFML engine for running the application. It will also configure the **datasource** to store **user sessions** so you can easily scale the image or send it to Docker Swarm, Kubernetes, etc for scalability. 
+By default, the ContentBox image will use the Lucee Open Source CFML engine for running the application. It will also configure the **datasource** to store **user sessions** so you can easily scale the image or send it to Docker Swarm, Kubernetes, etc for scalability.
 
 You can also use the `SESSION_STORAGE` environment variable to switch the connection to any backend you like.
 
@@ -152,7 +152,9 @@ By default, our image configures a `jdbc` CacheBox cache region that will be use
 
 We have also prepared a docker compose and distribution example using Redis \(more caches to come\) and the ContentBox image. This example will allow you to have a stack that can easily distribute your sessions and content via Redis. You can find the repository here: [https://github.com/Ortus-Solutions/docker-contentbox-distributed](https://github.com/Ortus-Solutions/docker-contentbox-distributed)
 
-{% hint style="warning" %} Please check the Database for CF Sessions, to ensure this table is purging older expired values. If this table grows in size, you will notice performance hits and may need to schedule a purge or truncation manually. {% endhint %}
+{% hint style="warning" %}
+Please check the Database for CF Sessions, to ensure this table is purging older expired values. If this table grows in size, you will notice performance hits and may need to schedule a purge or truncation manually.
+{% endhint %}
 
 ## Healthchecks
 

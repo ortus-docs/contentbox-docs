@@ -37,7 +37,9 @@ ContentBox Modular CMS is open source and licensed under the [Apache 2](http://w
 
 ## Discussion & Help
 
-The ContentBox and discussion group can be found here: [https://groups.google.com/d/forum/contentbox](https://groups.google.com/d/forum/contentbox)
+The ContentBox discussion group and community can be found here: 
+
+[https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
 
 ## Reporting a Bug
 
@@ -68,6 +70,7 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 * Facebook: [https://www.facebook.com/gocontentbox](https://www.facebook.com/gocontentbox)
 * Vimeo Channel: [http://vimeo.com/channels/contentbox](http://vimeo.com/channels/contentbox)
 * YouTube Channel: [https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg](https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg)
+* Ortus Community: [https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
 
 ### HONOR GOES TO GOD ABOVE ALL
 
