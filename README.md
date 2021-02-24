@@ -8,7 +8,7 @@
   \____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\
 ```
 
-## ContentBox Modular CMS - v4.x
+## ContentBox Modular CMS - v5.x
 
 ![ContentBox](.gitbook/assets/contentboxlogo300.png)
 
