@@ -5,6 +5,7 @@
 ## Intro
 
 * [Introduction](intro/introduction/README.md)
+  * [What's New With 4.2.0](intro/introduction/whats-new-with-4.2.0.md)
   * [What's New With 4.1.0](intro/introduction/whats-new-with-4.1.0.md)
   * [What's New With 4.0.0](intro/introduction/whats-new-with-4.0.0.md)
   * [Upgrading From v3.x](intro/introduction/upgrading-from-v3.x.md)
@@ -112,6 +113,7 @@
       * [Adding Admin Menus to your Module](developing/developing-for-contentbox/back-end-development/modules/adding-admin-menus-to-your-module.md)
       * [Adding Meta to your Modules](developing/developing-for-contentbox/back-end-development/modules/adding-meta-to-your-modules.md)
     * [Widgets](developing/developing-for-contentbox/back-end-development/widgets/README.md)
+      * [Core Widgets](developing/developing-for-contentbox/back-end-development/widgets/core-widgets.md)
       * [Simple Widget](developing/developing-for-contentbox/back-end-development/widgets/simple-widget.md)
       * [Widgets with Arguments](developing/developing-for-contentbox/back-end-development/widgets/widgets-with-arguments.md)
       * [Multiple Render Function Widgets](developing/developing-for-contentbox/back-end-development/widgets/multiple-render-function-widgets.md)
