@@ -1,3 +1,9 @@
+---
+description: >-
+  ContentBox is a modular content management system based on HMVC and modern
+  principles
+---
+
 # Introduction
 
 ```text
@@ -37,9 +43,9 @@ ContentBox Modular CMS is open source and licensed under the [Apache 2](http://w
 
 ## Discussion & Help
 
-The ContentBox discussion group and community can be found here: 
+![](.gitbook/assets/image.png)
 
-[https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
+The ContentBox discussion group and community can be found here: [https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
 
 ## Reporting a Bug
 
@@ -69,7 +75,6 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 * Twitter: [@gocontentbox](http://www.twitter.com/gocontentbox)
 * Facebook: [https://www.facebook.com/gocontentbox](https://www.facebook.com/gocontentbox)
 * Vimeo Channel: [http://vimeo.com/channels/contentbox](http://vimeo.com/channels/contentbox)
-* YouTube Channel: [https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg](https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg)
 * Ortus Community: [https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
 
 ### HONOR GOES TO GOD ABOVE ALL
