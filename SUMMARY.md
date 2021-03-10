@@ -4,13 +4,11 @@
 
 ## Intro
 
-* [Introduction](intro/introduction/README.md)
-  * [What's New With 4.2.0](intro/introduction/whats-new-with-4.2.0.md)
-  * [What's New With 4.1.0](intro/introduction/whats-new-with-4.1.0.md)
-  * [What's New With 4.0.0](intro/introduction/whats-new-with-4.0.0.md)
-  * [Upgrading From v3.x](intro/introduction/upgrading-from-v3.x.md)
-  * [About This Book](intro/introduction/about-this-book.md)
-  * [Author](intro/introduction/author.md)
+* [Release History](intro/release-history/README.md)
+  * [What's new With 5.0.0](intro/release-history/whats-new-with-5.0.0.md)
+  * [Upgrading From v4.x](intro/release-history/upgrading-from-v3.x.md)
+* [About This Book](intro/about-this-book.md)
+* [Author](intro/author.md)
 
 ## Getting Started
 
