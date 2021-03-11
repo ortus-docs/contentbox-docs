@@ -67,7 +67,11 @@ Here are some of the features you get with multi-site ContentBox:
 
 ## Admin UI Revamp
 
-The entire admin UI has been revamped and streamlined.  You will find it much more breathable and soothable to work with especially from mobile devices and smaller screens.  We are also starting to prepare a major theme change and customizations that might be introduced in the final release or scheduled for a minor update.
+![New Admin UI](../../.gitbook/assets/contentbox-5-admin.png)
+
+The entire admin UI has been revamped and streamlined.  You will find it much more breathable and easier to work with especially from mobile devices and smaller screens.  We are also starting to prepare a major theme change and customization that might be introduced in the final release or scheduled for a minor update.
+
+![Tablet Version](../../.gitbook/assets/contentbox-5-admin-ipad.png)
 
 ## PostgreSQL Support
 
@@ -81,20 +85,19 @@ We have analyzed the entire ORM structures, queries and CFML code in this releas
 
 ## No More Admin Auto Updates
 
-This is such a controversial feature to be able to deliver patches via the admin.  We have completely dropped the capability to patch the CMS from within the CMS.  It caused more issues than it solved and in Windows it was pretty much impossible.
+This is such a controversial feature to be able to deliver patches via the admin.  We have completely _dropped_ the capability to patch the CMS from within the CMS.  It caused more issues than it solved and in Windows it was pretty much impossible.
 
 We have moved to a CommandBox + Migrations approach and the results are amazing.  No more broken installs, half done db updates and more.  Now you can simply run two CLI commands and be done with it.  Here is a typical flow for updating your system:
 
-```text
+```bash
 # stop the server
 stop
 # Update ColdBox and ContentBox
 update coldbox,contentbox
 # Run Migrations
 migrate up
-# start it up
+# start it up again
 start
-
 ```
 
 ## Release Notes
