@@ -4,7 +4,9 @@ ContentBox 5 is a major update for this CMS and it includes a major architectura
 
 You can find our release notes here and we will discuss our major areas of improvement for this release.
 
-## ColdBox 6
+## ColdBox 6 Core
+
+![](../../.gitbook/assets/image%20%282%29.png)
 
 We have upgraded our core to ColdBox 6 and we have received a tremendous amounts of benefits \([https://coldbox.ortusbooks.com/intro/release-history/whats-new-with-6.0.0](https://coldbox.ortusbooks.com/intro/release-history/whats-new-with-6.0.0)\).  Here are some of the features we get with this upgrade:
 
@@ -19,10 +21,51 @@ We have upgraded our core to ColdBox 6 and we have received a tremendous amounts
 
 ## CBSecurity 2
 
+![](../../.gitbook/assets/image%20%281%29.png)
+
 We have migrated our `cbsecurity` module to the latest version to give you a wealth of features \([https://coldbox-security.ortusbooks.com/intro/release-history/whats-new-with-2.0.0](https://coldbox-security.ortusbooks.com/intro/release-history/whats-new-with-2.0.0)\) such as:
 
 * Fortified rule engine
-* Annotation based security engines
+* Annotation based security engine
+* JWT support
+* Security Services
+* Cross site request forgery support
+
+## Multi Site Support
+
+![](../../.gitbook/assets/image%20%283%29.png)
+
+This has been one of the most requested features and we where hesitant for many years to comply due to the size of the needed refactoring.  However, we have finally created a great base for making ContentBox multi-tenant.  You can now configure 1 or 10000 sites under the same ContentBox umbrella.  The new installer actually creates two sites for you: a development/staging site and a production site.  That means that you can manage different content environments all under the same deployment.
+
+![Multi-Site Manager](../../.gitbook/assets/multi-site-overview.png)
+
+Here are some of the features you get with multi-site ContentBox:
+
+* Ability to register an infinite number of sites
+* Site detection by regular expressions or patterns on incoming URIs
+* Site detection by header identifier if using the headless cms or reverse proxies
+* Each site can contain its own
+  * Categories
+  * Blog
+  * Pages
+  * Content Store
+  * Menus
+  * Commenting System
+  * Themes
+* Admin site switcher
+* Admin site control bar
+* Clone content or entire content hierarchies from one site to the other
+* Publish content directly to different sites
+* Move content between sites
+* Much more coming soon.
+
+![Multi-Site Switcher](../../.gitbook/assets/multi-site-switcher.png)
+
+![Multi-Site Cloning](../../.gitbook/assets/multi-site-cloning.png)
+
+![Multi-Site Publishing](../../.gitbook/assets/multi-site-publishing.png)
+
+
 
 ## Release Notes
 
