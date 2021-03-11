@@ -87,7 +87,7 @@ You can now visit your application under `http://localhost:8085` and you will be
 
 ![](../../.gitbook/assets/installer_wizard.png)
 
-That's it! We are now ready to run the ContentBox installer wizard. ContentBox will automagically create all the necessary database tables, indexes and constraints for you. After it does this, it will present you with our ContentBox installer, where you will fill in:
+That's it! We are now ready to run the ContentBox installer wizard. ContentBox will automagically create all the necessary database tables, indexes, and constraints for you. After it does this, it will present you with our ContentBox installer, where you will fill in:
 
 * Administrator Account
 * Site Information
