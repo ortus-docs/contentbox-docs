@@ -2,6 +2,28 @@
 
 ContentBox 5 is a major update for this CMS and it includes a major architectural change to move the CMS forward.  It has become on of our biggest releases since our initial release since 2011.
 
+You can find our release notes here and we will discuss our major areas of improvement for this release.
+
+## ColdBox 6
+
+We have upgraded our core to ColdBox 6 and we have received a tremendous amounts of benefits \([https://coldbox.ortusbooks.com/intro/release-history/whats-new-with-6.0.0](https://coldbox.ortusbooks.com/intro/release-history/whats-new-with-6.0.0)\).  Here are some of the features we get with this upgrade:
+
+* Performance, performance, performance.  ColdBox 6 has been finely tuned to make your applications much more performant and stable under high load.
+* Better new CFML engine support
+* Asynchronous programming.  We have introduced the concepts of the async package to the core and ContentBox will leverage more of these features for background job processing, automation and much more.
+* New logging facilities and enhancements
+* Better exception handling for developers
+* REST Handlers and highly performant REST Routing
+* Singleton View Rendering. You will find that all renderings are way faster than before.
+* Much more!
+
+## CBSecurity 2
+
+We have migrated our `cbsecurity` module to the latest version to give you a wealth of features \([https://coldbox-security.ortusbooks.com/intro/release-history/whats-new-with-2.0.0](https://coldbox-security.ortusbooks.com/intro/release-history/whats-new-with-2.0.0)\) such as:
+
+* Fortified rule engine
+* Annotation based security engines
+
 ## Release Notes
 
 ### Bugs Squashed!
