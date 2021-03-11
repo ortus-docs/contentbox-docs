@@ -27,7 +27,7 @@ Please make sure your CFML engine has been completely stopped.
 
 #### \*nix/Mac
 
-If you are in a linux or mac environment you can execute the recipe using the following shell commands from the root directory of your application.
+If you are in a Linux or Mac environment you can execute the recipe using the following shell commands from the root directory of your application.
 
 ```bash
 # Download recipe
@@ -52,7 +52,7 @@ That's it! The updater will take care of upgrading your 3.x source code to the l
 
 ### 2. Database Updater
 
-Once your recipe finalizes, startup the CFML server and go to the ContentBox administrator \(`localhost:port/cbadmin`\) and navigate to the **System &gt; Updates** section. Then click on the **Download Update** tab and paste the following updater URL:
+Once your recipe finalized, startup the CFML server and go to the ContentBox administrator \(`localhost:port/cbadmin`\) and navigate to the **System &gt; Updates** section. Then click on the **Download Update** tab and paste the following updater URL:
 
 [https://downloads.ortussolutions.com/ortussolutions/contentbox/4.2.1/contentbox-patch-db-4.2.1.zip](https://downloads.ortussolutions.com/ortussolutions/contentbox/4.2.1/contentbox-patch-db-4.2.1.zip)
 
