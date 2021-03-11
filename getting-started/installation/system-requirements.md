@@ -29,7 +29,7 @@ If you have another database engine that needs ContentBox support, please let us
 
 ### IMPORTANT: Dialect Choice
 
-We would highly recommend that you choose the dialect of choice for your database via the `Application.cfc` in ContentBox. This would avoid you pains and headaches as sometimes Hibernate will not detect the database correctly. The available dialects can be found here: [https://helpx.adobe.com/coldfusion/developing-applications/coldfusion-orm/configure-orm/orm-settings.html](https://helpx.adobe.com/coldfusion/developing-applications/coldfusion-orm/configure-orm/orm-settings.html).
+We would highly recommend that you choose the dialect of choice for your database via the `Application.cfc` in ContentBox. This would avoid your pains and headaches as sometimes Hibernate will not detect the database correctly. The available dialects can be found here: [https://helpx.adobe.com/coldfusion/developing-applications/coldfusion-orm/configure-orm/orm-settings.html](https://helpx.adobe.com/coldfusion/developing-applications/coldfusion-orm/configure-orm/orm-settings.html).
 
 **Example Code**
 
@@ -55,7 +55,7 @@ this.ormsettings = {
 
 ### MSSQL Caveats
 
-If you are running MSSQL server then we would recommend you update the `Application.cfc` with the ORM dialect for MSSQL. We have seen many weird dialect issues with MSSQL if this is not done:
+If you are running an MSSQL server then we would recommend you update the `Application.cfc` with the ORM dialect for MSSQL. We have seen many weird dialect issues with MSSQL if this is not done:
 
 ```javascript
 this.ormsettings = {
@@ -89,7 +89,7 @@ ContentBox relies on Search Engine Safe \(SES\) URLs and URL Routing. The majori
 * Tuckey rewrite filter
 * Nginx
 
-The ContentBox installer will create rewrite files automatically for you for Apache, IIS7 and express editions. For Nginx or other rewrite engines you will need to add the rewrites yourself and then manually modify the routing file.
+The ContentBox installer will create rewrite files automatically for you for Apache, IIS7, and express editions. For Nginx or other rewrite engines, you will need to add the rewrites yourself and then manually modify the routing file.
 
 ### ContentBox 4.0+
 
@@ -124,7 +124,7 @@ if( len(getSetting('AppMapping') ) lte 1){
 
 ## File Permissions
 
-ContentBox needs some files/folders to be writable at runtime. We use this for our installer, ForgeBox cloud deployments, auto-updates and more. The following directories need read/write permissions for the installer only to work:
+ContentBox needs some files/folders to be writable at runtime. We use this for our installer, ForgeBox cloud deployments, auto-updates, and more. The following directories need read/write permissions for the installer only to work:
 
 ### Installer
 

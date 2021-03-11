@@ -4,7 +4,7 @@ We are so excited you are here and ready to get started with ContentBox Modular 
 
 * Deploy the source using the [CommandBox Server ](https://www.ortussolutions.com/products/commandbox)with a supported modern ColdFusion \(CFML\) engine.
 * Deploy the source to any modern ColdFusion \(CFML\) engine \(Adobe 11+ †, Lucee4.5+\)
-* Leverage the `ContentBox.war` and deploy to any **Java** enabled server
+* Leverage the `ContentBox.war` and deploy to any **Java-enabled** server
 * Run an express self-contained version
 * Install into an Existing ColdBox MVC application
 * Run as a docker container: [https://hub.docker.com/r/ortussolutions/contentbox/](https://hub.docker.com/r/ortussolutions/contentbox/)
