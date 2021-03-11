@@ -1,6 +1,6 @@
 # What's new With 5.0.0
 
-ContentBOx 5 is a major update for this CMS and it includes a major architectural change to move the CMS forward.
+ContentBox 5 is a major update for this CMS and it includes a major architectural change to move the CMS forward.  It has become on of our biggest releases since our initial release since 2011.
 
 ## Release Notes
 
