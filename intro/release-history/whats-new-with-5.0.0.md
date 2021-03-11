@@ -1,6 +1,6 @@
 # What's new With 5.0.0
 
-ContentBox 5 is a major update for this CMS and it includes a major architectural change to move the CMS forward.  It has become on of our biggest releases since our initial release since 2011.
+ContentBox 5 is a major update for this CMS and it includes a major architectural change to move the CMS forward.  We have introduced multi-tenancy and a complete headless approach to ContentBox.  It has become on of our biggest releases since our initial release since 2011.
 
 You can find our release notes here and we will discuss our major areas of improvement for this release.
 
@@ -65,7 +65,37 @@ Here are some of the features you get with multi-site ContentBox:
 
 ![Multi-Site Publishing](../../.gitbook/assets/multi-site-publishing.png)
 
+## Admin UI Revamp
 
+The entire admin UI has been revamped and streamlined.  You will find it much more breathable and soothable to work with especially from mobile devices and smaller screens.  We are also starting to prepare a major theme change and customizations that might be introduced in the final release or scheduled for a minor update.
+
+## PostgreSQL Support
+
+![](../../.gitbook/assets/image%20%284%29.png)
+
+We have completely changed our ORM structures and custom queries so it can be friendlier to other RDBMS.  In this release we focus on portability of the host database and finally have core PostgreSQL support.
+
+## Performance
+
+We have analyzed the entire ORM structures, queries and CFML code in this release thanks to [FusionReactor](https://www.fusion-reactor.com/)'s Profiler.  We have streamlined the way the CMS loads and the results are impressive.  The first load of ContentBox is about 70% faster than ContentBox 4. Along page executions with around 30-40% faster executions.  
+
+## No More Admin Auto Updates
+
+This is such a controversial feature to be able to deliver patches via the admin.  We have completely dropped the capability to patch the CMS from within the CMS.  It caused more issues than it solved and in Windows it was pretty much impossible.
+
+We have moved to a CommandBox + Migrations approach and the results are amazing.  No more broken installs, half done db updates and more.  Now you can simply run two CLI commands and be done with it.  Here is a typical flow for updating your system:
+
+```text
+# stop the server
+stop
+# Update ColdBox and ContentBox
+update coldbox,contentbox
+# Run Migrations
+migrate up
+# start it up
+start
+
+```
 
 ## Release Notes
 
