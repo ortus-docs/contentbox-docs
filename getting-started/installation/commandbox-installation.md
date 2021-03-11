@@ -6,16 +6,16 @@
 
 ## Download CommandBox
 
-You can download CommandBox from the official site: [http://www.ortussolutions.com/products/commandbox\#download](http://www.ortussolutions.com/products/commandbox#download) and install in your preferred Operating System \(Windows, Mac, \*unix\). CommandBox comes in two flavors:
+You can download CommandBox from the official site: [http://www.ortussolutions.com/products/commandbox\#download](http://www.ortussolutions.com/products/commandbox#download) and install it in your preferred Operating System \(Windows, Mac, Unix\). CommandBox comes in two flavors:
 
-1. No Java Runtime \(30mb\)
-2. Embedded Runtime \(80mb\)
+1. No Java Runtime \(30 Mb\)
+2. Embedded Runtime \(80 Mb\)
 
 So make sure you choose your desired installation path and follow the instructions here: [http://commandbox.ortusbooks.com/content/setup/installation.html](http://commandbox.ortusbooks.com/content/setup/installation.html)
 
 ## Starting CommandBox
 
-Once you download and expand CommandBox you will have the `box.exe` or `box` binary, which you can place in your Windows Path or \*Unix `/usr/bin` folder to have it available system wide. Then just open the binary and CommandBox will unpack itself your user's directory: `{User}/.CommandBox`. This happens only once and the next thing you know, you are in the CommandBox interactive shell!
+Once you download and expand CommandBox you will have the `box.exe` or `box` binary, which you can place in your Windows Path or \*Unix `/usr/bin` folder to have it available system-wide. Then just open the binary and CommandBox will unpack itself your user's directory: `{User}/.CommandBox`. This happens only once and the next thing you know, you are in the CommandBox interactive shell!
 
 ![](../../.gitbook/assets/commandbox-terminal.png)
 
@@ -37,7 +37,7 @@ install contentbox-installer
 ### ORM Dialect \(Optional\)
 
 {% hint style="danger" %}
-Please note that if you are using Lucee and a NON MySQL Database, you will have to update the dialect in the Application.cfc so the ORM knows how to treat your database correctly. We have seen this be automatic in Adobe ColdFusion, but Lucee has a bug that comes and goes on this.
+Please note that if you are using Lucee and a non-MySQL Database, you will have to update the dialect in the Application.cfc so the ORM knows how to treat your database correctly. We have seen this be automatic in Adobe ColdFusion, but Lucee has a bug that comes and goes on this.
 {% endhint %}
 
 Open the `Application.cfc` and look for the `orm` settings especially the `dialect` setting. Uncomment it and update it accordingly:
@@ -68,7 +68,7 @@ The server will be created and started for you using the latest Lucee version.  
 
 ### Setup Admin Password
 
-Once you start the engine make sure you log in to the CFML web admin using the URL below in order to setup the CFML engine password. You will need this password to create the datasource via the wizard.
+Once you start the engine make sure you log in to the CFML web admin using the URL below in order to set up the CFML engine password. You will need this password to create the data source via the wizard.
 
 ```text
 http://localhost:{port}/lucee/admin/web.cfm
@@ -78,7 +78,7 @@ http://localhost:{port}/lucee/admin/web.cfm
 You can install the bleeding edge of ContentBox by using the `contentbox-install@be` identifier in the install command. Basically, you can add any `@be` to any ID and CommandBox will try to retrieve the latest bleeding edge.
 {% endhint %}
 
-This will install the latest stable ContentBox and run an embedded server \(Lucee 5.x\) for it. After this you will get the ContentBox installer. Just follow it through.
+This will install the latest stable ContentBox and run an embedded server \(Lucee 5.x\) for it. After this, you will get the ContentBox installer. Just follow it through.
 
 ![](../../.gitbook/assets/datasource_wizard.png)
 
@@ -100,11 +100,11 @@ server start cfengine=adobe@11
 
 ## Custom Datasources
 
-To change the datasource you can go into the CFML engine administrator and change it. Just look in your taskbar for an Ortus Logo like the one below:
+To change the data source you can go into the CFML engine administrator and change it. Just look in your taskbar for an Ortus Logo like the one below:
 
 ![](../../.gitbook/assets/commandbox_tray.png)
 
-Click on `open server admin` and go into the datasources section and create one.
+Click on `open server admin` and go into the data sources section and create one.
 
 ## Installation Slugs
 
