@@ -8,7 +8,7 @@
   \____\___/|_| |_|\__\___|_| |_|\__|____/ \___/_/\_\
 ```
 
-## ContentBox Modular CMS - v3.7.1
+## ContentBox Modular CMS - v4.x
 
 ![ContentBox](.gitbook/assets/contentboxlogo300.png)
 
@@ -37,7 +37,9 @@ ContentBox Modular CMS is open source and licensed under the [Apache 2](http://w
 
 ## Discussion & Help
 
-The ContentBox and discussion group can be found here: [https://groups.google.com/d/forum/contentbox](https://groups.google.com/d/forum/contentbox)
+The ContentBox discussion group and community can be found here: 
+
+[https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
 
 ## Reporting a Bug
 
@@ -68,10 +70,11 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 * Facebook: [https://www.facebook.com/gocontentbox](https://www.facebook.com/gocontentbox)
 * Vimeo Channel: [http://vimeo.com/channels/contentbox](http://vimeo.com/channels/contentbox)
 * YouTube Channel: [https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg](https://www.youtube.com/channel/UCKLYx772weG6Eh06ny-lJBg)
+* Ortus Community: [https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
 
 ### HONOR GOES TO GOD ABOVE ALL
 
-Because of His grace, this project exists. If you don't like this, then don't read it, its not for you.
+Because of His grace, this project exists. If you don't like this, then don't read it, it's not for you.
 
 > "Therefore being justified by **faith**, we have peace with God through our Lord Jesus Christ:  
 > By whom also we have access by **faith** into this **grace** wherein we stand, and rejoice in hope of the glory of God." Romans 5:5

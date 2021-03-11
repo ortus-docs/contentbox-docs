@@ -6,7 +6,7 @@
 If you want to get up to speed quickly, please refer to the [Quick Start Guide](https://contentbox.ortusbooks.com/getting-started/quick-guide)​
 {% endhint %}
 
-## The Administrator Module Login Screen {#the-login-screen}
+## The Administrator Module Login Screen <a id="the-login-screen"></a>
 
 The login URL to use to access the ContentBox administration module is:
 

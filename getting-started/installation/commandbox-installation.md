@@ -25,13 +25,46 @@ We will be able to execute a-la-carte commands from our command line or go into 
 
 Now that we have CommandBox we can use it to install and startup a ContentBox site using the embedded server \(Lucee 5.x\). You can use an embedded database or connect the embedded server to any database server as well. 
 
+### Code Installation
+
 Open a CommandBox shell in your directory of choice by typing `box` or executing the `box` binary and after the welcome screen type the following commands:
 
 ```bash
 mkdir mysite --cd
 install contentbox-installer
+```
+
+### ORM Dialect \(Optional\)
+
+{% hint style="danger" %}
+Please note that if you are using Lucee and a NON MySQL Database, you will have to update the dialect in the Application.cfc so the ORM knows how to treat your database correctly. We have seen this be automatic in Adobe ColdFusion, but Lucee has a bug that comes and goes on this.
+{% endhint %}
+
+Open the `Application.cfc` and look for the `orm` settings especially the `dialect` setting. Uncomment it and update it accordingly:
+
+* Derby
+* PostgreSQL
+* MySQLwithInnoDB
+* Oracle10g
+* MicrosoftSQLServer
+
+```javascript
+this.ormSettings = {
+
+    dialect = "MicrosoftSQLServer"
+    
+}
+```
+
+### Start the Server
+
+Go back to the shell where you installed the code and run:
+
+```bash
 server start
 ```
+
+The server will be created and started for you using the latest Lucee version.  A browser window should pop up after and you can run the installer.
 
 ### Setup Admin Password
 

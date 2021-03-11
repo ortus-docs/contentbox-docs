@@ -21,7 +21,7 @@ If you are not using CommandBox yet, you should be. It is not only great for eas
 
 At Ortus Solutions, we use CommandBox to manage all of our CFML Projects. We track all of our dependencies, we do not commit any CommandBox module to our Git repos, CommandBox will install dependencies from the CLI during our build process.
 
-Let's walk through installing a ColdBox module, to scan our views for Business Logic, there is a module for that. If you look on Forgebox, you'll find Business Logic Scanner by Brad Wood. [https://www.coldbox.org/forgebox/view/Business-Logic-Scanner](https://www.coldbox.org/forgebox/view/Business-Logic-Scanner)
+Let's walk through installing a ColdBox module, to scan our views for Business Logic, there is a module for that. If you look on Forgebox, you'll find Business Logic Scanner by Brad Wood. [https://www.forgebox.io/view/Business-Logic-Scanner](https://www.forgebox.io/view/Business-Logic-Scanner)
 
 To install, we cd into the site root, and type
 

@@ -37,7 +37,7 @@ ContentBox Modular CMS is open source and licensed under the [Apache 2](http://w
 
 ## Discussion & Help
 
-The ContentBox and discussion group can be found here: [https://groups.google.com/d/forum/contentbox](https://groups.google.com/d/forum/contentbox)
+The ContentBox and discussion group can be found here: [https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
 
 ## Reporting a Bug
 
