@@ -13,7 +13,7 @@ Once an auto-update package is detected you can then opt to install it.
 
 ## Database Migrations
 
-ContentBox contains Database migrations for you. It will only do additive migrations, so no remove or dropping ever occurs on patches. We highly advice you to do so and point you in the right direction via the release notes.
+ContentBox contains Database migrations for you. It will only do additive migrations, so no removal or dropping ever occurs on patches. We highly advise you to do so and point you in the right direction via the release notes.
 
 ## Manual Uploading Patches
 
@@ -30,7 +30,7 @@ Or you can visit [www.ortussolutions.com/products/contentbox](https://www.ortuss
 
 There are three types of patches you can manually download and apply:
 
-* **Full Patch**: Includes source, framework and database content updates
+* **Full Patch**: Includes source, framework, and database content updates
 * **Database Patch**: Includes database content updates only
 * **No ColdBox**: Includes source and database content updates only
 
@@ -38,7 +38,7 @@ There are three types of patches you can manually download and apply:
 
 Each patch contains the following structure:
 
-* `Update.cfc`  : Contains the code needed for pre and post installation procedures
+* `Update.cfc`  : Contains the code needed for pre and post-installation procedures
 * `deletes.txt` : Contains a list of all source files that will be removed from your installation
 * `patch.zip` : Contains all the new or modified source files that need to be deployed
 
