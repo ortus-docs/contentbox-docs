@@ -4,6 +4,24 @@ ContentBox 5 is a major update for this CMS and it includes a major architectura
 
 You can find our release notes here and we will discuss our major areas of improvement for this release.
 
+## 5.0.0-beta
+
+This beta was officially released on March 11th, 2021 and can be installed using the following slugs:
+
+```text
+# Install New Site with DSN Creator, Installer and ContentBox modules
+install contentbox-installer@5.0.0-beta-snapshot
+
+# This will install the ContentBox installer module ONLY!
+install contentbox-installer-module@5.0.0-beta-snapshot
+
+# Install New Site with ContentBox Modules but no DSN Creator and Installer, great for Containers
+install contentbox-site@5.0.0-beta-snapshot
+
+# Install ContentBox Modules Only into an existing ColdBox App
+install contentbox@5.0.0-beta-snapshot
+```
+
 ## ColdBox 6 Core
 
 ![](../../.gitbook/assets/image%20%282%29.png)

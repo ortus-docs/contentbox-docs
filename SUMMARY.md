@@ -6,7 +6,7 @@
 
 * [Release History](intro/release-history/README.md)
   * [What's new With 5.0.0](intro/release-history/whats-new-with-5.0.0.md)
-  * [Upgrading From v4.x](intro/release-history/upgrading-from-v3.x.md)
+  * [Upgrading From v4.x](intro/release-history/upgrading-from-v4.x.md)
 * [About This Book](intro/about-this-book.md)
 * [Author](intro/author.md)
 
