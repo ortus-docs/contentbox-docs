@@ -1,6 +1,6 @@
 # WAR Installation
 
-You can also deploy ContentBox to any Java enabled servlet container by downloading our ContentBox war file.
+You can also deploy ContentBox to any Java-enabled servlet container by downloading our ContentBox war file.
 
 ## Step 1: Download WAR
 
@@ -20,7 +20,7 @@ Drop the war into the web application folder of your favorite servlet container 
 
 ## Step 3: Create Your Database
 
-Now that the war is deployed in your server, it is time to create your database in your favorite DBMS engine. ContentBox is built with Hibernate ORM technology, so in theory it should work in all major database systems. You can even use an embedded database like Apache or Hypersonic.
+Now that the war is deployed in your server, it is time to create your database in your favorite DBMS engine. ContentBox is built with Hibernate ORM technology, so in theory, it should work in all major database systems. You can even use an embedded database like Apache or Hypersonic.
 
 Make sure your database supports `utf-8 or utf-16` character sets if you will be using multi-lingual or localization support.
 
@@ -28,7 +28,7 @@ Make sure your database supports `utf-8 or utf-16` character sets if you will be
 
 ![](../../.gitbook/assets/datasource_wizard.png)
 
-You can now visit your application and will be presented with our datasource wizard. You can either use our datasource wizard or you can create the datasource yourself manually in the CFML administrator by visiting the URL for the administrator:
+You can now visit your application and will be presented with our data source wizard. You can either use our data source wizard or you can create the data source yourself manually in the CFML administrator by visiting the URL for the administrator:
 
 ```text
 /{appcontext}/lucee/admin/server.cfm
@@ -48,6 +48,6 @@ That's it! We are now ready to run the ContentBox installer wizard. ContentBox w
 * Enjoy your ContentBox installation!
 
 {% hint style="warning" %}
-**Caution:** We recommend that after you install ContentBox that you remove the installer and datasource wizard modules from disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
+**Caution:** We recommend that after you install ContentBox that you remove the installer and datasource wizard modules from the disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
 {% endhint %}
 
