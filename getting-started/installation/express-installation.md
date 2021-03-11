@@ -1,6 +1,6 @@
 # Express Installation
 
-The express version of ContentBox is a fully embedded running server powered by [Lucee](http://lucee.org/), an open source CFML engine, and Tomcat. It comes bundled with a JRE for your operating system or one without a JRE can be downloaded as well.
+The express version of ContentBox is a fully embedded running server powered by [Lucee](http://lucee.org/), an open-source CFML engine, and Tomcat. It comes bundled with a JRE for your operating system or one without a JRE can be downloaded as well.
 
 ## Requirements
 
@@ -64,11 +64,11 @@ This will add execution and write permissions to the `bin` folder which is requi
 
 ## Step 3: Run it
 
-Go into the `bin` folder and and execute either the `startup.bat` or `startup.sh` or `startup.app` according to your OS. Then visit the site in a browser on port `8085` by default.
+Go into the `bin` folder and execute either the `startup.bat` or `startup.sh` or `startup.app` according to your OS. Then visit the site in a browser on port `8085` by default.
 
 ## Step 4: Setup Server Passwords
 
-Make sure you visit the following URLs and setup a server and web application password for the underlying engines:
+Make sure you visit the following URLs and set up a server and web application password for the underlying engines:
 
 ```text
 # server password
@@ -97,7 +97,7 @@ That's it! We are now ready to run the ContentBox installer wizard. ContentBox w
 * Enjoy your ContentBox installation!
 
 {% hint style="warning" %}
-**Caution** We recommend that after you install ContentBox that you remove the installer and datasource wizard modules from disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
+**Caution** We recommend that after you install ContentBox that you remove the installer and datasource wizard modules from the disk. You can do so manually or via the Dashboard once you log in. `{Root}/modules/contentbox-installer and {Root}/modules/contentbox-dsncreator`
 {% endhint %}
 
 ## Changing the Default Port
