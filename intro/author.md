@@ -2,7 +2,7 @@
 
 ## Luis Fernando Majano Lainez
 
-![](../.gitbook/assets/luismajano.jpg)
+![](../.gitbook/assets/11b.png)
 
 Luis Majano is a Computer Engineer with over 15 years of software development and systems architecture experience. He was born in [San Salvador, El Salvador](http://en.wikipedia.org/wiki/El_Salvador) in the late '70s, during a period of economical instability and civil war. He lived in El Salvador until 1995 and then moved to Miami, Florida where he completed his Bachelors of Science in Computer Engineering at [Florida International University](http://fiu.edu)
 
