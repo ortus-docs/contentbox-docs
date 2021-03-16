@@ -10,7 +10,7 @@ If you are in version 3.x then you will need to upgrade to version 4.x before up
 
 All Upgrades to ContentBox should be done with the assistance of [CommandBox CLI.](https://www.ortussolutions.com/products/commandbox) So make sure you have CommandBox installed in the server/machine you will be upgrading.
 
-### Upgrade Dependencies
+### Install CommandBox Dependencies
 
 Once you have CommandBox installed, let's make sure we have some global dependencies installed so CommandBox can work with ContentBox automated upgrades:
 
@@ -19,18 +19,54 @@ Once you have CommandBox installed, let's make sure we have some global dependen
 box install commandbox-dotenv,commandbox-migrations
 ```
 
-This will install the [environment](https://forgebox.io/view/commandbox-dotenv) module and the [database migrations](https://forgebox.io/view/commandbox-migrations) module that will be used to provide upgrades in the future.
+This will install the [environment](https://forgebox.io/view/commandbox-dotenv) module and the [database migrations](https://forgebox.io/view/commandbox-migrations) module that will be used to provide upgrades in the future.  This is only done once. ContentBox 5 already ships with these dependencies once you install it.
 
 ### Environment \(`.env`\)
 
-The upgrade process and the database migrations rely on environment variables/secrets in order to connect to your database and migrate it.  Create an `.env` file in the root of the ContentBox installation and add in your database credentials according to your database below:
+The upgrade process and the database migrations rely on environment variables/secrets in order to connect to your database and migrate it.  Create an `.env` file in the root of the ContentBox installation and add in your migrations database credentials below and/or the CommandBox server database credentials as well.
 
 ```text
-######################################################
-# ColdBox App Name and Environment
-######################################################
+#################################################################
+# App Name and Environment
+#################################################################
 APPNAME=ContentBox Modular CMS
-ENVIRONMENT=development or staging or production
+# This can be development, staging, production or custom.
+ENVIRONMENT=development
+
+#################################################################
+# ContentBox Migrations Variables
+# --------------------------------
+# This is used for the automated CLI migrationts to
+# upgrade your ContentBox database. Uncomment the RDBMS connection
+# of your choice.
+#################################################################
+MIGRATIONS_DATABASE=contentbox
+MIGRATIONS_USER=root
+MIGRATIONS_PASSWORD=
+# MySQL
+MIGRATIONS_CONNECTIONSTRING=jdbc:mysql://127.0.0.1:3306/contentbox?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useLegacyDatetimeCode=true
+MIGRATIONS_CLASS=com.mysql.cj.jdbc.Driver
+MIGRATIONS_BUNDLENAME=com.mysql.cj
+MIGRATIONS_BUNDLEVERSION=8.0.19
+# PostgreSQL
+#MIGRATIONS_CONNECTIONSTRING=jdbc:postgresql://localhost:5432/contentbox
+#MIGRATIONS_CLASS=org.postgresql.Driver
+#MIGRATIONS_BUNDLENAME=org.postgresql.jdbc42
+#MIGRATIONS_BUNDLEVERSION=9.4.1212
+# Microsoft SQL
+#MIGRATIONS_CONNECTIONSTRING=jdbc:sqlserver://localhost:1433;DATABASENAME=contentbox;sendStringParametersAsUnicode=true;SelectMethod=direct
+#MIGRATIONS_CLASS=com.microsoft.sqlserver.jdbc.SQLServerDriver
+#MIGRATIONS_BUNDLENAME=mssqljdbc4
+#MIGRATIONS_BUNDLEVERSION=4.0.2206.100
+
+#################################################################
+# ContentBox Datasource Connection
+# --------------------------------
+# This is used for a CommandBox application server to configure
+# your database connection using the .cfconfig.json file in the
+# root of your installation.
+# Uncomment the RDBMS of your choice
+#################################################################
 
 ######################################################
 # MySQL 5.7 DB Driver
@@ -70,7 +106,6 @@ DB_PASSWORD=mysql
 ######################################################
 #DB_CLASS=org.postgresql.Driver
 #DB_DRIVER=PostgreSQL
-## Lucee Bundle Info: 5.1.40 IS THE ONLY ONE THAT WORKS FOR HIBERNATE
 #DB_BUNDLEVERSION=9.4.1212
 #DB_BUNDLENAME=org.postgresql.jdbc42
 ## DB Location
@@ -83,43 +118,70 @@ DB_PASSWORD=mysql
 #DB_PASSWORD=contentbox
 
 ######################################################
-# JWT Information
+# Microsoft SQL DB Driver #
 ######################################################
+#DB_CLASS=com.microsoft.sqlserver.jdbc.SQLServerDriver
+#DB_DRIVER=mssql
+#DB_BUNDLEVERSION=4.0.2206.100
+#DB_BUNDLENAME=mssqljdbc4
+## DB Location
+#DB_HOST=127.0.0.1
+#DB_PORT=1433
+#DB_CONNECTIONSTRING=jdbc:sqlserver://localhost:1433;DATABASENAME=contentbox;sendStringParametersAsUnicode=true;SelectMethod=direct
+## DB Credentials
+#DB_DATABASE=contentbox
+#DB_USER=contentbox
+#DB_PASSWORD=contentbox
+
+#################################################################
+# JWT Information
+# --------------------------------
+# You can seed the JWT secret below or you can also leave it empty
+# and ContentBox will auto-generate one for you that rotates
+# everytime the application restarts or expires
+#################################################################
 JWT_SECRET=
 
-######################################################
-# S3 Information
-######################################################
+#################################################################
+# AWS S3 or Digital Ocean Spaces
+# --------------------------------
+# If you are using any of our S3/Spaces compatible storages, you
+# will have to seed your credentials and information below
+#################################################################
 S3_ACCESS_KEY=
 S3_SECRET_KEY=
 S3_REGION=us-east-1
 S3_DOMAIN=amazonaws.com
-
+S3_BUCKET=
 ```
 
 {% hint style="success" %}
-Please note that once you are on ContentBox 5 none of these steps will be necessary anymore.
+Please note that once you are on ContentBox 5 none of these steps will be necessary anymore. Since it is part of the default installation.
 {% endhint %}
 
 {% hint style="danger" %}
 Please note that this `.env` file should **NEVER** be in source control and **NEVER** be web accessible
 {% endhint %}
 
-Once your environment file is seeded open the `box.json` of the ContentBox 4 installation and add the following `cfmigrations` root element:
+Once your environment file is seeded open the `box.json` of the ContentBox 4 installation and add the following `cfmigrations` as another root element:
 
 ```javascript
+...
+
 "cfmigrations":{
-    "schema":"${DB_DATABASE}",
+    "schema":"${MIGRATIONS_DATABASE}",
     "connectionInfo":{
-        "password":"${DB_PASSWORD}",
-        "connectionString":"${DB_CONNECTIONSTRING}",
-        "class":"${DB_CLASS}",
-        "username":"${DB_USER}",
-        "bundleName":"${DB_BUNDLENAME}",
-        "bundleVersion":"${DB_BUNDLEVERSION}"
+        "password":"${MIGRATIONS_PASSWORD}",
+        "connectionString":"${MIGRATIONS_CONNECTIONSTRING}",
+        "class":"${MIGRATIONS_CLASS}",
+        "username":"${MIGRATIONS_USER}",
+        "bundleName":"${MIGRATIONS_BUNDLENAME}",
+        "bundleVersion":"${MIGRATIONS_BUNDLEVERSION}"
     },
     "defaultGrammar":"AutoDiscover@qb"
 }
+
+...
 ```
 
 This will tell CommandBox migrations how to connect to your database in preparation for upgrades. Once this is done we can reload the CommandBox shell with the command `reload` and it's time to make sure migrations can connect to your database with the variables and connection information:
