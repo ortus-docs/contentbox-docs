@@ -1,6 +1,6 @@
 # What's new With 5.0.0
 
-ContentBox 5 is a major update for this CMS and it includes a major architectural change to move the CMS forward.  We have introduced multi-tenancy and a complete headless approach to ContentBox.  It has become one of our biggest releases since our initial release since 2011.
+ContentBox 5 is a major update for this CMS and it includes a major architectural change to move the CMS forward. We have introduced multi-tenancy and a complete headless approach to ContentBox. It has become one of our biggest releases since our initial release since 2011.
 
 You can find our release notes here and we will discuss our major areas of improvement for this release.
 
@@ -26,7 +26,7 @@ install contentbox@5.0.0-beta-snapshot
 
 ![](../../.gitbook/assets/image%20%282%29.png)
 
-We have upgraded our core to ColdBox 6 and we have received a tremendous amounts of benefits \([https://coldbox.ortusbooks.com/intro/release-history/whats-new-with-6.0.0](https://coldbox.ortusbooks.com/intro/release-history/whats-new-with-6.0.0)\).  Here are some of the features we get with this upgrade:
+We have upgraded our core to ColdBox 6 and we have received a tremendous amounts of benefits \([https://coldbox.ortusbooks.com/intro/release-history/whats-new-with-6.0.0](https://coldbox.ortusbooks.com/intro/release-history/whats-new-with-6.0.0)\). Here are some of the features we get with this upgrade:
 
 * Performance, performance, performance.  ColdBox 6 has been finely tuned to make your applications much more performant and stable under high load.
 * Better new CFML engine support
@@ -53,7 +53,7 @@ We have migrated our `cbsecurity` module to the latest version to give you a wea
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
-Although multi-tenancy been one of ContentBox's most requested features, we were hesitant for many years to comply due to the size of the needed refactoring.  However, we have finally created a great base for making ContentBox multi-tenant.  You can now configure 1 or 10000 sites under the same ContentBox umbrella.  The new installer actually creates two sites for you: a development/staging site and a production site.  That means that you can manage different content environments all under the same deployment.
+Although multi-tenancy been one of ContentBox's most requested features, we were hesitant for many years to comply due to the size of the needed refactoring. However, we have finally created a great base for making ContentBox multi-tenant. You can now configure 1 or 10000 sites under the same ContentBox umbrella. The new installer actually creates two sites for you: a development/staging site and a production site. That means that you can manage different content environments all under the same deployment.
 
 ![Multi-Site Manager](../../.gitbook/assets/multi-site-overview.png)
 
@@ -87,7 +87,7 @@ Here are some of the features you get with multi-site ContentBox:
 
 ![New Admin UI](../../.gitbook/assets/contentbox-5-admin.png)
 
-The entire admin UI has been revamped and streamlined.  You will find it much more breathable and easier to work with, especially from mobile devices and smaller screens.  We are also starting to prepare a major theme change and customization that might be introduced in the final release or scheduled for a minor update.
+The entire admin UI has been revamped and streamlined. You will find it much more breathable and easier to work with, especially from mobile devices and smaller screens. We are also starting to prepare a major theme change and customization that might be introduced in the final release or scheduled for a minor update.
 
 ![Tablet Version](../../.gitbook/assets/contentbox-5-admin-ipad.png)
 
@@ -95,17 +95,17 @@ The entire admin UI has been revamped and streamlined.  You will find it much mo
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
-We have completely changed our ORM structures and custom queries so it can be friendlier to other RDBMS.  In this release we focus on portability of the host database and finally have core PostgreSQL support.
+We have completely changed our ORM structures and custom queries so it can be friendlier to other RDBMS. In this release we focus on portability of the host database and finally have core PostgreSQL support.
 
 ## Performance
 
-We have analyzed the entire ORM structures, queries and CFML code in this release thanks to [FusionReactor](https://www.fusion-reactor.com/)'s Profiler.  We have streamlined the way the CMS loads and the results are impressive.  In ContentBox 5, first loads are about 70% faster and page executions are around 30-40% faster than ContentBox 4.  
+We have analyzed the entire ORM structures, queries and CFML code in this release thanks to [FusionReactor](https://www.fusion-reactor.com/)'s Profiler. We have streamlined the way the CMS loads and the results are impressive. In ContentBox 5, first loads are about 70% faster and page executions are around 30-40% faster than ContentBox 4.
 
 ## No More Admin Auto Updates
 
-This is such a controversial feature to be able to deliver patches via the admin.  We have completely _dropped_ the capability to patch the CMS from within the CMS.  It caused more issues than it solved and in Windows it was pretty much impossible.
+This is such a controversial feature to be able to deliver patches via the admin. We have completely _dropped_ the capability to patch the CMS from within the CMS. It caused more issues than it solved and in Windows it was pretty much impossible.
 
-We have moved to a CommandBox + Migrations approach and the results are amazing.  No more broken installs, half done db updates and more.  Now you can simply run two CLI commands and be done with it.  Here is a typical flow for updating your system:
+We have moved to a CommandBox + Migrations approach and the results are amazing. No more broken installs, half done db updates and more. Now you can simply run two CLI commands and be done with it. Here is a typical flow for updating your system:
 
 ```bash
 # stop the server

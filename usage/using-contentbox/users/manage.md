@@ -16,7 +16,7 @@ You will also see a star next to the user you are currently logged in as.
 
 Above the users there is a bulk actions button. This allows you to import JSON or XML files or export all users as JSON or XML.
 
-![](../../../.gitbook/assets/screenshot1.png)
+![](../../../.gitbook/assets/Screenshot1.png)
 
 ### Filtering Users
 
@@ -29,7 +29,7 @@ On this screen you will see the user details. Fill out the details with \* as th
 
 Then you will need to choose if the user is active and what role you will assign to the user. \(please see roles for further information\)
 
-![](../../../.gitbook/assets/screenshot2.png)
+![](../../../.gitbook/assets/Screenshot2.png)
 
 Below here you have the option to enter a Biography or Notes About The User. This is not required.
 
@@ -116,11 +116,11 @@ In this section you can Assign A-la-Carte Permissions. This means that if someon
 
 The next Menu is Lastest Edits. This will show you anything this user has edited. This will show you the title, date/time, whether it was published, and lets you view the change on the site by clicking the action button.
 
-![](../../../.gitbook/assets/screenshot7.png)
+![](../../../.gitbook/assets/Screenshot7.png)
 
 ### Latest Drafts
 
 The last menu option is Latest Drafts. This will show you what work has been saved but not yet published. Again it will show you title, date/time and lets you edit the draft directly from this menu.
 
-![](../../../.gitbook/assets/screenshot8.png)
+![](../../../.gitbook/assets/Screenshot8.png)
 

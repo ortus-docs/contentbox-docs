@@ -21,7 +21,7 @@ You can perform Bulk actions using the checkboxs next to Category Name, and clic
 
 To add a new category, click the green button labeled 'Create Category' in the top right hand corner of the category manager. Clicking the 'Create Category' button pops a modal window up like below, asking for category name, and slug.
 
-![User Interface for Adding a Content Category, including a Category Name and Slug](../../../../.gitbook/assets/addcategory.png)
+![User Interface for Adding a Content Category, including a Category Name and Slug](../../../../.gitbook/assets/addCategory.png)
 
 **Category Name** This is the name of the category, displayed wherever the category is used.
 
@@ -49,7 +49,7 @@ Deleting a category is a simple action, but can have a lot more impact that you 
 
 You can delete a category, one at a time, using the red delete \(trash can\) icon button on the line of the category you wish to delete.
 
-![User Interface for Deleting a Content Category, including a confirmation window for safety](../../../../.gitbook/assets/confirmdeletecategory.png)
+![User Interface for Deleting a Content Category, including a confirmation window for safety](../../../../.gitbook/assets/confirmDeleteCategory.png)
 
 ### Deleting Multiple Categories
 
@@ -65,7 +65,7 @@ When you delete a category that has associated content, pages or entries, the ca
 
 For convenience, ContentBox has easy import and export options for your categories. To export all of your categories, simply click 'Bulk Actions' and select 'Export All as JSON' or 'Export All as XML'. Your browser will prompt you to download the Categories.json or Categories.xml, depending on the option you chose.
 
-![Screenshot of the download json prompt when exporting a JSON file](../../../../.gitbook/assets/exportcategories.png)
+![Screenshot of the download json prompt when exporting a JSON file](../../../../.gitbook/assets/exportCategories.png)
 
 The JSON/XML includes just the 3 base fields, category, slug, and categoryID, as shown below in a json example.
 

@@ -27,7 +27,7 @@ When installing modules with CommandBox, they are usually installed to the /modu
 
 `box install Business-Logic-Scanner modules_app`
 
-![Install Module via CommandBox](../../../../.gitbook/assets/installmodulealtdirectory.png)
+![Install Module via CommandBox](../../../../.gitbook/assets/installModuleAltDirectory.png)
 
 The last parameter is the installation directory. This will install the module to that directory. Note: If you are creating a module, and you know someone will need to modify the module to get it to work, you can set the directory in your modules box.json so when commandbox installs your module, it knows it should be in that folder by default.
 
