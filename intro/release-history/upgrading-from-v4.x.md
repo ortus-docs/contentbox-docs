@@ -208,9 +208,9 @@ If you are in a Linux or Mac environment you can execute the recipe using the fo
 
 ```bash
 # Execute our recipe
-curl -o updater.boxr https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/updater.boxr
-# Execute recipe and clean it up
-box recipe updater.boxr && rm updater.boxr
+curl -o updater.boxr https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/updater.boxr | box recipe updater.boxr
+# Clean it upt
+rm updater.boxr
 ```
 
 ### Windows
