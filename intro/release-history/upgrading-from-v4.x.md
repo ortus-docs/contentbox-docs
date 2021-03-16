@@ -187,8 +187,9 @@ Once your environment file is seeded open the `box.json` of the ContentBox 4 ins
 This will tell CommandBox migrations how to connect to your database in preparation for upgrades. Once this is done we can reload the CommandBox shell with the command `reload` and it's time to make sure migrations can connect to your database with the variables and connection information:
 
 ```bash
-# Run the migration installation
-migrate install
+# Run the migration table installation
+$ migrate install
+ Migration table installed!
 ```
 
 If this command succeeds, then we are ready to go to the next step.  If it fails, then check your credentials, connection information and that you can actually connect to the database. If not, ask away in our community forum: [https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
@@ -197,26 +198,22 @@ If this command succeeds, then we are ready to go to the next step.  If it fails
 
 Please make sure you backup your source code and your database. We are not liable for broken installations.
 
-## 3. Run the Upgrade
+## 3. Run the Updater
 
 We have prepared a CommandBox recipe that will upgrade your installation in one easy execution.
 
-### 1. Update the source code
-
-Please make sure your CFML engine has been completely stopped before continuing.
-
-#### \*nix/Mac
+### \*nix/Mac
 
 If you are in a Linux or Mac environment you can execute the recipe using the following shell commands from the root directory of your application.
 
 ```bash
-# Download recipe
+# Execute our recipe
 curl -o updater.boxr https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/updater.boxr
-# Execute recipe
-box recipe updater.boxr
+# Execute recipe and clean it up
+box recipe updater.boxr && rm updater.boxr
 ```
 
-#### Windows
+### Windows
 
 If you are in windows, download the following recipe:
 
@@ -228,7 +225,7 @@ and place it in the root of your project. Then issue the following CommandBox sh
 box recipe updater.boxr
 ```
 
-That's it! The updater will take care of upgrading your 3.x source code to the latest 4.x source code.
+Once it runs, remove the file and you are done! You can start up your new engine!
 
 
 
