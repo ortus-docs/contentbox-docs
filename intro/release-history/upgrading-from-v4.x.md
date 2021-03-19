@@ -225,7 +225,21 @@ and place it in the root of your project. Then issue the following CommandBox sh
 box task run Updater.cfc
 ```
 
-## 
+## 4. Final Steps
+
+The updater will update your installation and run the migration scripts. However, it will also override the following files:
+
+```text
+.cfconfig.json
+server.json
+Application.cfc
+robots.txt
+readme.md
+config/CacheBox.cfc
+config/Coldbox.cfc
+```
+
+It will create `.bak` files for the originals so you can manually merge in any changes you had before.  Once you do, go ahead and startup the engines! You are upgraded!
 
 
 
