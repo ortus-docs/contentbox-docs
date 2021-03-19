@@ -200,32 +200,34 @@ Please make sure you backup your source code and your database. We are not liabl
 
 ## 3. Run the Updater
 
-We have prepared a CommandBox recipe that will upgrade your installation in one easy execution.
+We have prepared a CommandBox task that will upgrade your installation in one easy execution.
 
 ### \*nix/Mac
 
-If you are in a Linux or Mac environment you can execute the recipe using the following shell commands from the root directory of your application.
+If you are in a Linux or Mac environment you can execute the task using the following shell commands from the root directory of your application.
 
 ```bash
 # Execute our recipe
-curl -o updater.boxr https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/updater.boxr | box recipe updater.boxr
+curl -o Updater.cfc https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/Updater.cfc | box task run Updater.cfc
 # Clean it upt
-rm updater.boxr
+rm Updater.cfc
 ```
 
 ### Windows
 
-If you are in windows, download the following recipe:
+If you are in windows, download the following task:
 
-[http://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/updater.boxr](http://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/updater.boxr)
+[http://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/Updater.cfc](http://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/Updater.cfc)
 
 and place it in the root of your project. Then issue the following CommandBox shell command to execute it.
 
 ```bash
-box recipe updater.boxr
+box task run Updater.cfc
 ```
 
-Once it runs, remove the file and you are done! You can start up your new engine!
+## 
+
+
 
 
 
