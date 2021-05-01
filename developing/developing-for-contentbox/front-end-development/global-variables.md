@@ -36,7 +36,7 @@ The `cb` object contains a variety of common methods for retrieving ContentBox c
 * `cb.getCurrentCustomFields()`: Returns a structure of custom fields for the active post or entry
 * `cb.getCustomField( string fieldName, any defaultValue )`: Returns the value of a custom field for the active post or entry
 
-#### Content Store Retreival
+#### Content Store Retrieval
 
 * * `cb.contentStore( string slug )`: retrieves the HTML output of a [Content Store](https://github.com/ortus/contentbox-modular-cms/tree/76cb63aa894e4f019c2d324f6bfb86f8d0142a92/content/using/managers/contentstore.html) item by its slug
 * `cb.contentStoreObject( string slug )`: retrieves the associated [Content Store](https://github.com/ortus/contentbox-modular-cms/tree/76cb63aa894e4f019c2d324f6bfb86f8d0142a92/content/using/managers/contentstore.html) object
