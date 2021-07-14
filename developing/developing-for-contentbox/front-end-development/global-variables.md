@@ -58,9 +58,7 @@ The `cb` object contains a variety of common methods for retrieving ContentBox c
 * `cb.linkSiteRSS( any categoryFilter )`: creates a link to the site's RSS feed
 * `cb.linkCategory( string categorySlug )`: creates a link to a specific category page
 * `cb.quickCategoryLinks( string categorySlug )`: creates an HTML unordered list of category links
-* 
-#### Path and URL Utility Methods
-
+* **Path and URL Utility Methods**
 * `cb.themeRoot()`: returns the location of your currently defined theme in the application, great for assets, cfincludes, etc
 * `cb.siteRoot()`: returns the site root location using your configured module's entry point
 * `cb.siteBaseURL()`: returns the site's SES base URL

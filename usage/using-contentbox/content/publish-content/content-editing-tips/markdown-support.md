@@ -8,5 +8,5 @@ We have included a new code editor that supports HTML and Markdown natively. Thi
 
 The new editor also sports real time previews and side-by-side editing in full screen. Your editing experience is about to get a whole lot better now.
 
-![](../../../../../.gitbook/assets/editor_sidebyside.png)
+![](../../../../../.gitbook/assets/editor_sidebyside%20%281%29.png)
 

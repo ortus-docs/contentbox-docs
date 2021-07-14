@@ -16,7 +16,6 @@
   * [System Requirements](getting-started/installation/system-requirements.md)
   * [CommandBox Installation](getting-started/installation/commandbox-installation.md)
   * [Source Installation](getting-started/installation/source-installation.md)
-  * [WAR Installation](getting-started/installation/war-installation.md)
   * [Express Installation](getting-started/installation/express-installation.md)
   * [Existing ColdBox Application](getting-started/installation/existing-coldbox-application.md)
   * [Upgrading ContentBox](getting-started/installation/upgrading-contentbox.md)
