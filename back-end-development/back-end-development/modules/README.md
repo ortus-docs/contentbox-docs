@@ -10,13 +10,13 @@ ContentBox itself is made up of 3 separate Modules \( and their submodules \), C
 
 ### ContentBox
 
-![](../../../../.gitbook/assets/contentbox-module.jpg)
+![](../../../.gitbook/assets/contentbox-module.jpg)
 
 ### ContentBox-Admin
 
-![ContentBox Admin Module Folder Structure](../../../../.gitbook/assets/contentbox-admin-module.jpg)
+![ContentBox Admin Module Folder Structure](../../../.gitbook/assets/contentbox-admin-module.jpg)
 
 ### ContentBox-UI
 
-![ContentBox UI Module Folder Structure](../../../../.gitbook/assets/contentbox-ui-module.jpg)
+![ContentBox UI Module Folder Structure](../../../.gitbook/assets/contentbox-ui-module.jpg)
 

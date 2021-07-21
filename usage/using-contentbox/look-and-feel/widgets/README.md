@@ -8,5 +8,5 @@ Widgets are maintained through the Administrator under `Look & Feel > Widgets`. 
 
 ![](../../../../.gitbook/assets/cb_widget_list.jpg)
 
-In this section of the documentation, you will learn how to use Install, Manage and Use Widgets [To learn how you can develop your own widgets, read this section under Developing for ContentBox ](../../../../developing/developing-for-contentbox/back-end-development/widgets/)
+In this section of the documentation, you will learn how to use Install, Manage and Use Widgets [To learn how you can develop your own widgets, read this section under Developing for ContentBox ](../../../../back-end-development/back-end-development/widgets/)
 

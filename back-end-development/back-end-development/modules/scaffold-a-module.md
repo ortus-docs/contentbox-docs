@@ -76,7 +76,7 @@ Created C:\www\wwwplayground\modules_app\customModule2\views\home\index.cfm
 
 Here is a visual display of the directory structure
 
-![Module Created by CommandBox Scaffholding](../../../../.gitbook/assets/commandboxcreate.jpg)
+![Module Created by CommandBox Scaffholding](../../../.gitbook/assets/commandboxcreate.jpg)
 
 The command creates a Module Config file with all your information. It creates a default handler, called `Home.cfc` in the handlers folder. It creates a models folder, with just a placeholder file. It creates a views folder, with the `home` folder to match the handler, and creates a default `index.cfm` view.
 

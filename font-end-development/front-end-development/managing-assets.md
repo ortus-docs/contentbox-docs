@@ -12,7 +12,7 @@ Since the SuperType \( which all ColdBox items inherit from \) implements addAss
 
 `addAsset( "#prc.cbroot#/includes/css/#css#.css" );`
 
-You might have noticed, that even in the [Admin Asset Management methods explained here](../back-end-development/js-and-css-assets.md), the actual implementation of the cssFullAppendList and cssAppendList use the addAsset to add the CSS to the head of the HTML page.
+You might have noticed, that even in the [Admin Asset Management methods explained here](js-and-css-assets.md), the actual implementation of the cssFullAppendList and cssAppendList use the addAsset to add the CSS to the head of the HTML page.
 
 _This applies to both CSS and JS. The main downside to this approach is that all assets added with addAsset are added to the head. The order of the assets is not strictly \( or easily \) controlled either._
 

@@ -1,4 +1,4 @@
-# Front-End Development
+# Front End Development
 
 In developing your user interface, the majority of your time will be spent creating content in the admin and modifying files from within your custom theme, located in the `[ContentBox Module Home]/themes` directory.
 

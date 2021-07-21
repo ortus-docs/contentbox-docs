@@ -62,7 +62,7 @@ Widgets are maintained through the Administrator under `Look & Feel > Widgets`. 
 
 The manager also allows you to read the widget's documentation and actually test out its rendering functions.  So please use this playground to your advantage.
 
-![Widget Manager](../../../../.gitbook/assets/cb_widget_list.jpg)
+![Widget Manager](../../../.gitbook/assets/cb_widget_list.jpg)
 
 ## Widget Locations
 
@@ -106,7 +106,7 @@ The currently active theme can also do widget contributions.  If the theme packa
 
 ## Rendering Widgets
 
-Widgets are rendered in your UI when you place them in content via the editors or manually using our triple mustache markup.  The UI approach can be seen in the [Using ContentBox](../../../../usage/using-contentbox/look-and-feel/widgets/) Section.  The Markup notation is shown below, please note that the name of the widget has meaning:
+Widgets are rendered in your UI when you place them in content via the editors or manually using our triple mustache markup.  The UI approach can be seen in the [Using ContentBox](../../../usage/using-contentbox/look-and-feel/widgets/) Section.  The Markup notation is shown below, please note that the name of the widget has meaning:
 
 ```text
 # Simplest Form
