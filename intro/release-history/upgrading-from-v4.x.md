@@ -279,7 +279,7 @@ If you are in a Linux or Mac environment you can execute the task using the foll
 curl -o Updater.cfc https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/Updater.cfc
 # Execute the task
 box task run Updater.cfc
-# Clean it upt
+# Clean it up
 rm Updater.cfc
 ```
 
@@ -292,7 +292,10 @@ If you are in windows, download the following task:
 and place it in the root of your project. Then issue the following CommandBox shell command to execute it.
 
 ```bash
+# Run the task
 box task run Updater.cfc
+# Clean it up
+rm Updater.cfc
 ```
 
 ## 4. Final Steps
