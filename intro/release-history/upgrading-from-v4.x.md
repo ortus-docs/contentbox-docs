@@ -23,59 +23,69 @@ This will install the [environment](https://forgebox.io/view/commandbox-dotenv) 
 
 ### Environment \(`.env`\)
 
-The upgrade process and the database migrations rely on environment variables/secrets in order to connect to your database and migrate it.  Create an `.env` file in the root of the ContentBox installation and add in your migrations database credentials below and/or the CommandBox server database credentials as well.
+The upgrade process and the database migrations rely on environment variables/secrets in order to connect to your database and migrate it.  Create an `.env` file in the root of the ContentBox installation and add in the configuration according to your database and configuration preferences:
 
-```text
+```bash
 #################################################################
 # App Name and Environment
 #################################################################
 APPNAME=ContentBox Modular CMS
 # This can be development, staging, production or custom.
 ENVIRONMENT=development
+# The password for the CFML Engine Administrator
+CFCONFIG_ADMINPASSWORD=contentbox
+# The ColdBox Reinit password
+COLDBOX_REINITPASSWORD=
+# How long do admin sessions last (In Minutes)
+COLDBOX_SESSION_TIMEOUT=60
+# Development CBDebugger
+CBDEBUGGER_ENABLED=false
 
 #################################################################
-# ContentBox Migrations Variables
+# ContentBox ORM Settings
 # --------------------------------
-# This is used for the automated CLI migrationts to
-# upgrade your ContentBox database. Uncomment the RDBMS connection
-# of your choice.
+# This is used to configure the ORM via env settings usually for
+# different RDBMS settings or options
 #################################################################
-MIGRATIONS_DATABASE=contentbox
-MIGRATIONS_USER=root
-MIGRATIONS_PASSWORD=
-# MySQL
-MIGRATIONS_CONNECTIONSTRING=jdbc:mysql://127.0.0.1:3306/contentbox?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useLegacyDatetimeCode=true
-MIGRATIONS_CLASS=com.mysql.cj.jdbc.Driver
-MIGRATIONS_BUNDLENAME=com.mysql.cj
-MIGRATIONS_BUNDLEVERSION=8.0.19
-# PostgreSQL
-#MIGRATIONS_CONNECTIONSTRING=jdbc:postgresql://localhost:5432/contentbox
-#MIGRATIONS_CLASS=org.postgresql.Driver
-#MIGRATIONS_BUNDLENAME=org.postgresql.jdbc42
-#MIGRATIONS_BUNDLEVERSION=9.4.1212
-# Microsoft SQL
-#MIGRATIONS_CONNECTIONSTRING=jdbc:sqlserver://localhost:1433;DATABASENAME=contentbox;sendStringParametersAsUnicode=true;SelectMethod=direct
-#MIGRATIONS_CLASS=com.microsoft.sqlserver.jdbc.SQLServerDriver
-#MIGRATIONS_BUNDLENAME=mssqljdbc4
-#MIGRATIONS_BUNDLEVERSION=4.0.2206.100
+# Dialect choices:
+# 	MySQL, Hypersonic 	=> org.hibernate.dialect.MySQL5InnoDBDialect,
+# 	PostgreSQL 			=> PostgreSQL
+# 	Microsoft SQL 		=> org.hibernate.dialect.SQLServer2008Dialect
+# 	Oracle 				=> Oracle10g
+# 	Derby 				=> Derby
+ORM_DIALECT=org.hibernate.dialect.MySQL5InnoDBDialect
+# Log sql to the console or not
+ORM_LOGSQL=true
+# Sql Script to execute after ORM is initialized
+ORM_SQL_SCRIPT=
+# Activate secondary cache or disable it
+ORM_SECONDARY_CACHE=false
+ORM_SECONDARY_CACHE_PROVIDER=ehcache
 
 #################################################################
-# ContentBox Datasource Connection
-# --------------------------------
-# This is used for a CommandBox application server to configure
-# your database connection using the .cfconfig.json file in the
-# root of your installation.
-# Uncomment the RDBMS of your choice
+# ContentBox Datsource and Migrations Variables
+# ----------------------------------------------------------------
+# These settings configure the datasource connection to your database
+# Please make sure you read the comments as there are differences
+# between Adobe and Lucee. Uncomment your rdbms of choice, the options are:
+# - MySQL 5.7
+# - MySQL 5.8
+# - PostgreSQL
+# - Microsoft SQL
+# - Custom Database
 #################################################################
 
 ######################################################
 # MySQL 5.7 DB Driver
 ######################################################
-DB_CLASS=com.mysql.cj.jdbc.Driver
 DB_DRIVER=MySQL
-# Lucee Bundle Info: 5.1.40 IS THE ONLY ONE THAT WORKS FOR HIBERNATE
+# Lucee Class
+DB_CLASS=com.mysql.jdbc.Driver
+# Adobe Class
+#DB_CLASS=com.mysql.cj.jdbc.Driver
+# Lucee Bundle Info: 5.1.40 IS THE ONLY ONE THAT WORKS FOR HIBERNATE + MySQL 5.7
 DB_BUNDLEVERSION=5.1.40
-DB_BUNDLENAME=com.mysql.cj
+DB_BUNDLENAME=com.mysql.jdbc
 # DB Location
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -94,12 +104,12 @@ DB_PASSWORD=mysql
 #DB_BUNDLENAME=com.mysql.cj
 ## DB Location
 #DB_HOST=127.0.0.1
-#DB_PORT=3306
-#DB_CONNECTIONSTRING=jdbc:mysql://127.0.0.1:3306/contentbox?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useLegacyDatetimeCode=true
+#DB_PORT=4306
+#DB_CONNECTIONSTRING=jdbc:mysql://127.0.0.1:4306/contentbox?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useLegacyDatetimeCode=true
 ## DB Credentials
 #DB_DATABASE=contentbox
 #DB_USER=root
-#DB_PASSWORD=mysql
+#DB_PASSWORD=contentbox
 
 ######################################################
 # PostgreSQL DB Driver #
@@ -120,18 +130,18 @@ DB_PASSWORD=mysql
 ######################################################
 # Microsoft SQL DB Driver #
 ######################################################
-#DB_CLASS=com.microsoft.sqlserver.jdbc.SQLServerDriver
 #DB_DRIVER=mssql
-#DB_BUNDLEVERSION=4.0.2206.100
-#DB_BUNDLENAME=mssqljdbc4
+#DB_CLASS=com.microsoft.sqlserver.jdbc.SQLServerDriver
+#DB_BUNDLEVERSION=7.2.2.jre8
+#DB_BUNDLENAME=org.lucee.mssql
 ## DB Location
 #DB_HOST=127.0.0.1
 #DB_PORT=1433
 #DB_CONNECTIONSTRING=jdbc:sqlserver://localhost:1433;DATABASENAME=contentbox;sendStringParametersAsUnicode=true;SelectMethod=direct
 ## DB Credentials
 #DB_DATABASE=contentbox
-#DB_USER=contentbox
-#DB_PASSWORD=contentbox
+#DB_USER=sa
+#DB_PASSWORD=ContentB0x!
 
 #################################################################
 # JWT Information
@@ -153,6 +163,7 @@ S3_SECRET_KEY=
 S3_REGION=us-east-1
 S3_DOMAIN=amazonaws.com
 S3_BUCKET=
+
 ```
 
 {% hint style="success" %}
@@ -163,20 +174,77 @@ Please note that once you are on ContentBox 5 none of these steps will be necess
 Please note that this `.env` file should **NEVER** be in source control and **NEVER** be web accessible
 {% endhint %}
 
+If you are running CommandBox as your server of choice, then you can update your `.cfconfig.json` in the root of your application to the following:
+
+{% code title=".cfconfig.json" %}
+```javascript
+{
+	"systemErr":"System",
+	"systemOut":"System",
+	"thistimezone":"UTC",
+	"whitespaceManagement":"white-space-pref",
+	"postParametersLimit" : 200,
+	"cacheDefaultObject":"contentbox",
+    "caches":{
+        "contentbox":{
+            "storage":"true",
+            "type":"RAM",
+            "custom":{
+                "timeToIdleSeconds":"1800",
+                "timeToLiveSeconds":"3600"
+            },
+            "class":"lucee.runtime.cache.ram.RamCache",
+            "readOnly":"false"
+		}
+    },
+	"datasources" : {
+		"contentbox":{
+            "allowAlter":true,
+            "allowCreate":true,
+            "allowDelete":true,
+            "allowDrop":true,
+            "allowGrant":true,
+            "allowInsert":true,
+            "allowRevoke":true,
+            "allowSelect":true,
+            "allowUpdate":true,
+            "blob":"true",
+			      "bundleName": "${DB_BUNDLENAME}",
+			      "bundleVersion": "${DB_BUNDLEVERSION}",
+            "class":"${DB_CLASS}",
+            "clob":"true",
+            "connectionLimit":"100",
+            "connectionTimeout":"1",
+            "custom":"useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC&useLegacyDatetimeCode=true&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true",
+            "database":"${DB_DATABASE:contentbox}",
+            "dbdriver":"${DB_DRIVER}",
+            "host":"${DB_HOST:127.0.0.1}",
+            "metaCacheTimeout":"60000",
+            "password":"${DB_PASSWORD}",
+            "port":"${DB_PORT:3306}",
+            "storage":"false",
+            "username":"${DB_USER}",
+			"validate":"false"
+		}
+	}
+}
+```
+{% endcode %}
+
 Once your environment file is seeded open the `box.json` of the ContentBox 4 installation and add the following `cfmigrations` as another root element:
 
 ```javascript
 ...
 
 "cfmigrations":{
-    "schema":"${MIGRATIONS_DATABASE}",
+    "schema":"${DB_DATABASE}",
     "connectionInfo":{
-        "password":"${MIGRATIONS_PASSWORD}",
-        "connectionString":"${MIGRATIONS_CONNECTIONSTRING}",
-        "class":"${MIGRATIONS_CLASS}",
-        "username":"${MIGRATIONS_USER}",
-        "bundleName":"${MIGRATIONS_BUNDLENAME}",
-        "bundleVersion":"${MIGRATIONS_BUNDLEVERSION}"
+        "class":"${DB_CLASS}",
+    		"connectionString":"${DB_CONNECTIONSTRING}",
+        "bundleName":"${DB_BUNDLENAME}",
+        "bundleVersion":"${DB_BUNDLEVERSION}",
+        "username":"${DB_USER}",
+        "password":"${DB_PASSWORD}"
     },
     "defaultGrammar":"AutoDiscover@qb"
 }
@@ -207,8 +275,10 @@ We have prepared a CommandBox task that will upgrade your installation in one ea
 If you are in a Linux or Mac environment you can execute the task using the following shell commands from the root directory of your application.
 
 ```bash
-# Execute our recipe
-curl -o Updater.cfc https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/Updater.cfc | box task run Updater.cfc
+# Download the updater
+curl -o Updater.cfc https://raw.githubusercontent.com/Ortus-Solutions/ContentBox/development/build/patches/5.0.0/Updater.cfc
+# Execute the task
+box task run Updater.cfc
 # Clean it upt
 rm Updater.cfc
 ```
