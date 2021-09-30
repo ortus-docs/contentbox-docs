@@ -4,7 +4,7 @@ The roles menu is located under the `User` menu in the navigation bar to the lef
 
 In this menu you will see a list of roles available to assign users, which will allow you to define their access to the site. You can use the quick search function if you are looking for specific roles, otherwise you can look in the main body of the page.
 
-![](../../../.gitbook/assets/user-roles-screenshot1.png)
+![](../../../.gitbook/assets/user-roles-Screenshot1.png)
 
 You will see 5 headings across the page
 
@@ -35,7 +35,7 @@ Edit Role only allows you to edit the Name and Description, like the Create Role
 
 In the Manage Permission menu it will show the `Available Permissions` & `Active Role Permissions`.
 
-![](../../../.gitbook/assets/user-roles-screenshot2.png)
+![](../../../.gitbook/assets/user-roles-Screenshot2.png)
 
 ### Available Permissions
 

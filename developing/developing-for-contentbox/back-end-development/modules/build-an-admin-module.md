@@ -18,7 +18,7 @@ The full path of our module, which will be called mySecrets would be
 
 Now, if we go to the Module Manager in the backend, and rescan for modules, you will see it doesn't show up yet.
 
-![ContentBox Module Rescan 1](../../../../.gitbook/assets/modulesrescan1.jpg)
+![ContentBox Module Rescan 1](../../../../.gitbook/assets/modulesRescan1.jpg)
 
 First, we need to create a module config. This is similar to a normal ColdBox module, with a few extra splashes of flavor for ContentBox. Since it is a CFC, we can use the pseudo contructor to set the module properties. For mySecrets, it looks something like this.
 
@@ -85,7 +85,7 @@ This is the minimum you need for the module to show up in the Manage Modules scr
 
 When you click the Thumb Up icon to activate, it activates the module.
 
-![ContentBox Module Activated](../../../../.gitbook/assets/modulesactivated.jpg)
+![ContentBox Module Activated](../../../../.gitbook/assets/modulesActivated.jpg)
 
 Since these modules are inside of ContentBox, Contentbox manages loading and unloading the module, as well as activating and deactivating the modules, so you need those functions to listen for those events. ModuleConfig.cfc is one big interceptor, so you can catch all sorts of interception points, but these are the four needed for a ContentBox Module to function to its fullest.
 

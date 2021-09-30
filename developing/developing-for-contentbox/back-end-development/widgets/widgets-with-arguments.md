@@ -205,7 +205,7 @@ function getTargetTypes(){
 
 Reload and test the widget, we see the list of Target Types.
 
-![](../../../../.gitbook/assets/cb_widget_argument_optionsudf.jpg)
+![](../../../../.gitbook/assets/cb_widget_argument_optionsUDF.jpg)
 
 You might see a side effect of adding the function. Now you will see another option, `Public Methods` with a list of public functions in ths CFC. Widgets are required to implement the default `RenderIt()` function, but the Widget can actually have several methods.
 
@@ -230,7 +230,7 @@ function getTargetTypes() cbignore{
 
 With either of these two options, you will see the list of Options provided by the UDF, but you will not see the `Public Methods` option, as there is only 1 public rendering function.
 
-![](../../../../.gitbook/assets/cb_widget_argument_optionsudf_fixed.jpg)
+![](../../../../.gitbook/assets/cb_widget_argument_optionsUDF_fixed.jpg)
 
 ### MultiOptions - Multiple Choice Options
 

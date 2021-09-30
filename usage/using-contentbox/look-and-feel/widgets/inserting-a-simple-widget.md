@@ -18,7 +18,7 @@ If there were arguments, you could adjust them here. If this is the widget you w
 
 Once inserted, click Publish, and then you'll see a Widget placeholder like this.
 
-![](../../../../.gitbook/assets/cb_widget_placerholder%20%281%29.jpg)
+![](../../../../.gitbook/assets/cb_widget_placerholder%20%281%29%20%281%29.jpg)
 
 If you right click on the widget, you can get a Widget Context menu like below. You can edit, or remove a Widget through that context menu, or just double click the Widget placeholder to edit directly.
 

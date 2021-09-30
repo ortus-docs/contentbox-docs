@@ -22,7 +22,7 @@ The `listOfCategories()`function has 1 argument, a plain text field `numberOfCat
 
 If you add a UDF to your Widget, to be able to dynamically create the select drop down for your Widget arguments, you might notice an unexpected side effect. This function / method shows up in the `Select a Method` drop down box.
 
-![](../../../../.gitbook/assets/cb_widget_argument_optionsudf.jpg)
+![](../../../../.gitbook/assets/cb_widget_argument_optionsUDF.jpg)
 
 Your first thought might be, to use a private function. The Widget form builder needs to call the UDF to generate the Select Boxes, so it cannot be a private function.
 
@@ -47,5 +47,5 @@ function getTargetTypes() cbignore{
 
 With either of these two options, you will see the list of Options provided by the UDF, but you will not see the `Public Methods` option, as there is only 1 public rendering function.
 
-![](../../../../.gitbook/assets/cb_widget_argument_optionsudf_fixed.jpg)
+![](../../../../.gitbook/assets/cb_widget_argument_optionsUDF_fixed.jpg)
 
