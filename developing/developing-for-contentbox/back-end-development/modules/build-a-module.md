@@ -16,7 +16,7 @@ There are a few ways to build a module, including CommandBox scaffholding, where
 
 In this example, we will start simple, and add more files as we build. First, we need to know a few things about the module to get started... your folder name, and then some details to add into your Module Config file.
 
-![Module Config](../../../../.gitbook/assets/moduleconfig.jpg)
+![Module Config](../../../../.gitbook/assets/moduleConfig.jpg)
 
 **Folder Name for the Module**
 
@@ -56,7 +56,7 @@ Once you have your folder, and your moduleConfig file, you can reinit your app, 
 
 Error - so lets see what we need next to be able to get this Module Working.
 
-![Convention Error](../../../../.gitbook/assets/conventionerror.jpg)
+![Convention Error](../../../../.gitbook/assets/conventionError.jpg)
 
 If you read the error message, you'll see that the event customModule:home.index is not a valid registered event.
 
@@ -97,7 +97,7 @@ To create the view for home.index, we need to create an index.cfm. Conventions t
 
 Amazing, just 2 files, and we have a working module. You could paste in your legacy spaghetti code right in here, and it would work. Of course, we probably want to dress it up a little more, and add some more functionality, so lets look at the layout first. If we view the source, you'll see there is more than just the h1 tag we added.
 
-![Default Layout with Module](../../../../.gitbook/assets/defaultlayout.jpg)
+![Default Layout with Module](../../../../.gitbook/assets/defaultLayout.jpg)
 
 ## Where is all of that coming from? Layouts
 

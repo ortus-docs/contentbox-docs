@@ -16,9 +16,9 @@ ContentBox now sports native Markdown support for writing all content objects. Y
 
 We have included a new code editor that supports HTML and Markdown natively. This will allow developers or editors to write in native markup and have all the integrations into ContentBox. It also sports realtime previews and side-by-side editing in full screen. Your editing experience is about to get a whole lot better now.
 
-![](../../../.gitbook/assets/code_editor.png)
+![](../../../.gitbook/assets/cb3_code_editor.png)
 
-![](../../../.gitbook/assets/editor_sidebyside.png)
+![](../../../.gitbook/assets/editor_sidebyside%20%281%29%20%281%29.png)
 
 ## Editor Auto Save
 
@@ -34,7 +34,7 @@ You can now use the `<escape></escape>` syntax in any content editor to escape C
 
 All live previews are now responsive. Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
 
-![](../../../.gitbook/assets/responsive_previews.png)
+![](../../../.gitbook/assets/responsive_previews%20%281%29%20%281%29.png)
 
 ## Editor UI Updates
 

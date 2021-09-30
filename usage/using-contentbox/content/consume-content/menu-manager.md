@@ -8,7 +8,7 @@ Some Themes may support additional menus for top menus, footer menus, side bar m
 
 ## Menu Data
 
-![](../../../../.gitbook/assets/menumanageradd.png)
+![](../../../../.gitbook/assets/menuManagerAdd.png)
 
 * Title: The name of the Menu
 * List Type: \( ul \| ol \) Unordered List or Ordered List
@@ -118,11 +118,11 @@ In Addition to the Common Attributes listed above, this type also includes:
 
 This is a menu item that creates a 'free-text' menu item. This item only uses the common attributes, Item Content, and CSS Classes... listed above.
 
-![](../../../../.gitbook/assets/addfreeitem.png)
+![](../../../../.gitbook/assets/addFreeItem.png)
 
 ## Preview
 
 As you add, edit, and delete Menu Items, you can preview those menu items in page. You can refresh the menu by clicking the refresh icon next to the title Preview if the preview has not updated as expected.
 
-![](../../../../.gitbook/assets/menupreview.png)
+![](../../../../.gitbook/assets/menuPreview.png)
 

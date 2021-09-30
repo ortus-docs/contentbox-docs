@@ -12,11 +12,11 @@ With any Bulletin Board Forum, or CMS, they each have their own syntax for speci
 
 All live previews are now responsive. Meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
 
-![](../../../../../.gitbook/assets/cb3_responsive_previews.png)
+![](../../../../../.gitbook/assets/responsive_previews%20%281%29.png)
 
 ## Editor UI Updates
 
 The content editors have completely been re-designed for mobile first paradigm. They sport new tabbed interfaces for history, comments, custom fields and editing. You also have much more real estate when editing and even full screen editing support… including auto shrinking the left side bar, with an option to shrink the right sidebar too.
 
-![](../../../../../.gitbook/assets/cb3_editor_tabs.png)
+![](../../../../../.gitbook/assets/editor_tabs%20%281%29.png)
 
