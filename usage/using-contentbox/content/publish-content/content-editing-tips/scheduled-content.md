@@ -22,7 +22,7 @@ As you can see, they are exactly the same. This makes it familiar and easy to wo
 
 ## Content Store Items
 
-ContentStore items can be included inside of pages and blog posts too, which means you can include a time based piece of content into your homepage, to show upcoming events, or show a link to a sign up page for event, and then hide the link when the registration period is over.
+ContentStore items can be included inside of pages and blog posts too, which means you can include a time-based piece of content into your homepage, to show upcoming events, or show a link to a signup page for an event, and then hide the link when the registration period is over.
 
 This is a nice feature, which at the surface looks simple but useful, but with this feature working with ContentStore items as well, the options are endless.
 

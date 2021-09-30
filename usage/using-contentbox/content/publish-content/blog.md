@@ -1,6 +1,6 @@
 # Blog
 
-Blogging capabilities are essential component for any web site and web application. Blog entries help provide more context around products, services. It inherently creates more on-line presence and, if managed properly, better search engines results.
+Blogging capabilities are an essential component for any website and web application. Blog entries help provide more context around products, services. It inherently creates more online presence and, if managed properly, better search engine results.
 
 ContentBox comes with a built-in blog which you can turn ON and OFF from `System > Settings`. The default setting is **ON**.
 

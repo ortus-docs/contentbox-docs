@@ -4,7 +4,7 @@ ContentBox 5 is a major update for this CMS and it includes a major architectura
 
 You can find our release notes here and we will discuss our major areas of improvement for this release.
 
-## 5.0.0-beta
+## 5.0.0
 
 This beta was officially released on March 11th, 2021 and can be installed using the following slugs:
 
