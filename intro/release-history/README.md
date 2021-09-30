@@ -1,10 +1,14 @@
+---
+description: A snapshot overview of our major versions
+---
+
 # Release History
 
 In this section you will find the release notes for each version we release under this major version.  If you are looking for the release notes of previous major versions use the version switcher at the top left of this documentation book.  Here is a breakdown of our major version releases.
 
 ## Version 5.0
 
-Version 5 is a major architectural shift for ContentBox as we go Multi-Site and Complete headless API.
+Version 5 is a major architectural shift for ContentBox as we go Multi-Site and Hybrid headless API, with over 145 different improvements and new feature.
 
 ## Version 4.0
 
@@ -12,7 +16,7 @@ Version 4 focused on upgrading it's internal core to ColdBox 5 and providing mor
 
 ## Version 3.0
 
-Version 3 also focused on a major ColdBox upgrade and a completetly new admin interface.
+Version 3 also focused on a major ColdBox upgrade and a completely new admin interface.
 
 ## Version 2.0
 
