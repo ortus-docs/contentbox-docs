@@ -18,9 +18,11 @@ description: >-
 
 ![ContentBox](.gitbook/assets/contentboxlogo300.png)
 
-ContentBox is a professional open source _hybrid_ modular CMS \(Content Management System\) for ColdFusion \(CFML\) and Java engines that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
+ContentBox is a professional open source _hybrid_ modular CMS \(Content Management System\) that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
 
+{% hint style="info" %}
 _**Hybrid** - ContentBox is not only a headless CMS, but also a fully featured traditional CMS.  Have the freedom to use one or both! You have the power now!_
+{% endhint %}
 
 ## Versioning
 
