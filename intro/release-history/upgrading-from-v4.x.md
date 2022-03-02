@@ -21,9 +21,13 @@ box install commandbox-dotenv,commandbox-migrations
 
 This will install the [environment](https://forgebox.io/view/commandbox-dotenv) module and the [database migrations](https://forgebox.io/view/commandbox-migrations) module that will be used to provide upgrades in the future.  This is only done once. ContentBox 5 already ships with these dependencies once you install it.
 
-### Environment \(`.env`\)
+### Environment (`.env`)
 
-The upgrade process and the database migrations rely on environment variables/secrets in order to connect to your database and migrate it.  Create an `.env` file in the root of the ContentBox installation and add in the configuration according to your database and configuration preferences:
+The upgrade process and the database migrations rely on environment variables/secrets in order to connect to your database and migrate it.  Create an `.env` file in the root of the ContentBox installation and add in the configuration according to your database and configuration preferences.
+
+{% hint style="success" %}
+To generate a JWT secret key you can use CommandBox and run the following in the command prompt: `#generatesecretkey "blowfish" 256`
+{% endhint %}
 
 ```bash
 #################################################################
@@ -185,8 +189,8 @@ If you are running CommandBox as your server of choice, then you can update your
 	"whitespaceManagement":"white-space-pref",
 	"postParametersLimit" : 200,
 	"cacheDefaultObject":"contentbox",
-    "caches":{
-        "contentbox":{
+        "caches":{
+          "contentbox":{
             "storage":"true",
             "type":"RAM",
             "custom":{
@@ -196,7 +200,7 @@ If you are running CommandBox as your server of choice, then you can update your
             "class":"lucee.runtime.cache.ram.RamCache",
             "readOnly":"false"
 		}
-    },
+        },
 	"datasources" : {
 		"contentbox":{
             "allowAlter":true,
@@ -231,20 +235,30 @@ If you are running CommandBox as your server of choice, then you can update your
 ```
 {% endcode %}
 
-Once your environment file is seeded open the `box.json` of the ContentBox 4 installation and add the following `cfmigrations` as another root element:
+Once your environment file is seeded open the `box.json` of the ContentBox 4 and add the following configuration.&#x20;
+
+{% hint style="danger" %}
+Most likely you will already have a `scripts` key in the `box.json` so just add the listed scripts below:
+{% endhint %}
 
 ```javascript
 ...
 
+"scripts" : {
+   "contentbox:migrate":"migrate up migrationsDirectory=modules/contentbox/migrations",
+   "contentbox:migrate:up":"run-script contentbox:migrate",
+   "contentbox:migrate:down":"migrate down migrationsDirectory=modules/contentbox/migrations"
+},
+
 "cfmigrations":{
     "schema":"${DB_DATABASE}",
     "connectionInfo":{
-        "class":"${DB_CLASS}",
-    		"connectionString":"${DB_CONNECTIONSTRING}",
         "bundleName":"${DB_BUNDLENAME}",
         "bundleVersion":"${DB_BUNDLEVERSION}",
-        "username":"${DB_USER}",
-        "password":"${DB_PASSWORD}"
+        "class":"${DB_CLASS}",
+        "connectionString":"${DB_CONNECTIONSTRING}",
+        "password":"${DB_PASSWORD}",
+        "username":"${DB_USER}"
     },
     "defaultGrammar":"AutoDiscover@qb"
 }
@@ -252,7 +266,13 @@ Once your environment file is seeded open the `box.json` of the ContentBox 4 ins
 ...
 ```
 
-This will tell CommandBox migrations how to connect to your database in preparation for upgrades. Once this is done we can reload the CommandBox shell with the command `reload` and it's time to make sure migrations can connect to your database with the variables and connection information:
+{% hint style="danger" %}
+PLEASE MAKE SURE TO SAVE THE FILE!
+{% endhint %}
+
+This will tell CommandBox migrations how to connect to your database in preparation for upgrades.  Please note that the `contentbox:migrate` scripts are to execute migrations for ContentBox. You can have app migrations as well, following the normal [migrations approach](https://forgebox.io/view/commandbox-migrations).
+
+Once this is done we can reload the CommandBox shell with the command `reload` and it's time to make sure migrations can connect to your database with the variables and connection information:
 
 ```bash
 # Run the migration table installation
@@ -265,6 +285,10 @@ If this command succeeds, then we are ready to go to the next step.  If it fails
 ## 2. Backups
 
 Please make sure you backup your source code and your database. We are not liable for broken installations.
+
+{% hint style="danger" %}
+Make sure the database, the tables and columns are using `utf8mb4` if you are using MySQLx
+{% endhint %}
 
 ## 3. Run the Updater
 
@@ -302,7 +326,7 @@ rm Updater.cfc
 
 The updater will update your installation and run the migration scripts. However, it will also override the following files:
 
-```text
+```
 .cfconfig.json
 server.json
 Application.cfc
@@ -313,8 +337,6 @@ config/Coldbox.cfc
 ```
 
 It will create `.bak` files for the originals so you can manually merge in any changes you had before.  Once you do, go ahead and startup the engines! You are upgraded!
-
-
 
 
 
