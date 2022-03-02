@@ -14,12 +14,12 @@ Java 16+ is not currently supported
 
 You will need  to have CommandBox for installation, upgrading and optionally for running your ContentBox sites. Please see our [CommandBox Installation](commandbox-installation.md) section.
 
-## ColdFusion \(CFML\) Engine
+## ColdFusion (CFML) Engine
 
 ContentBox can be deployed to the following CFML Engines:
 
 * Adobe ColdFusion
-  * _2016 \(End of life is December 2021\)_
+  * _2016 (End of life is December 2021)_
   * 2018
   * 2021
 * Lucee 5+
@@ -28,15 +28,15 @@ ContentBox can be deployed to the following CFML Engines:
 
 Here are the supported databases for ContentBox:
 
-* MySQL 5.7 \(InnoDB ONLY!\)
-* MySQL 8+ \(InnoDB ONLY!\)
+* MySQL 5.7 (InnoDB ONLY!)
+* MySQL 8+ (InnoDB ONLY!)
 * Microsoft SQL Server 2012+
 * HypersonicSQL
 * Apache Derby
 * PostgreSQL
 * Oracle 11g+
 
-If you have another database engine that needs ContentBox support, please let us know and we will be able to help you \([https://www.ortussolutions.com/contact](https://www.ortussolutions.com/contact)\).
+If you have another database engine that needs ContentBox support, please let us know and we will be able to help you ([https://www.ortussolutions.com/contact](https://www.ortussolutions.com/contact)).
 
 ### Microsoft SQL Caveats
 
@@ -44,11 +44,11 @@ We have seen an issue where an error will be reported that `cbPermission` cannot
 
 ## URL Rewriting
 
-ContentBox relies on Search Engine Safe \(SES\) URLs and URL Routing. The majority of CFML engines already allow for these types of URLs out of the box and ContentBox supports it out of the box. However, if you would like to use full URL rewriting \(which we recommend, that's where the `index.cfm` is not showing in the URLs\) you will need to use a web server rewriting tool and ContentBox will configure it for you. 
+ContentBox relies on Search Engine Safe (SES) URLs and URL Routing. The majority of CFML engines already allow for these types of URLs out of the box and ContentBox supports it out of the box. However, if you would like to use full URL rewriting (which we recommend, that's where the `index.cfm` is not showing in the URLs) you will need to use a web server rewriting tool and ContentBox will configure it for you.&#x20;
 
 So before you install ContentBox make sure that you are using one of the supported rewriting engines show below:
 
-* **CommandBox Server \(Default\)**
+* **CommandBox Server (Default)**
 * Apache mod\_rewrite
 * IIS 7 rewrite module
 * Tuckey rewrite filter
@@ -75,7 +75,7 @@ ContentBox needs some files/folders to be writable at runtime.
 
 ### Installer
 
-```text
+```
 {Root}/Application.cfc
 {Root}/config/ColdBox.cfc
 {Root}/coldbox/system/aop/tmp
@@ -89,7 +89,7 @@ You can remove the first two after installation.
 
 Here are the folders for the core engine to work accordingly
 
-```text
+```
 # Engine Operation (REQUIRED)
 {Root}/coldbox/system/aop/tmp
 
@@ -97,5 +97,4 @@ Here are the folders for the core engine to work accordingly
 {Root}/modules_app/contentbox-custom/content
 ```
 
-\*\*\*\*
-
+****

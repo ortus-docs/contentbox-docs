@@ -22,29 +22,13 @@
   * [Docker](getting-started/installation/docker.md)
 * [Quick Guide](getting-started/quick-guide.md)
 
----
-
-* [The ContentBox Dashboard](the-contentbox-dashboard/README.md)
-  * [Home](the-contentbox-dashboard/contentbox-dashboard-home.md)
-  * [About](the-contentbox-dashboard/contentbox-dashboard-about.md)
-  * [Updates](the-contentbox-dashboard/contentbox-dashboard-updates.md)
-* [Content](content/README.md)
-  * [Pages](content/content-pages.md)
-  * [Page Actions](content/content-page-actions.md)
-* [Widgets](widgets/README.md)
-  * [An Easy Example](widgets/widget-example.md)
-  * [Inside the Page Editor](widgets/widget-page-editor.md)
-* [Content Response Formats](content-response-formats.md)
-* [The Blog](the-blog.md)
-* [The Content Store](the-content-store.md)
-* [Categories](categories.md)
-* [Media Manager](media-manager.md)
-* [Comments](comments.md)
-* [Look and Feel](look-and-feel.md)
-
 ## Usage
 
 * [Using ContentBox](usage/using-contentbox/README.md)
+  * [The ContentBox Dashboard](usage/using-contentbox/the-contentbox-dashboard/README.md)
+    * [Home](usage/using-contentbox/the-contentbox-dashboard/contentbox-dashboard-home.md)
+    * [About](usage/using-contentbox/the-contentbox-dashboard/contentbox-dashboard-about.md)
+  * [Categories](usage/using-contentbox/categories.md)
   * [Content](usage/using-contentbox/content/README.md)
     * [Publish Content](usage/using-contentbox/content/publish-content/README.md)
       * [Blog](usage/using-contentbox/content/publish-content/blog.md)
@@ -68,6 +52,7 @@
     * [Themes](usage/using-contentbox/look-and-feel/themes.md)
     * [Widgets](usage/using-contentbox/look-and-feel/widgets/README.md)
       * [Inserting a Simple Widget](usage/using-contentbox/look-and-feel/widgets/inserting-a-simple-widget.md)
+  * [Media Manager](usage/using-contentbox/media-manager.md)
   * [Modules](usage/using-contentbox/modules/README.md)
     * [Installing Modules](usage/using-contentbox/modules/installing-modules.md)
     * [Managing Modules](usage/using-contentbox/modules/managing-modules.md)
@@ -97,9 +82,12 @@
       * [Login Options](usage/using-contentbox/system/settings/login-options-1.md)
     * [Security Rules](usage/using-contentbox/system/security-rules.md)
     * [Updates](usage/using-contentbox/system/updates.md)
+  * [Widgets](usage/using-contentbox/widgets/README.md)
+    * [An Easy Example](usage/using-contentbox/widgets/widget-example.md)
+    * [Inside the Page Editor](usage/using-contentbox/widgets/widget-page-editor.md)
 * [Developing For ContentBox](usage/developing-for-contentbox.md)
 
-## Front End Development <a id="font-end-development"></a>
+## Front End Development <a href="#font-end-development" id="font-end-development"></a>
 
 * [Front End Development](font-end-development/front-end-development/README.md)
   * [File Structure](font-end-development/front-end-development/file-structure.md)
@@ -142,4 +130,3 @@
   * [Accessing Logged in User](back-end-development/back-end-development/accessing-logged-in-user.md)
   * [Customizing the Admin](back-end-development/back-end-development/customizing-the-admin.md)
   * [Staying on the Upgrade Path](back-end-development/back-end-development/staying-on-the-upgrade-path.md)
-
