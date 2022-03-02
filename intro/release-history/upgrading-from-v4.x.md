@@ -185,6 +185,11 @@ If you are running CommandBox as your server of choice, then you can update your
 {
 	"systemErr":"System",
 	"systemOut":"System",
+	"componentCacheEnabled":false,
+	"robustExceptionEnabled":true,
+	"debuggingEnabled" : true,
+	"debuggingReportExecutionTimes": false,
+	"saveClassFiles":false,
 	"thistimezone":"UTC",
 	"whitespaceManagement":"white-space-pref",
 	"postParametersLimit" : 200,
