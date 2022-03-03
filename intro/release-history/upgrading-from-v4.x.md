@@ -341,7 +341,9 @@ config/CacheBox.cfc
 config/Coldbox.cfc
 ```
 
-It will create `.bak` files for the originals so you can manually merge in any changes you had before.  Once you do, go ahead and startup the engines! You are upgraded!
+**It will create `.bak` files for the originals so you can manually merge in any changes you had before.**&#x20;
+
+Once you do, go ahead and startup the engines! You are upgraded!
 
 ### Optional Steps
 
