@@ -343,5 +343,16 @@ config/Coldbox.cfc
 
 It will create `.bak` files for the originals so you can manually merge in any changes you had before.  Once you do, go ahead and startup the engines! You are upgraded!
 
+### Optional Steps
+
+#### ContentBox Models Namespace
+
+If you had custom models, modules, themes and widgets, please do a search for the old injection namespace of `@cb` for ContentBox models.  Then replace it with the new namespace `@contentbox`.
+
+#### Renamed CBHelper Methods
+
+* layoutRoot() => themeRoot()
+* customHTML() => contentStore()
+
 
 
