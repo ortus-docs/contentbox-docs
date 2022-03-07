@@ -347,6 +347,8 @@ Once you do, go ahead and startup the engines! You are upgraded!
 
 ### Optional Steps
 
+If you had developed themes, modules, models, or any type of extension based on ContentBox 4, you will most likely have to update your code to match the new interfaces, methods and approaches.
+
 #### ContentBox Models Namespace
 
 If you had custom models, modules, themes and widgets, please do a search for the old injection namespace of `@cb` for ContentBox models.  Then replace it with the new namespace `@contentbox`.
@@ -355,6 +357,10 @@ If you had custom models, modules, themes and widgets, please do a search for th
 
 * layoutRoot() => themeRoot()
 * customHTML() => contentStore()
+
+#### Renamed Author Object Methods
+
+* author.getName() => author.getFullName()
 
 
 
