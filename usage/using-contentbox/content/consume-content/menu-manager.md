@@ -8,13 +8,13 @@ Some Themes may support additional menus for top menus, footer menus, side bar m
 
 ## Menu Data
 
-![](../../../../.gitbook/assets/menuManagerAdd.png)
+![](../../../../images/admin/menuManager/menuManagerAdd.png)
 
 * Title: The name of the Menu
-* List Type: \( ul \| ol \) Unordered List or Ordered List
+* List Type: ( ul | ol ) Unordered List or Ordered List
 * Menu Slug: This is the code referenced slug, to be used to retrieve the Menu in the Theme or View, where required.
-* CSS Classes: Optional CSS Classes to be added to the Main Menu List itself \( ul or ol - when supported by the Theme \)
-* List CSS Classes: Optional CSS Classes to be added to each of the List Items \( li - when supported by the Theme \)
+* CSS Classes: Optional CSS Classes to be added to the Main Menu List itself ( ul or ol - when supported by the Theme )
+* List CSS Classes: Optional CSS Classes to be added to each of the List Items ( li - when supported by the Theme )
 
 ## Item Types
 
@@ -27,15 +27,15 @@ Some Themes may support additional menus for top menus, footer menus, side bar m
 
 Each content type has it's own set of attributes.
 
-#### Common Attributes \(Shared by all Item Types\)
+#### Common Attributes (Shared by all Item Types)
 
 * Label - Read Only - Same as the Item Content field below.
-* Item Content - This is Name/Title that shows in the Menu Item itself. 
+* Item Content - This is Name/Title that shows in the Menu Item itself.&#x20;
 * CSS Classes - Optional additional CSS classes to be added to the list item
 
 ### Type: Content
 
-Content refers to a Page, or Blog Entry. You can search and select the content item you wish this item to link to. The Item Content \( visible label for the menu item \) automatically populates when you select an item for Content Item.
+Content refers to a Page, or Blog Entry. You can search and select the content item you wish this item to link to. The Item Content ( visible label for the menu item ) automatically populates when you select an item for Content Item.
 
 ![](https://github.com/ortus/contentbox-modular-cms/tree/76cb63aa894e4f019c2d324f6bfb86f8d0142a92/using/images/admin/menuManager/addContentItem.png)
 
@@ -43,12 +43,12 @@ In Addition to the Common Attributes listed above, this type also includes:
 
 * Content - This is a search and selection tool to help you select a page or blog entry for this Menu Item to link to.
 * URL Classes - Additional CSS for this Menu Item's HTML Element
-* Target - Allows you to select how the link is treated by the browser, allowing 
+* Target - Allows you to select how the link is treated by the browser, allowing&#x20;
   * \_self
   * \_blank
   * \_parent
   * \_top
-* Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON \( {"me":"you"} \) or a comma-delimited list \( me=you,icecream=awesome \)
+* Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
 * Title - A accessible title, commonly used by browsers as a tool tip.
 
 ### Type: Media
@@ -61,12 +61,12 @@ In Addition to the Common Attributes listed above, this type also includes:
 
 * Media - This is a search and selection tool to help you select a media item from the Media Manager for this Menu Item to link to.
 * URL Classes - Additional CSS for this Menu Item's HTML Element
-* Target - Allows you to select how the link is treated by the browser, allowing 
+* Target - Allows you to select how the link is treated by the browser, allowing&#x20;
   * \_self
   * \_blank
   * \_parent
   * \_top
-* Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON \( {"me":"you"} \) or a comma-delimited list \( me=you,icecream=awesome \)
+* Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
 * Title - A accessible title, commonly used by browsers as a tool tip.
 
 ### Type: Submenu
@@ -78,7 +78,8 @@ A Submenu type allows you to select an entire Menu to be included in the current
 In Addition to the Common Attributes listed above, this type also includes:
 
 * Select Sub-menu - This is a drop down select list of all of the Menus available for selection.
-* * Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON \( {"me":"you"} \) or a comma-delimited list \( me=you,icecream=awesome \)
+*
+  * Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
 * Title - A accessible title, commonly used by browsers as a tool tip.
 
 _Note: This relies on the Theme you are using, to utilize this feature._
@@ -93,12 +94,12 @@ In Addition to the Common Attributes listed above, this type also includes:
 
 * URL - The URL you wish to use for this menu item
 * URL Classes - Additional CSS for this Menu Item's HTML Element
-* Target - Allows you to select how the link is treated by the browser, allowing 
+* Target - Allows you to select how the link is treated by the browser, allowing&#x20;
   * \_self
   * \_blank
   * \_parent
   * \_top
-* Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON \( {"me":"you"} \) or a comma-delimited list \( me=you,icecream=awesome \)
+* Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
 * Title - A accessible title, commonly used by browsers as a tool tip.
 
 ### Type: JS
@@ -111,18 +112,17 @@ In Addition to the Common Attributes listed above, this type also includes:
 
 * JavaScript Code - JavaScript to be excuted when this Menu Item is clicked.
 * URL Classes - Additional CSS for this Menu Item's HTML Element
-* Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON \( {"me":"you"} \) or a comma-delimited list \( me=you,icecream=awesome \)
+* Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
 * Title - A accessible title, commonly used by browsers as a tool tip.
 
 ### Type: Free
 
 This is a menu item that creates a 'free-text' menu item. This item only uses the common attributes, Item Content, and CSS Classes... listed above.
 
-![](../../../../.gitbook/assets/addFreeItem.png)
+![](../../../../images/admin/menuManager/addFreeItem.png)
 
 ## Preview
 
 As you add, edit, and delete Menu Items, you can preview those menu items in page. You can refresh the menu by clicking the refresh icon next to the title Preview if the preview has not updated as expected.
 
-![](../../../../.gitbook/assets/menuPreview.png)
-
+![](../../../../images/admin/menuManager/menuPreview.png)

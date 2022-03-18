@@ -17,7 +17,7 @@ You can manage ContentBox Modules through the ContentBox Administration. Click o
 
 ## Installing a Module using CommandBox
 
-If you are not using CommandBox yet, you should be. It is not only great for easily spinning up CFML Servers \( multiple server types \), but CommandBox's true strength is using it to manage your projects and packages, similar to 'npm' for node.
+If you are not using CommandBox yet, you should be. It is not only great for easily spinning up CFML Servers ( multiple server types ), but CommandBox's true strength is using it to manage your projects and packages, similar to 'npm' for node.
 
 At Ortus Solutions, we use CommandBox to manage all of our CFML Projects. We track all of our dependencies, we do not commit any CommandBox module to our Git repos, CommandBox will install dependencies from the CLI during our build process.
 
@@ -27,9 +27,9 @@ To install, we cd into the site root, and type
 
 `box install Business-Logic-Scanner`
 
-![Install Module via CommandBox](../../../.gitbook/assets/installmodule.png)
+![Install Module via CommandBox](../../../developing/back\_end/modules/installModule.png)
 
-Once CommandBox is done, you can log into ContentBox, and click 'Modules &gt; Manage' and activate the module \( or reinit the app \).
+Once CommandBox is done, you can log into ContentBox, and click 'Modules > Manage' and activate the module ( or reinit the app ).
 
 Now, you have quickly installed a module, and activated it... time to use the module.
 
@@ -37,5 +37,4 @@ Now, you have quickly installed a module, and activated it... time to use the mo
 
 Absolutely, you can just copy a module into your modules folder, and sometimes, your modules will not be on Forgebox... a perfect example, Commercial Products, like DataBoss.
 
-For a customer recently, who has a large custom database, we decided we wanted to use Databoss to help our customer view, add and edit data. DataBoss is a commercial product of Ortus Solutions \(description below\) and a complete Application in a Module. You can download a trial of Databoss, and drop into your Modules folder, activate it, and now you have a full DataBoss application running on your /databoss route/url.
-
+For a customer recently, who has a large custom database, we decided we wanted to use Databoss to help our customer view, add and edit data. DataBoss is a commercial product of Ortus Solutions (description below) and a complete Application in a Module. You can download a trial of Databoss, and drop into your Modules folder, activate it, and now you have a full DataBoss application running on your /databoss route/url.

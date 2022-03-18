@@ -1,26 +1,26 @@
 # Security Options
 
-In `System > Settings > Security Options` - You will see 3 new features to ContentBox \( released in ContentBox 3.0 \), the Login Tracker, the Rate Limiter, and Secure Sockets Layer \( SSL \) Encryption.
+In `System > Settings > Security Options` - You will see 3 new features to ContentBox ( released in ContentBox 3.0 ), the Login Tracker, the Rate Limiter, and Secure Sockets Layer ( SSL ) Encryption.
 
 ## Login Tracker and Lockout
 
 The ContentBox administrator module now comes with a login tracker which if enabled can track invalid logins and be able to block individual ip addresses from brute-force attempts. We even track all valid logins into the new ContentBox Security Audit Log.
 
-![](../../../../.gitbook/assets/authlogs%20%281%29.png)
+![](../../../../.gitbook/assets/authlogs.png)
 
-![](../../../../.gitbook/assets/logintracker%20%281%29.png)
+![](../../../../.gitbook/assets/logintracker.png)
 
 ## Rate Limiter
 
 One of the biggest problems on the internet today, is out and out traffic overload. Of course, hardened hardware is the best approach to stop denial of service attacks, but we have given you some tools inside of ContentBox to help at the software level. You can now run your very own Rate Limiter.
 
-![](../../../../.gitbook/assets/ratelimiter%20%281%29.png)
+![](../../../../.gitbook/assets/ratelimiter.png)
 
 ## SSL Support
 
 SSL support can now be found everywhere in ContentBox for both the UI and admin modules. Users can even select specific pages for users to transition into or out of SSL for richer eCommerce or secure experiences.
 
-![](../../../../.gitbook/assets/ssl_settings.png)
+![](<../../../../.gitbook/assets/ssl\_settings (1).png>)
 
 ## Other Security Information
 
@@ -44,4 +44,3 @@ A new password policy is now in place for ContentBox for new and current users, 
 All of these features are definitely great addons to ContentBox, but one of the best features of all… you can completely remove the Admin itself from your production site. This would give hackers no access to the login page at all.
 
 Secure your site today.
-

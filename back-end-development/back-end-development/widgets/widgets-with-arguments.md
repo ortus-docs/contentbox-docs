@@ -30,7 +30,7 @@ function renderit( urlTarget ){
 
 When the user tries to use the widget now, they'll see this added to the Widget selector.
 
-![](../../../.gitbook/assets/cb_widget_argument.text1.jpg)
+![](../../../assets/cb\_widget\_argument.text1.jpg)
 
 ## Adding more User Friendly Options to Arguments
 
@@ -46,7 +46,7 @@ You will see the argument name `urlTarget` shown, with the type `(any)`. We can 
 * MultiOptions
 * MultiOptionsUDF
 
-These are all added via the JavaDoc syntax for the RenderIt\(\) function. Below is an example of the label being used.
+These are all added via the JavaDoc syntax for the RenderIt() function. Below is an example of the label being used.
 
 ```javascript
 /**
@@ -69,7 +69,7 @@ function renderit( urlTarget ){
 
 The Widget Form now shows this label instead of the Argument name
 
-![](../../../.gitbook/assets/cb_widget_argument_label.jpg)
+![](../../../assets/cb\_widget\_argument\_label.jpg)
 
 ### Required Argument
 
@@ -86,7 +86,7 @@ To make a field required, add Javadoc Meta comment `@urlTarget.required` to the 
 function renderit( urlTarget ){
 ```
 
-![](../../../.gitbook/assets/cb_widget_argument_required.jpg)
+![](../../../assets/cb\_widget\_argument\_required.jpg)
 
 ### Argument Hint
 
@@ -104,7 +104,7 @@ To add a field hint, add Javadoc Meta comment `@urlTarget.hint` to the function 
 function renderit( urlTarget ){
 ```
 
-![](../../../.gitbook/assets/cb_widget_argument_hint.jpg)
+![](../../../assets/cb\_widget\_argument\_hint.jpg)
 
 ### Argument Type
 
@@ -154,7 +154,7 @@ To add a default value for an argument, add Javadoc Meta comment `@urlTarget.def
 function renderit( urlTarget ){
 ```
 
-![](../../../.gitbook/assets/cb_widget_argument_default.jpg)
+![](../../../assets/cb\_widget\_argument\_default.jpg)
 
 ### Options for Arguments
 
@@ -173,7 +173,7 @@ To add options for an argument, add Javadoc Meta comment `@urlTarget.options _se
 function renderit( urlTarget ){
 ```
 
-![](../../../.gitbook/assets/cb_widget_argument_options.jpg)
+![](../../../assets/cb\_widget\_argument\_options.jpg)
 
 As you can see, the Default value even works with the options drop down, so you can have the default, pre-selected.
 
@@ -195,7 +195,7 @@ Option lists work great for some use cases, but sometimes you might need some dy
 function renderit( urlTarget ){
 ```
 
-2- Add the new function. The new function can be named anything \( other than RenderIt - the default function for a widget \). The function must return an array of elements that can be converted to a string. Here is the UDF function that matches the previous list of options, but this time, we added one, to be sure it is from the UDF.
+2- Add the new function. The new function can be named anything ( other than RenderIt - the default function for a widget ). The function must return an array of elements that can be converted to a string. Here is the UDF function that matches the previous list of options, but this time, we added one, to be sure it is from the UDF.
 
 ```java
 function getTargetTypes(){
@@ -205,11 +205,11 @@ function getTargetTypes(){
 
 Reload and test the widget, we see the list of Target Types.
 
-![](../../../.gitbook/assets/cb_widget_argument_optionsUDF.jpg)
+![](../../../assets/cb\_widget\_argument\_optionsUDF.jpg)
 
 You might see a side effect of adding the function. Now you will see another option, `Public Methods` with a list of public functions in ths CFC. Widgets are required to implement the default `RenderIt()` function, but the Widget can actually have several methods.
 
-To hide this function \( since this is outputting an array, not a string \), you cannot use a private function \( otherwise the UDF cannot be called by the Form Builder \), you need to add some meta data to ignore the function.
+To hide this function ( since this is outputting an array, not a string ), you cannot use a private function ( otherwise the UDF cannot be called by the Form Builder ), you need to add some meta data to ignore the function.
 
 ```java
 /**
@@ -230,7 +230,7 @@ function getTargetTypes() cbignore{
 
 With either of these two options, you will see the list of Options provided by the UDF, but you will not see the `Public Methods` option, as there is only 1 public rendering function.
 
-![](../../../.gitbook/assets/cb_widget_argument_optionsUDF_fixed.jpg)
+![](../../../assets/cb\_widget\_argument\_optionsUDF\_fixed.jpg)
 
 ### MultiOptions - Multiple Choice Options
 
@@ -249,13 +249,13 @@ To add options for an argument, add Javadoc Meta comment `@urlTarget.multioption
 function renderit( urlTarget ){
 ```
 
-![](../../../.gitbook/assets/cb_widget_argument_multioption.jpg)
+![](../../../assets/cb\_widget\_argument\_multioption.jpg)
 
 ### MultiOptionsUDF - Multiple Choice Options via UDF
 
 MultiOptionsUDF works the same as OptionsUDF except the user can select none, one or more of the options.
 
-Add the meta to the RenderIt\(\) function
+Add the meta to the RenderIt() function
 
 ```java
 /**
@@ -269,7 +269,7 @@ Add the meta to the RenderIt\(\) function
 function renderit( urlTarget ){
 ```
 
-Add the UDF \( include the cbignore meta data so the Widget Form builder ignores the function \)
+Add the UDF ( include the cbignore meta data so the Widget Form builder ignores the function )
 
 ```java
 function getTargetTypes() cbignore {
@@ -277,5 +277,4 @@ function getTargetTypes() cbignore {
 }
 ```
 
-![](../../../.gitbook/assets/cb_widget_argument_multioptionudf.jpg)
-
+![](../../../assets/cb\_widget\_argument\_multioptionudf.jpg)

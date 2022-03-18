@@ -6,9 +6,8 @@ Modules are self contained bundles of code, that contain their own configuration
 
 ## ContentBox is built on Modules
 
-ContentBox itself is made up of 3 separate Modules \( and their submodules \), ContentBox, ContentBox-Admin and ContentBox-UI. One of the best security features of ContentBox is the fact that you can remove the Admin module from your production installs, removing the ability for the admin to get hacked, because it is not even present on your production server.
+ContentBox itself is made up of 3 separate Modules ( and their submodules ), ContentBox, ContentBox-Admin and ContentBox-UI. One of the best security features of ContentBox is the fact that you can remove the Admin module from your production installs, removing the ability for the admin to get hacked, because it is not even present on your production server.
 
 ### ContentBox
 
-![ContentBox Module Folder Structure](../../../.gitbook/assets/contentbox-module%20%281%29.jpg)
-
+![ContentBox Module Folder Structure](../../../.gitbook/assets/contentbox-module.jpg)

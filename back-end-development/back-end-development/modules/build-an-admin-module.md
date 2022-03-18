@@ -18,11 +18,11 @@ The full path of our module, which will be called mySecrets would be
 
 Now, if we go to the Module Manager in the backend, and rescan for modules, you will see it doesn't show up yet.
 
-![ContentBox Module Rescan 1](../../../.gitbook/assets/modulesRescan1.jpg)
+![ContentBox Module Rescan 1](../../../developing/back\_end/modules/modulesRescan1.jpg)
 
 First, we need to create a module config. This is similar to a normal ColdBox module, with a few extra splashes of flavor for ContentBox. Since it is a CFC, we can use the pseudo contructor to set the module properties. For mySecrets, it looks something like this.
 
-```text
+```
 // Module Properties
 this.title                       = "MySecrets";
 this.author                = "Ortus Solutions, Corp";
@@ -40,9 +40,9 @@ this.layoutParentLookup = true;
 this.entryPoint                  = "mysecrets";
 ```
 
-The only required function for the ModuleConfig.cfc is the configure\(\) function. This is where you can set \( or inherit \) settings, parent settings, layout settings, datasources, webservices, routes, interceptorSettings, custom Interceptors and Interception Points, model bindings \( mappings \). A shell of your configure method might look like this.
+The only required function for the ModuleConfig.cfc is the configure() function. This is where you can set ( or inherit ) settings, parent settings, layout settings, datasources, webservices, routes, interceptorSettings, custom Interceptors and Interception Points, model bindings ( mappings ). A shell of your configure method might look like this.
 
-```text
+```
 function configure(){
       // parent settings
       parentSettings = {
@@ -81,15 +81,15 @@ function configure(){
 
 This is the minimum you need for the module to show up in the Manage Modules screen. If we rescan now, you'll see it detects our Module.
 
-![ContentBox Module Rescan 2](../../../.gitbook/assets/modulesrescan2.jpg)
+![ContentBox Module Rescan 2](../../../developing/back\_end/modules/modulesRescan2.jpg)
 
 When you click the Thumb Up icon to activate, it activates the module.
 
-![ContentBox Module Activated](../../../.gitbook/assets/modulesActivated.jpg)
+![ContentBox Module Activated](../../../developing/back\_end/modules/modulesActivated.jpg)
 
 Since these modules are inside of ContentBox, Contentbox manages loading and unloading the module, as well as activating and deactivating the modules, so you need those functions to listen for those events. ModuleConfig.cfc is one big interceptor, so you can catch all sorts of interception points, but these are the four needed for a ContentBox Module to function to its fullest.
 
-```text
+```
 /**
 * Fired when the module is registered and activated.
 */
@@ -115,13 +115,13 @@ function onDeactivate(){
 }
 ```
 
-This is a bare bones template for a module controlled by ContentBox, but right now it doesn't really do anything... in fact if you tried to hit the module, the default route for / would look for home handler with index action/view but we haven't created those yet. None of the functions above do anything, so all the activation and deactivation does, is make the module available or not. If you try and access /mysecrets \( the entry point \) with the module deactivated you see this
+This is a bare bones template for a module controlled by ContentBox, but right now it doesn't really do anything... in fact if you tried to hit the module, the default route for / would look for home handler with index action/view but we haven't created those yet. None of the functions above do anything, so all the activation and deactivation does, is make the module available or not. If you try and access /mysecrets ( the entry point ) with the module deactivated you see this
 
-![ContentBox Module Deactivated](../../../.gitbook/assets/modulesentrypointdeactivated.jpg)
+![ContentBox Module Deactivated](../../../developing/back\_end/modules/modulesEntryPointDeactivated.jpg)
 
 When the module is activated, and you hit the entry point, you will get the error that the event is not a valid registered event
 
-![ContentBox Module Entry Point Activated](../../../.gitbook/assets/modulesentrypointactivated.jpg)
+![ContentBox Module Entry Point Activated](../../../developing/back\_end/modules/modulesEntryPointActivated.jpg)
 
 Here is the gist of step 1. ModuleConfig.CFC for Step 1 - [https://gist.github.com/gpickin/545242a3da6c2805efb4e6cac82ce1ad](https://gist.github.com/gpickin/545242a3da6c2805efb4e6cac82ce1ad)
 
@@ -131,7 +131,7 @@ As you can see, we have our own routes setup for the module in the ModuleConfig.
 
 ColdBox and therefore ContentBox calls the views folder 'views'. Since our action is home.index, we need a folder inside of 'views' called home, and an index.cfm file inside of that.
 
-```text
+```
 - mySecrets
 --- views
 ------ home
@@ -141,13 +141,13 @@ ColdBox and therefore ContentBox calls the views folder 'views'. Since our actio
 
 ## Next Step - Add some code to our view Index.cfm
 
-Inside the index.cfm, just put some simple html, like &lt;h1&gt;my Secrets&lt;/h1&gt;
+Inside the index.cfm, just put some simple html, like \<h1>my Secrets\</h1>
 
 ## Next Step - Reload our Application and Test the Entrypoint
 
 Lets reload our application with `/?fwreinit=1` or Reload Application from the admin cog dropdown menu. Now lets try hitting out entrypoint `/mysecrets` and you'll see something like this.
 
-![ContentBox View 1](../../../.gitbook/assets/view1.jpg)
+![ContentBox View 1](../../../developing/back\_end/modules/view1.jpg)
 
 Wait, why did that work? ColdBox uses conventions to find the view, even without the handler. For legacy conversion or simple views, you don't even need the handler. Wait, I wasn't logged into the admin, how did that not ask me to login?
 
@@ -155,23 +155,23 @@ If you look at the url, i was using `/mysecrets` which is actually the front end
 
 What is the admin entrypoint for this module?: `/cbadmin/modules/mysecrets/` Now what happens when we hit that url
 
-![ContentBox View Login](../../../.gitbook/assets/viewlogin.jpg)
+![ContentBox View Login](../../../developing/back\_end/modules/viewLogin.jpg)
 
 It bounces me to the login page, like it should. Ok, so when I login, then what happens?
 
-![ContentBox View Handler](../../../.gitbook/assets/viewhandlererror.JPG)
+![ContentBox View Handler](../../../developing/back\_end/modules/viewHandlerError.JPG)
 
 In the admin, its throwing an error, telling me the handler doesn't exist. Strange that it worked in the front end right? The admin has a little more security, so it requires a handler. One of the pitfalls of not using handlers is that the ColdBox Lifecycle special actions like pre and post handlers etc cannot run, because it bypasses a lot of the lifecycle and just spits out the view. Keep that in mind when you are having issues with anything out of the ordinary and you don't have a handler, or have a handler without a handler event for the event you're executing.
 
 ## Lets add a handler
 
-We need to follow conventions \( unless you want to complicate things and override the conventions \) and make a folder called 'handlers' for our handler. We can just add the Home.cfc directly into the 'handlers' folder, and now your folder tree structure will look like this
+We need to follow conventions ( unless you want to complicate things and override the conventions ) and make a folder called 'handlers' for our handler. We can just add the Home.cfc directly into the 'handlers' folder, and now your folder tree structure will look like this
 
-![ContentBox Handler Folder Tree](../../../.gitbook/assets/handlerfoldertree.jpg)
+![ContentBox Handler Folder Tree](../../../developing/back\_end/modules/handlerFolderTree.jpg)
 
 We'll keep our handler very simple, just a shell, so we'll add this to our Home.cfc
 
-```text
+```
 component{
         function index( event, rc, prc ){
              event.setView( "home/index" );
@@ -187,7 +187,6 @@ Another note: If you hit [http://127.0.0.1:61805/cbadmin/module/mysecrets/](http
 
 Now, you will see the following
 
-![ContentBox Admin Handler View](../../../.gitbook/assets/handleradminview.jpg)
+![ContentBox Admin Handler View](../../../developing/back\_end/modules/handlerAdminView.jpg)
 
 Now our module is working, in the admin, we need to add some menu buttons so users can access your module.
-

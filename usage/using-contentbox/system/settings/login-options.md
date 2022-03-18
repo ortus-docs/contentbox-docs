@@ -1,6 +1,6 @@
 # Login Options
 
-![](../../../../.gitbook/assets/login_options.png)
+![](../../../../assets/login\_options.png)
 
 ## Two Factor Authentication
 
@@ -19,4 +19,3 @@ The number of days to keep trusting a user's device. If you set this value to `0
 Two factor authentication uses a provider system to allow new methods of two factor authentication to be provided via a module. A good example of this extension is [Amazon SNS Provider](https://github.com/contentbox-modules/contentbox-awssns-twofactor).
 
 > Note that if you decide to change the default two factor provider, all currently enrolled users will be unenrolled.
-

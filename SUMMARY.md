@@ -19,8 +19,8 @@
   * [Source Installation](getting-started/installation/source-installation.md)
   * [Express Installation](getting-started/installation/express-installation.md)
   * [Existing ColdBox Application](getting-started/installation/existing-coldbox-application.md)
-  * [Upgrading ContentBox](getting-started/installation/upgrading-contentbox.md)
   * [Docker](getting-started/installation/docker.md)
+* [Updates](getting-started/upgrading-contentbox.md)
 * [Quick Guide](getting-started/quick-guide.md)
 
 ## Usage

@@ -1,13 +1,13 @@
 # System Requirements
 
-Let's get started with some system requirements for running ContentBox sites:
+Let's get started with some system requirements for running ContentBox sites on all deployable options
 
 ## Java
 
 You need Java 8+ to run ContentBox.
 
 {% hint style="warning" %}
-Java 16+ is not currently supported
+Java 17+ is not currently supported
 {% endhint %}
 
 ## CommandBox

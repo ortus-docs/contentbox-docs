@@ -15,11 +15,11 @@ There are 4 locations because each location has a different set of conventions, 
 
 ## ColdBox Modules /modules
 
-Applications can have many dependencies, and keeping them out of your repo, and managing them with package managers, like Node, Bower, CommandBox, can keep your apps clean and light. Your gitignore file can get out of hand if you are individually adding and removing modules. To make life easier, we have 2 ColdBox App locations, 1 is /modules, which is controlled by CommandBox, and should be set to ignored. This means you can install hundreds of ColdBox modules, and do not have to worry about them filling up your repo. Note:Since these files in the /modules folder are not in source control, editing these files is pointless. Your changes will never get committed, and therefore deploy to any other developers, or staging / production servers. If a module requires you to edit files inside the module to work, you should install the module to the ColdBox Apps Modules location \( below \).
+Applications can have many dependencies, and keeping them out of your repo, and managing them with package managers, like Node, Bower, CommandBox, can keep your apps clean and light. Your gitignore file can get out of hand if you are individually adding and removing modules. To make life easier, we have 2 ColdBox App locations, 1 is /modules, which is controlled by CommandBox, and should be set to ignored. This means you can install hundreds of ColdBox modules, and do not have to worry about them filling up your repo. Note:Since these files in the /modules folder are not in source control, editing these files is pointless. Your changes will never get committed, and therefore deploy to any other developers, or staging / production servers. If a module requires you to edit files inside the module to work, you should install the module to the ColdBox Apps Modules location ( below ).
 
 ## ColdBox App Modules - /modules\_app
 
-This location is not ignored by git, it is a part of your source control repo. These modules can be created by you, or manually installed, or installed by CommandBox by using an alternative location \( read below for when you should do this \). There modules behave just like modules installed into the modules folder, the main difference is source control. Do you want the module to be embedded in your repo, or linked, using commandbox to resolve the module as a dependency.
+This location is not ignored by git, it is a part of your source control repo. These modules can be created by you, or manually installed, or installed by CommandBox by using an alternative location ( read below for when you should do this ). There modules behave just like modules installed into the modules folder, the main difference is source control. Do you want the module to be embedded in your repo, or linked, using commandbox to resolve the module as a dependency.
 
 ### Installing CommandBox modules to modules\_app folder instead of the modules folder
 
@@ -27,7 +27,7 @@ When installing modules with CommandBox, they are usually installed to the /modu
 
 `box install Business-Logic-Scanner modules_app`
 
-![Install Module via CommandBox](../../../.gitbook/assets/installModuleAltDirectory.png)
+![Install Module via CommandBox](../../../developing/back\_end/modules/installModuleAltDirectory.png)
 
 The last parameter is the installation directory. This will install the module to that directory. Note: If you are creating a module, and you know someone will need to modify the module to get it to work, you can set the directory in your modules box.json so when commandbox installs your module, it knows it should be in that folder by default.
 
@@ -41,5 +41,4 @@ This is where you should create modules that require the contentbox lifecycle to
 
 Another great aspect of having ContentBox managed modules, is that logged in users can activate, deactivate, or reload modules. This is the best way to extend contentbox, you can tie the module into all the internal events of Contentbox. In a future post, we'll be showing you show to make your own Admin Module where you can add menu items like the screenshot below... the last main menu item is Mapigator, which has submenu items, added dynamically by using modules in this folder.
 
-![Admin Menus](../../../.gitbook/assets/adminmenus.jpg)
-
+![Admin Menus](../../../developing/back\_end/modules/adminMenus.jpg)

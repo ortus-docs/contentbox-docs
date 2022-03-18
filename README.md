@@ -6,7 +6,7 @@ description: >-
 
 # Introduction
 
-```text
+```
    ____            _             _   ____            
   / ___|___  _ __ | |_ ___ _ __ | |_| __ )  _____  __
  | |   / _ \| '_ \| __/ _ \ '_ \| __|  _ \ / _ \ \/ /
@@ -16,9 +16,9 @@ description: >-
 
 ## ContentBox Modular CMS - v5.x
 
-![ContentBox](.gitbook/assets/contentboxlogo300.png)
+![ContentBox](images/ContentBoxLogo300.png)
 
-ContentBox is a professional open source _hybrid_ modular CMS \(Content Management System\) that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
+ContentBox is a professional open source _hybrid_ modular CMS (Content Management System) that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
 
 {% hint style="info" %}
 _**Hybrid** - ContentBox is not only a headless CMS, but also a fully featured traditional CMS.  Have the freedom to use one or both! You have the power now!_
@@ -28,14 +28,14 @@ _**Hybrid** - ContentBox is not only a headless CMS, but also a fully featured t
 
 ContentBox is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible.Releases will be numbered with the following format:
 
-```text
+```
 <major>.<minor>.<patch>
 ```
 
 And constructed with the following guidelines:
 
-* Breaking backward compatibility bumps the major \(and resets the minor and patch\)
-* New additions without breaking backward compatibility bump the minor \(and resets the patch\)
+* Breaking backward compatibility bumps the major (and resets the minor and patch)
+* New additions without breaking backward compatibility bump the minor (and resets the patch)
 * Bug fixes and misc changes bump the patch
 
 ## License
@@ -53,13 +53,13 @@ The ContentBox discussion group and community can be found here: [https://commun
 
 ## Reporting a Bug
 
-We all make mistakes from time to time :\) So why not let us know about it and help us out. We also love pull requests, so please star us and fork us: [https://github.com/Ortus-Solutions/ContentBox](https://github.com/Ortus-Solutions/ContentBox)
+We all make mistakes from time to time :) So why not let us know about it and help us out. We also love pull requests, so please star us and fork us: [https://github.com/Ortus-Solutions/ContentBox](https://github.com/Ortus-Solutions/ContentBox)
 
 * By Jira: [https://ortussolutions.atlassian.net/browse/CONTENTBOX](https://ortussolutions.atlassian.net/browse/CONTENTBOX)
 
 ## Professional Open Source
 
-![Ortus Solutions, Corp](.gitbook/assets/ortussolutions_button.png)
+![Ortus Solutions, Corp](images/ortussolutions\_button.png)
 
 ContentBox is a professional open source software backed by [Ortus Solutions, Corp](http://www.ortussolutions.com/services) offering services like:
 
@@ -85,6 +85,5 @@ ContentBox is a professional open source software backed by [Ortus Solutions, Co
 
 Because of His grace, this project exists. If you don't like this, then don't read it, it's not for you.
 
-> "Therefore being justified by **faith**, we have peace with God through our Lord Jesus Christ:  
+> "Therefore being justified by **faith**, we have peace with God through our Lord Jesus Christ:\
 > By whom also we have access by **faith** into this **grace** wherein we stand, and rejoice in hope of the glory of God." Romans 5:5
-

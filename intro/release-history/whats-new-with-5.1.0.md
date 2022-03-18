@@ -4,7 +4,7 @@
 
 If you are upgrading from 5.0.0 you will need to do the following:
 
-* Stop your server and make a backup just in case
+* **Stop** your server and make a backup just in case
 * Open the `box.json` in the root of your project and make sure the following package scripts exist, if not, add them
 
 {% code title="box.json" %}
@@ -19,7 +19,7 @@ If you are upgrading from 5.0.0 you will need to do the following:
 
 * Open a `box` shell in the root of your project
 * Remove the `resources` folder in the root: `rm resources --force --recurse`
-* Run `install` to update the core dependencies
+* Run `install` to update ContentBox to 5.1.0
 * Run `run-script contentbox:migrate:up` to upgrade your database to this patch level
 * Startup your engines!!
 

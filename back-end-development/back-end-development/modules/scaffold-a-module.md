@@ -28,7 +28,7 @@ We are of course interested in creating a module. Lets look at that command
 
 The params for this command are the following:
 
-```text
+```
 name=            
 author=          
 authorURL=       
@@ -44,7 +44,7 @@ There is also a flag for script: `--script`
 
 Lets create a module with the command, and see what it produces. Note: Be in the root of your app so the command knows where to put the files. If you are in a subfolder, the command might get lost.
 
-```text
+```
 coldbox create module name=customModule2 author="Gavin Pickin" authorURL="http://www.gpickin.com" description="Custom Module 2" version="1.2.3" cfmapping="customModule2Mapping" modelNamespace="customModuleName" directory="modules_app" script=true
 ```
 
@@ -62,7 +62,7 @@ Looking at the arguments in more detail
 
 The command outputs this:
 
-```text
+```
 Created C:\www\wwwplayground\modules_app/customModule2
 Created C:\www\wwwplayground\modules_app\customModule2\handlers
 Created C:\www\wwwplayground\modules_app\customModule2\handlers\Home.cfc
@@ -76,11 +76,10 @@ Created C:\www\wwwplayground\modules_app\customModule2\views\home\index.cfm
 
 Here is a visual display of the directory structure
 
-![Module Created by CommandBox Scaffholding](../../../.gitbook/assets/commandboxcreate.jpg)
+![Module Created by CommandBox Scaffholding](../../../developing/back\_end/modules/commandboxCreate.jpg)
 
 The command creates a Module Config file with all your information. It creates a default handler, called `Home.cfc` in the handlers folder. It creates a models folder, with just a placeholder file. It creates a views folder, with the `home` folder to match the handler, and creates a default `index.cfm` view.
 
 It is a great way to get started. You can use many of the other ColdBox commands to create additional handlers, views, layouts. Next time you want to create a module, instead of remembering the conventions, and what files you need, scaffold it with CommandBox's ColdBox create command.
 
 ColdBox modules all work with ContentBox, so what will you create?
-

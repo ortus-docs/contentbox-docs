@@ -2,7 +2,7 @@
 
 ## What are Widgets?
 
-Widgets are small pieces of software that you can add to your ContentBox website to perform a **specific** function.  A widget is simply a ColdFusion Component \(**cfc**\) that extends our core widget \(`contentbox.models.ui.BaseWidget`\) and lives in a specific location where ContentBox can register it.  It must have at least one rendering function called `renderIt()` and it has full access to [WireBox](https://wirebox.ortusbooks.com) dependency injection and helper objects.
+Widgets are small pieces of software that you can add to your ContentBox website to perform a **specific** function.  A widget is simply a ColdFusion Component (**cfc**) that extends our core widget (`contentbox.models.ui.BaseWidget`) and lives in a specific location where ContentBox can register it.  It must have at least one rendering function called `renderIt()` and it has full access to [WireBox](https://wirebox.ortusbooks.com) dependency injection and helper objects.
 
 ```java
 component extends="contentbox.models.ui.BaseWidget" singleton{
@@ -14,11 +14,11 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
 }
 ```
 
-There are several Widgets built into ContentBox \([**Core Widgets**](core-widgets.md)\) that are used for various parts of your website, and you can insert widgets into blog posts and pages to make your website even more dynamic.
+There are several Widgets built into ContentBox ([**Core Widgets**](core-widgets.md)) that are used for various parts of your website, and you can insert widgets into blog posts and pages to make your website even more dynamic.
 
 ### Base Widget
 
-The Base widget has been created with some properties and injections in order to help you in development. 
+The Base widget has been created with some properties and injections in order to help you in development.&#x20;
 
 #### Widget Properties
 
@@ -62,11 +62,11 @@ Widgets are maintained through the Administrator under `Look & Feel > Widgets`. 
 
 The manager also allows you to read the widget's documentation and actually test out its rendering functions.  So please use this playground to your advantage.
 
-![Widget Manager](../../../.gitbook/assets/cb_widget_list.jpg)
+![Widget Manager](../../../assets/cb\_widget\_list.jpg)
 
 ## Widget Locations
 
-Widgets can exist in many locations depending on your needs.  They can also be discovered when used as markup in your ContentBox editors \(More on this later\)
+Widgets can exist in many locations depending on your needs.  They can also be discovered when used as markup in your ContentBox editors (More on this later)
 
 ### Core Widgets
 
@@ -74,7 +74,7 @@ Widgets can exist in many locations depending on your needs.  They can also be d
 
 Core widgets are widgets that exist inside the ContentBox core module and are shipped by the version of ContentBox installed.  **These widgets should not be modified or you should not really place custom widgets here**. Check out the [Api Docs](https://apidocs.ortussolutions.com/contentbox/4.2.0/contentbox/widgets/package-summary.html) for further information.
 
-### Custom Widgets 
+### Custom Widgets&#x20;
 
 `/modules_app/contentbox-custom/_widgets`
 
@@ -82,7 +82,7 @@ Custom widgets are your very own widgets that you will program to enhance Conten
 
 ### Module Widgets
 
-```text
+```
 # Core Module Widgets
 /modules/contentbox/modules_user/{name}/widgets
 
@@ -108,7 +108,7 @@ The currently active theme can also do widget contributions.  If the theme packa
 
 Widgets are rendered in your UI when you place them in content via the editors or manually using our triple mustache markup.  The UI approach can be seen in the [Using ContentBox](../../../usage/using-contentbox/look-and-feel/widgets/) Section.  The Markup notation is shown below, please note that the name of the widget has meaning:
 
-```text
+```
 # Simplest Form
 {{{WidgetName}}}
 
@@ -133,7 +133,7 @@ If the widget cannot be found in either of those locations an exception will be 
 
 If you want a widget from a module rendered then you need to give it the address of the module like so:
 
-```text
+```
 {{{WidgetName@ModuleName}}}
 ```
 
@@ -141,7 +141,7 @@ If you want a widget from a module rendered then you need to give it the address
 
 If you want a widget from the current theme explicitly then give it the `~` address:
 
-```text
+```
 {{{~WidgetName}}}
 ```
 
@@ -183,4 +183,3 @@ function getWidget( required name ){
 ```
 
 Please note that the **name** of the widget is important as ContentBox will try and figure out the location of the widget.  Please refer to the [Widget Discovery](./#widget-discovery) section above.
-

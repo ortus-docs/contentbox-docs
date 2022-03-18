@@ -1,18 +1,18 @@
 # Express Installation
 
-The express version of ContentBox is a fully embedded running server powered by [Lucee](http://lucee.org/), an open-source CFML engine, and Tomcat. It comes bundled with a JRE for your operating system or one without a JRE can be downloaded as well.
+The express version of ContentBox is a fully embedded running server powered by [Lucee](http://lucee.org), an open-source CFML engine, and Tomcat. It comes bundled with a JRE for your operating system or one without a JRE can be downloaded as well.
 
 ## Requirements
 
 Make sure your system has a working Java Runtime 1.7+ environment if you are downloading the express version with no JRE. A quick test to see if your system supports Java is to open a terminal or command prompt and typing:
 
-```text
+```
 java -version
 ```
 
 You should see something like this:
 
-```text
+```
 java version "1.8.0_40"
 Java(TM) SE Runtime Environment (build 1.8.0_40-b27)
 Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)
@@ -22,9 +22,9 @@ Just make sure what it is Java 1.7+.
 
 ## Step 1: Download Express
 
-The first step is for you to download ContentBox \([https://www.ortussolutions.com/products/contentbox](http://www.ortussolutions.com/products/contentbox)\) or you can use the command below:
+The first step is for you to download ContentBox ([https://www.ortussolutions.com/products/contentbox](http://www.ortussolutions.com/products/contentbox)) or you can use the command below:
 
-```text
+```
 # stable no-jre
 wget https://www.ortussolutions.com/parent/download/contentbox?type=express
 # stable with jre for windows
@@ -46,7 +46,7 @@ wget https://www.ortussolutions.com/parent/download/contentbox?type=express-linu
 
 Once downloaded expand the archive
 
-```text
+```
 unzip contentbox-express-{version}.zip
 ```
 
@@ -56,7 +56,7 @@ This will expand into the folder of your liking.
 
 On some operating systems like Linux or Mac, you will need to enable run permissions. So drop into a shell or terminal in that folder you expanded and type:
 
-```text
+```
 chmod -R 777 bin
 ```
 
@@ -70,7 +70,7 @@ Go into the `bin` folder and execute either the `startup.bat` or `startup.sh` or
 
 Make sure you visit the following URLs and set up a server and web application password for the underlying engines:
 
-```text
+```
 # server password
 http://localhost:8085/lucee/admin/server.cfm
 # web password
@@ -79,13 +79,13 @@ http://localhost:8085/lucee/admin/web.cfm
 
 ## Step 5: Create A Datasource
 
-![](../../.gitbook/assets/datasource_wizard.png)
+![](../../images/datasource\_wizard.png)
 
 You can now visit your application under `http://localhost:8085` and you will be presented with our datasource wizard. Since we are in express edition, just choose the embedded database and follow the instructions.
 
 ## Step 6: Run ContentBox Installer
 
-![](../../.gitbook/assets/installer_wizard.png)
+![](../../images/installer\_wizard.png)
 
 That's it! We are now ready to run the ContentBox installer wizard. ContentBox will automagically create all the necessary database tables, indexes, and constraints for you. After it does this, it will present you with our ContentBox installer, where you will fill in:
 
@@ -111,4 +111,3 @@ Go to the `conf/server.xml` and look for the following:
 ```
 
 Just update the `port` to whatever you desire.
-
