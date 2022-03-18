@@ -36,7 +36,7 @@ If you are upgrading from 5.0.0 you will need to do the following:
 * [CONTENTBOX-1396](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1396) Deleting Permissions is not working due to change of primary key from numeric to string
 * [CONTENTBOX-1381](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1381) Individual ContentBox Content-Level Cache Settings are Never Checked
 * [CONTENTBOX-1379](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1379) Fail Quietly on ContentBox Module Removal
-* [CONTENTBOX-1367](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1367) error on relocate widget when argumetns have no length
+* [CONTENTBOX-1367](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1367) error on relocate widget when arguments have no length
 * [CONTENTBOX-1365](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1365) Paginated results in CBAdmin for Page Children returns non-parented results for page 2
 * [CONTENTBOX-1364](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1364) Relocation Widget Always inserts URL arg even when selecting page
 * [CONTENTBOX-1362](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1362) Change all date comparisons on the expirations and publishing dates to dateCompare() to avoid ambiguity with types
