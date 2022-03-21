@@ -1,5 +1,7 @@
 # What's New With 5.1.0
 
+![](../../.gitbook/assets/contentbox-5.1-release.png)
+
 ### Upgrade From 5.0.0
 
 If you are upgrading from 5.0.0 you will need to do the following:
@@ -25,6 +27,8 @@ If you are upgrading from 5.0.0 you will need to do the following:
 
 ## Release Notes
 
+{% tabs %}
+{% tab title="v5.1.0" %}
 ### Fixed
 
 * [CONTENTBOX-1410](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1410) Widget Form missing type and class elements
@@ -65,3 +69,18 @@ If you are upgrading from 5.0.0 you will need to do the following:
 
 * [CONTENTBOX-1394](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1394) Create the migration to remove the page sslOnly bit
 * [CONTENTBOX-1389](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1389) QA of the entire admin and API
+{% endtab %}
+
+{% tab title="v5.1.1" %}
+### Fixed
+
+* Master artifact was stuck at `-snapshot` fix with master artifact
+
+### Improvements
+
+* [CONTENTBOX-1412](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1412) VerifyPageLayout() on the page rendering touches the filesystem on each request, removing this as it is not needed
+* [CONTENTBOX-1368](https://ortussolutions.atlassian.net/browse/CONTENTBOX-1368) rc.pageUri is only the first segment of the actual slug, now it contains the full hierarchical slug
+{% endtab %}
+{% endtabs %}
+
+###
