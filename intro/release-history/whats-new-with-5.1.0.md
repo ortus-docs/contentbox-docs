@@ -19,7 +19,7 @@ If you are upgrading from 5.0.0 you will need to do the following:
 
 * Open a `box` shell in the root of your project
 * Remove the `resources` folder in the root: `rm resources --force --recurse`
-* Run `install` to update ContentBox to 5.1.0
+* Run `update --force` to update your installation to the latest release
 * Run `run-script contentbox:migrate:up` to upgrade your database to this patch level
 * Startup your engines!!
 

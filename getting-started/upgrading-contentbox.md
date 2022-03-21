@@ -20,7 +20,7 @@ Make sure your `.env` and credentials are seeded
 
 ```bash
 # Run the update of the core dependencies
-update
+update --force
 ```
 
 ## Run database migrations
