@@ -295,7 +295,13 @@ Please make sure you backup your source code and your database. We are not liabl
 Make sure the database, the tables and columns are using `utf8mb4` if you are using MySQLx
 {% endhint %}
 
-## 3. Run the Updater
+## 3. MySQL UTF8mb4
+
+If you are using MySQL you will need to make sure your database and your tables are all using the following character set: `utf8mb4` and NOT just `utf8`.  ContentBox 5 requires the charset to be `utf8mb4`.&#x20;
+
+We also suggest you use the `utf8mb4_general_ci` collation for your database, tables and columns as well.
+
+## 4. Run the Updater
 
 We have prepared a CommandBox task that will upgrade your installation in one easy execution.
 
@@ -327,7 +333,7 @@ box task run Updater.cfc
 rm Updater.cfc
 ```
 
-## 4. Final Steps
+## 5. Final Steps
 
 The updater will update your installation and run the migration scripts. However, it will also override the following files:
 
