@@ -1,68 +1,109 @@
+---
+description: Deploy ContentBox into any Adobe or Lucee CFML Engine
+---
+
 # Source Installation
 
-In this section you will install ContentBox by using the **source** download option and deploy it to your favorite ColdFusion (CFML) engine of choice.
+In this section you will deploy ContentBox so it can run on any running Adobe or Lucee CFML engine.  The first step is to use CommandBox and our `contentbox-cli` package so we can install and configure ContentBox for usage in any CFML Engine.  We won't be using CommandBox as our server, just as a package manager and CLI.
 
-## Step 1: Download Source
+## Install CommandBox
 
-The first step is for you to download the ContentBox installer ([https://www.ortussolutions.com/products/contentbox](http://www.ortussolutions.com/products/contentbox)) or you can use the command below:
+​
 
+![CommandBox CLI](https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-LA-UVvYQ9YKIVXFz01w%2F-LA-UcIjNIclM\_mn00Gl%2F-LA-UmLcoyZgINuAvL99%2FCommandBoxLogo.png?generation=1523647992482088\&alt=media)
+
+​[CommandBox](http://www.ortussolutions.com/products/commandbox) is a ColdFusion (CFML) Command Line Interface (CLI), REPL, Package Manager and Embedded Server. We will leverage the CLI in CommandBox to install, deploy and configure ContentBox.
+
+### Requirements <a href="#requirements" id="requirements"></a>
+
+* MacOS, Windows or Linux
+* JDK 8+
+* A clean, empty directory on your machine
+
+### Download CommandBox
+
+You can download CommandBox from the official site: [http://www.ortussolutions.com/products/commandbox#download](http://www.ortussolutions.com/products/commandbox#download) and install it in your preferred Operating System (Windows, Mac, Unix).&#x20;
+
+{% embed url="https://commandbox.ortusbooks.com/setup/installation" %}
+Installation Instructions
+{% endembed %}
+
+### Starting CommandBox
+
+Once you download and expand CommandBox you will have the `box.exe` or `box` binary, which you can place in your Windows Path or \*Unix `/usr/bin` folder to have it available system-wide. Then open the binary and CommandBox will unpack itself your user's directory: `{User}/.CommandBox`. This happens only once and the next thing you know, you are in the CommandBox interactive shell!
+
+![box shell](<../../.gitbook/assets/image (8).png>)
+
+We will be able to execute a-la-carte commands from our command line or go into the interactive shell for multiple commands. We recommend the interactive shell as it is faster and can remain open in your project root.
+
+## Install ContentBox-CLI
+
+We can now install the `contentbox-cli` package:
+
+```bash
+install contentbox-cli
 ```
-# stable
-wget https://www.ortussolutions.com/parent/download/contentbox?type=installer
 
-# bleeding edge
-wget https://www.ortussolutions.com/parent/download/contentbox?type=installer&version=be
-```
+Once installed you can always run `contentbox help` to get the list of available commands and help information.
 
-Expand the archive into your webroot or a subfolder of your favorite CFML engine.
+## Creating Your Database
 
-```
-unzip contentbox_{version}.zip
-```
+Create a database in your RDBMS of choice.  Make sure you note the name of the database, the connection details and the credentials for it.&#x20;
 
-{% hint style="warning" %}
-**Caution:** Due to a bug in some CFML engines, DO NOT use the subfolder name `contentbox`, use `cbox` or `site` or whatever you like if you will be deployed under a subfolder.
+{% hint style="danger" %}
+If you are using MySQL, make sure you use `ut8mb4` for your database collation.
 {% endhint %}
 
-Please also note that you can also download two more types:
+Now go to your CFML engine administrator and register the `contentbox` datasource that points to this RDBMS.
 
-1. **Module** - The ContentBox module so you can deploy into any existing ColdBox application
+#### Resources
+
+* [https://docs.lucee.org/guides/cookbooks/datasource-define-datasource.html](https://docs.lucee.org/guides/cookbooks/datasource-define-datasource.html)
+* [https://helpx.adobe.com/coldfusion/configuring-administering/data-source-management-for-coldfusion.html](https://helpx.adobe.com/coldfusion/configuring-administering/data-source-management-for-coldfusion.html)
+
+{% hint style="success" %}
+You can use _ANY_ name for the datasource, but we will use `contentbox` for ease of use.
+{% endhint %}
+
+## Creating A ContentBox Site
+
+Now that we have our CLI installed, go or create a new directory where we will create our site.  Most likely this folder will be your web root in your CFML engine installation or a sub-folder within that web root.  Let's assume it's the web root of your current CFML Engine installation.
 
 ```
-wget https://www.ortussolutions.com/parent/download/contentbox
+# Create a new directory and go into it.
+mkdir mysite --cd
+# Run the installer wizard
+contentbox install-wizard
 ```
 
-1. **Site** - A pre-configured site like the installer but with no DSN Creator and ContentBox Installer
+The wizard will take you by the hand and ask you all the relevant questions about your installation:
+
+1. Name of your site
+2. Which CFML Engine you will be running ContentBox on (Lucee5, Adobe 2018+)
+3. Password for the ColdBox HMVC Reinits
+4. Database of choice (MySQL5+, MSSQL, PostgreSQL, Oracle)
+5. Database credentials
+6. Development or production site
+7. Latest ContentBox version, specific or `be` bleeding edge
+8. **Deploy a CommandBox server or not. This should be false, as we are only deploying our code to the CFML engine we have already installed.**
+
+Confirm your settings and the installer will configure the entire site for you including ORM dialects, environment variables and much much more.
+
+{% hint style="success" %}
+**Tip:** You can use the \`install --help\` command and see how you can install ContentBox in an automated fashion with no user-interaction.
+{% endhint %}
+
+## Web Installer
+
+Now that we have installed ContentBox on disk and configured your CLI to connect to your database for delivering database migrations, we can finalize the installation via the web installer.  Now open the installer by navigating to the root of the project.  Let's assume you are running your CFML engine on port 8500:
 
 ```
-wget https://www.ortussolutions.com/parent/download/contentbox?type=site
+http://localhost:8500
 ```
-
-## Step 2: Create Your Database
-
-Now that the source is deployed in your webserver, it is time to create your database in your favorite DBMS engine. ContentBox is built with Hibernate ORM technology, so in theory, it should work in all major database systems. You can even use an embedded database like Apache or Hypersonic.
-
-Make sure your database supports utf-8 or utf-16 character sets if you will be using multi-lingual or localization support.
-
-## Step 3: Create A Datasource
-
-![](../../images/datasource\_wizard.png)
-
-You can now visit your application and will be presented with our data source wizard. You can either use our data source wizard or you can create the data source yourself manually in the CFML administrator.
-
-### Datasource Creation Wizard
-
-The data source wizard requires your CFML Admin Password, or your ( Railo/Lucee ) Web Context Password to create the data source.
-
-Note: Depending on your CFML Engine Install, the Web Context Password might not be set. To use the Datasource Creator Wizard, you will be required to access the admin, set the password, then continue the installation.
-
-![](../../images/step2.png)
-
-## Step 4: Run ContentBox Installer
 
 ![](../../images/installer\_wizard.png)
 
-That's it! We are now ready to run the ContentBox installer wizard. ContentBox will automagically create all the necessary database tables, indexes, and constraints for you. After it does this, it will present you with our ContentBox installer, where you will fill in:
+ContentBox will automagically create all the necessary database tables, indexes, and constraints for you. After it does this, it will present you with our ContentBox installer, where you will fill in:
 
 * Administrator Account
 * Site Information

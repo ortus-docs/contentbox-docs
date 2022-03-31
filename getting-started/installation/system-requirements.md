@@ -1,3 +1,7 @@
+---
+description: The ContentBox system requirements
+---
+
 # System Requirements
 
 Let's get started with some system requirements for running ContentBox sites on all deployable options
@@ -19,7 +23,7 @@ You will need  to have CommandBox for installation, upgrading and optionally for
 ContentBox can be deployed to the following CFML Engines:
 
 * Adobe ColdFusion
-  * _2016 (End of life is December 2021)_
+  * ~~_2016_~~_ (End of life is December 2021)_
   * 2018
   * 2021
 * Lucee 5+

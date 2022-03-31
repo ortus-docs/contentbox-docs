@@ -1,12 +1,12 @@
 ---
-description: The easiest way to install ContentBox via our ContentBox CLI
+description: The easiest way to install and run ContentBox CMS
 ---
 
 # CommandBox Installation
 
 ![CommandBox CLI](../../images/CommandBoxLogo.png)
 
-[CommandBox](http://www.ortussolutions.com/products/commandbox) is a ColdFusion (CFML) Command Line Interface (CLI), REPL, Package Manager and Embedded Server. We will leverage the CLI in CommandBox to install, deploy and configure ContentBox.
+[CommandBox](http://www.ortussolutions.com/products/commandbox) is a ColdFusion (CFML) Command Line Interface (CLI), REPL, Package Manager and Embedded Server. We will leverage the CLI in CommandBox to install, deploy and configure ContentBox.&#x20;
 
 ### Requirements
 
@@ -24,9 +24,9 @@ Installation Instructions
 
 ### Starting CommandBox
 
-Once you download and expand CommandBox you will have the `box.exe` or `box` binary, which you can place in your Windows Path or \*Unix `/usr/bin` folder to have it available system-wide. Then just open the binary and CommandBox will unpack itself your user's directory: `{User}/.CommandBox`. This happens only once and the next thing you know, you are in the CommandBox interactive shell!
+Once you download and expand CommandBox you will have the `box.exe` or `box` binary, which you can place in your Windows Path or \*Unix `/usr/bin` folder to have it available system-wide. Then open the binary and CommandBox will unpack itself your user's directory: `{User}/.CommandBox`. This happens only once and the next thing you know, you are in the CommandBox interactive shell!
 
-![](../../images/commandbox-terminal.png)
+![box shell](<../../.gitbook/assets/image (8).png>)
 
 We will be able to execute a-la-carte commands from our command line or go into the interactive shell for multiple commands. We recommend the interactive shell as it is faster and can remain open in your project root.
 
@@ -77,6 +77,8 @@ Confirm your settings and the installer will configure the entire site for you i
 {% endhint %}
 
 ### Web Installer
+
+![](<../../.gitbook/assets/image (7).png>)
 
 The web installer will then take you through adding your first administrator user, email configurations and your production and development site in one box.  Once you follow the wizard, ContentBox is up and running! Enjoy!
 
