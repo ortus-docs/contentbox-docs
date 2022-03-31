@@ -54,7 +54,9 @@ Create a database in your RDBMS of choice.  Make sure you note the name of the d
 If you are using MySQL, make sure you use `ut8mb4` for your database collation.
 {% endhint %}
 
-Now go to your CFML engine administrator and register the `contentbox` datasource that points to this RDBMS.
+## Creating Your Datasource
+
+Now go to your CFML engine administrator and register the `contentbox` datasource that points to the database you just created.
 
 #### Resources
 
@@ -67,7 +69,7 @@ You can use _ANY_ name for the datasource, but we will use `contentbox` for ease
 
 ## Creating A ContentBox Site
 
-Now that we have our CLI installed, go or create a new directory where we will create our site.  Most likely this folder will be your web root in your CFML engine installation or a sub-folder within that web root.  Let's assume it's the web root of your current CFML Engine installation.
+Now that we have our CLI installed, database and datasource created, go or create a new directory where we will create our site.  Most likely this folder will be your web root in your CFML engine installation or a sub-folder within that web root.  Let's assume it's the web root of your current CFML Engine installation.
 
 ```
 # Create a new directory and go into it.
