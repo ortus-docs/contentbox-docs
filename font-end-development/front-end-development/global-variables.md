@@ -58,7 +58,9 @@ The `cb` object contains a variety of common methods for retrieving ContentBox c
 * `cb.linkSiteRSS( any categoryFilter )`: creates a link to the site's RSS feed
 * `cb.linkCategory( string categorySlug )`: creates a link to a specific category page
 * `cb.quickCategoryLinks( string categorySlug )`: creates an HTML unordered list of category links
-* **Path and URL Utility Methods**
+
+#### Path and URL Utility Methods
+
 * `cb.themeRoot()`: returns the location of your currently defined theme in the application, great for assets, cfincludes, etc
 * `cb.siteRoot()`: returns the site root location using your configured module's entry point
 * `cb.siteBaseURL()`: returns the site's SES base URL
@@ -82,8 +84,7 @@ A number of built-in interception points are avaialble within the ContentBox req
 
 #### UI Utility Functions
 
-* **Easily Render Captcha Images** - ContentBox supports native captcha support and now your themes can render out a nice captcha image by using the new ContentBox helper method:
-  * `cb.renderCaptcha()` method.
+**Easily Render Captcha Images** - ContentBox supports native captcha support and now your themes can render out a nice captcha image by using the new ContentBox helper method:
 
-\[2\]: /content/using/managers/widgets.html
+* `cb.renderCaptcha()` method.
 
