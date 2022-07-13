@@ -45,7 +45,7 @@ Once installed you can always run `contentbox help` to get the list of available
 Create a database in your RDBMS of choice.  Make sure you note the name of the database, the connection details and the credentials for it.  You will need them in the next step.
 
 {% hint style="danger" %}
-If you are using MySQL, make sure you use `ut8mb4` for your database collation.
+If you are using MySQL, make sure you use `utf8mb4` for your database collation.
 {% endhint %}
 
 ## Creating A ContentBox Site
