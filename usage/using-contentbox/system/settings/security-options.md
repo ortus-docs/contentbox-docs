@@ -24,7 +24,7 @@ SSL support can now be found everywhere in ContentBox for both the UI and admin 
 
 ## Other Security Information
 
-Security is a big issue with any website these days, and with the number of word press hacks in the wild, it’s a big PRO to using ContentBox. With Brute force attacks to admins so prominent, we have a fewof features to make your life easier, and your website safer.
+Security is a big issue with any website these days, and with the number of WordPress hacks in the wild, it’s a big PRO to using ContentBox. With Brute force attacks to admins so prominent, we have a few features to make your life easier, and your website safer.
 
 ### Bcrypt Support
 
@@ -41,6 +41,6 @@ A new password policy is now in place for ContentBox for new and current users, 
 
 ### Adminless ContentBox Site
 
-All of these features are definitely great addons to ContentBox, but one of the best features of all… you can completely remove the Admin itself from your production site. This would give hackers no access to the login page at all.
+All of these features are definitely great addons to ContentBox, but one of the best features of all...you can completely remove the Admin itself from your production site. This would give hackers no access to the login page at all.
 
 Secure your site today.
