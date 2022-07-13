@@ -6,7 +6,7 @@ ContentBox allows you to override global site settings dynamically. This approac
 
 You can override any runtime setting for ContentBox via a configuration structure in your main `ColdBox.cfc` configuration file. This will allow developers to override any runtime setting for any site.
 
-All you need to do is create the a `contentbox` structure in your `configure()` or any tier method, with the name of the site \(`default` is the default site\) and then any setting name-value pair.
+All you need to do is create a `contentbox` structure in your `configure()` or any tier method, with the name of the site \(`default` is the default site\) and then any setting name-value pair.
 
 ```javascript
 contentbox = {
@@ -17,7 +17,7 @@ contentbox = {
             "cb_search_adapter"      = "my.search.adapter",
             "cb_media_directoryRoot" = "/docker/mount"
         }
-        }
+    }
 }
 ```
 
