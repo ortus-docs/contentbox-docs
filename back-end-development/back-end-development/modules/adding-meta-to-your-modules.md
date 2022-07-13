@@ -2,7 +2,7 @@
 
 One common issue with using the theme for your module is the way Meta Tags are generated. Having your own module, its hard to set your Title, Keywords and Description.
 
-In ContentBox 3.1, coming out very soon, you are able to do this inside your Module Handler Events
+You are able to do this inside your Module Handler Events
 
 ```text
 function index(event,rc,prc){
