@@ -49,7 +49,7 @@ In Addition to the Common Attributes listed above, this type also includes:
   * \_parent
   * \_top
 * Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
-* Title - A accessible title, commonly used by browsers as a tool tip.
+* Title - An accessible title, commonly used by browsers as a tool tip.
 
 ### Type: Media
 
@@ -67,7 +67,7 @@ In Addition to the Common Attributes listed above, this type also includes:
   * \_parent
   * \_top
 * Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
-* Title - A accessible title, commonly used by browsers as a tool tip.
+* Title - An accessible title, commonly used by browsers as a tool tip.
 
 ### Type: Submenu
 
@@ -78,9 +78,8 @@ A Submenu type allows you to select an entire Menu to be included in the current
 In Addition to the Common Attributes listed above, this type also includes:
 
 * Select Sub-menu - This is a drop down select list of all of the Menus available for selection.
-*
-  * Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
-* Title - A accessible title, commonly used by browsers as a tool tip.
+* Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
+* Title - An accessible title, commonly used by browsers as a tool tip.
 
 _Note: This relies on the Theme you are using, to utilize this feature._
 
@@ -100,7 +99,7 @@ In Addition to the Common Attributes listed above, this type also includes:
   * \_parent
   * \_top
 * Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
-* Title - A accessible title, commonly used by browsers as a tool tip.
+* Title - An accessible title, commonly used by browsers as a tool tip.
 
 ### Type: JS
 
@@ -113,7 +112,7 @@ In Addition to the Common Attributes listed above, this type also includes:
 * JavaScript Code - JavaScript to be excuted when this Menu Item is clicked.
 * URL Classes - Additional CSS for this Menu Item's HTML Element
 * Data Attributes - Allows you to add one or many data attributes for the menu item. You can use JSON ( {"me":"you"} ) or a comma-delimited list ( me=you,icecream=awesome )
-* Title - A accessible title, commonly used by browsers as a tool tip.
+* Title - An accessible title, commonly used by browsers as a tool tip.
 
 ### Type: Free
 
