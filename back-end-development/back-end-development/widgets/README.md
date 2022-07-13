@@ -25,14 +25,14 @@ The Base widget has been created with some properties and injections in order to
 The following are the _optional_ base properties defined for all widgets.
 
 ```java
-property name="name"					type="string" default="";
-property name="version"					type="string" default="";
-property name="description"				type="string" default="";
-property name="author"					type="string" default="";
-property name="authorURL"				type="string" default="";
-property name="forgeBoxSlug" 			type="string" default="";
-property name="category" 				type="string" default="";
-property name="icon" 					type="string" default="";
+property name="name"			type="string" default="";
+property name="version"			type="string" default="";
+property name="description"		type="string" default="";
+property name="author"			type="string" default="";
+property name="authorURL"		type="string" default="";
+property name="forgeBoxSlug" 		type="string" default="";
+property name="category" 		type="string" default="";
+property name="icon" 			type="string" default="";
 ```
 
 #### Widget Injections
@@ -40,27 +40,27 @@ property name="icon" 					type="string" default="";
 All widgets receive the following injections that you can leverage in your code. Please refer to the [API Docs ](http://apidocs.ortussolutions.com/contentbox/current)for further reading on the dependencies.
 
 ```java
-property name="categoryService"			inject="id:categoryService@cb";
-property name="entryService"			inject="id:entryService@cb";
-property name="pageService"				inject="id:pageService@cb";
-property name="contentService"			inject="id:contentService@cb";
+property name="categoryService"		inject="id:categoryService@cb";
+property name="entryService"		inject="id:entryService@cb";
+property name="pageService"		inject="id:pageService@cb";
+property name="contentService"		inject="id:contentService@cb";
 property name="contentVersionService"	inject="id:contentVersionService@cb";
-property name="authorService"			inject="id:authorService@cb";
-property name="commentService"			inject="id:commentService@cb";
-property name="contentStoreService"		inject="id:contentStoreService@cb";
-property name="menuService"				inject="id:menuService@cb";
-property name="cb"						inject="id:CBHelper@cb";
-property name="securityService" 		inject="id:securityService@cb";
-property name="html"					inject="HTMLHelper@coldbox";
-property name="controller"				inject="coldbox";
-property name="log"						inject="logbox:logger:{this}";
+property name="authorService"		inject="id:authorService@cb";
+property name="commentService"		inject="id:commentService@cb";
+property name="contentStoreService"	inject="id:contentStoreService@cb";
+property name="menuService"		inject="id:menuService@cb";
+property name="cb"			inject="id:CBHelper@cb";
+property name="securityService" 	inject="id:securityService@cb";
+property name="html"			inject="HTMLHelper@coldbox";
+property name="controller"		inject="coldbox";
+property name="log"			inject="logbox:logger:{this}";
 ```
 
 ## Manage Widgets
 
 Widgets are maintained through the Administrator under `Look & Feel > Widgets`. You can manage existing widgets, upload new widgets, or download widgets from Forgebox as well.
 
-The manager also allows you to read the widget's documentation and actually test out its rendering functions.  So please use this playground to your advantage.
+The manager also allows you to read the widget's documentation and actually test out its rendering functions, so please use this playground to your advantage.
 
 ![Widget Manager](../../../assets/cb\_widget\_list.jpg)
 
@@ -90,7 +90,7 @@ Custom widgets are your very own widgets that you will program to enhance Conten
 /modules_app/contentbox-custom/_modules/{name}/widgets
 ```
 
-Module widgets are widgets that live inside **ContentBox Modules** not vanilla ColdBox modules, ContentBox MUST know about the module.  They can come from **core** or **custom** module registrations.  All you need to do is place the widgets inside a `widgets` folder in the root of the module.
+Module widgets are widgets that live inside **ContentBox Modules** not vanilla ColdBox modules, and ContentBox MUST know about the module.  They can come from **core** or **custom** module registrations.  All you need to do is place the widgets inside a `widgets` folder in the root of the module.
 
 {% hint style="warning" %}
 **Important:** If you put modules outside of the ContentBox conventions they will not be inspected and registered.
@@ -106,7 +106,7 @@ The currently active theme can also do widget contributions.  If the theme packa
 
 ## Rendering Widgets
 
-Widgets are rendered in your UI when you place them in content via the editors or manually using our triple mustache markup.  The UI approach can be seen in the [Using ContentBox](../../../usage/using-contentbox/look-and-feel/widgets/) Section.  The Markup notation is shown below, please note that the name of the widget has meaning:
+Widgets are rendered in your UI when you place them in content via the editors or manually using our triple mustache markup.  The UI approach can be seen in the [Using ContentBox](../../../usage/using-contentbox/look-and-feel/widgets/) Section.  The Markup notation is shown below. Please note that the name of the widget has meaning:
 
 ```
 # Simplest Form
