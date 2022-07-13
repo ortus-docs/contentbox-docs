@@ -1,6 +1,6 @@
 # Scaffold a Module
 
-If you are planning to build a module, a great way to get started is using Scaffolding a Module using CommandBox. CommandBox has a lot of commands, the one we will be using in this case is the ColdBox command. The ColdBox command inside of CommandBox allows you to do a lot of things, including coldbox create for all of these items:
+If you are planning to build a module, a great way to get started is Scaffolding a Module using CommandBox. CommandBox has a lot of commands and the one we will be using in this case is the ColdBox command. The ColdBox command inside of CommandBox allows you to do a lot of things, including coldbox create for all of these items:
 
 * view
 * app-wizard
@@ -63,7 +63,7 @@ Looking at the arguments in more detail
 The command outputs this:
 
 ```
-Created C:\www\wwwplayground\modules_app/customModule2
+Created C:\www\wwwplayground\modules_app\customModule2
 Created C:\www\wwwplayground\modules_app\customModule2\handlers
 Created C:\www\wwwplayground\modules_app\customModule2\handlers\Home.cfc
 Created C:\www\wwwplayground\modules_app\customModule2\models
@@ -76,10 +76,10 @@ Created C:\www\wwwplayground\modules_app\customModule2\views\home\index.cfm
 
 Here is a visual display of the directory structure
 
-![Module Created by CommandBox Scaffholding](../../../developing/back\_end/modules/commandboxCreate.jpg)
+![Module Created by CommandBox Scaffolding](../../../developing/back\_end/modules/commandboxCreate.jpg)
 
-The command creates a Module Config file with all your information. It creates a default handler, called `Home.cfc` in the handlers folder. It creates a models folder, with just a placeholder file. It creates a views folder, with the `home` folder to match the handler, and creates a default `index.cfm` view.
+The command creates a Module Config file with all your information. It creates a default handler, called `Home.cfc` in the handlers folder. It creates a models folder, with just a placeholder file. It also creates a views folder, with the `home` folder to match the handler, and creates a default `index.cfm` view.
 
-It is a great way to get started. You can use many of the other ColdBox commands to create additional handlers, views, layouts. Next time you want to create a module, instead of remembering the conventions, and what files you need, scaffold it with CommandBox's ColdBox create command.
+It is a great way to get started. You can use many of the other ColdBox commands to create additional handlers, views, and layouts. The next time you want to create a module, instead of remembering the conventions, and what files you need, scaffold it with CommandBox's ColdBox create command.
 
 ColdBox modules all work with ContentBox, so what will you create?
