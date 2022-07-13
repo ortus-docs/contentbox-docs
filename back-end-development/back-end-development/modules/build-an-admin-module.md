@@ -2,17 +2,17 @@
 
 ContentBox makes it easy to create your own Admin Modules, add Menu Items into the Admin Interface, use ContentBox Admin Users and Permissions instead of building your own security by extending ContentBox.
 
-At it's core, ContentBox is an Application running on top of ColdBox as a framework, but with all of the great features ContentBox has, ORM, Pages, Blog Posts, Categories, Comments, Subscriptions, Admin User Interface, Permissions, Modules, and much more, you can treat ContentBox like an Application Framework, and just extend it, with Modules. With almost every real Application, you will need to add front end modules, and then admin modules.
+At it's core, ContentBox is an Application running on top of ColdBox as a framework, but with all of the great features ContentBox has, ORM, Pages, Blog Posts, Categories, Comments, Subscriptions, Admin User Interface, Permissions, Modules, and much more. You can treat ContentBox like an Application Framework, and just extend it, with Modules. With almost every real Application, you will need to add frontend modules, and then admin modules.
 
 When you are building admin modules, you need to build / install those modules into the `modules/contentbox/modules_user` folder or `modules/contentbox/modules` folder. Read Module Conventions to know when to use what folder... depending if the module will be custom, vs a shared forgebox module, you should put them in different locations.
 
-One big benefits with ContentBox, is how easy it is to use the base admin, and extend it to make it your own admin. Why build a normal website the hard way, when ContentBox already has all the login, password reset, security roles and permissions build for you. Can you simply use the admin, and add more buttons for your admin modules.
+One big benefit with ContentBox is how easy it is to use the base admin and to extend it to make it your own admin. Why build a normal website the hard way when ContentBox already has all the login, password reset, security roles and permissions build for you? You can simply use the admin and add more buttons for your admin modules.
 
-This page walks through building a simple module in the ContentBox admin. We're going to make a custom module, that will only live with this application, and will not be shared with forgebox, so we want this to be included in our source code. So we will build this module in this folder:
+This page walks through building a simple module in the ContentBox admin. We're going to make a custom module that will only live within this application and will not be shared with forgebox, so we want this to be included in our source code. We will build this module in this folder:
 
 `/modules/contentbox/modules_user/`
 
-The full path of our module, which will be called mySecrets would be
+The full path of our module, which will be called mySecrets, would be
 
 `/modules/contentbox/modules_user/mySecrets`
 
@@ -24,7 +24,7 @@ First, we need to create a module config. This is similar to a normal ColdBox mo
 
 ```
 // Module Properties
-this.title                       = "MySecrets";
+this.title                 = "MySecrets";
 this.author                = "Ortus Solutions, Corp";
 this.webURL                = "http://www.ortussolutions.com";
 this.description           = "This is a secrets module";
@@ -34,13 +34,13 @@ this.version               = "1.0";
 this.viewParentLookup      = true;
 
 // If true, looks for layouts in the parent first, if not found, then in module. Else vice-versa
-this.layoutParentLookup = true;
+this.layoutParentLookup    = true;
 
 // Module Entry Point
-this.entryPoint                  = "mysecrets";
+this.entryPoint            = "mysecrets";
 ```
 
-The only required function for the ModuleConfig.cfc is the configure() function. This is where you can set ( or inherit ) settings, parent settings, layout settings, datasources, webservices, routes, interceptorSettings, custom Interceptors and Interception Points, model bindings ( mappings ). A shell of your configure method might look like this.
+The only required function for the ModuleConfig.cfc is the configure() function. This is where you can set ( or inherit ) settings, parent settings, layout settings, datasources, webservices, routes, interceptorSettings, custom Interceptors and Interception Points, and model bindings ( mappings ). A shell of your configure method might look like this.
 
 ```
 function configure(){
@@ -63,9 +63,9 @@ function configure(){
       // SES Routes
       routes = [
              // Module Entry Point
-             {pattern="/", handler="home",action="index"},
+             { pattern="/", handler="home", action="index" },
              // Convention Route
-             {pattern="/:handler/:action?"}
+             { pattern="/:handler/:action?" }
       ];
       // Custom Declared Points
       interceptorSettings = {
@@ -91,7 +91,7 @@ Since these modules are inside of ContentBox, Contentbox manages loading and unl
 
 ```
 /**
-* Fired when the module is registered and activated.
+* Fired when the module is registered and activated
 */
 function onLoad(){
 }
@@ -129,7 +129,7 @@ As you can see, we have our own routes setup for the module in the ModuleConfig.
 
 ## First step - we need to make a views folder for all of our views.
 
-ColdBox and therefore ContentBox calls the views folder 'views'. Since our action is home.index, we need a folder inside of 'views' called home, and an index.cfm file inside of that.
+ColdBox, and therefore ContentBox, calls the views folder 'views'. Since our action is home.index, we need a folder inside of 'views' called home, and an index.cfm file inside of that.
 
 ```
 - mySecrets
@@ -145,7 +145,7 @@ Inside the index.cfm, just put some simple html, like \<h1>my Secrets\</h1>
 
 ## Next Step - Reload our Application and Test the Entrypoint
 
-Lets reload our application with `/?fwreinit=1` or Reload Application from the admin cog dropdown menu. Now lets try hitting out entrypoint `/mysecrets` and you'll see something like this.
+Lets reload our application with `/?fwreinit=1` or Reload Application from the admin cog dropdown menu. Now lets try hitting our entrypoint `/mysecrets` and you'll see something like this.
 
 ![ContentBox View 1](../../../developing/back\_end/modules/view1.jpg)
 
