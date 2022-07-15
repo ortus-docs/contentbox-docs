@@ -21,8 +21,8 @@ You can dump this variable out, but I would limit the number of rows deep you go
 * Author Created Date `prc.oCurrentAuthor.getCreatedDate()`
 * Author Modified Date `prc.oCurrentAuthor.getModifiedDate()`
 * Author Last Login Date `prc.oCurrentAuthor.getLastLogin()`
-* Author Biography `prc.oCurrentAuthor.getFirstName()`
-* Author Preferences `prc.oCurrentAuthor.getFirstName()`
+* Author Biography `prc.oCurrentAuthor.getBiography()`
+* Author Preferences `prc.oCurrentAuthor.getPreferences()`
 * Author Role `prc.oCurrentAuthor.getRole().getName()`
 
 ## Additional Author Content
