@@ -2,25 +2,25 @@
 
 Whether you have used ColdBox before or not, using Modules with ContentBox and ColdBox is fairly straightforward, in fact, I think its a great way to dip your toes into using both technologies. Working with Modules is like everything else in ColdBox, you work with conventions, but you have control.
 
-As stated in our Module Conventions page, we showed you how there are 4 locations for modules in ContentBox. Depending on how your module will work, you should choose the appropriate location. In this example, we're going to build a custom ColdBox module, which it not managed by ContentBox Admin's Module Manager.
+As stated in our Module Conventions page, we showed you how there are four locations for modules in ContentBox. Depending on how your module will work, you should choose the appropriate location. In this example, we're going to build a custom ColdBox module, which is not managed by ContentBox Admin's Module Manager.
 
 ## Module Build Location
 
-We'll be working in `modules_app` folder. These modules we create are for developers eyes, and will not show up in the 'Manage Modules' administration menu. These are modules that you wouldn't want someone accidentally turning on / off, for example, a key part of the website.
+We'll be working in `modules_app` folder. These modules we create are for developer's eyes, and will not show up in the 'Manage Modules' administration menu. These are modules that you wouldn't want someone accidentally turning on / off, for example, a key part of the website.
 
 When you install a module from the 'module manager' in the admin, ContentBox installs those modules into another location.
 
 ## Module Building Basics
 
-There are a few ways to build a module, including CommandBox scaffholding, where you are asked a few questions, and then it generates a module, with all of the folders you need and some you might want.
+There are a few ways to build a module, including CommandBox scaffolding, where you are asked a few questions, and then it generates a module, with all of the folders you need and some you might want.
 
-In this example, we will start simple, and add more files as we build. First, we need to know a few things about the module to get started... your folder name, and then some details to add into your Module Config file.
+In this example, we will start simple, and add more files as we build. First, we need to know a few things about the module to get started...your folder name, and then some details to add into your Module Config file.
 
 ![Module Config](../../../developing/back\_end/modules/moduleConfig.jpg)
 
 **Folder Name for the Module**
 
-This is the folder you put the module in. It does not have to match anything else with the module, so you can use something meaningful... you can set the entry point / link / route manually in the Module Config file.
+This is the folder you put the module in. It does not have to match anything else with the module, so you can use something meaningful...you can set the entry point / link / route manually in the Module Config file.
 
 **Entry point - What link / route would you hit to pull up this module?**
 
@@ -36,7 +36,7 @@ This is an automated mapping for the module. I usually have this match the folde
 
 **Version**
 
-Start at 1.0.0, you can bump it up as you go, but this is usually not vital unless you're planning to publish on Forgebox or something. We can look at that in a future post.
+Start at 1.0.0, you can bump it up as you go, but this is usually not vital unless you're planning to publish on Forgebox or something.
 
 ### Our new Module - CustomModule
 
@@ -48,7 +48,7 @@ Lets create a folder `/modules_app/customModule/`
 
 **Create ModuleConfig.cfc**
 
-Next, lets create a file called ModuleConfig.cfc - this is the config file that ColdBox loads to setup the module, and get it ready to use. It can setup a lot of things, including the mapping, entry point, and a lot more. We'll start simple, here is a gist for my bare bones moduleConfig file.
+Next, lets create a file called ModuleConfig.cfc - this is the config file that ColdBox loads to setup the module, and get it ready to use. It can setup a lot of things, including the mapping, entry point, and a lot more. We'll start simple. Here is a gist for my bare bones moduleConfig file.
 
 [https://gist.github.com/gpickin/f7b0a53353230d326ef31d1d3d4996ef](https://gist.github.com/gpickin/f7b0a53353230d326ef31d1d3d4996ef)
 
@@ -74,11 +74,11 @@ routes = [
 ];
 ```
 
-These routes are children routes of the entrypoint.
+These routes are child routes of the entrypoint.
 
-So `/customModule/` is added to the apps main routing table, by setting the entry point above. These children routes build on top of that.
+So `/customModule/` is added to the apps main routing table, by setting the entry point above. These child routes build on top of that.
 
-So if someone hits the child route / then its the same as `/customModule/` - and if that pattern is matched, that route says we want to use the 'Home" handler, and the "index" action. That is why you see the error looking for that, its because this is the default event for this module. You will also see there is another route pattern below, `/:handler/:action` - this includes placeholders. So this will match anything with 2 or more values, and then it will use the first value as the handler name, and the second piece as the action.
+So if someone hits the child route / then its the same as `/customModule/` - and if that pattern is matched, that route says we want to use the 'Home" handler, and the "index" action. That is why you see the error looking for that, its because this is the default event for this module. You will also see there is another route pattern below, `/:handler/:action` - this includes placeholders. So this will match anything with two or more values, and then it will use the first value as the handler name, and the second piece as the action.
 
 * /customModule/profile/view/ would be the customModule with the profile handler and the view action.
 * /customModule/product/add/ would be the customModule with the product handler and the add action.
