@@ -91,7 +91,7 @@ The entire admin UI has been revamped and streamlined. You will find it much mor
 
 ![](<../../.gitbook/assets/image (5).png>)
 
-We have also started our migrations to [Alpine.js](https://alpinejs.dev) and [Tailwind](https://tailwindcss.com) for the reactivity and overall look and feel of the admin module.
+We have also started our migrations to [Alpine.js](https://alpinejs.dev/) and [Tailwind](https://tailwindcss.com/) for the reactivity and overall look and feel of the admin module.
 
 ![Tablet Version](../../.gitbook/assets/contentbox-5-admin-ipad.png)
 
@@ -103,7 +103,7 @@ We have completely changed our ORM structures and custom queries so it can be fr
 
 ## Performance
 
-We have analyzed the entire ORM structures, queries and CFML code in this release thanks to [FusionReactor](https://www.fusion-reactor.com)'s Profiler. We have streamlined the way the CMS loads and the results are impressive. In ContentBox 5, first loads are about 70% faster and page executions are around 30-40% faster than ContentBox 4.
+We have analyzed the entire ORM structures, queries and CFML code in this release thanks to [FusionReactor](https://www.fusion-reactor.com/)'s Profiler. We have streamlined the way the CMS loads and the results are impressive. In ContentBox 5, first loads are about 70% faster and page executions are around 30-40% faster than ContentBox 4.
 
 ## No More Admin Auto Updates
 

@@ -1,6 +1,6 @@
 # Login Options
 
-![](../../../../assets/login\_options.png)
+![](../../../../.gitbook/assets/login\_options.png)
 
 ## Two Factor Authentication
 

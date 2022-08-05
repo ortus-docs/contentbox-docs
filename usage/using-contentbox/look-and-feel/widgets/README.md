@@ -6,6 +6,6 @@ Widgets are one of the ways ContentBox is extendable, you can install modules an
 
 Widgets are maintained through the Administrator under `Look & Feel > Widgets`. You can managing existing widgets, upload new widgets, or download widgets from Forgebox.
 
-![](../../../../assets/cb\_widget\_list.jpg)
+![](../../../../.gitbook/assets/cb\_widget\_list.jpg)
 
 In this section of the documentation, you will learn how to use Install, Manage and Use Widgets [To learn how you can develop your own widgets, read this section under Developing for ContentBox ](../../../../back-end-development/back-end-development/widgets/)

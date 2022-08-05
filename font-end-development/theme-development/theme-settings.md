@@ -30,4 +30,4 @@ this.settings = [
 
 Below is an annotated screenshot showing most of the visible elements generated in the Theme Settings Admin form from the Theme Settings configuration structure.
 
-![](../../assets/contentbox-themeDiagram.jpg)
+![](../../.gitbook/assets/contentbox-themeDiagram.jpg)

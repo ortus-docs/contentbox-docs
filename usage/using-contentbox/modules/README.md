@@ -10,4 +10,4 @@ ContentBox itself is made up of 3 separate Modules ( and their submodules ), Con
 
 ### ContentBox
 
-![ContentBox Module Folder Structure](../../../.gitbook/assets/contentbox-module.jpg)
+![ContentBox Module Folder Structure](../../../developing/back\_end/modules/contentbox-module.jpg)

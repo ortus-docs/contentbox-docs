@@ -23,6 +23,8 @@ Make sure your `.env` and credentials are seeded
 update --force
 ```
 
+This will update ColdBox and ContentBox respectively and any other `dependencies` listed in your `box.json`
+
 ## Run database migrations
 
 Now that the ContentBox source has been upgraded, let's run the database migrations
@@ -37,3 +39,7 @@ Once they run, you are ready to roll!
 ## Professional Updating
 
 The ContentBox team can also do the heavy lifting for you as we are a professional open source project. So just contact us and we will update or install any ContentBox instances in a secure and fast way!
+
+## Issues Upgrading
+
+If you encounter any issues upgrading, please make sure you contact us via our [community discourse.](https://community.ortussolutions.com/c/communities/contentbox/15)

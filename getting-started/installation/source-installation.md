@@ -4,7 +4,7 @@ description: Deploy ContentBox into any Adobe or Lucee CFML Engine
 
 # Source Installation
 
-In this section you will deploy ContentBox so it can run on any running Adobe or Lucee CFML engine.  The first step is to use CommandBox and our `contentbox-cli` package so we can install and configure ContentBox for usage in any CFML Engine.  We won't be using CommandBox as our server, just as a package manager and CLI.
+In this section you will deploy ContentBox so it can run on any running Adobe or Lucee CFML engine. The first step is to use CommandBox and our `contentbox-cli` package so we can install and configure ContentBox for usage in any CFML Engine. We won't be using CommandBox as our server, just as a package manager and CLI.
 
 ## Install CommandBox
 
@@ -22,7 +22,7 @@ In this section you will deploy ContentBox so it can run on any running Adobe or
 
 ### Download CommandBox
 
-You can download CommandBox from the official site: [http://www.ortussolutions.com/products/commandbox#download](http://www.ortussolutions.com/products/commandbox#download) and install it in your preferred Operating System (Windows, Mac, Unix).&#x20;
+You can download CommandBox from the official site: [http://www.ortussolutions.com/products/commandbox#download](http://www.ortussolutions.com/products/commandbox#download) and install it in your preferred Operating System (Windows, Mac, Unix).
 
 {% embed url="https://commandbox.ortusbooks.com/setup/installation" %}
 Installation Instructions
@@ -48,7 +48,7 @@ Once installed you can always run `contentbox help` to get the list of available
 
 ## Creating Your Database
 
-Create a database in your RDBMS of choice.  Make sure you note the name of the database, the connection details and the credentials for it.&#x20;
+Create a database in your RDBMS of choice. Make sure you note the name of the database, the connection details and the credentials for it.
 
 {% hint style="danger" %}
 If you are using MySQL, make sure you use `utf8mb4` for your database collation.
@@ -69,7 +69,7 @@ You can use _ANY_ name for the datasource, but we will use `contentbox` for ease
 
 ## Creating A ContentBox Site
 
-Now that we have our CLI installed, database and datasource created, go or create a new directory where we will create our site.  Most likely this folder will be your web root in your CFML engine installation or a sub-folder within that web root.  Let's assume it's the web root of your current CFML Engine installation.
+Now that we have our CLI installed, database and datasource created, go or create a new directory where we will create our site. Most likely this folder will be your web root in your CFML engine installation or a sub-folder within that web root. Let's assume it's the web root of your current CFML Engine installation.
 
 ```
 # Create a new directory and go into it.
@@ -97,13 +97,13 @@ Confirm your settings and the installer will configure the entire site for you i
 
 ## Web Installer
 
-Now that we have installed ContentBox on disk and configured your CLI to connect to your database for delivering database migrations, we can finalize the installation via the web installer.  Now open the installer by navigating to the root of the project.  Let's assume you are running your CFML engine on port 8500:
+Now that we have installed ContentBox on disk and configured your CLI to connect to your database for delivering database migrations, we can finalize the installation via the web installer. Now open the installer by navigating to the root of the project. Let's assume you are running your CFML engine on port 8500:
 
 ```
 http://localhost:8500
 ```
 
-![](../../images/installer\_wizard.png)
+![](../../.gitbook/assets/installer\_wizard.png)
 
 ContentBox will automagically create all the necessary database tables, indexes, and constraints for you. After it does this, it will present you with our ContentBox installer, where you will fill in:
 

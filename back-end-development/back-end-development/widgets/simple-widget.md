@@ -46,7 +46,7 @@ See the init line includes the name of the CFC. `ContentBoxBadge function init()
 
 Now when we look in the Widget list, and find our widget... this is what we'll see.
 
-![](../../../assets/cb\_widget\_basis\_nometa.jpg)
+![](../../../.gitbook/assets/cb\_widget\_basis\_nometa.jpg)
 
 ## Widget Properties
 
@@ -75,7 +75,7 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
 * **Description**: A short description of the widget and its use
 * **Author**: Author of the Widget
 * **AuthorURL**: The URL of the Author of the widget
-* **Icon**: This is the icon used by ContentBox. Icons are Font Awesome Icons. [Refer to Font Awesome Website for a full list.](http://fontawesome.io)&#x20;
+* **Icon**: This is the icon used by ContentBox. Icons are Font Awesome Icons. [Refer to Font Awesome Website for a full list.](http://fontawesome.io/)&#x20;
 * **Category**: This is the grouping the widget will be placed in. This is completely customizable, but the default groups are:
   * Blog
   * ColdBox
@@ -86,7 +86,7 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
 
 Now when we load Reload the app, and look at the widget list, you will see the details are filled out.
 
-![](../../../assets/cb\_widget\_basis\_withmeta.jpg)
+![](../../../.gitbook/assets/cb\_widget\_basis\_withmeta.jpg)
 
 ## RenderIt Method
 
@@ -102,9 +102,9 @@ function renderit(){
 
 Once we reload the app, we can test our Widget from the Widget Manager.
 
-![](../../../assets/cb\_widget\_reload.jpg)
+![](../../../.gitbook/assets/cb\_widget\_reload.jpg)
 
-![](../../../assets/cb\_widget\_test.jpg)
+![](../../../.gitbook/assets/cb\_widget\_test.jpg)
 
 ## Render the Logo and Link
 
@@ -121,17 +121,17 @@ function renderit(){
 
 Now we reload, and then test it again
 
-![](../../../assets/cb\_widget\_test\_final.jpg)
+![](../../../.gitbook/assets/cb\_widget\_test\_final.jpg)
 
 ## Inserting our Widget into a Page
 
 Let's add our widget into a page. Let's browse in the admin to `Content > Sitemap` and click on a page. Find the location in the text you would like to add your widget, and click the Green ContentBox Widget icon ( circled below ).
 
-![](<../../../.gitbook/assets/cb\_widget\_insert (1).jpg>)
+![](../../../.gitbook/assets/cb\_widget\_insert.jpg)
 
 Pick the Widget out of the list, you can filter the widgets, or select by category ( as we defined in our Widget properties )
 
-![](<../../../.gitbook/assets/cb\_widget\_insert\_pick (1).jpg>)
+![](../../../.gitbook/assets/cb\_widget\_insert\_pick.jpg)
 
 Click anywhere on the Widget itself, and the Insert Widget Dialog will open like the screen below.
 
@@ -141,11 +141,11 @@ If there were arguments, you could adjust them here. If this is the widget you w
 
 Once inserted, click Publish, and then you'll see a Widget placeholder like this.
 
-![](<../../../.gitbook/assets/cb\_widget\_placerholder (1) (1).jpg>)
+![](<../../../.gitbook/assets/cb\_widget\_placerholder (1).jpg>)
 
 If you right click on the widget, you can get a Widget Context menu like below. You can edit, or remove a Widget through that context menu, or just double click the Widget placeholder to edit directly.
 
-![](<../../../.gitbook/assets/cb\_widget\_edit (1).jpg>)
+![](../../../.gitbook/assets/cb\_widget\_edit.jpg)
 
 This example has no arguments or parameters to change, but if you did, you would be able to edit those here, and click `Update Widget` to save those changes.
 
@@ -153,7 +153,7 @@ This example has no arguments or parameters to change, but if you did, you would
 
 You can preview the page using our Responsive Previewer which allows you to see what your page will look like, in desktop, tablet and phone views ( horizontal and vertical ).
 
-![](<../../../.gitbook/assets/cb\_widget\_preview (1).jpg>)
+![](../../../.gitbook/assets/cb\_widget\_preview.jpg)
 
 ![](<../../../.gitbook/assets/cb\_widget\_preview2 (1).jpg>)
 

@@ -4,9 +4,9 @@ description: The easiest way to install and run ContentBox CMS
 
 # CommandBox Installation
 
-![CommandBox CLI](../../images/CommandBoxLogo.png)
+![CommandBox CLI](../../.gitbook/assets/commandboxlogo.png)
 
-[CommandBox](http://www.ortussolutions.com/products/commandbox) is a ColdFusion (CFML) Command Line Interface (CLI), REPL, Package Manager and Embedded Server. We will leverage the CLI in CommandBox to install, deploy and configure ContentBox.&#x20;
+[CommandBox](http://www.ortussolutions.com/products/commandbox) is a ColdFusion (CFML) Command Line Interface (CLI), REPL, Package Manager and Embedded Server. We will leverage the CLI in CommandBox to install, deploy and configure ContentBox.
 
 ### Requirements
 
@@ -16,7 +16,7 @@ description: The easiest way to install and run ContentBox CMS
 
 ## Download CommandBox
 
-You can download CommandBox from the official site: [http://www.ortussolutions.com/products/commandbox#download](http://www.ortussolutions.com/products/commandbox#download) and install it in your preferred Operating System (Windows, Mac, Unix).&#x20;
+You can download CommandBox from the official site: [http://www.ortussolutions.com/products/commandbox#download](http://www.ortussolutions.com/products/commandbox#download) and install it in your preferred Operating System (Windows, Mac, Unix).
 
 {% embed url="https://commandbox.ortusbooks.com/setup/installation" %}
 Installation Instructions
@@ -42,7 +42,7 @@ Once installed you can always run `contentbox help` to get the list of available
 
 ## Creating Your Database
 
-Create a database in your RDBMS of choice.  Make sure you note the name of the database, the connection details and the credentials for it.  You will need them in the next step.
+Create a database in your RDBMS of choice. Make sure you note the name of the database, the connection details and the credentials for it. You will need them in the next step.
 
 {% hint style="danger" %}
 If you are using MySQL, make sure you use `utf8mb4` for your database collation.
@@ -80,7 +80,7 @@ Confirm your settings and the installer will configure the entire site for you i
 
 ![](<../../.gitbook/assets/image (7).png>)
 
-The web installer will then take you through adding your first administrator user, email configurations and your production and development site in one box.  Once you follow the wizard, ContentBox is up and running! Enjoy!
+The web installer will then take you through adding your first administrator user, email configurations and your production and development site in one box. Once you follow the wizard, ContentBox is up and running! Enjoy!
 
 ### Starting & Stopping
 
@@ -94,4 +94,4 @@ You can use the CommandBox commands to interact with the embedded server:
 
 ### What's Next
 
-You now have a fully functional ContentBox installation with two sites: development and production.  You can now start creating your content, themes, modules and much more.&#x20;
+You now have a fully functional ContentBox installation with two sites: development and production. You can now start creating your content, themes, modules and much more.

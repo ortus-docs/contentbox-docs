@@ -1,6 +1,6 @@
 # Static Site Generation
 
-![](../../../images/static\_site\_generator.png)
+![](../../../.gitbook/assets/static\_site\_generator.png)
 
 ContentBox 3.1 now supports the generation of static sites from your content and even your blog. This is a great addition to ContentBox as now you can produce static versions and workflows, deploy to CDN networks, secure your content and much more. Once you click on the **Start Generation** button, ContentBox will go over your entire site and produce a static archive for you in the associated theme. It will also announce two interception points for you during the process:
 

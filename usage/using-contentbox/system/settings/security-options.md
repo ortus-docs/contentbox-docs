@@ -20,7 +20,7 @@ One of the biggest problems on the internet today, is out and out traffic overlo
 
 SSL support can now be found everywhere in ContentBox for both the UI and admin modules. Users can even select specific pages for users to transition into or out of SSL for richer eCommerce or secure experiences.
 
-![](<../../../../.gitbook/assets/ssl\_settings (1).png>)
+![](../../../../.gitbook/assets/ssl\_settings.png)
 
 ## Other Security Information
 

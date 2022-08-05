@@ -4,7 +4,7 @@
 
 Once you have exported the content, you will have a \*.cbox file. To import the file, in the admin, click on `Tools > Import.`
 
-![ContentBox Import Tools User Interface](../../../assets/cbcms\_import.jpg)
+![ContentBox Import Tools User Interface](../../../.gitbook/assets/cbcms\_import.jpg)
 
 To import your cbox file, select `Import ContentBox Package` and then select the file by browsing your computer, and click Start Import.
 
@@ -16,7 +16,7 @@ To get to the Import Tools, in the admin, click on `Tools > Import`.
 
 The Import Tools page displays 2 main options, ContentBox Package ( .cbox ) or Database Import. In Tip 10, we talked about importing from a ContentBox package, but in this tip, we are going to click Import from Database and then enter your database connection criteria to complete the import.
 
-![ContentBox Import Tools - Importing Database from Other Blog](../../../assets/cbcms\_migrate\_1.jpg)
+![ContentBox Import Tools - Importing Database from Other Blog](../../../.gitbook/assets/cbcms\_migrate\_1.jpg)
 
 ### Datasource Options
 
@@ -24,7 +24,7 @@ This server must have a defined datasource to the source blog database in order 
 
 Enter the Datasource name that you created, and Username/ Password if required.
 
-![Datasource Options - Database Import - ContentBox Import Tools](../../../assets/cbcms\_migrate\_2.jpg)
+![Datasource Options - Database Import - ContentBox Import Tools](../../../.gitbook/assets/cbcms\_migrate\_2.jpg)
 
 ### Source Content
 
@@ -35,7 +35,7 @@ Enter the Datasource name that you created, and Username/ Password if required.
 
 When you are all set, click Start Import, and be patient. This process might take some time.
 
-![Source Content - Database Import - ContentBox Import Tools](../../../assets/cbcms\_migrate\_3.jpg)
+![Source Content - Database Import - ContentBox Import Tools](../../../.gitbook/assets/cbcms\_migrate\_3.jpg)
 
 _Note: We have worked hard to make sure this process is as smooth as possible. There may be some data that does not transfer over automatically, but this should give you a great starting point, if converting from another blog._
 

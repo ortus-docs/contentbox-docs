@@ -1,6 +1,6 @@
 # Express Installation
 
-The express version of ContentBox is a fully embedded running server powered by [Lucee](http://lucee.org), an open-source CFML engine, and Tomcat. It comes bundled with a JRE for your operating system or one without a JRE can be downloaded as well.
+The express version of ContentBox is a fully embedded running server powered by [Lucee](http://lucee.org/), an open-source CFML engine, and Tomcat. It comes bundled with a JRE for your operating system or one without a JRE can be downloaded as well.
 
 ## Requirements
 
@@ -79,13 +79,13 @@ http://localhost:8085/lucee/admin/web.cfm
 
 ## Step 5: Create A Datasource
 
-![](../../images/datasource\_wizard.png)
+![](../../.gitbook/assets/datasource\_wizard.png)
 
 You can now visit your application under `http://localhost:8085` and you will be presented with our datasource wizard. Since we are in express edition, just choose the embedded database and follow the instructions.
 
 ## Step 6: Run ContentBox Installer
 
-![](../../images/installer\_wizard.png)
+![](../../.gitbook/assets/installer\_wizard.png)
 
 That's it! We are now ready to run the ContentBox installer wizard. ContentBox will automagically create all the necessary database tables, indexes, and constraints for you. After it does this, it will present you with our ContentBox installer, where you will fill in:
 

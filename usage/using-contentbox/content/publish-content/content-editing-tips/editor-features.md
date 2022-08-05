@@ -12,7 +12,7 @@ With any Bulletin Board Forum, or CMS, they each have their own syntax for speci
 
 All live previews are now responsive, meaning you can choose from the responsive previewer the type of device and get immediate feedback of the content result in real-time.
 
-![](<../../../../../.gitbook/assets/responsive\_previews (1) (1).png>)
+![](<../../../../../.gitbook/assets/responsive\_previews (1).png>)
 
 ## Editor UI Updates
 
