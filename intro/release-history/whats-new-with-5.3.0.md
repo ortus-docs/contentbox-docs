@@ -1,5 +1,7 @@
 ---
 description: August 9, 2022
+cover: ../../.gitbook/assets/contentbox-5.3-blog.png
+coverY: 0
 ---
 
 # What's New With 5.3.0
