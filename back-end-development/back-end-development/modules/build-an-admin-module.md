@@ -4,17 +4,17 @@ ContentBox makes it easy to create your own Admin Modules, add Menu Items into t
 
 At it's core, ContentBox is an Application running on top of ColdBox as a framework, but with all of the great features ContentBox has, ORM, Pages, Blog Posts, Categories, Comments, Subscriptions, Admin User Interface, Permissions, Modules, and much more. You can treat ContentBox like an Application Framework, and just extend it, with Modules. With almost every real Application, you will need to add frontend modules, and then admin modules.
 
-When you are building admin modules, you need to build / install those modules into the `modules/contentbox/modules_user` folder or `modules/contentbox/modules` folder. Read Module Conventions to know when to use what folder... depending if the module will be custom, vs a shared forgebox module, you should put them in different locations.
+When you are building admin modules, you need to build / install those modules into the `modules_app/contentbox-custom/_modules` folder. If you are building a ForgeBox module, that will be installed in `modules/contentbox/modules_user`. Read Module Conventions to know when to use what folder... depending if the module will be custom, vs a shared forgebox module, they will live in different locations.
 
 One big benefit with ContentBox is how easy it is to use the base admin and to extend it to make it your own admin. Why build a normal website the hard way when ContentBox already has all the login, password reset, security roles and permissions build for you? You can simply use the admin and add more buttons for your admin modules.
 
 This page walks through building a simple module in the ContentBox admin. We're going to make a custom module that will only live within this application and will not be shared with forgebox, so we want this to be included in our source code. We will build this module in this folder:
 
-`/modules/contentbox/modules_user/`
+`/modules_app/contentbox-custom/_modules/`
 
 The full path of our module, which will be called mySecrets, would be
 
-`/modules/contentbox/modules_user/mySecrets`
+`/modules_app/contentbox-custom/_modules/mySecrets`
 
 Now, if we go to the Module Manager in the backend, and rescan for modules, you will see it doesn't show up yet.
 
