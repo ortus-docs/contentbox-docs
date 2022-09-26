@@ -4,7 +4,7 @@ description: The easiest way to install and run ContentBox CMS
 
 # CommandBox Installation
 
-![CommandBox CLI](../../.gitbook/assets/commandboxlogo.png)
+![CommandBox CLI](../../images/CommandBoxLogo.png)
 
 [CommandBox](http://www.ortussolutions.com/products/commandbox) is a ColdFusion (CFML) Command Line Interface (CLI), REPL, Package Manager and Embedded Server. We will leverage the CLI in CommandBox to install, deploy and configure ContentBox.
 

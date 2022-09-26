@@ -10,25 +10,25 @@ Theme settings is where all of your configuration happens. In ContentBox 3 we ad
 
 Since each theme controls their own settings, lets look through the Default Theme's settings.
 
-![](../../../.gitbook/assets/cb3\_theme.JPG)
+![](../../../assets/cb3\_theme.JPG)
 
 ### Colors:
 
 When you expand your group, you will see all of the settings of that group, displayed with a Group Introduction, a label for each setting, optional setting description ( not shown in the example below ) and an optional help modal ( the blue ? Icon below ) . In colors, you can choose one of many Bootswatch themes. Bootswatch is a set of color swatches made to extend the traditional Bootstrap framework. Below you will see a selection of the swatches.
 
-![](../../../.gitbook/assets/cb\_theme\_colors.JPG)
+![](../../../assets/cb\_theme\_colors.JPG)
 
 Here is an example of an optional help modal, for settings that require more information for the user.
 
-![](../../../.gitbook/assets/cb\_theme\_help\_modal.JPG)
+![](../../../assets/cb\_theme\_help\_modal.JPG)
 
 Changing the color dramatically changes your sites appearance. Lets look at your site default ( green ) and some options.
 
-![](../../../.gitbook/assets/cb\_theme\_green.JPG)
+![](../../../assets/cb\_theme\_green.JPG)
 
-![](../../../.gitbook/assets/cb\_theme\_cyborg.JPG)
+![](../../../assets/cb\_theme\_cyborg.JPG)
 
-![](../../../.gitbook/assets/cb\_theme\_superhero.JPG)
+![](../../../assets/cb\_theme\_superhero.JPG)
 
 Of course you have plenty of options, visit bootswatch.com for thumbnails and more information on each swatch.
 
@@ -42,15 +42,15 @@ You can choose whether you would like to use Text for your Logo, like the screen
 
 Not a fan of the large search box, change your selection here to hide it.
 
-![](../../../.gitbook/assets/cb\_theme\_header.JPG)
+![](../../../assets/cb\_theme\_header.JPG)
 
-![](../../../.gitbook/assets/cb\_theme\_header\_changed.JPG)
+![](../../../assets/cb\_theme\_header\_changed.JPG)
 
 ### Footer
 
 The footer is just a text field, so you can add some copy to your footer. I decided to spice things up with Bacon, here is a footer with Bacon Ipsum.
 
-![](../../../.gitbook/assets/cb\_theme\_footer.JPG)
+![](../../../assets/cb\_theme\_footer.JPG)
 
 ### HomePage
 
@@ -58,20 +58,20 @@ The home page has lot of options, as you can see in the screenshot below. You ca
 
 After changing a few settings, your homepage now has a nice hero image, like the screenshot below.
 
-![](../../../.gitbook/assets/cb\_theme\_homepage.JPG)
+![](../../../assets/cb\_theme\_homepage.JPG)
 
 ### Blog Sidebar Options
 
 When looking at the blog part of ContentBox, you'll see you have loads of options on the right hand side.
 
-![](../../../.gitbook/assets/cb\_theme\_blogsidebar\_on.JPG)
+![](../../../assets/cb\_theme\_blogsidebar\_on.JPG)
 
 This might be too much for some sites, so you can choose whether to show / hide some of those mini widgets.
 
-![](../../../.gitbook/assets/cb\_theme\_blogsidebar.JPG)
+![](../../../assets/cb\_theme\_blogsidebar.JPG)
 
 Turn them off, and hey presto, no more side bar mini widgets.
 
-![](../../../.gitbook/assets/cb\_theme\_blogsidebar\_off.JPG)
+![](../../../assets/cb\_theme\_blogsidebar\_off.JPG)
 
 This is just the default theme. We have many more, and others are being developed, and can be shared easily through Forgebox.

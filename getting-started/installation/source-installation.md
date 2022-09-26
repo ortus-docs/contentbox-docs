@@ -103,7 +103,7 @@ Now that we have installed ContentBox on disk and configured your CLI to connect
 http://localhost:8500
 ```
 
-![](../../.gitbook/assets/installer\_wizard.png)
+![](../../images/installer\_wizard.png)
 
 ContentBox will automagically create all the necessary database tables, indexes, and constraints for you. After it does this, it will present you with our ContentBox installer, where you will fill in:
 

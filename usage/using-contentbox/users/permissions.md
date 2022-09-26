@@ -13,7 +13,7 @@ On the permissions page you will see 4 headings.
   * Green Icon - Edit the permission
   * Red Delete Icon - Delete the permission.&#x20;
 
-![](../../../.gitbook/assets/user-permissions-list.png)
+![](../../../assets/user-permissions-list.png)
 
 ## Creating Permissions
 
@@ -22,7 +22,7 @@ Click Create Permission to add a permission. A permission consists of:
 * Permission ( commonly known as a slug / name )&#x20;
 * Description
 
-![](../../../.gitbook/assets/user-permissions-create.jpg)
+![](../../../assets/user-permissions-create.jpg)
 
 A Permission Slug can be referenced from inside of code used in Widgets, Modules, Themes, restricting access however you see fit. Creating a permission allows you to assign the permission to Roles and/or Users, but will not be functional without code referencing the Permission ( slug ).
 
@@ -40,7 +40,7 @@ In the top right section of the page, you will see a `Bulk Actions` button next 
 
 This is a nice feature when you manage several sites. You can setup permissions on one site, and then export them, and import them into the other sites you manage.
 
-![](../../../.gitbook/assets/user-permissions-import.jpg)
+![](../../../assets/user-permissions-import.jpg)
 
 For safety reasons, when you Import Permissions, by default you will not override any content. If you have existing Permissions, that you want to be updated, please set `Override Content` to true. Otherwise existing content will be skipped during the import process.
 
@@ -48,4 +48,4 @@ For safety reasons, when you Import Permissions, by default you will not overrid
 
 Exporting to JSON or XML is a simple process. Click `Bulk Actions` and select your format, and in seconds you will see a file download prompt pop up, asking you to open or save your file ( in most browsers ).
 
-![](../../../.gitbook/assets/user-permissions-export.jpg)
+![](../../../assets/user-permissions-export.jpg)

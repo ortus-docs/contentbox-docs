@@ -4,7 +4,7 @@ On this menu you will have the following options to change:
 
 ## Site Options
 
-![](../../../../.gitbook/assets/settings-site-options.png)
+![](../../../../assets/settings-site-options.png)
 
 **Site Name:** This is the global name of this ContentBox website. This is the name that will display in the browser and what will normally show up in search engines. In the default Theme, this is the Header for the site ( unless you select a logo image ).
 
@@ -22,7 +22,7 @@ On this menu you will have the following options to change:
 
 ## Blog Options
 
-![](../../../../.gitbook/assets/settings-site-options-blog.jpg)
+![](../../../../assets/settings-site-options-blog.jpg)
 
 **Disable Blog:** You can disable the Blog for the entire ContentBox website. This does not delete data, it just disables blog features... including the addition of a Menu Item called `Blog` if you are using the default page navigation.
 
@@ -32,7 +32,7 @@ _Note: If you disable the blog, remember to change the_ `Home Page Display` _abo
 
 ## Site Maintenance
 
-![](../../../../.gitbook/assets/settings-site-options-maint.jpg)
+![](../../../../assets/settings-site-options-maint.jpg)
 
 **Site Maintenance:** You can put your entire site in maintenance mode if you are doing upgrades. This will make it easier to work on major changes to the site without customers seeing half completed work. The site will display a Offline Message, set in the `Offline Message` field, unless the Theme has a custom Maintenance Layout or Maintenance View.
 
@@ -42,4 +42,4 @@ _Note: If you disable the blog, remember to change the_ `Home Page Display` _abo
 
 If you are logged in, with the `MAINTENANCE_MODE_VIEWER` permission, you will be able to view the site even when the site is in Maintenance Mode. When the site is in Maintenance Mode, you will see a Red Maintenance banner, to remind you the site is in Maintenance for other users.
 
-![](../../../../.gitbook/assets/settings-site-options-maint-banner.JPG)
+![](../../../../assets/settings-site-options-maint-banner.JPG)

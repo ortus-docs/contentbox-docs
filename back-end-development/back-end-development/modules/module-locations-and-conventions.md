@@ -27,7 +27,7 @@ When installing modules with CommandBox, they are usually installed to the /modu
 
 `box install Business-Logic-Scanner modules_app`
 
-![Install Module via CommandBox](../../../developing/back\_end/modules/installModuleAltDirectory.png)
+![Install Module via CommandBox](../../../.gitbook/assets/installModuleAltDirectory.png)
 
 The last parameter is the installation directory. This will install the module to that directory. Note: If you are creating a module, and you know someone will need to modify the module to get it to work, you can set the directory in your modules box.json so when CommandBox installs your module, it knows it should be in that folder by default.
 
@@ -41,4 +41,4 @@ This is where you should create modules that require the ContentBox lifecycle to
 
 Another great aspect of having ContentBox manage modules, is that logged in users can activate, deactivate, or reload modules. This is the best way to extend ContentBox as you can tie the module into all the internal events of Contentbox. In a future page, we'll be showing you how to make your own Admin Module where you can add menu items like the screenshot below...the last main menu item is Mapigator, which has submenu items, added dynamically by using modules in this folder.
 
-![Admin Menus](../../../developing/back\_end/modules/adminMenus.jpg)
+![Admin Menus](../../../.gitbook/assets/adminmenus.jpg)

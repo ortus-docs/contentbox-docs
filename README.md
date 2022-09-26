@@ -16,7 +16,7 @@ description: >-
 
 ## ContentBox Modular CMS - v5.x
 
-![ContentBox](.gitbook/assets/contentboxlogo300.png)
+![ContentBox](images/ContentBoxLogo300.png)
 
 ContentBox is a professional open source _hybrid_ modular CMS (Content Management System) that allows you to easily build websites, blogs, wikis, complex web applications and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will get your projects out the door in no time.
 
@@ -47,7 +47,7 @@ ContentBox Modular CMS is open source and licensed under the [Apache 2](http://w
 
 ## Discussion & Help
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (4).png>)
 
 The ContentBox discussion group and community can be found here: [https://community.ortussolutions.com/c/communities/contentbox/15](https://community.ortussolutions.com/c/communities/contentbox/15)
 
@@ -59,7 +59,7 @@ We all make mistakes from time to time :) So why not let us know about it and he
 
 ## Professional Open Source
 
-![Ortus Solutions, Corp](.gitbook/assets/ortussolutions\_button.png)
+![Ortus Solutions, Corp](images/ortussolutions\_button.png)
 
 ContentBox is a professional open source software backed by [Ortus Solutions, Corp](http://www.ortussolutions.com/services) offering services like:
 

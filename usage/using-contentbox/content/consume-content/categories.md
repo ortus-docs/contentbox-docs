@@ -15,13 +15,13 @@ You can perform Bulk actions using the checkboxs next to Category Name, and clic
 * Export All as JSON
 * Export All as XML
 
-![Content Categories - Screenshot of the UI for Content Categories](../../../../.gitbook/assets/categorylist.png)
+![Content Categories - Screenshot of the UI for Content Categories](../../../../images/admin/categoryManager/categoryList.png)
 
 ## Add a new Category
 
 To add a new category, click the green button labeled 'Create Category' in the top right hand corner of the category manager. Clicking the 'Create Category' button pops a modal window up like below, asking for category name, and slug.
 
-![User Interface for Adding a Content Category, including a Category Name and Slug](../../../../.gitbook/assets/addCategory.png)
+![User Interface for Adding a Content Category, including a Category Name and Slug](../../../../images/admin/categoryManager/addCategory.png)
 
 **Category Name** This is the name of the category, displayed wherever the category is used.
 
@@ -35,7 +35,7 @@ To add a new category, click the green button labeled 'Create Category' in the t
 
 To edit a category, click the name of the category from the category list, or click the green edit icon.
 
-![User Interface for Adding a Content Category, including a Category Name and Slug](../../../../.gitbook/assets/editcategory.png)
+![User Interface for Adding a Content Category, including a Category Name and Slug](../../../../images/admin/categoryManager/editCategory.png)
 
 Update the category name, and slug as needed, and click 'Save Category' when you are happy with the changes. Closing or Canceling will revert your changes to the last saved version.
 
@@ -49,13 +49,13 @@ Deleting a category is a simple action, but can have a lot more impact that you 
 
 You can delete a category, one at a time, using the red delete (trash can) icon button on the line of the category you wish to delete.
 
-![User Interface for Deleting a Content Category, including a confirmation window for safety](../../../../.gitbook/assets/confirmDeleteCategory.png)
+![User Interface for Deleting a Content Category, including a confirmation window for safety](../../../../images/admin/categoryManager/confirmDeleteCategory.png)
 
 ### Deleting Multiple Categories
 
 If you wish to delete multiple categories at once, you can select the check boxes next to the categories you wish to delete, and click the 'Bulk Actions' button, and select 'Delete Categories' from the drop down menu.
 
-![User Interface for Deleting a Content Category, including a confirmation window for safety](../../../../.gitbook/assets/confirmdeletebulkcategory.png)
+![User Interface for Deleting a Content Category, including a confirmation window for safety](../../../../images/admin/categoryManager/confirmDeleteBulkCategory.png)
 
 ### Deleting a Category with associated Pages or Entries
 
@@ -65,7 +65,7 @@ When you delete a category that has associated content, pages or entries, the ca
 
 For convenience, ContentBox has easy import and export options for your categories. To export all of your categories, simply click 'Bulk Actions' and select 'Export All as JSON' or 'Export All as XML'. Your browser will prompt you to download the Categories.json or Categories.xml, depending on the option you chose.
 
-![Screenshot of the download json prompt when exporting a JSON file](../../../../.gitbook/assets/exportCategories.png)
+![Screenshot of the download json prompt when exporting a JSON file](../../../../images/admin/categoryManager/exportCategories.png)
 
 The JSON/XML includes just the 3 base fields, category, slug, and categoryID, as shown below in a json example.
 

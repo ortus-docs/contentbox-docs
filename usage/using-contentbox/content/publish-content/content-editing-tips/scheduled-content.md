@@ -6,7 +6,7 @@ Running a website, on top of your normal job duties can be a lot of work. Time i
 
 This is most useful when scheduling blog posts. Blog posts can take a long time to write, and post, and with busy schedules this might not get done. This is why at Ortus Solutions, we try to write our blog posts, and schedule them ahead of time. When editing a blog post, in the right hand side 'sidebar', you will see these options at the top of the sidebar.
 
-![](../../../../../.gitbook/assets/contentbox-publication.JPG)
+![](../../../../../assets/contentbox-publication.JPG)
 
 You can set the publish date / time, and the post will go live at the right time for you.
 
@@ -16,7 +16,7 @@ Expiration dates are useful too, but not a normal use case for blog posts… but
 
 Lets look at the Page Details version of the Publishing options
 
-![](../../../../../.gitbook/assets/contentbox-publication-page.JPG)
+![](../../../../../assets/contentbox-publication-page.JPG)
 
 As you can see, they are exactly the same. This makes it familiar and easy to work with. This is also the case for Content Store items… which gives you even more options in regards to scheduling content.
 

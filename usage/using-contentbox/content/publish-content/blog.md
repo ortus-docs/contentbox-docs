@@ -4,28 +4,28 @@ Blogging capabilities are an essential component for any website and web applica
 
 ContentBox comes with a built-in blog which you can turn ON and OFF from `System > Settings`. The default setting is **ON**.
 
-![](../../../../.gitbook/assets/cnb-blog.png)
+![](../../../../images/cnb-blog.png)
 
 The main Blog page in your ContentBox Administrator shows a table with all your blog posts. We have 3 useful indicators.
 
-*   ![](../../../../.gitbook/assets/published.png)
+*   ![](../../../../images/published.png)
 
     &#x20;Shows if your post has been published
-*   ![](../../../../.gitbook/assets/views.png)
+*   ![](../../../../images/views.png)
 
     Shows the numbers of views
-*   ![](../../../../.gitbook/assets/comments.png)
+*   ![](../../../../images/comments.png)
 
     &#x20;Shows the number of comments
 
 And you also have quick actions:
 
-![](../../../../.gitbook/assets/blog-info-actions.png)
+![](../../../../images/blog-info-actions.png)
 
 Where you can check the info related to each individual post&#x20;
 
-![](../../../../.gitbook/assets/blog-info.png)
+![](../../../../images/blog-info.png)
 
 And entry actions
 
-![](../../../../.gitbook/assets/blog-actions.png)
+![](../../../../images/blog-actions.png)

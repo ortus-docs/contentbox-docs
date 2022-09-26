@@ -62,7 +62,7 @@ Widgets are maintained through the Administrator under `Look & Feel > Widgets`. 
 
 The manager also allows you to read the widget's documentation and actually test out its rendering functions, so please use this playground to your advantage.
 
-![Widget Manager](../../../.gitbook/assets/cb\_widget\_list.jpg)
+![Widget Manager](../../../assets/cb\_widget\_list.jpg)
 
 ## Widget Locations
 

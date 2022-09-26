@@ -8,7 +8,7 @@ Some Themes may support additional menus for top menus, footer menus, side bar m
 
 ## Menu Data
 
-![](../../../../images/admin/menuManager/menuManagerAdd.png)
+![](../../../../.gitbook/assets/menuManagerAdd.png)
 
 * Title: The name of the Menu
 * List Type: ( ul | ol ) Unordered List or Ordered List
@@ -30,7 +30,7 @@ Each content type has it's own set of attributes.
 #### Common Attributes (Shared by all Item Types)
 
 * Label - Read Only - Same as the Item Content field below.
-* Item Content - This is Name/Title that shows in the Menu Item itself.&#x20;
+* Item Content - This is Name/Title that shows in the Menu Item itself.
 * CSS Classes - Optional additional CSS classes to be added to the list item
 
 ### Type: Content
@@ -43,7 +43,7 @@ In Addition to the Common Attributes listed above, this type also includes:
 
 * Content - This is a search and selection tool to help you select a page or blog entry for this Menu Item to link to.
 * URL Classes - Additional CSS for this Menu Item's HTML Element
-* Target - Allows you to select how the link is treated by the browser, allowing&#x20;
+* Target - Allows you to select how the link is treated by the browser, allowing
   * \_self
   * \_blank
   * \_parent
@@ -61,7 +61,7 @@ In Addition to the Common Attributes listed above, this type also includes:
 
 * Media - This is a search and selection tool to help you select a media item from the Media Manager for this Menu Item to link to.
 * URL Classes - Additional CSS for this Menu Item's HTML Element
-* Target - Allows you to select how the link is treated by the browser, allowing&#x20;
+* Target - Allows you to select how the link is treated by the browser, allowing
   * \_self
   * \_blank
   * \_parent
@@ -93,7 +93,7 @@ In Addition to the Common Attributes listed above, this type also includes:
 
 * URL - The URL you wish to use for this menu item
 * URL Classes - Additional CSS for this Menu Item's HTML Element
-* Target - Allows you to select how the link is treated by the browser, allowing&#x20;
+* Target - Allows you to select how the link is treated by the browser, allowing
   * \_self
   * \_blank
   * \_parent
@@ -118,10 +118,10 @@ In Addition to the Common Attributes listed above, this type also includes:
 
 This is a menu item that creates a 'free-text' menu item. This item only uses the common attributes, Item Content, and CSS Classes... listed above.
 
-![](../../../../images/admin/menuManager/addFreeItem.png)
+![](../../../../.gitbook/assets/addFreeItem.png)
 
 ## Preview
 
 As you add, edit, and delete Menu Items, you can preview those menu items in page. You can refresh the menu by clicking the refresh icon next to the title Preview if the preview has not updated as expected.
 
-![](../../../../images/admin/menuManager/menuPreview.png)
+![](../../../../.gitbook/assets/menuPreview.png)

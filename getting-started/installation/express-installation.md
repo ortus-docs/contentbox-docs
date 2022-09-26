@@ -79,13 +79,13 @@ http://localhost:8085/lucee/admin/web.cfm
 
 ## Step 5: Create A Datasource
 
-![](../../.gitbook/assets/datasource\_wizard.png)
+![](../../images/datasource\_wizard.png)
 
 You can now visit your application under `http://localhost:8085` and you will be presented with our datasource wizard. Since we are in express edition, just choose the embedded database and follow the instructions.
 
 ## Step 6: Run ContentBox Installer
 
-![](../../.gitbook/assets/installer\_wizard.png)
+![](../../images/installer\_wizard.png)
 
 That's it! We are now ready to run the ContentBox installer wizard. ContentBox will automagically create all the necessary database tables, indexes, and constraints for you. After it does this, it will present you with our ContentBox installer, where you will fill in:
 

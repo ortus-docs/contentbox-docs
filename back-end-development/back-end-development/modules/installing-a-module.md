@@ -27,7 +27,7 @@ To install, we cd into the site root, and type
 
 `box install Business-Logic-Scanner`
 
-![Install Module via CommandBox](../../../.gitbook/assets/installmodule.png)
+![Install Module via CommandBox](../../../developing/back\_end/modules/installModule.png)
 
 Once CommandBox is done, you can log into ContentBox, and click 'Modules > Manage' and activate the module ( or reinit the app ).
 

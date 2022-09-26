@@ -97,7 +97,7 @@ We have also started our migrations to [Alpine.js](https://alpinejs.dev/) and [T
 
 ## PostgreSQL Support
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 We have completely changed our ORM structures and custom queries so it can be friendlier to other RDBMS. In this release we focus on portability of the host database and finally have core PostgreSQL support.
 
