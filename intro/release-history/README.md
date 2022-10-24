@@ -12,7 +12,7 @@ Version 5 is a major architectural shift for ContentBox as we go Multi-Site and 
 
 ## Version 4.0
 
-Version 4 focused on upgrading it's internal core to ColdBox 5 and providing more modular development around it's core.  We introduced the `contentbox-custom` module so you can have your assets externalized from the CMS core.  We also added tons of security features such as two factor authentication.
+Version 4 focused on upgrading its internal core to ColdBox 5 and providing more modular development around its core.  We introduced the `contentbox-custom` module so you can have your assets externalized from the CMS core.  We also added tons of security features such as two factor authentication.
 
 ## Version 3.0
 
