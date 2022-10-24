@@ -8,7 +8,7 @@ In this section you will find the release notes for each version we release unde
 
 ## Version 5.0
 
-Version 5 is a major architectural shift for ContentBox as we go Multi-Site and Hybrid headless API, with over 145 different improvements and new feature.
+Version 5 is a major architectural shift for ContentBox as we go Multi-Site and Hybrid headless API, with over 145 different improvements and new features.
 
 ## Version 4.0
 
