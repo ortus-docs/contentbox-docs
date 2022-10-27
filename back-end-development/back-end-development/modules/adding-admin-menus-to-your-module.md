@@ -9,7 +9,7 @@ In this example, you'll start by adding the Menu Item by updating `onLoad`:
 */
 function onLoad(){
     // Let's add ourselves to the main menu in the Modules section
-    var menuService = controller.getWireBox().getInstance( "AdminMenuService@cb" );
+    var menuService = controller.getWireBox().getInstance( "AdminMenuService@contentbox" );
     // Add Menu Contribution
     menuService.addSubMenu(topMenu=menuService.MODULES,name="mySecrets",label="my Secrets",href="#menuService.buildModuleLink('mySecrets','home')#" );
 }
@@ -22,7 +22,7 @@ Next, you'll update the `onUnload` function to remove the Menu Item when deactiv
 */
 function onUnload(){
     // Let's remove ourselves to the main menu in the Modules section
-    var menuService = controller.getWireBox().getInstance( "AdminMenuService@cb" );
+    var menuService = controller.getWireBox().getInstance( "AdminMenuService@contentbox" );
     // Remove Menu Contribution
     menuService.removeSubMenu(topMenu=menuService.MODULES,name="mySecrets" );
 }
