@@ -10,8 +10,8 @@
   * [What's New With 5.1.0](intro/release-history/whats-new-with-5.1.0.md)
   * [What's new With 5.0.0](intro/release-history/whats-new-with-5.0.0.md)
   * [Upgrading From v4.x](intro/release-history/upgrading-from-v4.x.md)
-* [About This Book](intro/about-this-book.md)
-* [Author](intro/author.md)
+* [About This Book](intro/about-this-book/README.md)
+  * [Author](intro/about-this-book/author.md)
 
 ## Getting Started
 
