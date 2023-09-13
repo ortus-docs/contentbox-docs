@@ -26,7 +26,7 @@ _**Hybrid** - ContentBox is not only a headless CMS, but also a fully featured t
 
 ## Versioning
 
-ContentBox is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible.Releases will be numbered with the following format:
+ContentBox is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible. Releases will be numbered with the following format:
 
 ```
 <major>.<minor>.<patch>
