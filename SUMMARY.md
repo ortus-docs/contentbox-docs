@@ -17,7 +17,6 @@
   * [Existing ColdBox Application](getting-started/installation/existing-coldbox-application.md)
   * [Docker](getting-started/installation/docker.md)
 * [Updates](getting-started/upgrading-contentbox.md)
-* [Quick Guide](getting-started/quick-guide.md)
 
 ## Usage
 
