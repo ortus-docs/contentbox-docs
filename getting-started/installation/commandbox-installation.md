@@ -10,8 +10,8 @@ description: The easiest way to install and run ContentBox CMS
 
 ### Requirements
 
-* MacOS, Windows or Linux
-* JDK 8+
+* MacOS, Windows, or Linux
+* JDK 11+
 * A clean, empty directory on your machine
 
 ## Download CommandBox
@@ -24,25 +24,25 @@ Installation Instructions
 
 ### Starting CommandBox
 
-Once you download and expand CommandBox you will have the `box.exe` or `box` binary, which you can place in your Windows Path or \*Unix `/usr/bin` folder to have it available system-wide. Then open the binary and CommandBox will unpack itself your user's directory: `{User}/.CommandBox`. This happens only once and the next thing you know, you are in the CommandBox interactive shell!
+Once you download and expand CommandBox, you will have the `box.exe` or `box` binary, which you can place in your Windows Path or \*Unix `/usr/bin` folder to have it available system-wide. Then open the binary, and CommandBox will unpack itself in your user's directory: `{User}/.CommandBox`. This happens only once; the next thing you know, you are in the CommandBox interactive shell!
 
 ![box shell](<../../.gitbook/assets/image (8).png>)
 
-We will be able to execute a-la-carte commands from our command line or go into the interactive shell for multiple commands. We recommend the interactive shell as it is faster and can remain open in your project root.
+We can execute a-la-carte commands from our command line or go into the interactive shell for multiple commands. We recommend the faster interactive shell, which can remain open in your project root.
 
 ## Install ContentBox-CLI
 
-The first step in our adventure is to install the `contentbox-cli` package that will handle installation, scaffolding, and management of ContentBox sites.
+The first step in our adventure is to install the `contentbox-cli` package that will handle the installation, scaffolding, and management of ContentBox sites.
 
 ```bash
 install contentbox-cli
 ```
 
-Once installed you can always run `contentbox help` to get the list of available commands and help information.
+Once installed, you can always run `contentbox help` to get the list of available commands and help information.
 
 ## Creating Your Database
 
-Create a database in your RDBMS of choice. Make sure you note the name of the database, the connection details and the credentials for it. You will need them in the next step.
+Create a database in your RDBMS of choice. Ensure you note the name of the database, the connection details, and its credentials. You will need them in the next step.
 
 {% hint style="danger" %}
 If you are using MySQL, make sure you use `utf8mb4` for your database collation.
@@ -50,7 +50,7 @@ If you are using MySQL, make sure you use `utf8mb4` for your database collation.
 
 ## Creating A ContentBox Site
 
-Now that we have our cli installed, go or create a new directory where we will create our site.
+Now that we have our CLI installed create a new directory where we will create our site.
 
 ```
 # Create a new directory and go into it.
@@ -70,17 +70,23 @@ The wizard will take you by the hand and ask you all the relevant questions abou
 7. Development or production site
 8. Latest ContentBox version, specific or `be` bleeding edge
 
-Confirm your settings and the installer will configure the entire site for you including ORM dialects, environment variables and much much more. It will also startup the chosen CFML server so you can continue with the web installer.
+Confirm your settings, and the installer will configure the entire site, including ORM dialects, environment variables, etc. The installer will also connect to your database and run the creation migrations to seed the database.
+
+It can optionally start your server of choice.
 
 {% hint style="success" %}
-**Tip:** You can use the \`install --help\` command and see how you can install ContentBox in an automated fashion with no user-interaction.
+**Tip:** You can use the \`install --help\` command and see how to install ContentBox in an automated fashion without user interaction.
 {% endhint %}
 
 ### Web Installer
 
 ![](<../../.gitbook/assets/image (9).png>)
 
-The web installer will then take you through adding your first administrator user, email configurations and your production and development site in one box. Once you follow the wizard, ContentBox is up and running! Enjoy!
+The web installer will then add your first administrator user, email configurations, and production and development site in one box. Once you follow the wizard, ContentBox is up and running! Enjoy!
+
+{% hint style="info" %}
+The admin URL will be `http://localhost:{port}/cbadmin`
+{% endhint %}
 
 ### Starting & Stopping
 
@@ -94,4 +100,4 @@ You can use the CommandBox commands to interact with the embedded server:
 
 ### What's Next
 
-You now have a fully functional ContentBox installation with two sites: development and production. You can now start creating your content, themes, modules and much more.
+You now have a fully functional ContentBox installation with two sites: **development** and **production**. You can now start creating your content, themes, modules, and more.
