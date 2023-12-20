@@ -2,7 +2,7 @@
 description: The easiest way to install and run ContentBox CMS
 ---
 
-# CommandBox Installation
+# \*CommandBox Installation
 
 ![CommandBox CLI](../../.gitbook/assets/CommandBoxLogo.png)
 
@@ -76,6 +76,10 @@ It can optionally start your server of choice.
 
 {% hint style="success" %}
 **Tip:** You can use the \`install --help\` command and see how to install ContentBox in an automated fashion without user interaction.
+{% endhint %}
+
+{% hint style="info" %}
+The installer will create a `.env, .cfconfig.json` in the root so you can further tweak those files if needed.
 {% endhint %}
 
 ### Web Installer

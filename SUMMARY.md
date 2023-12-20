@@ -12,7 +12,7 @@
 
 * [Installation](getting-started/installation/README.md)
   * [System Requirements](getting-started/installation/system-requirements.md)
-  * [CommandBox Installation](getting-started/installation/commandbox-installation.md)
+  * [\*CommandBox Installation](getting-started/installation/commandbox-installation.md)
   * [Source Installation](getting-started/installation/source-installation.md)
   * [Existing ColdBox Application](getting-started/installation/existing-coldbox-application.md)
   * [Docker](getting-started/installation/docker.md)
