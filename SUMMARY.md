@@ -3,6 +3,7 @@
 * [Introduction](README.md)
   * [Contributing Guide](readme/contributing-guide.md)
   * [Release History](readme/release-history/README.md)
+    * [What's New With 6.0.3](readme/release-history/whats-new-with-6.0.3.md)
     * [What's new With 6.0.0](readme/release-history/whats-new-with-6.0.0.md)
     * [Upgrading From v5.x](readme/release-history/upgrading-from-v5.x.md)
   * [About This Book](readme/about-this-book/README.md)
