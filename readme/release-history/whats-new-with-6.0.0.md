@@ -2,15 +2,15 @@
 description: December 18, 2023
 ---
 
-# What's new With 6.0.0
+# 6.0.0
 
-ContentBox 6 is a major update for this CMS, including its supporting libraries.  This version includes tons of improvements and stability enhancements that will make your content fly.
+ContentBox 6 is a major update for this CMS and its supporting libraries. This version includes many improvements and stability enhancements that will make your content fly.
 
-You can find our release notes here, and we will discuss our major areas of improvement for this release.  If you need to upgrade your previous versions of ContentBox, please see our [upgrade guide](upgrading-from-v5.x.md).
+Our release notes are here, and we will discuss our major areas of improvement for this release. If you need to upgrade your previous versions of ContentBox, please see our [upgrade guide](upgrading-from-v5.x.md).
 
 ## ContentBox CLI
 
-The ContentBox CLI based on CokmkmandBox is also updated to support C0ojntentB0ox 6 natively:
+The ContentBox CLI based on CommandBox is also updated to support ContentBox 6 natively:
 
 ```bash
 box install contentbox-cli
@@ -118,11 +118,7 @@ We have started to introduce focus modes wherever content can be edited. This cr
 
 ## CBFS Powered Media Manager
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="119"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (12).png" alt="" width="119"><figcaption></figcaption></figure></div>
 
 [CBFS](https://cbfs.ortusbooks.com/) now powers our ContentBox media manager.  Our ColdBox File System module.  This increases the performance of all file operations and allows you to store the media content on any CBFS Disk: local, RAM, AWS, Digital Ocean, Google Cloud Storage, and more.
 

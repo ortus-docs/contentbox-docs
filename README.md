@@ -20,7 +20,7 @@ description: >-
 
 ContentBox is a professional open-source _hybrid_ modular CMS (Content Management System) that allows you to easily build websites, blogs, wikis, complex web applications, and even power mobile or cloud applications. Built with a secure and flexible modular core, designed to scale, and combined with world-class support, ContentBox will quickly get your projects out the door.
 
-{% hint style="info" %}
+{% hint style="success" %}
 _**Hybrid** - ContentBox is a headless CMS and a fully-featured traditional CMS.  Have the freedom to use one or both! You have the power now!_
 {% endhint %}
 
@@ -60,7 +60,7 @@ We all make mistakes from time to time :) So why not let us know about it and he
 
 ## Professional Open Source
 
-![Ortus Solutions, Corp](.gitbook/assets/ortussolutions\_button.png)
+![Ortus Solutions, Corp](.gitbook/assets/ortussolutions_button.png)
 
 ContentBox is a professional open source software backed by [Ortus Solutions, Corp](http://www.ortussolutions.com/services) offering services like:
 
